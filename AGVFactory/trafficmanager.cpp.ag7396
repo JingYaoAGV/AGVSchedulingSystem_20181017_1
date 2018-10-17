@@ -1,0 +1,200 @@
+#include <QPaintEvent>
+#include <QPainter>
+#include "trafficmanager.h"
+#include "missionmanager.h"
+#include "agv.h"
+#include "topoview.h"
+#include "global.h"
+TrafficManager::TrafficManager(MissionManager *missionManager, QWidget *parent):
+    QWidget(parent)
+{
+    m_missionManager = missionManager;
+    setWindowTitle("AGVFactory-交通管理器");
+    setMaximumWidth(1300);
+    setMinimumWidth(1300);
+}
+
+TrafficManager::~TrafficManager()
+{
+
+}
+
+void TrafficManager::updateGlobalPlanning()
+{
+    AGV* agv = (AGV*)sender();
+    if(!agv) return;
+    int current_node = agv->get_topoPosID();
+    int target_node = current_node;
+    QString agv_name = agv->get_name();
+    Mission mission;
+    if(m_mapAGVandMission.count(agv_name)<1){  // 当前agv无任务
+        if(m_missionManager->getNextMission(agv_name,mission)){  // 存在新任务
+            m_mapAGVandMission[agv_name]=mission;
+            target_node = mission.m_nStartNodeID;
+        }
+    }
+    else{  // 当前agv有正在执行的任务
+        mission = m_mapAGVandMission.value(agv_name);
+        if(mission.m_bReachStartNode==false){ //如果还没有到达起始点
+            if(current_node!=mission.m_nStartNodeID)//当前点不是任务起点
+                target_node = mission.m_nStartNodeID;
+            else{ //当前点是任务起点
+                target_node = mission.m_nEndNodeID;
+                mission.m_bReachStartNode = true;
+                m_mapAGVandMission[agv_name] = mission;// 更新任务标记
+            }
+        }
+        else{  // 已经路过起点
+            if(current_node!=mission.m_nEndNodeID)//当前点不是任务终点
+                target_node = mission.m_nEndNodeID;
+            else{ // 当前点是目标终点
+                //在当前任务列表中清除已经完成的任务
+                m_missionManager->setMissionState(mission,MISSION_STATE_FINISH);
+                m_mapAGVandMission.remove(agv_name);
+                if(m_missionManager->getNextMission(agv_name,mission)){  //存在新任务
+                    m_mapAGVandMission[agv_name]=mission;
+                    target_node = mission.m_nStartNodeID;
+                }
+            }
+        }
+    }
+    QList<int> path;
+    dijkstra_search(agv,current_node,target_node,path);
+    m_mapPath[agv_name] = path;
+    if(path.isEmpty()){
+        agv->set_targetID(current_node);
+    }
+    else{
+        path.removeFirst();
+        m_mapPath[agv_name] = path;
+        path.append(current_node);  // 防止path中只有一个元素
+        QString register_name = m_topoView->m_verList.value(QString("Ver_%1").arg(path.first()))->get_register();
+        if(register_name!="" && register_name!=agv_name)
+            agv->set_targetID(current_node);
+        else
+            agv->set_targetID(path.first());
+    }
+    if(agv->isSelected())
+        show_path(agv);
+}
+
+bool TrafficManager::addAGV(AGV *agv)
+{
+    foreach(AGV* a,m_agvList){    // 如果重名则返回，由于测试均在本机，故此处注释掉
+        if(a->get_name()==agv->get_name())
+            return false;
+    }
+    m_agvList.append(agv);
+    return true;
+}
+
+bool TrafficManager::dijkstra_search(AGV* agv,int startID, int endID, QList<int> &path)
+{
+    QString thisAGV = agv->get_name();
+    came_from.clear();
+    cost_so_far.clear();
+    path.clear();
+    PriorityQueue<int> frontier;
+    frontier.enQueue(PriorityQueue<int>::PQElement(startID,0));
+    came_from[startID] = startID;
+    cost_so_far[startID]=0;
+    while(!frontier.isEmpty()){
+        bool current_in_other_path = false;
+        int current = frontier.deQueue().first;
+        foreach(QString name,m_mapPath.keys()){//判断current是否在其它AGV的路径中
+            if(name==thisAGV) continue;
+            current_in_other_path = m_mapPath.value(name).indexOf(current)>-1;
+            if(current_in_other_path) break;
+        }
+
+        if(current==endID){
+            recontruct_path(startID,endID,path);
+            return true;
+        }
+        TopoEdge *p = m_topoView->get_verByID(current)->m_pEdgeHead;
+        while(p!=NULL){
+            int next = p->m_nEndID;
+            bool conflict = false;
+            if(current_in_other_path){
+                foreach(QString name,m_mapPath.keys()){
+                    if(name==thisAGV) continue;
+                    QList<int> other_path = m_mapPath.value(name);
+                    //other_path.push_front(agv->get_topoPosID());//由于路径中不包含当前点，故此处将当前点加入路径
+                    qDebug()<<name<<agv->get_topoPosID();
+                    int current_index =other_path.indexOf(current);
+                    int next_index = other_path.indexOf(next);
+                    if(next_index>-1 && current_index>-1 && current_index-next_index==1){ //current和next都在其它AGV路径中
+                        int distance_to_next = getDistance(mapToRealWorld(agv->pos()),
+                              mapToRealWorld(m_topoView->get_verByID(other_path.first())->pos()));
+                        int distance_to_current = 0;
+                        for(int i=0;i<next_index;i++){
+                            distance_to_next += m_topoView->get_edgeByVer(other_path.at(i),other_path.at(i+1))->get_weight();
+                        }
+                        distance_to_current = distance_to_next+m_topoView->get_edgeByVer(next,current)->get_weight();
+                        if(current_index==other_path.length()-1){ // 如果当前点是其它AGV的路径终点
+                            int previous = came_from.count(current)>0?came_from[current]:-1;
+                            conflict = (previous>-1?cost_so_far[previous]:0)>distance_to_next;
+                        }
+                        else{
+                            conflict = (cost_so_far[current]<=distance_to_current+
+                                    m_topoView->get_edgeByVer(current,other_path.at(current_index+1))->get_weight())
+                                    && (cost_so_far[current]>=distance_to_next);
+                        }
+                    }
+                    if(conflict) break;
+                }
+            }
+            if(!conflict){  // 如果上述未检测出冲突，则检测是否有agv停止在next节点
+                foreach(AGV* agv,m_agvList){
+                    if(agv->get_name()==thisAGV) continue;
+                    conflict = (agv->get_topoPosID()==next)&&(m_mapPath.value(agv->get_name()).isEmpty());
+                    if(conflict) break;
+                }
+            }
+
+            int new_cost = cost_so_far[current] + p->get_weight();
+            if((!cost_so_far.count(next) || new_cost<cost_so_far[next]) && !conflict){
+                cost_so_far[next] = new_cost;
+                came_from[next] = current;
+                frontier.enQueue(PriorityQueue<int>::PQElement(next,new_cost));
+            }
+            p = p->m_pNextEdge;
+        }
+    }
+    return false;
+}
+
+void TrafficManager::show_path(AGV* agv)
+{
+    m_topoView->draw_path(agv->get_penColor(),m_mapPath.value(agv->get_name()));
+}
+
+void TrafficManager::recontruct_path(int startID,int endID,QList<int> &path)
+{
+    int current = endID;
+    path.push_front(current);
+    while(current!=startID){
+        current = came_from[current];
+        path.push_front(current);
+    }
+}
+
+void TrafficManager::regist_tw(QString thisAGV,const QList<int> &path)
+{
+}
+
+void TrafficManager::paintEvent(QPaintEvent *)
+{
+    QPainter painter(this);
+    int nAGV = m_agvList.length();
+    QPoint start = QPoint(50,100);
+    for(int i=0;i<nAGV;i++){
+        painter.drawLine(QPoint(start.x(),start.y()+i*50),QPoint(start.x()+1200,start.y()+i*50));
+    }
+    painter.drawLine(QPoint(start.x(),start.y()+nAGV*50),QPoint(start.x()+1200,start.y()+nAGV*50));
+    painter.drawLine(QPoint(start.x(),start.y()+nAGV*50),QPoint(start.x(),start.y()-50));
+    for(int i=0;i<11;i++){
+        painter.drawLine(QPoint(start.x()+i*120,start.y()+nAGV*50),QPoint(start.x()+i*120,start.y()+nAGV*50-5));
+        painter.drawText(QPoint(start.x()+i*120-5,start.y()+nAGV*50+10),QString("%1").arg(i));
+    }
+}

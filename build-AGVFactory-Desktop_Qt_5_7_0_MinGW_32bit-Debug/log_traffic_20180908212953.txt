@@ -1,0 +1,212 @@
+21:29::53 [init] system: 1 Online
+21:30::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:30::14 agvname: fangzhen02  MissionID:386027943
+21:30::14 agvname: fangzhen02 CommandPlanning:--------------
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0101 endnode:0102 Direction:后退 Action:减速行驶 Angle:0 Length:1.7 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0102 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0202 Direction:前进 Action:减速行驶 Angle:0 Length:1.3 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0202 endnode:0202 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0202 endnode:0203 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0203 endnode:0204 Direction:前进 Action:正常行驶 Angle:0 Length:1.2 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0204 endnode:0205 Direction:前进 Action:正常行驶 Angle:0 Length:1.8 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0205 endnode:0206 Direction:前进 Action:减速行驶 Angle:0 Length:1.6 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0206 endnode:0206 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0206 endnode:0106 Direction:前进 Action:正常行驶 Angle:0 Length:1.5 
+21:30::14 agvname: fangzhen02 CommandPlanning/ Command:startnode:0106 endnode:0106 Direction:前进 Action:收货 Angle:0 Length:0 
+21:30::14 agvname: fangzhen02 CommandPlanning:--------------
+21:30::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:386027943 end
+21:30::20 agvid: 2 current_node: 0102 ,angle：0,CurrentMissionID:386027943
+21:30::20 agvid: 2 ,CurrentMissionID:386027943 **
+21:30::20 agvid: 2 current_node: 0102 ,angle：0,CurrentMissionID:386027943 end
+21:30::24 agvid: 2 current_node: 0102 ,angle：270,CurrentMissionID:386027943
+21:30::24 agvid: 2 ,CurrentMissionID:386027943 **
+21:30::24 agvid: 2 current_node: 0102 ,angle：270,CurrentMissionID:386027943 end
+21:30::28 agvid: 2 current_node: 0202 ,angle：270,CurrentMissionID:386027943
+21:30::28 agvid: 2 ,CurrentMissionID:386027943 **
+21:30::28 agvid: 2 current_node: 0202 ,angle：270,CurrentMissionID:386027943 end
+21:30::32 agvid: 2 current_node: 0202 ,angle：180,CurrentMissionID:386027943
+21:30::32 agvid: 2 ,CurrentMissionID:386027943 **
+21:30::32 agvid: 2 current_node: 0202 ,angle：180,CurrentMissionID:386027943 end
+21:30::36 agvid: 2 current_node: 0203 ,angle：180,CurrentMissionID:386027943
+21:30::36 agvid: 2 ,CurrentMissionID:386027943 **
+21:30::36 agvid: 2 current_node: 0203 ,angle：180,CurrentMissionID:386027943 end
+21:30::40 agvid: 2 current_node: 0204 ,angle：180,CurrentMissionID:386027943
+21:30::40 agvid: 2 ,CurrentMissionID:386027943 **
+21:30::40 agvid: 2 current_node: 0204 ,angle：180,CurrentMissionID:386027943 end
+21:30::44 agvid: 2 current_node: 0205 ,angle：180,CurrentMissionID:386027943
+21:30::44 agvid: 2 ,CurrentMissionID:386027943 **
+21:30::44 agvid: 2 current_node: 0205 ,angle：180,CurrentMissionID:386027943 end
+21:30::48 agvid: 2 current_node: 0206 ,angle：180,CurrentMissionID:386027943
+21:30::48 agvid: 2 ,CurrentMissionID:386027943 **
+21:30::48 agvid: 2 current_node: 0206 ,angle：180,CurrentMissionID:386027943 end
+21:30::52 agvid: 2 current_node: 0206 ,angle：90,CurrentMissionID:386027943
+21:30::52 agvid: 2 ,CurrentMissionID:386027943 **
+21:30::52 agvid: 2 current_node: 0206 ,angle：90,CurrentMissionID:386027943 end
+21:30::56 agvid: 2 current_node: 0106 ,angle：90,CurrentMissionID:386027943
+21:30::56 agvid: 2 current_node: 0106 ,angle：90,CurrentMissionID:386027943 end
+21:31::00 agvid: 2 current_node: 0106 ,angle：90,CurrentMissionID:386027943
+21:31::00 agvid: 2 current_node: 0106 ,angle：90,CurrentMissionID:386027943 end
+21:31::00 agvid: 2 current_node: 0106 ,angle：90,CurrentMissionID:386027943
+21:31::00 agvname: fangzhen02  MissionID:386027943
+21:31::00 agvname: fangzhen02 CommandPlanning:--------------
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0106 endnode:0206 Direction:后退 Action:减速行驶 Angle:0 Length:1.5 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0206 endnode:0206 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0206 endnode:0205 Direction:前进 Action:减速行驶 Angle:0 Length:1.6 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0205 endnode:0205 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0205 endnode:0305 Direction:前进 Action:减速行驶 Angle:0 Length:1.3 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0305 endnode:0305 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0305 endnode:0304 Direction:前进 Action:减速行驶 Angle:0 Length:1.8 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0304 endnode:0304 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0304 endnode:0404 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0404 endnode:0504 Direction:前进 Action:减速行驶 Angle:0 Length:1.1 
+21:31::00 agvname: fangzhen02 CommandPlanning/ Command:startnode:0504 endnode:0504 Direction:前进 Action:放货 Angle:0 Length:0 
+21:31::00 agvname: fangzhen02 CommandPlanning:--------------
+21:31::00 agvid: 2 current_node: 0106 ,angle：90,CurrentMissionID:386027943 end
+21:31::04 agvid: 2 current_node: 0106 ,angle：90,CurrentMissionID:386027943
+21:31::05 agvid: 2 current_node: 0106 ,angle：90,CurrentMissionID:386027943 end
+21:31::08 agvid: 2 current_node: 0206 ,angle：90,CurrentMissionID:386027943
+21:31::08 agvid: 2 current_node: 0206 ,angle：90,CurrentMissionID:386027943 end
+21:31::12 agvid: 2 current_node: 0206 ,angle：0,CurrentMissionID:386027943
+21:31::12 agvid: 2 current_node: 0206 ,angle：0,CurrentMissionID:386027943 end
+21:31::16 agvid: 2 current_node: 0205 ,angle：0,CurrentMissionID:386027943
+21:31::16 agvid: 2 current_node: 0205 ,angle：0,CurrentMissionID:386027943 end
+21:31::20 agvid: 2 current_node: 0205 ,angle：270,CurrentMissionID:386027943
+21:31::20 agvid: 2 current_node: 0205 ,angle：270,CurrentMissionID:386027943 end
+21:31::24 agvid: 2 current_node: 0305 ,angle：270,CurrentMissionID:386027943
+21:31::24 agvid: 2 current_node: 0305 ,angle：270,CurrentMissionID:386027943 end
+21:31::28 agvid: 2 current_node: 0305 ,angle：0,CurrentMissionID:386027943
+21:31::28 agvid: 2 current_node: 0305 ,angle：0,CurrentMissionID:386027943 end
+21:31::32 agvid: 2 current_node: 0304 ,angle：0,CurrentMissionID:386027943
+21:31::32 agvid: 2 current_node: 0304 ,angle：0,CurrentMissionID:386027943 end
+21:31::36 agvid: 2 current_node: 0304 ,angle：270,CurrentMissionID:386027943
+21:31::36 agvid: 2 current_node: 0304 ,angle：270,CurrentMissionID:386027943 end
+21:31::40 agvid: 2 current_node: 0404 ,angle：270,CurrentMissionID:386027943
+21:31::40 agvid: 2 current_node: 0404 ,angle：270,CurrentMissionID:386027943 end
+21:31::44 agvid: 2 current_node: 0504 ,angle：270,CurrentMissionID:386027943
+21:31::44 agvid: 2 current_node: 0504 ,angle：270,CurrentMissionID:386027943 end
+21:31::48 agvid: 2 current_node: 0504 ,angle：270,CurrentMissionID:386027943
+21:31::48 agvid: 2 current_node: 0504 ,angle：270,CurrentMissionID:386027943 end
+21:31::49 agvid: 2 current_node: 0504 ,angle：270,CurrentMissionID:386027943
+21:31::52 agvname: fangzhen02  MissionID:0
+21:31::52 agvname: fangzhen02 CommandPlanning:--------------
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0504 endnode:0404 Direction:后退 Action:正常行驶 Angle:0 Length:1.1 
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0404 endnode:0304 Direction:后退 Action:减速行驶 Angle:0 Length:1 
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0304 endnode:0304 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0304 endnode:0303 Direction:前进 Action:正常行驶 Angle:0 Length:1.2 
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0303 endnode:0302 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0302 endnode:0302 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0302 endnode:0202 Direction:前进 Action:正常行驶 Angle:0 Length:1.3 
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0202 endnode:0102 Direction:前进 Action:减速行驶 Angle:0 Length:1.3 
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0102 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:31::52 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0101 Direction:前进 Action:正常行驶 Angle:0 Length:1.7 
+21:31::52 agvname: fangzhen02 CommandPlanning:--------------
+21:31::52 agvid: 2 current_node: 0504 ,angle：270,CurrentMissionID:0 end
+21:31::52 agvid: 2 current_node: 0504 ,angle：270,CurrentMissionID:0
+21:31::52 agvid: 2 current_node: 0504 ,angle：270,CurrentMissionID:0 end
+21:31::56 agvid: 2 current_node: 0404 ,angle：270,CurrentMissionID:0
+21:31::56 agvid: 2 current_node: 0404 ,angle：270,CurrentMissionID:0 end
+21:32::00 agvid: 2 current_node: 0304 ,angle：270,CurrentMissionID:0
+21:32::00 agvid: 2 current_node: 0304 ,angle：270,CurrentMissionID:0 end
+21:32::04 agvid: 2 current_node: 0304 ,angle：0,CurrentMissionID:0
+21:32::04 agvid: 2 current_node: 0304 ,angle：0,CurrentMissionID:0 end
+21:32::08 agvid: 2 current_node: 0303 ,angle：0,CurrentMissionID:0
+21:32::13 agvid: 2 current_node: 0302 ,angle：0,CurrentMissionID:0
+21:32::13 agvid: 2 ,CurrentMissionID:386149029 **
+21:32::13 agvname: fangzhen02  MissionID:386149029
+21:32::13 agvname: fangzhen02 CommandPlanning:--------------
+21:32::13 agvname: fangzhen02 CommandPlanning/ Command:startnode:0302 endnode:0303 Direction:后退 Action:正常行驶 Angle:0 Length:1 
+21:32::13 agvname: fangzhen02 CommandPlanning/ Command:startnode:0303 endnode:0304 Direction:后退 Action:减速行驶 Angle:0 Length:1.2 
+21:32::13 agvname: fangzhen02 CommandPlanning/ Command:startnode:0304 endnode:0304 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:32::13 agvname: fangzhen02 CommandPlanning/ Command:startnode:0304 endnode:0204 Direction:前进 Action:减速行驶 Angle:0 Length:1.3 
+21:32::13 agvname: fangzhen02 CommandPlanning/ Command:startnode:0204 endnode:0204 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:32::13 agvname: fangzhen02 CommandPlanning/ Command:startnode:0204 endnode:0205 Direction:前进 Action:减速行驶 Angle:0 Length:1.8 
+21:32::13 agvname: fangzhen02 CommandPlanning/ Command:startnode:0205 endnode:0205 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:32::13 agvname: fangzhen02 CommandPlanning/ Command:startnode:0205 endnode:0105 Direction:前进 Action:正常行驶 Angle:0 Length:1.5 
+21:32::13 agvname: fangzhen02 CommandPlanning/ Command:startnode:0105 endnode:0105 Direction:前进 Action:收货 Angle:0 Length:0 
+21:32::13 agvname: fangzhen02 CommandPlanning:--------------
+21:32::13 agvid: 2 current_node: 0302 ,angle：0,CurrentMissionID:386149029 end
+21:32::17 agvid: 2 current_node: 0303 ,angle：0,CurrentMissionID:386149029
+21:32::17 agvid: 2 ,CurrentMissionID:386149029 **
+21:32::17 agvid: 2 current_node: 0303 ,angle：0,CurrentMissionID:386149029 end
+21:32::21 agvid: 2 current_node: 0304 ,angle：0,CurrentMissionID:386149029
+21:32::21 agvid: 2 ,CurrentMissionID:386149029 **
+21:32::21 agvid: 2 current_node: 0304 ,angle：0,CurrentMissionID:386149029 end
+21:32::25 agvid: 2 current_node: 0304 ,angle：90,CurrentMissionID:386149029
+21:32::25 agvid: 2 ,CurrentMissionID:386149029 **
+21:32::25 agvid: 2 current_node: 0304 ,angle：90,CurrentMissionID:386149029 end
+21:32::29 agvid: 2 current_node: 0204 ,angle：90,CurrentMissionID:386149029
+21:32::29 agvid: 2 ,CurrentMissionID:386149029 **
+21:32::29 agvid: 2 current_node: 0204 ,angle：90,CurrentMissionID:386149029 end
+21:32::33 agvid: 2 current_node: 0204 ,angle：180,CurrentMissionID:386149029
+21:32::33 agvid: 2 ,CurrentMissionID:386149029 **
+21:32::33 agvid: 2 current_node: 0204 ,angle：180,CurrentMissionID:386149029 end
+21:32::37 agvid: 2 current_node: 0205 ,angle：180,CurrentMissionID:386149029
+21:32::37 agvid: 2 ,CurrentMissionID:386149029 **
+21:32::37 agvid: 2 current_node: 0205 ,angle：180,CurrentMissionID:386149029 end
+21:32::41 agvid: 2 current_node: 0205 ,angle：90,CurrentMissionID:386149029
+21:32::41 agvid: 2 ,CurrentMissionID:386149029 **
+21:32::41 agvid: 2 current_node: 0205 ,angle：90,CurrentMissionID:386149029 end
+21:32::45 agvid: 2 current_node: 0105 ,angle：90,CurrentMissionID:386149029
+21:32::45 agvid: 2 current_node: 0105 ,angle：90,CurrentMissionID:386149029 end
+21:32::49 agvid: 2 current_node: 0105 ,angle：90,CurrentMissionID:386149029
+21:32::49 agvid: 2 current_node: 0105 ,angle：90,CurrentMissionID:386149029 end
+21:32::49 agvid: 2 current_node: 0105 ,angle：90,CurrentMissionID:386149029
+21:32::49 agvname: fangzhen02  MissionID:386149029
+21:32::49 agvname: fangzhen02 CommandPlanning:--------------
+21:32::49 agvname: fangzhen02 CommandPlanning/ Command:startnode:0105 endnode:0205 Direction:后退 Action:正常行驶 Angle:0 Length:1.5 
+21:32::49 agvname: fangzhen02 CommandPlanning/ Command:startnode:0205 endnode:0305 Direction:后退 Action:正常行驶 Angle:0 Length:1.3 
+21:32::49 agvname: fangzhen02 CommandPlanning/ Command:startnode:0305 endnode:0405 Direction:后退 Action:正常行驶 Angle:0 Length:1.3 
+21:32::49 agvname: fangzhen02 CommandPlanning/ Command:startnode:0405 endnode:0505 Direction:后退 Action:减速行驶 Angle:0 Length:1.1 
+21:32::49 agvname: fangzhen02 CommandPlanning/ Command:startnode:0505 endnode:0505 Direction:后退 Action:放货 Angle:0 Length:0 
+21:32::49 agvname: fangzhen02 CommandPlanning:--------------
+21:32::49 agvid: 2 current_node: 0105 ,angle：90,CurrentMissionID:386149029 end
+21:32::53 agvid: 2 current_node: 0105 ,angle：90,CurrentMissionID:386149029
+21:32::53 agvid: 2 current_node: 0105 ,angle：90,CurrentMissionID:386149029 end
+21:32::57 agvid: 2 current_node: 0205 ,angle：90,CurrentMissionID:386149029
+21:32::57 agvid: 2 current_node: 0205 ,angle：90,CurrentMissionID:386149029 end
+21:33::01 agvid: 2 current_node: 0305 ,angle：90,CurrentMissionID:386149029
+21:33::01 agvid: 2 current_node: 0305 ,angle：90,CurrentMissionID:386149029 end
+21:33::05 agvid: 2 current_node: 0405 ,angle：90,CurrentMissionID:386149029
+21:33::05 agvid: 2 current_node: 0405 ,angle：90,CurrentMissionID:386149029 end
+21:33::09 agvid: 2 current_node: 0505 ,angle：90,CurrentMissionID:386149029
+21:33::09 agvid: 2 current_node: 0505 ,angle：90,CurrentMissionID:386149029 end
+21:33::13 agvid: 2 current_node: 0505 ,angle：90,CurrentMissionID:386149029
+21:33::13 agvid: 2 current_node: 0505 ,angle：90,CurrentMissionID:386149029 end
+21:33::13 agvid: 2 current_node: 0505 ,angle：90,CurrentMissionID:386149029
+21:33::16 agvname: fangzhen02  MissionID:0
+21:33::16 agvname: fangzhen02 CommandPlanning:--------------
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0505 endnode:0405 Direction:前进 Action:正常行驶 Angle:0 Length:1.1 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0405 endnode:0305 Direction:前进 Action:减速行驶 Angle:0 Length:1.3 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0305 endnode:0305 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0305 endnode:0304 Direction:前进 Action:正常行驶 Angle:0 Length:1.8 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0304 endnode:0303 Direction:前进 Action:正常行驶 Angle:0 Length:1.2 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0303 endnode:0302 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0302 endnode:0302 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0302 endnode:0202 Direction:前进 Action:正常行驶 Angle:0 Length:1.3 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0202 endnode:0102 Direction:前进 Action:减速行驶 Angle:0 Length:1.3 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0102 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:33::16 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0101 Direction:前进 Action:正常行驶 Angle:0 Length:1.7 
+21:33::16 agvname: fangzhen02 CommandPlanning:--------------
+21:33::16 agvid: 2 current_node: 0505 ,angle：90,CurrentMissionID:0 end
+21:33::17 agvid: 2 current_node: 0505 ,angle：90,CurrentMissionID:0
+21:33::17 agvid: 2 current_node: 0505 ,angle：90,CurrentMissionID:0 end
+21:33::21 agvid: 2 current_node: 0405 ,angle：90,CurrentMissionID:0
+21:33::21 agvid: 2 current_node: 0405 ,angle：90,CurrentMissionID:0 end
+21:33::25 agvid: 2 current_node: 0305 ,angle：90,CurrentMissionID:0
+21:33::25 agvid: 2 current_node: 0305 ,angle：90,CurrentMissionID:0 end
+21:33::29 agvid: 2 current_node: 0305 ,angle：0,CurrentMissionID:0
+21:33::29 agvid: 2 current_node: 0305 ,angle：0,CurrentMissionID:0 end
+21:33::35 agvid: 2 current_node: 0304 ,angle：0,CurrentMissionID:0
+21:33::35 agvid: 2 current_node: 0304 ,angle：0,CurrentMissionID:0 end
+21:33::39 agvid: 2 current_node: 0303 ,angle：0,CurrentMissionID:0
+21:33::39 agvid: 2 current_node: 0303 ,angle：0,CurrentMissionID:0 end
+21:33::43 agvid: 2 current_node: 0302 ,angle：0,CurrentMissionID:0
+21:33::43 agvid: 2 current_node: 0302 ,angle：0,CurrentMissionID:0 end
+21:33::47 agvid: 2 current_node: 0302 ,angle：90,CurrentMissionID:0
+21:33::47 agvid: 2 current_node: 0302 ,angle：90,CurrentMissionID:0 end
+21:33::51 agvid: 2 current_node: 0202 ,angle：90,CurrentMissionID:0
+21:33::51 agvid: 2 current_node: 0202 ,angle：90,CurrentMissionID:0 end
+21:33::55 agvid: 2 current_node: 0102 ,angle：90,CurrentMissionID:0
+21:33::55 agvid: 2 current_node: 0102 ,angle：90,CurrentMissionID:0 end
+21:33::59 agvid: 2 current_node: 0102 ,angle：0,CurrentMissionID:0
+21:33::59 agvid: 2 current_node: 0102 ,angle：0,CurrentMissionID:0 end

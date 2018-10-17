@@ -1,0 +1,472 @@
+16:13::36 [init] AGV: 1 Online
+16:13::36 [init] Mac: 01
+16:13::36 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+16:13::36 agv=:1 [recv] pos:(2254,41180,0)
+16:13::36 agv=:1 [recv] state= 0 0 0 0
+16:13::36 [proc]agv=:1, match:1
+16:13::37 agv=:1 [recv] pos:(2254,41180,0)
+16:13::38 agv=:1 [recv] state= 0 0 0 0
+16:13::38 [proc]agv=:1, match:1
+16:13::39 agv=:1 [recv] pos:(2254,41180,0)
+16:13::39 agv=:1 [recv] state= 0 0 0 0
+16:13::39 [proc]agv=:1, match:1
+16:13::39 [proc] plan: currentID:1
+16:13::40 agv=:1 [recv] pos:(2254,41180,0)
+16:13::40 agv=:1 [recv] state= 0 0 0 0
+16:13::40 [proc]agv=:1, match:1
+16:13::41 agv=:1 [recv] pos:(2254,41180,0)
+16:13::41 agv=:1 [recv] state= 0 0 0 0
+16:13::41 [proc]agv=:1, match:1
+16:13::41 [proc] plan: currentID:1
+16:13::43 agv=:1 [recv] pos:(2254,41180,0)
+16:13::43 [send]agv=1 set path command: mode=100 start=1 end=2 
+16:13::43 [recv] set Path:1
+16:13::44 agv=:1 [recv] state= 0 0 1 2
+16:13::44 [proc]agv=:1, match:1
+16:13::44 agv=:1 [recv] pos:(2254,41180,0)
+16:13::44 [send] set path enable
+16:13::44 [recv] enable Path:1
+16:13::45 agv=:1 [recv] state= 65535 65535 1 2
+16:13::45 agv=:1 [recv] pos:(2254,41180,0)
+16:13::46 agv=:1 [recv] state= 65535 65535 1 2
+16:13::47 agv=:1 [recv] pos:(2254,41180,0)
+16:13::47 agv=:1 [recv] state= 65535 65535 1 2
+16:13::48 agv=:1 [recv] pos:(2254,41180,0)
+16:13::49 agv=:1 [recv] state= 65535 65535 1 2
+16:13::49 agv=:1 [recv] pos:(2254,41180,0)
+16:13::50 agv=:1 [recv] state= 65535 65535 1 2
+16:13::50 agv=:1 [recv] pos:(2379,41180,0)
+16:13::51 agv=:1 [recv] state= 65535 65535 1 2
+16:13::51 agv=:1 [recv] pos:(3644,41180,0)
+16:13::52 agv=:1 [recv] state= 65535 65535 1 2
+16:13::52 agv=:1 [recv] pos:(5376,41180,0)
+16:13::53 agv=:1 [recv] state= 65535 65535 1 2
+16:13::53 agv=:1 [recv] pos:(6247,41180,0)
+16:13::53 agv=:1 [recv] state= 1 2 1 2
+16:13::53 [proc] plan: currentID:2
+16:13::54 [send]agv=1 set path command: mode=100 start=2 end=5 
+16:13::54 [recv] set Path:1
+16:13::54 agv=:1 [recv] state= 1 2 2 5
+16:13::54 agv=:1 [recv] pos:(6254,41180,0)
+16:13::55 [send] set path enable
+16:13::55 [recv] enable Path:1
+16:13::55 agv=:1 [recv] state= 65535 65535 2 5
+16:13::55 agv=:1 [recv] pos:(6254,41180,-46)
+16:13::56 agv=:1 [recv] state= 65535 65535 2 5
+16:13::56 agv=:1 [recv] pos:(6254,40851,-90)
+16:13::57 agv=:1 [recv] state= 65535 65535 2 5
+16:13::57 agv=:1 [recv] state= 2 5 2 5
+16:13::57 [proc] plan: currentID:5
+16:13::58 agv=:1 [recv] pos:(6254,40080,-90)
+16:13::58 [send]agv=1 set path command: mode=100 start=5 end=6 
+16:13::58 [recv] set Path:1
+16:13::58 agv=:1 [recv] state= 2 5 5 6
+16:13::59 agv=:1 [recv] pos:(6254,40080,-90)
+16:13::59 [send] set path enable
+16:13::59 [recv] enable Path:1
+16:13::59 agv=:1 [recv] state= 65535 65535 5 6
+16:14::00 agv=:1 [recv] pos:(6254,40080,-90)
+16:14::00 agv=:1 [recv] state= 65535 65535 5 6
+16:14::01 agv=:1 [recv] pos:(6254,40080,-90)
+16:14::01 agv=:1 [recv] state= 65535 65535 5 6
+16:14::02 agv=:1 [recv] pos:(6254,40080,-90)
+16:14::02 agv=:1 [recv] state= 65535 65535 5 6
+16:14::03 agv=:1 [recv] pos:(6254,40080,-90)
+16:14::03 agv=:1 [recv] state= 65535 65535 5 6
+16:14::04 agv=:1 [recv] pos:(6254,40080,-90)
+16:14::04 agv=:1 [recv] state= 65535 65535 5 6
+16:14::05 agv=:1 [recv] pos:(6254,39981,-90)
+16:14::06 agv=:1 [recv] state= 65535 65535 5 6
+16:14::06 agv=:1 [recv] pos:(6254,38847,-90)
+16:14::07 agv=:1 [recv] state= 65535 65535 5 6
+16:14::07 agv=:1 [recv] pos:(6254,37088,-90)
+16:14::08 agv=:1 [recv] state= 65535 65535 5 6
+16:14::08 agv=:1 [recv] pos:(6254,35858,-90)
+16:14::09 agv=:1 [recv] state= 5 6 5 6
+16:14::09 [proc] plan: currentID:6
+16:14::09 agv=:1 [recv] state= 5 6 5 6
+16:14::09 agv=:1 [recv] pos:(6254,35719,-90)
+16:14::10 [send]agv=1 set path command: mode=100 start=6 end=7 
+16:14::10 [recv] set Path:1
+16:14::10 agv=:1 [recv] state= 5 6 6 7
+16:14::10 agv=:1 [recv] pos:(6254,35719,-90)
+16:14::11 [send] set path enable
+16:14::11 [recv] enable Path:1
+16:14::11 agv=:1 [recv] state= 65535 65535 6 7
+16:14::11 agv=:1 [recv] pos:(6254,35719,-43)
+16:14::12 agv=:1 [recv] state= 65535 65535 6 7
+16:14::12 agv=:1 [recv] pos:(6584,35719,0)
+16:14::13 agv=:1 [recv] state= 65535 65535 6 7
+16:14::13 agv=:1 [recv] state= 6 7 6 7
+16:14::13 [proc] plan: currentID:7
+16:14::13 agv=:1 [recv] pos:(7355,35719,0)
+16:14::14 [send]agv=1 set path command: mode=100 start=7 end=9 
+16:14::14 [recv] set Path:1
+16:14::14 agv=:1 [recv] state= 6 7 7 9
+16:14::15 agv=:1 [recv] pos:(7355,35719,0)
+16:14::15 [send] set path enable
+16:14::15 [recv] enable Path:1
+16:14::15 agv=:1 [recv] state= 65535 65535 7 9
+16:14::16 agv=:1 [recv] pos:(7355,35719,-4)
+16:14::16 agv=:1 [recv] state= 65535 65535 7 9
+16:14::17 agv=:1 [recv] pos:(7355,35719,-10)
+16:14::17 agv=:1 [recv] state= 65535 65535 7 9
+16:14::18 agv=:1 [recv] pos:(7355,35719,-16)
+16:14::18 agv=:1 [recv] state= 65535 65535 7 9
+16:14::19 agv=:1 [recv] pos:(7355,35719,-22)
+16:14::19 agv=:1 [recv] state= 65535 65535 7 9
+16:14::20 agv=:1 [recv] pos:(7355,35719,-28)
+16:14::20 agv=:1 [recv] state= 65535 65535 7 9
+16:14::21 agv=:1 [recv] pos:(7355,35719,-34)
+16:14::21 agv=:1 [recv] state= 65535 65535 7 9
+16:14::22 agv=:1 [recv] pos:(7355,35719,-41)
+16:14::23 agv=:1 [recv] state= 65535 65535 7 9
+16:14::23 agv=:1 [recv] pos:(7355,35719,-47)
+16:14::24 agv=:1 [recv] state= 65535 65535 7 9
+16:14::24 agv=:1 [recv] pos:(7355,35719,-53)
+16:14::25 agv=:1 [recv] state= 65535 65535 7 9
+16:14::25 agv=:1 [recv] pos:(7355,35719,-59)
+16:14::26 agv=:1 [recv] state= 65535 65535 7 9
+16:14::26 agv=:1 [recv] pos:(7355,35719,-65)
+16:14::27 agv=:1 [recv] state= 65535 65535 7 9
+16:14::27 agv=:1 [recv] pos:(7355,35719,-71)
+16:14::28 agv=:1 [recv] state= 65535 65535 7 9
+16:14::28 agv=:1 [recv] pos:(7355,35719,-78)
+16:14::29 agv=:1 [recv] state= 65535 65535 7 9
+16:14::29 agv=:1 [recv] pos:(7355,35719,-84)
+16:14::30 agv=:1 [recv] state= 65535 65535 7 9
+16:14::30 agv=:1 [recv] pos:(7355,35719,-90)
+16:14::31 agv=:1 [recv] state= 65535 65535 7 9
+16:14::32 agv=:1 [recv] pos:(7658,35719,-90)
+16:14::32 agv=:1 [recv] state= 65535 65535 7 9
+16:14::33 agv=:1 [recv] pos:(8477,35719,-90)
+16:14::33 agv=:1 [recv] state= 65535 65535 7 9
+16:14::34 agv=:1 [recv] pos:(9737,35719,-90)
+16:14::34 agv=:1 [recv] state= 65535 65535 7 9
+16:14::35 agv=:1 [recv] pos:(11295,35719,-90)
+16:14::35 agv=:1 [recv] state= 65535 65535 7 9
+16:14::36 agv=:1 [recv] pos:(13064,35719,-90)
+16:14::36 agv=:1 [recv] state= 65535 65535 7 9
+16:14::37 agv=:1 [recv] pos:(14850,35719,-90)
+16:14::37 agv=:1 [recv] state= 65535 65535 7 9
+16:14::38 agv=:1 [recv] pos:(16510,35719,-90)
+16:14::38 agv=:1 [recv] state= 65535 65535 7 9
+16:14::39 agv=:1 [recv] pos:(17884,35719,-90)
+16:14::40 agv=:1 [recv] state= 65535 65535 7 9
+16:14::40 agv=:1 [recv] pos:(18849,35719,-90)
+16:14::41 agv=:1 [recv] state= 65535 65535 7 9
+16:14::41 agv=:1 [recv] pos:(19314,35719,-90)
+16:14::42 agv=:1 [recv] state= 7 9 7 9
+16:14::42 [proc] plan: currentID:9
+16:14::42 agv=:1 [recv] state= 7 9 7 9
+16:14::42 agv=:1 [recv] pos:(19355,35719,-90)
+16:14::42 [send]agv=1 set path command: mode=100 start=9 end=10 
+16:14::42 [recv] set Path:1
+16:14::43 agv=:1 [recv] state= 7 9 9 10
+16:14::43 agv=:1 [recv] pos:(19355,35719,-90)
+16:14::44 [send] set path enable
+16:14::44 [recv] enable Path:1
+16:14::44 agv=:1 [recv] state= 65535 65535 9 10
+16:14::44 agv=:1 [recv] pos:(19355,35719,-44)
+16:14::45 agv=:1 [recv] state= 65535 65535 9 10
+16:14::45 agv=:1 [recv] pos:(19658,35719,0)
+16:14::46 agv=:1 [recv] state= 65535 65535 9 10
+16:14::46 agv=:1 [recv] state= 9 10 9 10
+16:14::46 [proc] plan: currentID:10
+16:14::46 agv=:1 [recv] pos:(20454,35719,0)
+16:14::47 [send]agv=1 set path command: mode=100 start=10 end=11 
+16:14::47 [recv] set Path:1
+16:14::47 agv=:1 [recv] state= 9 10 10 11
+16:14::47 agv=:1 [recv] pos:(20454,35719,0)
+16:14::48 [send] set path enable
+16:14::49 [send] set path enable
+16:14::50 [send] set path enable
+16:14::51 [send] set path enable
+16:14::52 [send] set path enable
+16:14::53 [send] set path enable
+16:14::54 [send] set path enable
+16:14::55 [send] set path enable
+16:14::56 [send] set path enable
+16:14::57 [send] set path enable
+16:14::58 [send] set path enable
+16:14::59 [send] set path enable
+16:15::01 [send] set path enable
+16:15::02 [send] set path enable
+16:15::03 [send] set path enable
+16:15::04 [send] set path enable
+16:15::05 [send] set path enable
+16:15::06 [send] set path enable
+16:15::07 [send] set path enable
+16:15::08 [send] set path enable
+16:15::09 [send] set path enable
+16:15::10 [send] set path enable
+16:15::11 [send] set path enable
+16:15::12 [send] set path enable
+16:15::13 [send] set path enable
+16:15::14 [send] set path enable
+16:15::15 [send] set path enable
+16:15::16 [send] set path enable
+16:15::18 [send] set path enable
+16:15::19 [send] set path enable
+16:15::20 [send] set path enable
+16:15::21 [send] set path enable
+16:15::22 [send] set path enable
+16:15::23 [send] set path enable
+16:15::24 [send] set path enable
+16:15::25 [send] set path enable
+16:15::26 [send] set path enable
+16:15::27 [send] set path enable
+16:15::28 [send] set path enable
+16:15::29 [send] set path enable
+16:15::30 [send] set path enable
+16:15::31 [send] set path enable
+16:15::32 [send] set path enable
+16:15::33 [send] set path enable
+16:15::35 [send] set path enable
+16:15::36 [send] set path enable
+16:15::37 [send] set path enable
+16:15::38 [send] set path enable
+16:15::39 [send] set path enable
+16:15::40 [send] set path enable
+16:15::41 [send] set path enable
+16:15::42 [send] set path enable
+16:15::43 [send] set path enable
+16:15::44 [send] set path enable
+16:15::45 [send] set path enable
+16:15::46 [send] set path enable
+16:15::47 [send] set path enable
+16:15::48 [send] set path enable
+16:15::49 [send] set path enable
+16:15::50 [send] set path enable
+16:15::52 [send] set path enable
+16:15::53 [send] set path enable
+16:15::54 [send] set path enable
+16:15::55 [send] set path enable
+16:15::56 [send] set path enable
+16:15::57 [send] set path enable
+16:15::58 [send] set path enable
+16:15::59 [send] set path enable
+16:16::00 [send] set path enable
+16:16::01 [send] set path enable
+16:16::02 [send] set path enable
+16:16::03 [send] set path enable
+16:16::04 [send] set path enable
+16:16::05 [send] set path enable
+16:16::06 [send] set path enable
+16:16::07 [send] set path enable
+16:16::09 [send] set path enable
+16:16::10 [send] set path enable
+16:16::11 [send] set path enable
+16:16::12 [send] set path enable
+16:16::13 [send] set path enable
+16:16::14 [send] set path enable
+16:16::15 [send] set path enable
+16:16::16 [send] set path enable
+16:16::17 [send] set path enable
+16:16::18 [send] set path enable
+16:16::19 [send] set path enable
+16:16::20 [send] set path enable
+16:16::21 [send] set path enable
+16:16::22 [send] set path enable
+16:16::23 [send] set path enable
+16:16::24 [send] set path enable
+16:16::26 [send] set path enable
+16:16::27 [send] set path enable
+16:16::28 [send] set path enable
+16:16::29 [send] set path enable
+16:16::30 [send] set path enable
+16:16::31 [send] set path enable
+16:16::32 [send] set path enable
+16:16::33 [send] set path enable
+16:16::34 [send] set path enable
+16:16::35 [send] set path enable
+16:16::36 [send] set path enable
+16:16::37 [send] set path enable
+16:16::38 [send] set path enable
+16:16::39 [send] set path enable
+16:16::40 [send] set path enable
+16:16::41 [send] set path enable
+16:16::43 [send] set path enable
+16:16::44 [send] set path enable
+16:16::45 [send] set path enable
+16:16::46 [send] set path enable
+16:16::47 [send] set path enable
+16:16::48 [send] set path enable
+16:16::49 [send] set path enable
+16:16::50 [send] set path enable
+16:16::51 [send] set path enable
+16:16::52 [send] set path enable
+16:16::53 [send] set path enable
+16:16::54 [send] set path enable
+16:16::55 [send] set path enable
+16:16::56 [send] set path enable
+16:16::57 [send] set path enable
+16:16::58 [send] set path enable
+16:17::00 [send] set path enable
+16:17::01 [send] set path enable
+16:17::02 [send] set path enable
+16:17::03 [send] set path enable
+16:17::04 [send] set path enable
+16:17::05 [send] set path enable
+16:17::06 [send] set path enable
+16:17::07 [send] set path enable
+16:17::08 [send] set path enable
+16:17::09 [send] set path enable
+16:17::10 [send] set path enable
+16:17::11 [send] set path enable
+16:17::12 [send] set path enable
+16:17::13 [send] set path enable
+16:17::14 [send] set path enable
+16:17::15 [send] set path enable
+16:17::17 [send] set path enable
+16:17::18 [send] set path enable
+16:17::19 [send] set path enable
+16:17::20 [send] set path enable
+16:17::21 [send] set path enable
+16:17::22 [send] set path enable
+16:17::23 [send] set path enable
+16:17::24 [send] set path enable
+16:17::25 [send] set path enable
+16:17::26 [send] set path enable
+16:17::27 [send] set path enable
+16:17::28 [send] set path enable
+16:17::29 [send] set path enable
+16:17::30 [send] set path enable
+16:17::31 [send] set path enable
+16:17::32 [send] set path enable
+16:17::34 [send] set path enable
+16:17::35 [send] set path enable
+16:17::36 [send] set path enable
+16:17::37 [send] set path enable
+16:17::38 [send] set path enable
+16:17::39 [send] set path enable
+16:17::40 [send] set path enable
+16:17::41 [send] set path enable
+16:17::42 [send] set path enable
+16:17::43 [send] set path enable
+16:17::44 [send] set path enable
+16:17::45 [send] set path enable
+16:17::46 [send] set path enable
+16:17::47 [send] set path enable
+16:17::48 [send] set path enable
+16:17::49 [send] set path enable
+16:17::51 [send] set path enable
+16:17::52 [send] set path enable
+16:17::53 [send] set path enable
+16:17::54 [send] set path enable
+16:17::55 [send] set path enable
+16:17::56 [send] set path enable
+16:17::57 [send] set path enable
+16:17::58 [send] set path enable
+16:17::59 [send] set path enable
+16:18::00 [send] set path enable
+16:18::01 [send] set path enable
+16:18::02 [send] set path enable
+16:18::03 [send] set path enable
+16:18::04 [send] set path enable
+16:18::05 [send] set path enable
+16:18::06 [send] set path enable
+16:18::08 [send] set path enable
+16:18::09 [send] set path enable
+16:18::10 [send] set path enable
+16:18::11 [send] set path enable
+16:18::12 [send] set path enable
+16:18::13 [send] set path enable
+16:18::14 [send] set path enable
+16:18::15 [send] set path enable
+16:18::16 [send] set path enable
+16:18::17 [send] set path enable
+16:18::18 [send] set path enable
+16:18::19 [send] set path enable
+16:18::20 [send] set path enable
+16:18::21 [send] set path enable
+16:18::22 [send] set path enable
+16:18::23 [send] set path enable
+16:18::25 [send] set path enable
+16:18::26 [send] set path enable
+16:18::27 [send] set path enable
+16:18::28 [send] set path enable
+16:18::29 [send] set path enable
+16:18::30 [send] set path enable
+16:18::31 [send] set path enable
+16:18::32 [send] set path enable
+16:18::33 [send] set path enable
+16:18::34 [send] set path enable
+16:18::35 [send] set path enable
+16:18::36 [send] set path enable
+16:18::37 [send] set path enable
+16:18::38 [send] set path enable
+16:18::39 [send] set path enable
+16:18::40 [send] set path enable
+16:18::42 [send] set path enable
+16:18::43 [send] set path enable
+16:18::44 [send] set path enable
+16:18::45 [send] set path enable
+16:18::46 [send] set path enable
+16:18::47 [send] set path enable
+16:18::48 [send] set path enable
+16:18::49 [send] set path enable
+16:18::50 [send] set path enable
+16:18::51 [send] set path enable
+16:18::52 [send] set path enable
+16:18::53 [send] set path enable
+16:18::54 [send] set path enable
+16:18::55 [send] set path enable
+16:18::56 [send] set path enable
+16:18::57 [send] set path enable
+16:18::59 [send] set path enable
+16:19::00 [send] set path enable
+16:19::01 [send] set path enable
+16:19::02 [send] set path enable
+16:19::03 [send] set path enable
+16:19::04 [send] set path enable
+16:19::05 [send] set path enable
+16:19::06 [send] set path enable
+16:19::07 [send] set path enable
+16:19::08 [send] set path enable
+16:19::09 [send] set path enable
+16:19::10 [send] set path enable
+16:19::11 [send] set path enable
+16:19::12 [send] set path enable
+16:19::13 [send] set path enable
+16:19::14 [send] set path enable
+16:19::16 [send] set path enable
+16:19::17 [send] set path enable
+16:19::18 [send] set path enable
+16:19::19 [send] set path enable
+16:19::20 [send] set path enable
+16:19::21 [send] set path enable
+16:19::22 [send] set path enable
+16:19::23 [send] set path enable
+16:19::24 [send] set path enable
+16:19::25 [send] set path enable
+16:19::26 [send] set path enable
+16:19::27 [send] set path enable
+16:19::28 [send] set path enable
+16:19::29 agv=:1 [recv] pos:(2254,41180,0)
+16:19::29 [send] set path enable
+16:19::30 [send] set path enable
+16:19::31 [send] set path enable
+16:19::33 [send] set path enable
+16:19::34 [send] set path enable
+16:19::35 [send] set path enable
+16:19::36 [send] set path enable
+16:19::37 [send] set path enable
+16:19::38 [send] set path enable
+16:19::39 [send] set path enable
+16:19::40 [send] set path enable
+16:19::41 [send] set path enable
+16:19::42 [send] set path enable
+16:19::43 [send] set path enable
+16:19::44 [send] set path enable
+16:19::45 [send] set path enable
+16:19::46 [send] set path enable
+16:19::47 [send] set path enable
+16:19::48 [send] set path enable
+16:19::50 [send] set path enable
+16:19::51 [send] set path enable
+16:19::52 [send] set path enable
+16:19::53 [send] set path enable
+16:19::54 [send] set path enable
+16:19::55 [send] set path enable
+16:19::56 [send] set path enable

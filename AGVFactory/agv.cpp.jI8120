@@ -1,0 +1,85 @@
+#include "agv.h"
+#include <QGraphicsScene>
+#include <QDataStream>
+#include "mainwindow.h"
+AGV::AGV(QGraphicsScene *scene,int type, QPointF center, int w, int rotate)
+{
+    setRect(-w/2,-w/2,w,w);
+    setPos(center);
+    scene->clearSelection();
+    scene->addItem(this);
+    setFlag(QGraphicsItem::ItemIsMovable);
+    setFlag(QGraphicsItem::ItemIsFocusable);
+    setFlag(QGraphicsItem::ItemIsSelectable);
+    m_nPenStyle = Qt::SolidLine;
+    QPen p = pen();
+    p.setWidth(3);
+    p.setColor(Qt::red);
+    setPen(p);
+    setSelected(true);
+    m_nType = type;
+
+}
+
+AGV::~AGV()
+{
+
+}
+
+int AGV::type() const
+{
+    return m_nType;
+
+}
+
+void AGV::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    if(isSelected()){
+        emit property_change(get_property());
+    }
+    painter->setPen(pen());
+    painter->drawLine(0,0,get_width()/2,0);
+    QGraphicsEllipseItem::paint(painter,option,widget);
+}
+
+QMap<QString, qreal> AGV::get_property()
+{
+    QMap<QString,qreal> prop;
+    prop.insert("x",pos().x());
+    prop.insert("y",pos().y());
+    prop.insert("width",get_width());
+    prop.insert("rotate",(int)(rotation()));
+    return prop;
+}
+
+void AGV::loadTCPSocket(QTcpSocket *socket)
+{
+    m_tcpSocket = socket;
+    connect(m_tcpSocket,SIGNAL(readyRead()),this,SLOT(update_state()));
+}
+
+void AGV::set_dashLine(bool lineType)
+{
+    if(isSelected()){
+        QPen p = pen();
+        if(lineType)
+            m_nPenStyle = Qt::DashLine;
+        else
+            m_nPenStyle = Qt::SolidLine;
+        p.setStyle(m_nPenStyle);
+        setPen(p);
+    }
+}
+
+void AGV::update_state()
+{
+    if(m_tcpSocket->bytesAvailable()<30) return;
+    qreal x,y,theta;
+    QByteArray buf = m_tcpSocket->readAll();
+    if(buf.mid(0,2)=="40" && buf.mid(2,2)=="41"){
+        x = buf.mid(4,8).toInt(0,16);
+        y = buf.mid(12,8).toInt(0,16);
+        theta = buf.mid(20,8).toInt(0,16);
+        qDebug()<<x<<y<<theta;
+    }
+}

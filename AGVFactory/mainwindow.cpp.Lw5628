@@ -1,0 +1,1057 @@
+#include "mainwindow.h"
+#include <QPixmap>
+#include <QGraphicsWidget>
+#include <QGraphicsLinearLayout>
+#include <QLabel>
+#include <QDebug>
+#include <QTransform>
+#include <QGridLayout>
+#include <QPalette>
+#include <QStatusBar>
+#include <QMimeData>
+#include <QApplication>
+#include <QClipboard>
+#include <QApplication>
+#include <QDesktopWidget>
+#include <QSql>
+#include <QSqlDatabase>
+#include <QSqlQuery>
+#include <QSqlError>
+#include <QSqlRecord>
+#include <QSqlResult>
+#include <QMessageBox>
+#include <QFileDialog>
+#include <QTextCodec>
+#include <QTcpServer>
+#include <QTcpSocket>
+#include <QGraphicsSimpleTextItem>
+#include <QLatin1String>
+#include "rectitem.h"
+#include "ellipseitem.h"
+#include "lineitem.h"
+#include "textitem.h"
+#include "commands.h"
+#include "global.h"
+#include "reminddialog.h"
+#include "agv.h"
+
+// 属性栏头文件
+#include "qtpropertymanager.h"
+#include "qteditorfactory.h"
+#include "qttreepropertybrowser.h"
+
+#define WINDOWTITLE_PREFIX QString("AGVFactory - ")
+#define SETTING_PREFIX_REMIND QString("/remind/")
+#define SETTING_PREFIX_PATH QString("/path/")
+
+#define SETTING_SUFFIX_CURRENTPATH QString("currentPath")
+#define SETTING_SUFFIX_HISTORYPATH QString("historyPath")
+#define SETTING_SUFFIX_OPENFILEPATH QString("openFilePath")
+const QString MimeType="AGVFactory";
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent)
+{
+    m_progressBar = new QProgressBar;
+    m_progressBarLabel = new QLabel;
+    setting = new QSettings("AGVFactory.ini",QSettings::IniFormat);
+   // m_tcpServer = new QTcpServer(this);
+    m_trafficManager = NULL;
+    m_missionManager = NULL;
+    m_requestManager = NULL;
+    createSceneAndView();
+    createActions();
+    createPropertyWindow();
+    createConnections();
+
+    QString path = setting->value(SETTING_PREFIX_PATH+SETTING_SUFFIX_CURRENTPATH).toString();
+    if(path!=""){
+        setWindowTitle(WINDOWTITLE_PREFIX+path);
+        loadGraphicsItem(path);
+        m_topoView->load_topoMap(path);
+    }
+    statusBar()->addWidget(m_progressBar);
+    statusBar()->addWidget(m_progressBarLabel);
+    statusBar()->hide();
+    reset_documentDirty();
+    set_appState(APP_STOP);
+    //prepare();
+}
+
+MainWindow::~MainWindow()
+{
+}
+
+void MainWindow::mousePressEvent(QMouseEvent *event)
+{
+    QMainWindow::mousePressEvent(event);
+}
+
+void MainWindow::keyPressEvent(QKeyEvent *event)
+{
+    if(m_bKeyLock) return;
+    switch(event->key()){
+    case 16777216:  //ESC
+        updateToolbarUI();
+        m_centralView->prepareToDrawItem(NONE);
+        break;
+    case 16777223:  // delete
+        if (m_centralScene->selectedItems().isEmpty())
+            break;
+        foreach(QGraphicsItem* item,m_centralScene->selectedItems()){
+            if(item->type()==EDGE){
+                m_topoView->remove_topoEdge((TopoEdge*)item);
+            }
+            else{
+                QUndoCommand *deleteCommand = new DeleteCommand(m_centralScene,item,m_centralView->m_topoView);
+                m_centralView->m_undoStack->push(deleteCommand);
+            }
+        }
+        m_centralScene->clearSelection();
+        break;
+    }
+}
+
+void MainWindow::createSceneAndView()
+{
+    m_centralScene = new CentralScene;
+    QRect rect = QApplication::desktop()->rect();
+    m_centralScene->setSceneRect(rect.x(),rect.y(),rect.width()-50,rect.bottom()-300);
+    m_topoView = new TopoView(m_centralScene);
+    m_centralView = new CentralView(0,m_centralScene,m_topoView);
+    setCentralWidget(m_centralView);
+}
+
+void MainWindow::createPropertyWindow()
+{
+    doubleManager = new QtDoublePropertyManager(this);
+    stringManager = new QtStringPropertyManager(this);
+    colorManager = new QtColorPropertyManager(this);
+    fontManager = new QtFontPropertyManager(this);
+    pointManager = new QtPointPropertyManager(this);
+    sizeManager = new QtSizePropertyManager(this);
+    boolManager = new QtBoolPropertyManager(this);
+
+    connect(doubleManager, SIGNAL(valueChanged(QtProperty *, double)),
+                this, SLOT(valueChanged(QtProperty *, double)));
+    connect(stringManager, SIGNAL(valueChanged(QtProperty *, const QString &)),
+                this, SLOT(valueChanged(QtProperty *, const QString &)));
+    connect(colorManager, SIGNAL(valueChanged(QtProperty *, const QColor &)),
+                this, SLOT(valueChanged(QtProperty *, const QColor &)));
+    connect(fontManager, SIGNAL(valueChanged(QtProperty *, const QFont &)),
+                this, SLOT(valueChanged(QtProperty *, const QFont &)));
+    connect(pointManager, SIGNAL(valueChanged(QtProperty *, const QPoint &)),
+                this, SLOT(valueChanged(QtProperty *, const QPoint &)));
+    connect(sizeManager, SIGNAL(valueChanged(QtProperty *, const QSize &)),
+                this, SLOT(valueChanged(QtProperty *, const QSize &)));
+    connect(boolManager,SIGNAL(valueChanged(QtProperty*,bool)),this,SLOT(valueChanged(QtProperty*,bool)));
+
+    QtDoubleSpinBoxFactory *doubleSpinBoxFactory = new QtDoubleSpinBoxFactory(this);
+    QtCheckBoxFactory *checkBoxFactory = new QtCheckBoxFactory(this);
+    QtSpinBoxFactory *spinBoxFactory = new QtSpinBoxFactory(this);
+    QtLineEditFactory *lineEditFactory = new QtLineEditFactory(this);
+    QtEnumEditorFactory *comboBoxFactory = new QtEnumEditorFactory(this);
+
+    QDockWidget *dock = new QDockWidget(this);
+    addDockWidget(Qt::RightDockWidgetArea, dock);
+
+    propertyEditor = new QtTreePropertyBrowser(dock);
+    propertyEditor->setFactoryForManager(doubleManager, doubleSpinBoxFactory);
+    propertyEditor->setFactoryForManager(stringManager, lineEditFactory);
+    propertyEditor->setFactoryForManager(colorManager->subIntPropertyManager(), spinBoxFactory);
+    propertyEditor->setFactoryForManager(fontManager->subIntPropertyManager(), spinBoxFactory);
+    propertyEditor->setFactoryForManager(fontManager->subBoolPropertyManager(), checkBoxFactory);
+    propertyEditor->setFactoryForManager(fontManager->subEnumPropertyManager(), comboBoxFactory);
+    propertyEditor->setFactoryForManager(pointManager->subIntPropertyManager(), spinBoxFactory);
+    propertyEditor->setFactoryForManager(sizeManager->subIntPropertyManager(), spinBoxFactory);
+    propertyEditor->setFactoryForManager(boolManager,checkBoxFactory);
+
+    dock->setWidget(propertyEditor);
+}
+
+void MainWindow::createActions(){
+    QMenu *menu_file = new QMenu("文件",this);
+    QMenu *menu_edit = new QMenu("编辑",this);
+    QMenu *menu_tool = new QMenu("工具",this);
+    QMenu *menu_run = new QMenu("运行",this);
+    QMenu *menu_window = new QMenu("窗口",this);
+    QMenu *menu_help = new QMenu("帮助",this);
+
+    action_new = menu_file->addAction(QPixmap(":/action/images/new.ico"),"新建");
+    action_new->setShortcut(QKeySequence::New);
+    action_open = menu_file->addAction(QPixmap(":/action/images/open.ico"),"打开");
+    action_open->setShortcut(QKeySequence::Open);
+    action_save = menu_file->addAction(QPixmap(":/action/images/save.ico"),"保存");
+    action_save->setShortcut(QKeySequence::Save);
+    action_saveas = menu_file->addAction(QPixmap(":/action/images/saveas.ico"),"另存为");
+    action_saveas->setShortcut(QKeySequence::SaveAs);
+    action_export = menu_file->addAction(QPixmap(":/action/images/export.ico"),"导出");
+    menu_file->addSeparator();
+    QStringList list = get_recentOpenFileName();
+    for(int i=0;i<list.length();i++){
+        QAction *action = new QAction(list.at(i),this);
+        action->setData(list.at(i));
+        connect(action,SIGNAL(triggered()),this,SLOT(open_recentFile()));
+        menu_file->addAction(action);
+    }
+    action_exit = menu_file->addAction(QPixmap(":/action/images/exit.ico"),"退出");
+
+    action_undo = m_centralView->m_undoStack->createUndoAction(this,"&Undo");
+    action_undo->setShortcut(QKeySequence::Undo);
+    action_undo->setIcon(QPixmap(":/action/images/undo.ico"));
+    menu_edit->addAction(action_undo);
+
+    menu_edit->addSeparator();
+
+    action_copy = menu_edit->addAction(QPixmap(":/action/images/copy.ico"),"复制");
+    action_copy->setShortcut(QKeySequence::Copy);
+    action_cut = menu_edit->addAction(QPixmap(":/action/images/cut.ico"),"剪切");
+    action_cut->setShortcut(QKeySequence::Cut);
+    action_paste = menu_edit->addAction(QPixmap(":/action/images/paste.ico"),"粘贴");
+    action_paste->setShortcut(QKeySequence::Paste);
+
+    menu_edit->addSeparator();
+
+    action_rotate = menu_edit->addAction(QPixmap(":/action/images/rotation.ico"),"旋转");
+    action_translateUpDown = menu_edit->addAction(QPixmap(":/action/images/translation_updown.ico"),"上下平移");
+    action_translateLeftRight = menu_edit->addAction(QPixmap(":/action/images/translation_leftright.ico"),"左右平移");
+
+    menu_edit->addSeparator();
+
+    action_zoomin = menu_edit->addAction(QPixmap(":/action/images/zoomin.ico"),"放大");
+    action_zoomin->setShortcut(QKeySequence::ZoomIn);
+    action_zoomout = menu_edit->addAction(QPixmap(":/action/images/zoomout.ico"),"缩小");
+    action_zoomout->setShortcut(QKeySequence::ZoomOut);
+    action_addagv = menu_tool->addAction(QPixmap(":/action/images/AGV.ico"),"添加AGV");
+    action_addagv->setData(AGVS);
+
+    menu_tool->addSeparator();
+
+    action_addver = menu_tool->addAction(QPixmap(":/action/images/ver.ico"),"添加拓扑顶点");
+    action_addver->setData(VER);
+    action_addver->setCheckable(true);
+    action_addver->setShortcut(QKeySequence("Shift+n"));
+    action_addedge = menu_tool->addAction(QPixmap(":/action/images/edge.ico"),"添加拓扑边");
+    action_addedge->setData(EDGE);
+    action_addedge->setCheckable(true);
+    action_addedge->setShortcut(QKeySequence("Shift+e"));
+
+    menu_tool->addSeparator();
+
+    action_addstraightline = menu_tool->addAction(QPixmap(":/action/images/line.ico"),"直线");
+    action_addstraightline->setData(LINE);
+    action_addstraightline->setCheckable(true);
+    action_addrectangle = menu_tool->addAction(QPixmap(":/action/images/rectangle.ico"),"矩形");
+    action_addrectangle->setData(RECTANGLE);
+    action_addrectangle->setCheckable(true);
+
+    action_addellipse = menu_tool->addAction(QPixmap(":/action/images/ellipse.ico"),"圆");
+    action_addellipse->setData(ELLIPSE);
+    action_addellipse->setCheckable(true);
+    action_addarc = menu_tool->addAction(QPixmap(":/action/images/arc.ico"),"圆弧");
+    action_addarc->setData(ARC);
+    action_addarc->setCheckable(true);
+    action_addtext = menu_tool->addAction(QPixmap(":/action/images/text.ico"),"文字");
+    action_addtext->setData(TEXT);
+    action_addtext->setCheckable(true);
+
+    menu_tool->addSeparator();
+
+    action_measure = menu_tool->addAction(QPixmap(":/action/images/measure.ico"),"测量");
+    action_measure->setData(MEASURE);
+    action_measure->setShortcut(QKeySequence("Ctrl+m"));
+
+    menu_tool->addSeparator();
+
+    action_property = menu_tool->addAction(QPixmap(":/action/images/property.ico"),"属性");
+    action_missionManager = menu_run->addAction(QPixmap(":/action/images/missionManager.ico"),"任务管理器");
+    action_requestManager = menu_run->addAction(QPixmap(":/action/images/bell.ico"),"呼叫管理器");
+    menu_run->addSeparator();
+
+    action_prepare = menu_run->addAction("准备");
+    action_run = menu_run->addAction(QPixmap(":/action/images/run.ico"),"运行");
+    action_stop = menu_run->addAction(QPixmap(":/action/images/stop.ico"),"停止");
+
+    menu_run->addSeparator();
+
+    action_communicationSettings = menu_run->addAction(QPixmap(":/action/images/settings.ico"),"通讯设置");
+
+    action_toolbar = menu_window->addAction(QPixmap(":/action/images/toobar.ico"),"工具栏");
+    action_toolbar->setCheckable(true);
+    action_toolbar->setChecked(true);
+    action_propertyWindow = menu_window->addAction(QPixmap(":/action/images/propertyWindow.ico"),"属性栏");
+    action_propertyWindow->setCheckable(true);
+    action_propertyWindow->setChecked(true);
+    action_about = menu_help->addAction(QPixmap(":/action/images/about.ico"),"关于 AGVFactory");
+    action_help = menu_help->addAction(QPixmap(":/action/images/help.ico"),"帮助");
+
+
+    spin_zoom = new QSpinBox;
+    spin_zoom->setRange(10,500);
+    spin_zoom->setValue(100);
+    spin_zoom->setSingleStep(10);
+    m_centralMenuBar = menuBar();
+    m_centralMenuBar->addMenu(menu_file);
+    m_centralMenuBar->addMenu(menu_edit);
+    m_centralMenuBar->addMenu(menu_tool);
+    m_centralMenuBar->addMenu(menu_run);
+    m_centralMenuBar->addMenu(menu_window);
+    m_centralMenuBar->addMenu(menu_help);
+
+    m_centralToolBar = addToolBar("工具栏");
+    m_centralToolBar->addAction(action_new);
+    m_centralToolBar->addAction(action_open);
+    m_centralToolBar->addAction(action_save);
+    m_centralToolBar->addAction(action_saveas);
+    m_centralToolBar->addAction(action_undo);
+    m_centralToolBar->addSeparator();
+    m_centralToolBar->addAction(action_rotate);
+    m_centralToolBar->addAction(action_translateUpDown);
+    m_centralToolBar->addAction(action_translateLeftRight);
+    m_centralToolBar->addSeparator();
+    m_centralToolBar->addAction(action_zoomin);
+    m_centralToolBar->addWidget(spin_zoom);
+    m_centralToolBar->addAction(action_zoomout);
+    m_centralToolBar->addSeparator();
+    m_centralToolBar->addAction(action_addagv);
+    m_centralToolBar->addAction(action_addver);
+    m_centralToolBar->addAction(action_addedge);
+    m_centralToolBar->addAction(action_addtext);
+    m_centralToolBar->addSeparator();
+    m_centralToolBar->addAction(action_addstraightline);
+    m_centralToolBar->addAction(action_addrectangle);
+    m_centralToolBar->addAction(action_addellipse);
+    m_centralToolBar->addAction(action_addarc);
+    m_centralToolBar->addSeparator();
+    m_centralToolBar->addAction(action_measure);
+    m_centralToolBar->addAction(action_missionManager);
+    m_centralToolBar->addAction(action_requestManager);
+}
+
+void MainWindow::createConnections(){
+    connect(m_centralView,SIGNAL(itemMoving(QGraphicsItem*)),this,SLOT(itemMoved(QGraphicsItem*)));
+    connect(m_centralScene,SIGNAL(selectionChanged()),this,SLOT(selectChange()));
+    //connect(action_propertyWindow,SIGNAL(triggered(bool)),m_centralDockWidget,SLOT(setVisible(bool)));
+    connect(m_centralView,SIGNAL(set_keyLock(bool)),this,SLOT(setKeyLock(bool)));
+    //connect(m_centralDockWidget,SIGNAL(visibilityChanged(bool)),action_propertyWindow,SLOT(setChecked(bool)));
+    connect(action_toolbar,SIGNAL(triggered(bool)),m_centralToolBar,SLOT(setVisible(bool)));
+    connect(action_addrectangle,SIGNAL(triggered(bool)),this,SLOT(addItem(bool)));
+    connect(action_addellipse,SIGNAL(triggered(bool)),this,SLOT(addItem(bool)));
+    connect(action_addarc,SIGNAL(triggered(bool)),this,SLOT(addItem(bool)));
+    connect(action_addstraightline,SIGNAL(triggered(bool)),this,SLOT(addItem(bool)));
+    connect(action_addtext,SIGNAL(triggered(bool)),this,SLOT(addItem(bool)));
+    connect(action_addagv,SIGNAL(triggered()),this,SLOT(addItem()));
+    connect(action_addver,SIGNAL(triggered(bool)),this,SLOT(addItem(bool)));
+    connect(action_addedge,SIGNAL(triggered(bool)),this,SLOT(addItem(bool)));
+    connect(action_zoomin,SIGNAL(triggered()),spin_zoom,SLOT(stepUp()));
+    connect(action_zoomout,SIGNAL(triggered()),spin_zoom,SLOT(stepDown()));
+    connect(action_export,SIGNAL(triggered()),this,SLOT(export_to_png()));
+    connect(action_save,SIGNAL(triggered()),this,SLOT(save()));
+    connect(action_open,SIGNAL(triggered()),this,SLOT(load()));
+    connect(action_new,SIGNAL(triggered()),this,SLOT(newFile()));
+    connect(action_saveas,SIGNAL(triggered()),this,SLOT(save_as()));
+    connect(action_exit,SIGNAL(triggered()),this,SLOT(close()));
+    connect(spin_zoom,SIGNAL(valueChanged(int)),m_centralView,SLOT(zoom(int)));
+    connect(action_measure,SIGNAL(triggered()),this,SLOT(setlectMethond()));
+    connect(action_copy,SIGNAL(triggered()),this,SLOT(editCopy()));
+    connect(action_cut,SIGNAL(triggered()),this,SLOT(editCut()));
+    connect(action_paste,SIGNAL(triggered()),this,SLOT(editPaste()));
+    connect(action_missionManager,SIGNAL(triggered()),this,SLOT(open_missionManager()));
+    connect(action_prepare,SIGNAL(triggered()),this,SLOT(prepare()));
+    connect(action_run,SIGNAL(triggered()),this,SLOT(run()));
+    connect(action_stop,SIGNAL(triggered()),this,SLOT(stop()));
+    connect(m_centralView->m_undoStack,SIGNAL(indexChanged(int)),this,SLOT(set_documentDirty()));
+    connect(m_topoView,SIGNAL(step_progressBar(int)),this,SLOT(set_progressStep(int)));
+    connect(m_topoView,SIGNAL(set_dirty()),this,SLOT(set_topoViewDirty()));
+    connect(this,SIGNAL(update_progressBar(int)),this,SLOT(set_progressStep(int)));
+}
+
+void MainWindow::updateToolbarUI(QAction *action)
+{
+    foreach(QAction *a ,m_centralToolBar->actions()){
+            if(a->isCheckable() && a!=action)
+                a->setChecked(false);
+    }
+    if(action)
+        if(action->isChecked())
+            action->setChecked(true);
+}
+
+void MainWindow::readItem(QDataStream &in, int offset, bool select)
+{
+    qint32 itemType;
+    QGraphicsItem *item = 0;
+    while (!in.atEnd()) {
+        in >> itemType;
+        switch (itemType) {
+            case RECTANGLE:{
+                RectItem *rectItem = new RectItem(m_centralScene);
+                in >> *rectItem;
+                //itemPropertyWidget->connectItem(rectItem);
+                item = rectItem;
+                break;
+            }
+            case ELLIPSE:{
+                EllipseItem *ellipseItem = new EllipseItem(m_centralScene);
+                in >> *ellipseItem;
+                //itemPropertyWidget->connectItem(ellipseItem);
+                item = ellipseItem;
+                break;
+            }
+            case LINE:{
+                LineItem *lineItem = new LineItem(m_centralScene);
+                in >> *lineItem;
+                //itemPropertyWidget->connectItem(lineItem);
+                item = lineItem;
+                break;
+            }
+            case TEXT:{
+                TextItem *textItem = new TextItem(m_centralScene,"");
+                in >> *textItem;
+                //itemPropertyWidget->connectItem(textItem);
+                item = textItem;
+                break;
+            }
+        }
+        if (item) {
+            item->moveBy(offset, offset);
+            if(select){
+                m_centralScene->clearSelection();
+                item->setSelected(true);
+            }
+        }
+    }
+}
+
+void MainWindow::writeItem(QDataStream &out, QGraphicsItem *item)
+{
+    int type = item->type();
+    out << type;
+    switch (type) {
+    case RECTANGLE:
+        out << *(dynamic_cast<RectItem*>(item)); break;
+    case LINE:
+        out << *(dynamic_cast<LineItem*>(item)); break;
+    case ELLIPSE:
+        out << *(dynamic_cast<EllipseItem*>(item)); break;
+    case TEXT:
+        out << *(dynamic_cast<RectItem*>(item)); break;
+    }
+}
+
+bool MainWindow::saveGraphicsItem(QString path)
+{
+    QSqlQuery query = openDatabase(path);
+    query.exec("create table if not exists tb_rectangle (id int primary key,"
+               "x real ,y real,width int ,height int , rotate int ,pen int ,brush int)");
+    query.exec("create table if not exists tb_ellipse (id int primary key,"
+               "x real ,y real,width int ,height int , rotate int ,pen int ,brush int)");
+    query.exec("create table if not exists tb_line (id int primary key,"
+               "x real ,y real,width int ,rotate int ,pen int)");
+    query.exec("create table if not exists tb_text (id int primary key,"
+               "x real ,y real,rotate int ,pen int, text varchar(40))");
+    query.exec("delete from tb_rectangle");
+    query.exec("delete from tb_line");
+    query.exec("delete from tb_ellipse");
+    query.exec("delete from tb_text");
+    int count=0;
+    if(m_bTopoViewChangeFlag==true)
+        count += m_topoView->get_edgeCount()+m_topoView->get_verCount();
+    QList<QGraphicsItem*>items = m_centralScene->items();
+    int id,width,height,rotate,pen,brush;
+    qreal x,y;
+    foreach(QGraphicsItem* item,items){
+        switch(item->type()){
+            case RECTANGLE:{
+                emit update_progressBar(++count);
+                RectItem* rect = (RectItem*)item;
+                id = rect->get_id();
+                x = rect->x();
+                y = rect->y();
+                width = rect->get_width();
+                height = rect->get_height();
+                rotate = rect->rotation();
+                pen = penToInt(rect->pen());
+                brush = brushToInt(rect->brush());
+                query.exec(QString("insert into tb_rectangle values (%1,%2,%3,%4,%5,%6,%7,%8)"
+                                   ).arg(id).arg(x).arg(y).arg(width).arg(height).arg(rotate).arg(pen).arg(brush));
+                break;
+            }
+            case ELLIPSE:{
+                emit update_progressBar(++count);
+                EllipseItem* ellipse = (EllipseItem*)item;
+                query.exec(QString("insert into tb_ellipse values (%1,%2,%3,%4,%5,%6,%7,%8)")
+                           .arg(ellipse->get_id()).arg(ellipse->x()).arg(ellipse->y())
+                           .arg(ellipse->get_width()).arg(ellipse->get_height())
+                           .arg(ellipse->rotation()).arg(penToInt(ellipse->pen()))
+                           .arg(brushToInt(ellipse->brush())));
+                break;
+            }
+            case LINE:{
+                emit update_progressBar(++count);
+                LineItem* line = (LineItem*)item;
+                query.exec(QString("insert into tb_line values (%1,%2,%3,%4,%5,%6)")
+                           .arg(line->get_id()).arg(line->x()).arg(line->y())
+                           .arg(line->get_length()).arg(line->rotation())
+                           .arg(penToInt(line->pen())));
+                break;
+            }
+            case TEXT:{
+                emit update_progressBar(++count);
+                TextItem* text = (TextItem*)item;
+                query.exec(QString("insert into tb_text values (%1,%2,%3,%4,%5,'%6')")  // 注意文字要用引号括起来！
+                           .arg(text->get_id()).arg(text->x()).arg(text->y())
+                           .arg(text->rotation()).arg(penToInt(text->pen()))
+                           .arg(text->text()));
+                break;
+            }
+        }
+    }
+    db.close();
+    return true;
+}
+
+bool MainWindow::loadGraphicsItem(QString path)
+{
+    QSqlQuery query = openDatabase(path);
+    query.exec("select * from tb_rectangle");
+    int /*id,*/width,height,rotate;
+    QBrush brush;
+    QPen pen;
+    qreal x,y;
+    int count = 0;
+    while(query.next()){
+        count++;
+        QSqlRecord record = query.record();
+        //id = record.value("id").toInt();
+        x = record.value("x").toReal();
+        y = record.value("y").toReal();
+        width = record.value("width").toInt();
+        height = record.value("height").toInt();
+        rotate = record.value("rotate").toInt();
+        pen = intToPen(record.value("pen").toInt());
+        brush = intToBrush(record.value("brush").toInt());
+        new RectItem(m_centralScene,QPointF(x,y),width,height,rotate,pen,brush);
+    }
+    query.exec("select * from tb_line");
+    while(query.next()){
+        count++;
+        QSqlRecord record = query.record();
+        //id = record.value("id").toInt();
+        x = record.value("x").toInt();
+        y = record.value("y").toInt();
+        width = record.value("width").toInt();
+        rotate = record.value("rotate").toInt();
+        pen = intToPen(record.value("pen").toInt());
+        new LineItem(m_centralScene,QPointF(x,y),width,rotate,pen);
+    }
+    query.exec("select * from tb_ellipse");
+    while(query.next()){
+        count++;
+        QSqlRecord record = query.record();
+        //id = record.value("id").toInt();
+        x = record.value("x").toInt();
+        y = record.value("y").toInt();
+        width = record.value("width").toInt();
+        height = record.value("height").toInt();
+        rotate = record.value("rotate").toInt();
+        pen = intToPen(record.value("pen").toInt());
+        brush = intToBrush(record.value("brush").toInt());
+        new EllipseItem(m_centralScene,QPointF(x,y),width,height,rotate,pen,brush);
+    }
+    query.exec("select * from tb_text");
+    QString text;
+    while(query.next()){
+        count++;
+        QSqlRecord record = query.record();
+        //id = record.value("id").toInt();
+        x = record.value("x").toInt();
+        y = record.value("y").toInt();
+        rotate = record.value("rotate").toInt();
+        pen = intToPen(record.value("pen").toInt());
+        text = record.value("text").toString();
+        new TextItem(m_centralScene,text,QPointF(x,y),rotate,pen);
+    }
+    return true;
+}
+
+QStringList MainWindow::get_recentOpenFileName()
+{
+    QStringList list;
+    QString path;
+    for(int i=1;i<5;i++){
+        path = setting->value(SETTING_PREFIX_PATH+SETTING_SUFFIX_HISTORYPATH+QString::number(i)).toString();
+        if(path=="") break;
+        list.append(path);
+    }
+    return list;
+}
+
+void MainWindow::set_recentOpenFileName(QString currentPath)
+{
+    QStringList list = get_recentOpenFileName();
+    if(list.contains(currentPath)){
+        list.removeOne(currentPath);
+        list.insert(0,currentPath);
+    }
+    else{
+        if(list.length()>=5){
+            list.removeLast();
+            list.insert(0,currentPath);
+        }
+        else{
+            list.insert(0,currentPath);
+        }
+    }
+    for(int i=0;i<list.length();i++){
+        setting->setValue(SETTING_PREFIX_PATH+SETTING_SUFFIX_HISTORYPATH+QString::number(i+1),list.at(i));
+    }
+}
+
+void MainWindow::set_appState(int state)
+{
+    m_nAppState = state;
+    action_run->setEnabled(m_nAppState==APP_PREPARE);
+    action_prepare->setEnabled(m_nAppState==APP_STOP);
+    action_stop->setEnabled(m_nAppState==APP_RUN || m_nAppState==APP_PREPARE);
+    emit app_stateChange(m_nAppState);
+}
+
+void MainWindow::addItem(bool check)
+{
+    QAction *action = qobject_cast<QAction*>(sender());
+    if(!action) return;
+    updateToolbarUI(action);
+    if(check==false)
+        m_centralView->prepareToDrawItem(NONE);
+    else{
+        m_centralView->prepareToDrawItem(action->data().toInt());
+    }
+}
+
+void MainWindow::selectChange()
+{
+    QList<QGraphicsItem* > items = m_centralScene->selectedItems();
+    if(items.isEmpty()){
+        m_currentItem = 0;
+        return;
+    }
+
+    QMap<QtProperty *, QString>::ConstIterator itProp = propertyToId.constBegin();
+    while (itProp != propertyToId.constEnd()) {
+        delete itProp.key();
+        itProp++;
+    }
+    propertyToId.clear();
+    idToProperty.clear();
+
+
+    m_currentItem = items.first();
+    QtProperty *property;
+
+    QObject *item = dynamic_cast<QObject*>(m_currentItem);
+    if(!item) return;
+    const QMetaObject *metaObject = item->metaObject();
+
+    property = stringManager->addProperty("Name");
+    stringManager->setValue(property,item->property("_name").value<QString>());
+    addProperty(property,QLatin1String("_name"));
+    property = doubleManager->addProperty(tr("Position X"));
+    doubleManager->setValue(property, m_currentItem->x());
+    addProperty(property, QLatin1String("_xpos"));
+
+    property = doubleManager->addProperty(tr("Position Y"));
+    doubleManager->setValue(property, m_currentItem->y());
+    addProperty(property, QLatin1String("_ypos"));
+
+    property = doubleManager->addProperty(tr("Position Z"));
+    doubleManager->setValue(property, m_currentItem->zValue());
+    addProperty(property, QLatin1String("_zpos"));
+
+    bool flag;
+    flag = metaObject->indexOfProperty("_brush_color")>-1;
+    if(flag){
+        property = colorManager->addProperty(tr("Brush Color"));
+        colorManager->setValue(property,item->property("_brush_color").value<QColor>());
+        addProperty(property,QLatin1String("_brush_color"));
+    }
+    flag = metaObject->indexOfProperty("_pen_color")>-1;
+    if(flag){
+        property = colorManager->addProperty("Pen Color");
+        colorManager->setValue(property,item->property("_pen_color").value<QColor>());
+        addProperty(property,QLatin1String("_pen_color"));
+    }
+    flag = metaObject->indexOfProperty("_text")>-1;
+    if(flag){
+        property = stringManager->addProperty("Text");
+        stringManager->setValue(property,item->property("_text").value<QString>());
+        addProperty(property,QLatin1String("_text"));
+    }
+    flag = metaObject->indexOfProperty("_font")>-1;
+    if(flag){
+        property = fontManager->addProperty("Font");
+        fontManager->setValue(property,item->property("_font").value<QFont>());
+        addProperty(property,QLatin1String("_font"));
+    }
+    flag = metaObject->indexOfProperty("_size")>-1;
+    if(flag){
+        property = sizeManager->addProperty("Size");
+        sizeManager->setValue(property,item->property("_size").value<QSize>());
+        addProperty(property,QLatin1String("_size"));
+    }
+    flag = metaObject->indexOfProperty("_dash")>-1;
+    if(flag){
+        property = boolManager->addProperty("Dash");
+        boolManager->setValue(property,item->property("_dash").value<bool>());
+        addProperty(property,QLatin1String("_dash"));
+    }
+    flag = metaObject->indexOfProperty("_rotate")>-1;
+    if(flag){
+        property = doubleManager->addProperty("Rotate");
+        boolManager->setValue(property,item->property("_rotate").value<double>());
+        addProperty(property,QLatin1String("_rotate"));
+    }
+    /*if(items.count()<1){
+        m_centralDockWidget->setWidget(NULL);
+        m_centralDockWidget->setWindowTitle("属性");
+        return;
+    }
+    foreach(QGraphicsItem* item,items){
+        if(item->type()==AGVS){
+            m_trafficManager->show_path((AGV*)item);
+        }
+    }*/
+
+    //itemPropertyWidget->connectItem(items.at(0));
+    //m_centralDockWidget->setWidget(itemPropertyWidget);
+    //m_centralDockWidget->setWindowTitle(itemPropertyWidget->windowTitle());
+}
+
+void MainWindow::setlectMethond()
+{
+    QAction *action = qobject_cast<QAction*>(sender());
+    if(!action) return;
+    updateToolbarUI();
+    m_centralView->prepareToMethod(action->data().toInt());
+}
+
+
+
+void MainWindow::editCopy()
+{
+    if(m_centralScene->selectedItems().length()!=1) return;
+    copyItem(m_centralScene->selectedItems().at(0));
+}
+
+
+void MainWindow::copyItem(QGraphicsItem *item)
+{
+    QByteArray copiedItem;
+    QDataStream out(&copiedItem, QIODevice::WriteOnly);
+    writeItem(out,item);
+    QMimeData *mimeData = new QMimeData;
+    mimeData->setData(MimeType, copiedItem);
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setMimeData(mimeData);
+}
+
+void MainWindow::editPaste()
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    const QMimeData *mimeData = clipboard->mimeData();
+    if (!mimeData)
+        return;
+    if (mimeData->hasFormat(MimeType)) {
+        QByteArray copiedItems = mimeData->data(MimeType);
+        QDataStream in(&copiedItems, QIODevice::ReadOnly);
+        readItem(in,10,true);
+    }
+    else
+        return;
+}
+
+void MainWindow::editCut()
+{
+    QList<QGraphicsItem*> items = m_centralScene->selectedItems();
+    if(items.isEmpty())
+        return;
+    copyItem(items.first());
+    m_centralScene->removeItem(items.first());
+}
+
+void MainWindow::export_to_png()
+{
+    m_bExportZoomNotRemind = setting->value(SETTING_PREFIX_REMIND+"export").toBool();
+    if(m_bExportZoomNotRemind==false){ // 需要提醒用户
+        RemindDialog dlgRemind(this,"    该操作只会导出当前用户区可见大小视图，\n可以适当放大或缩小当前视图以获得最佳效果");
+        if(dlgRemind.exec()){
+           m_bExportZoomNotRemind = dlgRemind.notToRemindAgain();
+           setting->setValue(SETTING_PREFIX_REMIND+"export",m_bExportZoomNotRemind);
+        }
+    }
+    QString path = QFileDialog::getSaveFileName(this,"导出图片","","*.png");
+    if(path!=""){
+        if(path.right(4)!=".png"||path.right(4)!=".PNG")
+            path+=".png";
+        m_centralView->grab().save(path,"PNG");
+    }
+}
+
+bool MainWindow::save()
+{
+    QString path = setting->value(SETTING_PREFIX_PATH+SETTING_SUFFIX_CURRENTPATH).toString();
+    if(path=="" || path.right(3)!=".db"){
+        path = QFileDialog::getSaveFileName(this,"保存","","*.db");
+        if(path=="") return false; // 取消则返回
+        if(path.right(3)!=".db") path+=".db";
+    }
+    if(m_bDocumentChangeFlag || m_bTopoViewChangeFlag){
+        int total_items = m_centralScene->items().length();
+        int total_item_count = m_bTopoViewChangeFlag?total_items:
+                      total_items-m_topoView->get_edgeCount()-m_topoView->get_verCount();
+        set_progressBarMax(total_item_count,"正在保存，请稍后...");
+        if(m_bTopoViewChangeFlag)
+            m_topoView->save_topoMap(path);
+        saveGraphicsItem(path);
+        set_recentOpenFileName(path); // 更新setting中最近使用的文档
+        setting->setValue(SETTING_PREFIX_PATH+SETTING_SUFFIX_CURRENTPATH,path);
+        reset_documentDirty();
+    }
+    return true;
+}
+
+void MainWindow::save_as()
+{
+    QString path = QFileDialog::getSaveFileName(this,"保存","","*.db");
+    if(path=="") return; // 取消则返回
+    if(path.right(3)!=".db") path+=".db";
+    set_progressBarMax(m_centralScene->items().length(),"正在保存...请稍后");
+    m_topoView->save_topoMap(path);
+    saveGraphicsItem(path);
+}
+
+void MainWindow::load()
+{ 
+    if(m_bDocumentChangeFlag || m_bTopoViewChangeFlag){
+        QMessageBox message(QMessageBox::Warning,"警告","当前文档已被修改，是否先保存当前工作？",
+                             QMessageBox::Yes|QMessageBox::No);
+        if(message.exec()==QMessageBox::Yes){
+            if(save()==false) return; //如果取消了保存操作，则不能打开新的文档
+        }
+    }
+    QString open_file_path = setting->value(SETTING_PREFIX_PATH+SETTING_SUFFIX_OPENFILEPATH).toString();
+    QString path = QFileDialog::getOpenFileName(this,"打开",open_file_path,"*.db");
+    if(path=="") return;
+    m_topoView->clear();
+    foreach(QGraphicsItem *item,m_centralScene->items())
+        ((QGraphicsObject*)item)->deleteLater();
+    loadGraphicsItem(path);
+    m_topoView->load_topoMap(path);
+    setting->setValue(SETTING_PREFIX_PATH+SETTING_SUFFIX_CURRENTPATH,path);
+    setting->setValue(SETTING_PREFIX_PATH+SETTING_SUFFIX_OPENFILEPATH,path);
+    set_recentOpenFileName(path);
+    reset_documentDirty();
+}
+
+void MainWindow::newFile()
+{
+    if(m_bDocumentChangeFlag || m_bTopoViewChangeFlag){
+        QMessageBox message(QMessageBox::Warning,"警告","当前文档已被修改，是否先保存当前工作？",
+                             QMessageBox::Yes|QMessageBox::No);
+        if(message.exec()==QMessageBox::Yes){
+            if(save()==false) return; //如果取消了保存操作，则不能打开新的文档
+        }
+    }
+    m_topoView->clear();
+    foreach(QGraphicsItem *item,m_centralScene->items())
+        m_centralScene->removeItem(item);
+    setting->setValue(SETTING_PREFIX_PATH+SETTING_SUFFIX_CURRENTPATH,"");
+    reset_documentDirty();
+}
+
+void MainWindow::open_recentFile()
+{
+    QAction *action = qobject_cast<QAction*>(sender());
+    if(!action) return;
+    QString path = action->data().toString();
+    if(path=="") return;
+    m_topoView->clear();
+    foreach(QGraphicsItem *item,m_centralScene->items())
+        m_centralScene->removeItem(item);
+    loadGraphicsItem(path);
+    m_topoView->load_topoMap(path);
+    setting->setValue(SETTING_PREFIX_PATH+SETTING_SUFFIX_CURRENTPATH,path);
+    setWindowTitle(WINDOWTITLE_PREFIX+path);
+    reset_documentDirty();
+}
+
+void MainWindow::open_missionManager()
+{
+    if(m_missionManager->isHidden())
+        m_missionManager->show();
+    else
+        m_missionManager->raise();
+
+}
+
+void MainWindow::prepare()  // 准备运行
+{
+    /*if(!m_tcpServer->listen(QHostAddress::Any,6666)){ //服务器监听各AGV连接请求
+        qDebug()<<m_tcpServer->errorString();
+    }*/
+    QString path = setting->value(SETTING_PREFIX_PATH+SETTING_SUFFIX_CURRENTPATH).toString();
+    if(!m_missionManager)
+        m_missionManager = new MissionManager;
+    m_missionManager->loadTopoView(m_topoView);
+    if(!m_trafficManager)
+        m_trafficManager = new TrafficManager(m_missionManager);
+    m_trafficManager->loadTopoView(m_topoView);
+    if(!m_requestManager)
+        m_requestManager = new RequestManager;
+    m_requestManager->load_topoView(m_topoView);
+    m_requestManager->open_serialPort("COM6");
+    connect(m_requestManager,SIGNAL(request(QPair<int,int>)),m_missionManager,SLOT(new_request(QPair<int,int>)));
+    connect(action_requestManager,SIGNAL(triggered(bool)),m_requestManager,SLOT(setHidden(bool)));
+    connect(this,SIGNAL(app_stateChange(int)),m_requestManager,SLOT(app_stateChanged(int)));
+    connect(m_missionManager,SIGNAL(mission_accomplished(int,int)),m_requestManager,SLOT(request_accomplished(int,int)));
+    m_requestManager->set_path(path);
+    set_appState(APP_PREPARE);
+}
+
+void MainWindow::run()
+{
+    set_appState(APP_RUN);
+    foreach(AGV* agv,m_missionManager->m_agvList){
+        connect(agv,SIGNAL(state_change()),m_trafficManager,SLOT(updateGlobalPlanning()));
+    }
+}
+
+void MainWindow::stop()
+{
+    set_appState(APP_STOP);
+    m_requestManager->close_serialPort();
+}
+
+void MainWindow::acceptConnection()
+{
+    /*static int cnt = 0;
+    QTcpSocket *tcpSocket = m_tcpServer->nextPendingConnection();
+    AGV* agv = new AGV(m_centralScene,m_topoView,PT20);
+    agv->loadTCPSocket(tcpSocket);
+    agv->set_name(QString("AGV_%1").arg(cnt++));
+    m_missionManager->addAGV(agv);
+    m_trafficManager->addAGV(agv);*/
+}
+
+void MainWindow::set_documentDirty()
+{
+    if(m_bDocumentChangeFlag==false){
+        QString path = setting->value(SETTING_PREFIX_PATH+SETTING_SUFFIX_CURRENTPATH).toString();
+        setWindowTitle(WINDOWTITLE_PREFIX+path+"*");
+    }
+    m_bDocumentChangeFlag = true;
+}
+
+void MainWindow::reset_documentDirty()
+{
+    QString path = setting->value(SETTING_PREFIX_PATH+SETTING_SUFFIX_CURRENTPATH).toString();
+    if(path=="") path = "untitled.db";
+    m_bDocumentChangeFlag = false;
+    m_bTopoViewChangeFlag = false;
+    setWindowTitle(WINDOWTITLE_PREFIX+path);
+}
+
+void MainWindow::set_progressStep(int value)
+{
+    m_progressBar->setValue(value);
+    if(value>=m_progressBar->maximum())
+        statusBar()->hide();
+}
+
+
+void MainWindow::set_progressBarMax(int max,QString text)
+{
+    m_progressBar->setRange(0,max);
+    m_progressBar->setValue(0);
+    m_progressBarLabel->setText(text);
+    statusBar()->show();
+}
+
+
+//----------------------- 以下为属性栏函数定义 -------------------------
+void MainWindow::valueChanged(QtProperty *property, double value)
+{
+    if(!propertyToId.contains(property))
+        return;
+    if(!m_currentItem)
+        return;
+    QString id = propertyToId[property];
+    if(id==QLatin1String("_xpos")){
+        m_currentItem->setX(value);
+    }else if(id==QLatin1String("_ypos")){
+        m_currentItem->setY(value);
+    }else if(id==QLatin1String("_zpos")){
+        m_currentItem->setZValue(value);
+    }
+}
+
+void MainWindow::valueChanged(QtProperty *property, const QString &value)
+{
+    if(!propertyToId.contains(property))
+        return;
+    if(!m_currentItem)
+        return;
+    if(m_currentItem->type()==TEXT){
+        TextItem* item = (TextItem*)m_currentItem;
+        item->set_text(value);
+    }
+}
+
+void MainWindow::valueChanged(QtProperty *property, const QColor &value)
+{
+    if(!propertyToId.contains(property))
+        return;
+    if(!m_currentItem)
+        return;
+
+}
+
+void MainWindow::valueChanged(QtProperty *property, const QFont &value)
+{
+    QObject *item = dynamic_cast<QObject*>(m_currentItem);
+    if(!item) return;
+
+}
+
+void MainWindow::valueChanged(QtProperty *property, const QPoint &value)
+{
+
+}
+
+void MainWindow::valueChanged(QtProperty *property, const QSize &value)
+{
+
+}
+
+void MainWindow::valueChanged(QtProperty *property, const bool &value)
+{
+
+}
+
+void MainWindow::itemMoved(QGraphicsItem *item)
+{
+    if(item!=m_currentItem) return;
+    doubleManager->setValue(idToProperty[QLatin1String("_xpos")],item->x());
+    doubleManager->setValue(idToProperty[QLatin1String("_ypos")],item->y());
+    doubleManager->setValue(idToProperty[QLatin1String("_zpos")],item->zValue());
+
+}
+
+void MainWindow::addProperty(QtProperty *property, const QString &id)
+{
+    propertyToId[property] = id;
+    idToProperty[id] = property;
+    QtBrowserItem *item = propertyEditor->addProperty(property);
+    if (idToExpanded.contains(id))
+        propertyEditor->setExpanded(item, idToExpanded[id]);
+}
+//----------------------- 以上为属性栏函数定义 -------------------------------

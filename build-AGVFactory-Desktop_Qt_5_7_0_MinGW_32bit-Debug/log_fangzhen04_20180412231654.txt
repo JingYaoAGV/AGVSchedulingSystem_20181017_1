@@ -1,0 +1,133 @@
+23:16::54 [init] AGV: 4 Online
+23:16::54 [init] Mac: 04
+23:16::54 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+23:16::55 agv=:4 [recv] state= 0 0 0 0
+23:16::55 [proc]agv=:4, match:-1
+23:16::55 agv=:4 [recv] state= 0 0 0 0
+23:16::55 [proc]agv=:4, match:-1
+23:16::55 agv=:4 [recv] state= 0 0 0 0
+23:16::55 [proc]agv=:4, match:-1
+23:16::55 agv=:4 [recv] state= 0 0 0 0
+23:16::55 [proc]agv=:4, match:-1
+23:16::56 [send] get power cmd
+23:16::56 agv=:4 [recv] pos:(13499,17300,90)
+23:16::56 agv=:4 [recv] pos:(13499,17300,90)
+23:16::56 agv=:4 [recv] pos:(13499,17300,90)
+23:16::56 agv=:4 [recv] pos:(13499,17300,90)
+23:16::58 [send]agv=4 set path command: mode=100 start=53 end=54 
+23:16::58 [recv] set Path:1
+23:16::58 [recv] set Path:1
+23:16::58 [recv] set Path:1
+23:16::58 [recv] set Path:1
+23:16::58 agv=:4 [recv] state= 0 0 53 54
+23:16::58 [proc]agv=:4, match:53
+23:16::58 [proc] plan: currentID:53
+23:16::58 agv=:4 [recv] state= 0 0 53 54
+23:16::58 [proc]agv=:4, match:53
+23:16::58 agv=:4 [recv] state= 0 0 53 54
+23:16::58 [proc]agv=:4, match:53
+23:16::58 agv=:4 [recv] state= 0 0 53 54
+23:16::58 [proc]agv=:4, match:53
+23:16::58 [send] get power cmd
+23:16::58 agv=:4 [recv] pos:(13499,17300,90)
+23:16::58 agv=:4 [recv] pos:(13499,17300,90)
+23:16::58 agv=:4 [recv] pos:(13499,17300,90)
+23:16::58 agv=:4 [recv] pos:(13499,17300,90)
+23:17::00 [send]agv=4 set path command: mode=100 start=53 end=54 
+23:17::00 [recv] set Path:1
+23:17::00 [recv] set Path:1
+23:17::00 [recv] set Path:1
+23:17::00 [recv] set Path:1
+23:17::01 agv=:4 [recv] state= 0 0 53 54
+23:17::01 [proc]agv=:4, match:53
+23:17::01 agv=:4 [recv] state= 0 0 53 54
+23:17::01 [proc]agv=:4, match:53
+23:17::01 agv=:4 [recv] state= 0 0 53 54
+23:17::01 [proc]agv=:4, match:53
+23:17::01 agv=:4 [recv] state= 0 0 53 54
+23:17::01 [proc]agv=:4, match:53
+23:17::01 agv=:4 [recv] state= 0 0 53 54
+23:17::01 [proc]agv=:4, match:53
+23:17::01 [send] get power cmd
+23:17::01 agv=:4 [recv] pos:(13499,17300,90)
+23:17::01 agv=:4 [recv] pos:(13499,17300,90)
+23:17::01 agv=:4 [recv] pos:(13499,17300,90)
+23:17::01 agv=:4 [recv] pos:(13499,17300,90)
+23:17::01 agv=:4 [recv] pos:(13499,17300,90)
+23:17::01 [send] set path enable
+23:17::02 [recv] enable Path:1
+23:17::02 [recv] enable Path:1
+23:17::02 [recv] enable Path:1
+23:17::02 [recv] enable Path:1
+23:17::02 [recv] enable Path:1
+23:17::04 agv=:4 [recv] state= 65535 65535 53 54
+23:17::04 agv=:4 [recv] state= 65535 65535 53 54
+23:17::04 agv=:4 [recv] state= 65535 65535 53 54
+23:17::04 agv=:4 [recv] state= 65535 65535 53 54
+23:17::04 agv=:4 [recv] state= 65535 65535 53 54
+23:17::05 agv=:4 [recv] state= 65535 65535 53 54
+23:17::05 agv=:4 [recv] state= 65535 65535 53 54
+23:17::05 agv=:4 [recv] state= 65535 65535 53 54
+23:17::05 agv=:4 [recv] state= 65535 65535 53 54
+23:17::05 agv=:4 [recv] state= 65535 65535 53 54
+23:17::07 agv=:4 [recv] state= 53 54 53 54
+23:17::07 [proc] plan: currentID:54
+23:17::07 agv=:4 [recv] state= 53 54 53 54
+23:17::07 agv=:4 [recv] state= 53 54 53 54
+23:17::07 agv=:4 [recv] state= 53 54 53 54
+23:17::07 agv=:4 [recv] state= 53 54 53 54
+23:17::07 agv=:4 [recv] state= 53 54 53 54
+23:17::09 agv=:4 [recv] state= 53 54 53 54
+23:17::09 agv=:4 [recv] state= 53 54 53 54
+23:17::09 agv=:4 [recv] state= 53 54 53 54
+23:17::09 agv=:4 [recv] state= 53 54 53 54
+23:17::09 agv=:4 [recv] state= 53 54 53 54
+23:17::09 agv=:4 [recv] state= 53 54 53 54
+23:17::09 [send] get power cmd
+23:17::09 agv=:4 [recv] pos:(14099,17300,180)
+23:17::09 agv=:4 [recv] pos:(14099,17300,180)
+23:17::09 agv=:4 [recv] pos:(14099,17300,180)
+23:17::09 agv=:4 [recv] pos:(14099,17300,180)
+23:17::09 agv=:4 [recv] pos:(14099,17300,180)
+23:17::09 agv=:4 [recv] pos:(14099,17300,180)
+23:17::11 [send] get power cmd
+23:17::11 agv=:4 [recv] pos:(14099,17300,180)
+23:17::11 agv=:4 [recv] pos:(14099,17300,180)
+23:17::11 agv=:4 [recv] pos:(14099,17300,180)
+23:17::11 agv=:4 [recv] pos:(14099,17300,180)
+23:17::11 agv=:4 [recv] pos:(14099,17300,180)
+23:17::11 agv=:4 [recv] pos:(14099,17300,180)
+23:17::12 [send] get power cmd
+23:17::12 agv=:4 [recv] pos:(14099,17300,180)
+23:17::12 agv=:4 [recv] pos:(14099,17300,180)
+23:17::12 agv=:4 [recv] pos:(14099,17300,180)
+23:17::12 agv=:4 [recv] pos:(14099,17300,180)
+23:17::12 agv=:4 [recv] pos:(14099,17300,180)
+23:17::12 agv=:4 [recv] pos:(14099,17300,180)
+23:17::13 agv=:4 [recv] state= 53 54 53 54
+23:17::13 agv=:4 [recv] state= 53 54 53 54
+23:17::13 agv=:4 [recv] state= 53 54 53 54
+23:17::13 agv=:4 [recv] state= 53 54 53 54
+23:17::13 agv=:4 [recv] state= 53 54 53 54
+23:17::13 agv=:4 [recv] state= 53 54 53 54
+23:17::13 [send]agv=4 set path command: mode=100 start=54 end=53 
+23:17::13 [recv] set Path:1
+23:17::13 [recv] set Path:1
+23:17::13 [recv] set Path:1
+23:17::13 [recv] set Path:1
+23:17::13 [recv] set Path:1
+23:17::13 [recv] set Path:1
+23:17::13 [send] get power cmd
+23:17::13 agv=:4 [recv] pos:(14099,17300,180)
+23:17::13 agv=:4 [recv] pos:(14099,17300,180)
+23:17::13 agv=:4 [recv] pos:(14099,17300,180)
+23:17::13 agv=:4 [recv] pos:(14099,17300,180)
+23:17::13 agv=:4 [recv] pos:(14099,17300,180)
+23:17::13 agv=:4 [recv] pos:(14099,17300,180)
+23:17::14 [send] get power cmd
+23:17::14 agv=:4 [recv] pos:(14099,17300,180)
+23:17::14 agv=:4 [recv] pos:(14099,17300,180)
+23:17::14 agv=:4 [recv] pos:(14099,17300,180)
+23:17::14 agv=:4 [recv] pos:(14099,17300,180)
+23:17::14 agv=:4 [recv] pos:(14099,17300,180)
+23:17::14 agv=:4 [recv] pos:(14099,17300,180)

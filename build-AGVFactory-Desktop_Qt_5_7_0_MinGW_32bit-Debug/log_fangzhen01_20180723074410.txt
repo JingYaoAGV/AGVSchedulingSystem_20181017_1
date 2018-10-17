@@ -1,0 +1,7 @@
+07:44::10 [init] AGV: 1 在线
+07:44::10 [init] Mac: 01
+07:44::10 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+07:44::33 [send]agv=1 send path command: C1 start=2 end=3 前进 正常行驶 length 2 Degree 0
+07:44::33 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+07:44::33 [recv] set Path:1
+07:44::43 [recv]agv=1 Path Command Finish: C1 start=2 end=3 number=前进 正常行驶 正常行驶 length 2 Degree 0

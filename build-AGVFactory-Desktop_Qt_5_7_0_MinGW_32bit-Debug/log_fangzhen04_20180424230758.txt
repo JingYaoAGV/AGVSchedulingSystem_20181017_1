@@ -1,0 +1,419 @@
+23:07::58 [init] AGV: 4 Online
+23:07::58 [init] Mac: 04
+23:07::58 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+23:07::59 [proc]agv=:4, match:-1
+23:07::59 [proc]agv=:4, match:-1
+23:07::59 [proc]agv=:4, match:-1
+23:07::59 [proc]agv=:4, match:-1
+23:07::59 [send] get power cmd
+23:08::00 [proc]agv=:4, match:53
+23:08::00 [proc]agv=:4, match:53
+23:08::00 [proc]agv=:4, match:53
+23:08::00 [proc]agv=:4, match:53
+23:08::01 [send] get power cmd
+23:08::01 [send] get power cmd
+23:08::02 [proc]agv=:4, match:53
+23:08::02 [proc] plan: currentID:53
+23:08::02 [proc]agv=:4, match:53
+23:08::02 [proc]agv=:4, match:53
+23:08::02 [proc]agv=:4, match:53
+23:08::02 [proc]agv=:4, match:53
+23:08::02 [send] get power cmd
+23:08::04 [send] get power cmd
+23:08::04 [proc]agv=:4, match:53
+23:08::04 [proc]agv=:4, match:53
+23:08::04 [proc]agv=:4, match:53
+23:08::04 [proc]agv=:4, match:53
+23:08::04 [proc]agv=:4, match:53
+23:08::04 [proc]agv=:4, match:53
+23:08::04 [send] get power cmd
+23:08::05 [proc]agv=:4, match:53
+23:08::05 [proc] plan: currentID:53
+23:08::05 [proc]agv=:4, match:53
+23:08::05 [proc]agv=:4, match:53
+23:08::05 [proc]agv=:4, match:53
+23:08::05 [proc]agv=:4, match:53
+23:08::05 [proc]agv=:4, match:53
+23:08::05 [send] get power cmd
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::07 [proc]agv=:4, match:53
+23:08::11 [send] get power cmd
+23:08::12 [proc]agv=:4, match:53
+23:08::12 [proc]agv=:4, match:53
+23:08::12 [proc]agv=:4, match:53
+23:08::12 [proc]agv=:4, match:53
+23:08::12 [proc]agv=:4, match:53
+23:08::12 [proc]agv=:4, match:53
+23:08::12 [proc]agv=:4, match:53
+23:08::17 [proc]agv=:4, match:53
+23:08::17 [proc] plan: currentID:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [send]agv=4 set path command: mode=100 start=53 end=54 
+23:08::18 [recv] set Path:1
+23:08::18 [recv] set Path:1
+23:08::18 [recv] set Path:1
+23:08::18 [recv] set Path:1
+23:08::18 [recv] set Path:1
+23:08::18 [recv] set Path:1
+23:08::18 [recv] set Path:1
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::18 [proc]agv=:4, match:53
+23:08::22 [send] set path enable
+23:08::22 [recv] enable Path:1
+23:08::22 [recv] enable Path:1
+23:08::22 [recv] enable Path:1
+23:08::22 [recv] enable Path:1
+23:08::22 [recv] enable Path:1
+23:08::22 [recv] enable Path:1
+23:08::22 [recv] enable Path:1
+23:08::23 [send] get power cmd
+23:08::26 [send] get power cmd
+23:08::28 [proc] plan: currentID:54
+23:08::29 [send]agv=4 set path command: mode=100 start=54 end=53 
+23:08::29 [recv] set Path:1
+23:08::29 [recv] set Path:1
+23:08::29 [recv] set Path:1
+23:08::29 [recv] set Path:1
+23:08::29 [recv] set Path:1
+23:08::29 [recv] set Path:1
+23:08::29 [recv] set Path:1
+23:08::32 [send] set path enable
+23:08::32 [recv] enable Path:1
+23:08::32 [recv] enable Path:1
+23:08::32 [recv] enable Path:1
+23:08::32 [recv] enable Path:1
+23:08::32 [recv] enable Path:1
+23:08::32 [recv] enable Path:1
+23:08::32 [recv] enable Path:1
+23:08::38 [proc] plan: currentID:53
+23:08::39 [send] get power cmd
+23:08::39 [send]agv=4 set path command: mode=100 start=53 end=51 
+23:08::39 [recv] set Path:1
+23:08::39 [recv] set Path:1
+23:08::39 [recv] set Path:1
+23:08::39 [recv] set Path:1
+23:08::39 [recv] set Path:1
+23:08::39 [recv] set Path:1
+23:08::39 [recv] set Path:1
+23:08::41 [send] set path enable
+23:08::41 [recv] enable Path:1
+23:08::41 [recv] enable Path:1
+23:08::41 [recv] enable Path:1
+23:08::41 [recv] enable Path:1
+23:08::41 [recv] enable Path:1
+23:08::41 [recv] enable Path:1
+23:08::41 [recv] enable Path:1
+23:08::42 [send] get power cmd
+23:08::43 [send] get power cmd
+23:08::45 [send] get power cmd
+23:08::46 [send] get power cmd
+23:08::47 [send] get power cmd
+23:08::48 [proc] plan: currentID:51
+23:08::49 [send] get power cmd
+23:08::49 [send] get power cmd
+23:08::50 [send] get power cmd
+23:08::50 [send]agv=4 set path command: mode=100 start=51 end=50 
+23:08::50 [recv] set Path:1
+23:08::50 [recv] set Path:1
+23:08::50 [recv] set Path:1
+23:08::50 [recv] set Path:1
+23:08::50 [recv] set Path:1
+23:08::50 [recv] set Path:1
+23:08::50 [recv] set Path:1
+23:08::52 [send] set path enable
+23:08::52 [recv] enable Path:1
+23:08::52 [recv] enable Path:1
+23:08::52 [recv] enable Path:1
+23:08::52 [recv] enable Path:1
+23:08::52 [recv] enable Path:1
+23:08::52 [recv] enable Path:1
+23:08::52 [recv] enable Path:1
+23:08::58 [proc] plan: currentID:50
+23:09::03 [send]agv=4 set path command: mode=100 start=50 end=49 
+23:09::03 [recv] set Path:1
+23:09::03 [recv] set Path:1
+23:09::03 [recv] set Path:1
+23:09::03 [recv] set Path:1
+23:09::03 [recv] set Path:1
+23:09::03 [recv] set Path:1
+23:09::03 [recv] set Path:1
+23:09::04 [send] get power cmd
+23:09::04 [send] set path enable
+23:09::04 [recv] enable Path:1
+23:09::04 [recv] enable Path:1
+23:09::04 [recv] enable Path:1
+23:09::04 [recv] enable Path:1
+23:09::04 [recv] enable Path:1
+23:09::04 [recv] enable Path:1
+23:09::04 [recv] enable Path:1
+23:09::06 [send] get power cmd
+23:09::06 [proc] plan: currentID:49
+23:09::06 [send]agv=4 set path command: mode=100 start=49 end=58 
+23:09::06 [recv] set Path:1
+23:09::06 [recv] set Path:1
+23:09::06 [recv] set Path:1
+23:09::06 [recv] set Path:1
+23:09::06 [recv] set Path:1
+23:09::06 [recv] set Path:1
+23:09::06 [recv] set Path:1
+23:09::07 [send] set path enable
+23:09::07 [recv] enable Path:1
+23:09::07 [recv] enable Path:1
+23:09::07 [recv] enable Path:1
+23:09::07 [recv] enable Path:1
+23:09::07 [recv] enable Path:1
+23:09::07 [recv] enable Path:1
+23:09::07 [recv] enable Path:1
+23:09::18 [proc] plan: currentID:58
+23:09::22 [send]agv=4 set path command: mode=100 start=58 end=57 
+23:09::22 [recv] set Path:1
+23:09::22 [recv] set Path:1
+23:09::22 [recv] set Path:1
+23:09::22 [recv] set Path:1
+23:09::22 [recv] set Path:1
+23:09::22 [recv] set Path:1
+23:09::22 [recv] set Path:1
+23:09::24 [send] set path enable
+23:09::24 [recv] enable Path:1
+23:09::24 [recv] enable Path:1
+23:09::24 [recv] enable Path:1
+23:09::24 [recv] enable Path:1
+23:09::24 [recv] enable Path:1
+23:09::24 [recv] enable Path:1
+23:09::24 [recv] enable Path:1
+23:09::26 [send] get power cmd
+23:09::27 [send] get power cmd
+23:09::28 [send] get power cmd
+23:09::30 [proc] plan: currentID:57
+23:09::35 [send]agv=4 set path command: mode=100 start=57 end=58 
+23:09::35 [recv] set Path:1
+23:09::35 [recv] set Path:1
+23:09::35 [recv] set Path:1
+23:09::35 [recv] set Path:1
+23:09::35 [recv] set Path:1
+23:09::35 [recv] set Path:1
+23:09::35 [recv] set Path:1
+23:09::36 [send] set path enable
+23:09::36 [recv] enable Path:1
+23:09::36 [recv] enable Path:1
+23:09::36 [recv] enable Path:1
+23:09::36 [recv] enable Path:1
+23:09::36 [recv] enable Path:1
+23:09::36 [recv] enable Path:1
+23:09::36 [recv] enable Path:1
+23:09::38 [send] get power cmd
+23:09::40 [send] get power cmd
+23:09::42 [send] get power cmd
+23:09::44 [send] get power cmd
+23:09::44 [proc] plan: currentID:58
+23:09::45 [send]agv=4 set path command: mode=100 start=58 end=57 
+23:09::45 [recv] set Path:1
+23:09::45 [recv] set Path:1
+23:09::45 [recv] set Path:1
+23:09::45 [recv] set Path:1
+23:09::45 [recv] set Path:1
+23:09::45 [recv] set Path:1
+23:09::45 [recv] set Path:1
+23:09::47 [send] set path enable
+23:09::47 [recv] enable Path:1
+23:09::47 [recv] enable Path:1
+23:09::47 [recv] enable Path:1
+23:09::47 [recv] enable Path:1
+23:09::47 [recv] enable Path:1
+23:09::47 [recv] enable Path:1
+23:09::47 [recv] enable Path:1
+23:09::59 [proc] plan: currentID:57
+23:09::59 [send]agv=4 set path command: mode=100 start=57 end=58 
+23:09::59 [recv] set Path:1
+23:09::59 [recv] set Path:1
+23:09::59 [recv] set Path:1
+23:09::59 [recv] set Path:1
+23:09::59 [recv] set Path:1
+23:09::59 [recv] set Path:1
+23:09::59 [recv] set Path:1
+23:10::00 [send] set path enable
+23:10::00 [recv] enable Path:1
+23:10::00 [recv] enable Path:1
+23:10::00 [recv] enable Path:1
+23:10::00 [recv] enable Path:1
+23:10::00 [recv] enable Path:1
+23:10::00 [recv] enable Path:1
+23:10::00 [recv] enable Path:1
+23:10::09 [proc] plan: currentID:58
+23:10::19 [proc] plan: currentID:58
+23:10::20 [send]agv=4 set path command: mode=100 start=58 end=59 
+23:10::20 [recv] set Path:1
+23:10::20 [recv] set Path:1
+23:10::20 [recv] set Path:1
+23:10::20 [recv] set Path:1
+23:10::20 [recv] set Path:1
+23:10::20 [recv] set Path:1
+23:10::20 [recv] set Path:1
+23:10::24 [send] get power cmd
+23:10::25 [send] set path enable
+23:10::25 [recv] enable Path:1
+23:10::25 [recv] enable Path:1
+23:10::25 [recv] enable Path:1
+23:10::25 [recv] enable Path:1
+23:10::25 [recv] enable Path:1
+23:10::25 [recv] enable Path:1
+23:10::25 [recv] enable Path:1
+23:10::26 [send] get power cmd
+23:10::26 [proc] plan: currentID:59
+23:10::28 [send] get power cmd
+23:10::29 [send]agv=4 set path command: mode=100 start=59 end=60 
+23:10::29 [recv] set Path:1
+23:10::29 [recv] set Path:1
+23:10::29 [recv] set Path:1
+23:10::29 [recv] set Path:1
+23:10::29 [recv] set Path:1
+23:10::29 [recv] set Path:1
+23:10::29 [recv] set Path:1
+23:10::30 [send] set path enable
+23:10::30 [recv] enable Path:1
+23:10::30 [recv] enable Path:1
+23:10::30 [recv] enable Path:1
+23:10::30 [recv] enable Path:1
+23:10::30 [recv] enable Path:1
+23:10::30 [recv] enable Path:1
+23:10::30 [recv] enable Path:1
+23:10::36 [proc] plan: currentID:60
+23:10::36 [send]agv=4 set path command: mode=100 start=60 end=51 
+23:10::36 [recv] set Path:1
+23:10::36 [recv] set Path:1
+23:10::36 [recv] set Path:1
+23:10::36 [recv] set Path:1
+23:10::36 [recv] set Path:1
+23:10::36 [recv] set Path:1
+23:10::36 [recv] set Path:1
+23:10::37 [send] get power cmd
+23:10::40 [send] get power cmd
+23:10::41 [send] get power cmd
+23:10::42 [send] get power cmd
+23:10::42 [send] get power cmd
+23:10::43 [send] set path enable
+23:10::43 [recv] enable Path:1
+23:10::43 [recv] enable Path:1
+23:10::43 [recv] enable Path:1
+23:10::43 [recv] enable Path:1
+23:10::43 [recv] enable Path:1
+23:10::43 [recv] enable Path:1
+23:10::43 [recv] enable Path:1
+23:10::46 [send] get power cmd
+23:10::48 [send] get power cmd
+23:10::49 [proc] plan: currentID:51
+23:10::50 [send] get power cmd
+23:10::51 [send] get power cmd
+23:10::51 [send] get power cmd
+23:10::52 [send]agv=4 set path command: mode=100 start=51 end=53 
+23:10::52 [recv] set Path:1
+23:10::52 [recv] set Path:1
+23:10::52 [recv] set Path:1
+23:10::52 [recv] set Path:1
+23:10::52 [recv] set Path:1
+23:10::52 [recv] set Path:1
+23:10::52 [recv] set Path:1
+23:10::53 [send] get power cmd
+23:10::53 [send] get power cmd
+23:10::56 [send] set path enable
+23:10::56 [send] set path enable
+23:10::57 [send] set path enable
+23:10::57 [send] set path enable
+23:10::57 [send] set path enable
+23:10::57 [send] set path enable
+23:10::58 [send] set path enable
+23:10::58 [send] set path enable
+23:10::59 [send] set path enable
+23:10::59 [send] set path enable
+23:11::00 [send] set path enable
+23:11::00 [recv] enable Path:1
+23:11::00 [recv] enable Path:1
+23:11::00 [recv] enable Path:1
+23:11::00 [recv] enable Path:1
+23:11::00 [recv] enable Path:1
+23:11::00 [recv] enable Path:1
+23:11::00 [recv] enable Path:1
+23:11::02 [proc] plan: currentID:53
+23:11::03 [send]agv=4 set path command: mode=100 start=53 end=54 
+23:11::03 [recv] set Path:1
+23:11::03 [recv] set Path:1
+23:11::03 [recv] set Path:1
+23:11::03 [recv] set Path:1
+23:11::03 [recv] set Path:1
+23:11::03 [recv] set Path:1
+23:11::03 [recv] set Path:1
+23:11::04 [send] set path enable
+23:11::04 [recv] enable Path:1
+23:11::04 [recv] enable Path:1
+23:11::04 [recv] enable Path:1
+23:11::04 [recv] enable Path:1
+23:11::04 [recv] enable Path:1
+23:11::04 [recv] enable Path:1
+23:11::04 [recv] enable Path:1
+23:11::08 [send] get power cmd
+23:11::10 [proc] plan: currentID:54
+23:11::15 [send]agv=4 set path command: mode=100 start=54 end=53 
+23:11::15 [recv] set Path:1
+23:11::15 [recv] set Path:1
+23:11::15 [recv] set Path:1
+23:11::15 [recv] set Path:1
+23:11::15 [recv] set Path:1
+23:11::15 [recv] set Path:1
+23:11::15 [recv] set Path:1
+23:11::17 [send] get power cmd
+23:11::18 [send] get power cmd
+23:11::18 [send] set path enable
+23:11::18 [recv] enable Path:1
+23:11::18 [recv] enable Path:1
+23:11::18 [recv] enable Path:1
+23:11::18 [recv] enable Path:1
+23:11::18 [recv] enable Path:1
+23:11::18 [recv] enable Path:1
+23:11::18 [recv] enable Path:1
+23:11::24 [proc] plan: currentID:53
+23:11::29 [send] get power cmd
+23:11::30 [proc] plan: currentID:53
+23:11::35 [proc] plan: currentID:53
+23:11::41 [send] get power cmd
+23:11::43 [send] get power cmd
+23:11::44 [proc] plan: currentID:53
+23:11::47 [proc] plan: currentID:53
+23:11::49 [send] get power cmd
+23:11::51 [proc] plan: currentID:53
+23:12::00 [proc] plan: currentID:53
+23:12::02 [send] get power cmd
+23:12::04 [send] get power cmd
+23:12::05 [proc] plan: currentID:53
+23:12::05 [send] get power cmd
+23:12::07 [send] get power cmd
+23:12::09 [send] get power cmd
+23:12::09 [proc] plan: currentID:53
+23:12::13 [send] get power cmd
+23:12::14 [send] get power cmd
+23:12::14 [proc] plan: currentID:53
+23:12::15 [send] get power cmd
+23:12::17 [send] get power cmd
+23:12::18 [proc] plan: currentID:53
+23:12::22 [proc] plan: currentID:53

@@ -1,0 +1,415 @@
+23:16::43 [init] AGV: 1 Online
+23:16::43 [init] Mac: 01
+23:16::43 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+23:16::43 agv=:1 [recv] state= 0 0 0 0
+23:16::43 [proc]agv=:1, match:-1
+23:16::43 agv=:1 [recv] state= 0 0 0 0
+23:16::43 [proc]agv=:1, match:-1
+23:16::43 agv=:1 [recv] state= 0 0 0 0
+23:16::43 [proc]agv=:1, match:-1
+23:16::44 agv=:1 [recv] pos:(5079,13961,0)
+23:16::44 agv=:1 [recv] pos:(5079,13961,0)
+23:16::44 agv=:1 [recv] pos:(5079,13961,0)
+23:16::44 agv=:1 [recv] pos:(5079,13961,0)
+23:16::44 [send]agv=1 set path command: mode=100 start=70 end=71 
+23:16::44 [recv] set Path:1
+23:16::44 [recv] set Path:1
+23:16::44 [recv] set Path:1
+23:16::44 [recv] set Path:1
+23:16::44 agv=:1 [recv] state= 0 0 70 71
+23:16::44 [proc]agv=:1, match:70
+23:16::44 agv=:1 [recv] state= 0 0 70 71
+23:16::44 [proc]agv=:1, match:70
+23:16::44 agv=:1 [recv] state= 0 0 70 71
+23:16::44 [proc]agv=:1, match:70
+23:16::44 agv=:1 [recv] state= 0 0 70 71
+23:16::44 [proc]agv=:1, match:70
+23:16::45 agv=:1 [recv] pos:(5079,13961,0)
+23:16::45 agv=:1 [recv] pos:(5079,13961,0)
+23:16::45 agv=:1 [recv] pos:(5079,13961,0)
+23:16::45 agv=:1 [recv] pos:(5079,13961,0)
+23:16::45 [recv] set Path:1
+23:16::45 [recv] set Path:1
+23:16::45 [recv] set Path:1
+23:16::45 [recv] set Path:1
+23:16::45 agv=:1 [recv] state= 0 0 70 71
+23:16::45 [proc]agv=:1, match:70
+23:16::45 agv=:1 [recv] state= 0 0 70 71
+23:16::45 [proc]agv=:1, match:70
+23:16::45 agv=:1 [recv] state= 0 0 70 71
+23:16::45 [proc]agv=:1, match:70
+23:16::45 agv=:1 [recv] state= 0 0 70 71
+23:16::45 [proc]agv=:1, match:70
+23:16::45 agv=:1 [recv] pos:(5079,13961,0)
+23:16::45 agv=:1 [recv] pos:(5079,13961,0)
+23:16::45 agv=:1 [recv] pos:(5079,13961,0)
+23:16::45 agv=:1 [recv] pos:(5079,13961,0)
+23:16::45 [send] set path enable
+23:16::45 [recv] enable Path:1
+23:16::45 [recv] enable Path:1
+23:16::45 [recv] enable Path:1
+23:16::45 [recv] enable Path:1
+23:16::45 agv=:1 [recv] state= 65535 65535 70 71
+23:16::45 agv=:1 [recv] state= 65535 65535 70 71
+23:16::45 agv=:1 [recv] state= 65535 65535 70 71
+23:16::45 agv=:1 [recv] state= 65535 65535 70 71
+23:16::46 agv=:1 [recv] pos:(4912,13664,0)
+23:16::46 agv=:1 [recv] pos:(4912,13664,0)
+23:16::46 agv=:1 [recv] pos:(4912,13664,0)
+23:16::46 agv=:1 [recv] pos:(4912,13664,0)
+23:16::46 [recv] set Path:1
+23:16::46 [recv] set Path:1
+23:16::46 [recv] set Path:1
+23:16::46 [recv] set Path:1
+23:16::46 agv=:1 [recv] state= 65535 65535 70 71
+23:16::46 agv=:1 [recv] state= 65535 65535 70 71
+23:16::46 agv=:1 [recv] state= 65535 65535 70 71
+23:16::46 agv=:1 [recv] state= 65535 65535 70 71
+23:16::46 agv=:1 [recv] pos:(4410,12776,0)
+23:16::46 agv=:1 [recv] pos:(4410,12776,0)
+23:16::46 agv=:1 [recv] pos:(4410,12776,0)
+23:16::46 agv=:1 [recv] pos:(4410,12776,0)
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] pos:(4000,12051,0)
+23:16::47 agv=:1 [recv] pos:(4000,12051,0)
+23:16::47 agv=:1 [recv] pos:(4000,12051,0)
+23:16::47 agv=:1 [recv] pos:(4000,12051,0)
+23:16::47 [recv] set Path:1
+23:16::47 [recv] set Path:1
+23:16::47 [recv] set Path:1
+23:16::47 [recv] set Path:1
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] state= 11 10 70 71
+23:16::47 agv=:1 [recv] pos:(4000,12051,0)
+23:16::47 agv=:1 [recv] pos:(4000,12051,0)
+23:16::47 agv=:1 [recv] pos:(4000,12051,0)
+23:16::47 agv=:1 [recv] pos:(4000,12051,0)
+23:16::48 agv=:1 [recv] state= 11 10 70 71
+23:16::48 agv=:1 [recv] state= 11 10 70 71
+23:16::48 agv=:1 [recv] state= 11 10 70 71
+23:16::48 agv=:1 [recv] state= 11 10 70 71
+23:16::48 agv=:1 [recv] pos:(4000,12051,0)
+23:16::48 agv=:1 [recv] pos:(4000,12051,0)
+23:16::48 agv=:1 [recv] pos:(4000,12051,0)
+23:16::48 agv=:1 [recv] pos:(4000,12051,0)
+23:16::48 [recv] set Path:1
+23:16::48 [recv] set Path:1
+23:16::48 [recv] set Path:1
+23:16::48 [recv] set Path:1
+23:16::48 agv=:1 [recv] state= 11 10 70 71
+23:16::48 agv=:1 [recv] state= 11 10 70 71
+23:16::48 agv=:1 [recv] state= 11 10 70 71
+23:16::48 agv=:1 [recv] state= 11 10 70 71
+23:16::48 agv=:1 [recv] pos:(4000,12051,0)
+23:16::48 agv=:1 [recv] pos:(4000,12051,0)
+23:16::48 agv=:1 [recv] pos:(4000,12051,0)
+23:16::48 agv=:1 [recv] pos:(4000,12051,0)
+23:16::49 agv=:1 [recv] state= 11 10 70 71
+23:16::49 agv=:1 [recv] state= 11 10 70 71
+23:16::49 agv=:1 [recv] state= 11 10 70 71
+23:16::49 agv=:1 [recv] state= 11 10 70 71
+23:16::49 agv=:1 [recv] pos:(4000,12051,0)
+23:16::49 agv=:1 [recv] pos:(4000,12051,0)
+23:16::49 agv=:1 [recv] pos:(4000,12051,0)
+23:16::49 agv=:1 [recv] pos:(4000,12051,0)
+23:16::49 [recv] set Path:1
+23:16::49 [recv] set Path:1
+23:16::49 [recv] set Path:1
+23:16::49 [recv] set Path:1
+23:16::49 agv=:1 [recv] state= 11 10 70 71
+23:16::49 agv=:1 [recv] state= 11 10 70 71
+23:16::49 agv=:1 [recv] state= 11 10 70 71
+23:16::49 agv=:1 [recv] state= 11 10 70 71
+23:16::49 agv=:1 [recv] pos:(4000,12051,0)
+23:16::49 agv=:1 [recv] pos:(4000,12051,0)
+23:16::49 agv=:1 [recv] pos:(4000,12051,0)
+23:16::49 agv=:1 [recv] pos:(4000,12051,0)
+23:16::50 agv=:1 [recv] state= 11 10 70 71
+23:16::50 agv=:1 [recv] state= 11 10 70 71
+23:16::50 agv=:1 [recv] state= 11 10 70 71
+23:16::50 agv=:1 [recv] state= 11 10 70 71
+23:16::50 agv=:1 [recv] pos:(4000,12051,0)
+23:16::50 agv=:1 [recv] pos:(4000,12051,0)
+23:16::50 agv=:1 [recv] pos:(4000,12051,0)
+23:16::50 agv=:1 [recv] pos:(4000,12051,0)
+23:16::50 [recv] set Path:1
+23:16::50 [recv] set Path:1
+23:16::50 [recv] set Path:1
+23:16::50 [recv] set Path:1
+23:16::50 agv=:1 [recv] state= 11 10 70 71
+23:16::50 agv=:1 [recv] state= 11 10 70 71
+23:16::50 agv=:1 [recv] state= 11 10 70 71
+23:16::50 agv=:1 [recv] state= 11 10 70 71
+23:16::50 agv=:1 [recv] pos:(4000,12051,0)
+23:16::50 agv=:1 [recv] pos:(4000,12051,0)
+23:16::50 agv=:1 [recv] pos:(4000,12051,0)
+23:16::50 agv=:1 [recv] pos:(4000,12051,0)
+23:16::51 agv=:1 [recv] state= 11 10 70 71
+23:16::51 agv=:1 [recv] state= 11 10 70 71
+23:16::51 agv=:1 [recv] state= 11 10 70 71
+23:16::51 agv=:1 [recv] state= 11 10 70 71
+23:16::51 agv=:1 [recv] pos:(4000,12051,0)
+23:16::51 agv=:1 [recv] pos:(4000,12051,0)
+23:16::51 agv=:1 [recv] pos:(4000,12051,0)
+23:16::51 agv=:1 [recv] pos:(4000,12051,0)
+23:16::51 [recv] set Path:1
+23:16::51 [recv] set Path:1
+23:16::51 [recv] set Path:1
+23:16::51 [recv] set Path:1
+23:16::51 agv=:1 [recv] state= 11 10 70 71
+23:16::51 agv=:1 [recv] state= 11 10 70 71
+23:16::51 agv=:1 [recv] state= 11 10 70 71
+23:16::51 agv=:1 [recv] state= 11 10 70 71
+23:16::51 agv=:1 [recv] pos:(4000,12051,0)
+23:16::51 agv=:1 [recv] pos:(4000,12051,0)
+23:16::51 agv=:1 [recv] pos:(4000,12051,0)
+23:16::51 agv=:1 [recv] pos:(4000,12051,0)
+23:16::52 agv=:1 [recv] state= 11 10 70 71
+23:16::52 agv=:1 [recv] state= 11 10 70 71
+23:16::52 agv=:1 [recv] state= 11 10 70 71
+23:16::52 agv=:1 [recv] state= 11 10 70 71
+23:16::52 agv=:1 [recv] pos:(4000,12051,0)
+23:16::52 agv=:1 [recv] pos:(4000,12051,0)
+23:16::52 agv=:1 [recv] pos:(4000,12051,0)
+23:16::52 agv=:1 [recv] pos:(4000,12051,0)
+23:16::52 [recv] set Path:1
+23:16::52 [recv] set Path:1
+23:16::52 [recv] set Path:1
+23:16::52 [recv] set Path:1
+23:16::52 agv=:1 [recv] state= 11 10 70 71
+23:16::52 agv=:1 [recv] state= 11 10 70 71
+23:16::52 agv=:1 [recv] state= 11 10 70 71
+23:16::52 agv=:1 [recv] state= 11 10 70 71
+23:16::52 agv=:1 [recv] pos:(4000,12051,0)
+23:16::52 agv=:1 [recv] pos:(4000,12051,0)
+23:16::52 agv=:1 [recv] pos:(4000,12051,0)
+23:16::52 agv=:1 [recv] pos:(4000,12051,0)
+23:16::53 agv=:1 [recv] state= 11 10 70 71
+23:16::53 agv=:1 [recv] state= 11 10 70 71
+23:16::53 agv=:1 [recv] state= 11 10 70 71
+23:16::53 agv=:1 [recv] state= 11 10 70 71
+23:16::53 agv=:1 [recv] pos:(4000,12051,0)
+23:16::53 agv=:1 [recv] pos:(4000,12051,0)
+23:16::53 agv=:1 [recv] pos:(4000,12051,0)
+23:16::53 agv=:1 [recv] pos:(4000,12051,0)
+23:16::53 [recv] set Path:1
+23:16::53 [recv] set Path:1
+23:16::53 [recv] set Path:1
+23:16::53 [recv] set Path:1
+23:16::53 agv=:1 [recv] state= 11 10 70 71
+23:16::53 agv=:1 [recv] state= 11 10 70 71
+23:16::53 agv=:1 [recv] state= 11 10 70 71
+23:16::53 agv=:1 [recv] state= 11 10 70 71
+23:16::54 agv=:1 [recv] pos:(4000,12051,0)
+23:16::54 agv=:1 [recv] pos:(4000,12051,0)
+23:16::54 agv=:1 [recv] pos:(4000,12051,0)
+23:16::54 agv=:1 [recv] pos:(4000,12051,0)
+23:16::54 agv=:1 [recv] state= 11 10 70 71
+23:16::54 agv=:1 [recv] state= 11 10 70 71
+23:16::54 agv=:1 [recv] state= 11 10 70 71
+23:16::54 agv=:1 [recv] state= 11 10 70 71
+23:16::54 agv=:1 [recv] pos:(4000,12051,0)
+23:16::54 agv=:1 [recv] pos:(4000,12051,0)
+23:16::54 agv=:1 [recv] pos:(4000,12051,0)
+23:16::54 agv=:1 [recv] pos:(4000,12051,0)
+23:16::54 [recv] set Path:1
+23:16::54 [recv] set Path:1
+23:16::54 [recv] set Path:1
+23:16::54 [recv] set Path:1
+23:16::54 agv=:1 [recv] state= 11 10 70 71
+23:16::54 agv=:1 [recv] state= 11 10 70 71
+23:16::54 agv=:1 [recv] state= 11 10 70 71
+23:16::54 agv=:1 [recv] state= 11 10 70 71
+23:16::55 agv=:1 [recv] pos:(4000,12051,0)
+23:16::55 agv=:1 [recv] pos:(4000,12051,0)
+23:16::55 agv=:1 [recv] pos:(4000,12051,0)
+23:16::55 agv=:1 [recv] pos:(4000,12051,0)
+23:16::55 agv=:1 [recv] state= 11 10 70 71
+23:16::55 agv=:1 [recv] state= 11 10 70 71
+23:16::55 agv=:1 [recv] state= 11 10 70 71
+23:16::55 agv=:1 [recv] state= 11 10 70 71
+23:16::55 agv=:1 [recv] pos:(4000,12051,0)
+23:16::55 agv=:1 [recv] pos:(4000,12051,0)
+23:16::55 agv=:1 [recv] pos:(4000,12051,0)
+23:16::55 agv=:1 [recv] pos:(4000,12051,0)
+23:16::55 [recv] set Path:1
+23:16::55 [recv] set Path:1
+23:16::55 [recv] set Path:1
+23:16::55 [recv] set Path:1
+23:16::56 agv=:1 [recv] state= 11 10 70 71
+23:16::56 agv=:1 [recv] state= 11 10 70 71
+23:16::56 agv=:1 [recv] state= 11 10 70 71
+23:16::56 agv=:1 [recv] state= 11 10 70 71
+23:16::56 agv=:1 [recv] pos:(4000,12051,0)
+23:16::56 agv=:1 [recv] pos:(4000,12051,0)
+23:16::56 agv=:1 [recv] pos:(4000,12051,0)
+23:16::56 agv=:1 [recv] pos:(4000,12051,0)
+23:16::56 agv=:1 [recv] state= 11 10 70 71
+23:16::56 agv=:1 [recv] state= 11 10 70 71
+23:16::56 agv=:1 [recv] state= 11 10 70 71
+23:16::56 agv=:1 [recv] state= 11 10 70 71
+23:16::56 agv=:1 [recv] pos:(4000,12051,0)
+23:16::56 agv=:1 [recv] pos:(4000,12051,0)
+23:16::56 agv=:1 [recv] pos:(4000,12051,0)
+23:16::56 agv=:1 [recv] pos:(4000,12051,0)
+23:16::57 [recv] set Path:1
+23:16::57 [recv] set Path:1
+23:16::57 [recv] set Path:1
+23:16::57 [recv] set Path:1
+23:16::57 agv=:1 [recv] state= 11 10 70 71
+23:16::57 agv=:1 [recv] state= 11 10 70 71
+23:16::57 agv=:1 [recv] state= 11 10 70 71
+23:16::57 agv=:1 [recv] state= 11 10 70 71
+23:16::57 agv=:1 [recv] pos:(4000,12051,0)
+23:16::57 agv=:1 [recv] pos:(4000,12051,0)
+23:16::57 agv=:1 [recv] pos:(4000,12051,0)
+23:16::57 agv=:1 [recv] pos:(4000,12051,0)
+23:16::57 agv=:1 [recv] state= 11 10 70 71
+23:16::57 agv=:1 [recv] state= 11 10 70 71
+23:16::57 agv=:1 [recv] state= 11 10 70 71
+23:16::57 agv=:1 [recv] state= 11 10 70 71
+23:16::57 agv=:1 [recv] pos:(4000,12051,0)
+23:16::57 agv=:1 [recv] pos:(4000,12051,0)
+23:16::57 agv=:1 [recv] pos:(4000,12051,0)
+23:16::57 agv=:1 [recv] pos:(4000,12051,0)
+23:16::58 [recv] set Path:1
+23:16::58 [recv] set Path:1
+23:16::58 [recv] set Path:1
+23:16::58 [recv] set Path:1
+23:16::58 agv=:1 [recv] state= 11 10 70 71
+23:16::58 agv=:1 [recv] state= 11 10 70 71
+23:16::58 agv=:1 [recv] state= 11 10 70 71
+23:16::58 agv=:1 [recv] state= 11 10 70 71
+23:16::58 agv=:1 [recv] pos:(4000,12051,0)
+23:16::58 agv=:1 [recv] pos:(4000,12051,0)
+23:16::58 agv=:1 [recv] pos:(4000,12051,0)
+23:16::58 agv=:1 [recv] pos:(4000,12051,0)
+23:16::58 agv=:1 [recv] state= 11 10 70 71
+23:16::58 agv=:1 [recv] state= 11 10 70 71
+23:16::58 agv=:1 [recv] state= 11 10 70 71
+23:16::58 agv=:1 [recv] state= 11 10 70 71
+23:16::58 agv=:1 [recv] pos:(4000,12051,0)
+23:16::58 agv=:1 [recv] pos:(4000,12051,0)
+23:16::58 agv=:1 [recv] pos:(4000,12051,0)
+23:16::58 agv=:1 [recv] pos:(4000,12051,0)
+23:16::59 [recv] set Path:1
+23:16::59 [recv] set Path:1
+23:16::59 [recv] set Path:1
+23:16::59 [recv] set Path:1
+23:16::59 agv=:1 [recv] state= 11 10 70 71
+23:16::59 agv=:1 [recv] state= 11 10 70 71
+23:16::59 agv=:1 [recv] state= 11 10 70 71
+23:16::59 agv=:1 [recv] state= 11 10 70 71
+23:16::59 agv=:1 [recv] pos:(4000,12051,0)
+23:16::59 agv=:1 [recv] pos:(4000,12051,0)
+23:16::59 agv=:1 [recv] pos:(4000,12051,0)
+23:16::59 agv=:1 [recv] pos:(4000,12051,0)
+23:16::59 agv=:1 [recv] state= 11 10 70 71
+23:16::59 agv=:1 [recv] state= 11 10 70 71
+23:16::59 agv=:1 [recv] state= 11 10 70 71
+23:16::59 agv=:1 [recv] state= 11 10 70 71
+23:16::59 agv=:1 [recv] pos:(4000,12051,0)
+23:16::59 agv=:1 [recv] pos:(4000,12051,0)
+23:16::59 agv=:1 [recv] pos:(4000,12051,0)
+23:16::59 agv=:1 [recv] pos:(4000,12051,0)
+23:17::00 [recv] set Path:1
+23:17::00 [recv] set Path:1
+23:17::00 [recv] set Path:1
+23:17::00 [recv] set Path:1
+23:17::00 agv=:1 [recv] state= 11 10 70 71
+23:17::00 agv=:1 [recv] state= 11 10 70 71
+23:17::00 agv=:1 [recv] state= 11 10 70 71
+23:17::00 agv=:1 [recv] state= 11 10 70 71
+23:17::00 agv=:1 [recv] pos:(4000,12051,0)
+23:17::00 agv=:1 [recv] pos:(4000,12051,0)
+23:17::00 agv=:1 [recv] pos:(4000,12051,0)
+23:17::00 agv=:1 [recv] pos:(4000,12051,0)
+23:17::00 agv=:1 [recv] state= 11 10 70 71
+23:17::00 agv=:1 [recv] state= 11 10 70 71
+23:17::00 agv=:1 [recv] state= 11 10 70 71
+23:17::00 agv=:1 [recv] state= 11 10 70 71
+23:17::00 agv=:1 [recv] pos:(4000,12051,0)
+23:17::00 agv=:1 [recv] pos:(4000,12051,0)
+23:17::00 agv=:1 [recv] pos:(4000,12051,0)
+23:17::00 agv=:1 [recv] pos:(4000,12051,0)
+23:17::01 [recv] set Path:1
+23:17::01 [recv] set Path:1
+23:17::01 [recv] set Path:1
+23:17::01 [recv] set Path:1
+23:17::01 agv=:1 [recv] state= 11 10 70 71
+23:17::01 agv=:1 [recv] state= 11 10 70 71
+23:17::01 agv=:1 [recv] state= 11 10 70 71
+23:17::01 agv=:1 [recv] state= 11 10 70 71
+23:17::01 agv=:1 [recv] pos:(4000,12051,0)
+23:17::01 agv=:1 [recv] pos:(4000,12051,0)
+23:17::01 agv=:1 [recv] pos:(4000,12051,0)
+23:17::01 agv=:1 [recv] pos:(4000,12051,0)
+23:17::01 agv=:1 [recv] state= 11 10 70 71
+23:17::01 agv=:1 [recv] state= 11 10 70 71
+23:17::01 agv=:1 [recv] state= 11 10 70 71
+23:17::01 agv=:1 [recv] state= 11 10 70 71
+23:17::02 agv=:1 [recv] pos:(4000,12051,0)
+23:17::02 agv=:1 [recv] pos:(4000,12051,0)
+23:17::02 agv=:1 [recv] pos:(4000,12051,0)
+23:17::02 agv=:1 [recv] pos:(4000,12051,0)
+23:17::02 [recv] set Path:1
+23:17::02 [recv] set Path:1
+23:17::02 [recv] set Path:1
+23:17::02 [recv] set Path:1
+23:17::02 agv=:1 [recv] state= 11 10 70 71
+23:17::02 agv=:1 [recv] state= 11 10 70 71
+23:17::02 agv=:1 [recv] state= 11 10 70 71
+23:17::02 agv=:1 [recv] state= 11 10 70 71
+23:17::02 agv=:1 [recv] pos:(4000,12051,0)
+23:17::02 agv=:1 [recv] pos:(4000,12051,0)
+23:17::02 agv=:1 [recv] pos:(4000,12051,0)
+23:17::02 agv=:1 [recv] pos:(4000,12051,0)
+23:17::02 agv=:1 [recv] state= 11 10 70 71
+23:17::02 agv=:1 [recv] state= 11 10 70 71
+23:17::02 agv=:1 [recv] state= 11 10 70 71
+23:17::02 agv=:1 [recv] state= 11 10 70 71
+23:17::03 agv=:1 [recv] pos:(4000,12051,0)
+23:17::03 agv=:1 [recv] pos:(4000,12051,0)
+23:17::03 agv=:1 [recv] pos:(4000,12051,0)
+23:17::03 agv=:1 [recv] pos:(4000,12051,0)
+23:17::03 [recv] set Path:1
+23:17::03 [recv] set Path:1
+23:17::03 [recv] set Path:1
+23:17::03 [recv] set Path:1
+23:17::03 agv=:1 [recv] state= 11 10 70 71
+23:17::03 agv=:1 [recv] state= 11 10 70 71
+23:17::03 agv=:1 [recv] state= 11 10 70 71
+23:17::03 agv=:1 [recv] state= 11 10 70 71
+23:17::03 agv=:1 [recv] pos:(4000,12051,0)
+23:17::03 agv=:1 [recv] pos:(4000,12051,0)
+23:17::03 agv=:1 [recv] pos:(4000,12051,0)
+23:17::03 agv=:1 [recv] pos:(4000,12051,0)
+23:17::04 agv=:1 [recv] state= 11 10 70 71
+23:17::04 agv=:1 [recv] state= 11 10 70 71
+23:17::04 agv=:1 [recv] state= 11 10 70 71
+23:17::04 agv=:1 [recv] state= 11 10 70 71
+23:17::04 agv=:1 [recv] pos:(4000,12051,0)
+23:17::04 agv=:1 [recv] pos:(4000,12051,0)
+23:17::04 agv=:1 [recv] pos:(4000,12051,0)
+23:17::04 agv=:1 [recv] pos:(4000,12051,0)
+23:17::04 [recv] set Path:1
+23:17::04 [recv] set Path:1
+23:17::04 [recv] set Path:1
+23:17::04 [recv] set Path:1
+23:17::04 agv=:1 [recv] state= 11 10 70 71
+23:17::04 agv=:1 [recv] state= 11 10 70 71
+23:17::04 agv=:1 [recv] state= 11 10 70 71
+23:17::04 agv=:1 [recv] state= 11 10 70 71
+23:17::04 agv=:1 [recv] pos:(4000,12051,0)
+23:17::04 agv=:1 [recv] pos:(4000,12051,0)
+23:17::04 agv=:1 [recv] pos:(4000,12051,0)
+23:17::04 agv=:1 [recv] pos:(4000,12051,0)

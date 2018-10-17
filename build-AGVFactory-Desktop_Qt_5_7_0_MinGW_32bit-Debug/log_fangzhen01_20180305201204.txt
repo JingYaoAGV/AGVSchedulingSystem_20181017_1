@@ -1,0 +1,508 @@
+20:12::04 [init] AGV: 1 Online
+20:12::04 [init] Mac: 01
+20:12::04 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+20:12::04 agv=:1 [recv] pos:(5079,13961,0)
+20:12::05 agv=:1 [recv] state= 0 0 0 0
+20:12::05 [proc]agv=:1, match:70
+20:12::05 agv=:1 [recv] pos:(5079,13961,0)
+20:12::06 agv=:1 [recv] state= 0 0 0 0
+20:12::06 [proc]agv=:1, match:70
+20:12::06 agv=:1 [recv] pos:(5079,13961,0)
+20:12::07 agv=:1 [recv] state= 0 0 0 0
+20:12::07 [proc]agv=:1, match:70
+20:12::07 [proc] plan: currentID:70
+20:12::08 agv=:1 [recv] pos:(5079,13961,0)
+20:12::08 agv=:1 [recv] state= 0 0 0 0
+20:12::08 [proc]agv=:1, match:70
+20:12::09 agv=:1 [recv] pos:(5079,13961,0)
+20:12::09 agv=:1 [recv] state= 0 0 0 0
+20:12::09 [proc]agv=:1, match:70
+20:12::09 [proc] plan: currentID:70
+20:12::10 agv=:1 [recv] pos:(5079,13961,0)
+20:12::10 agv=:1 [recv] state= 0 0 0 0
+20:12::10 [proc]agv=:1, match:70
+20:12::11 agv=:1 [recv] pos:(5079,13961,0)
+20:12::11 agv=:1 [recv] state= 0 0 0 0
+20:12::11 [proc]agv=:1, match:70
+20:12::11 [proc] plan: currentID:70
+20:12::12 agv=:1 [recv] pos:(5079,13961,0)
+20:12::12 agv=:1 [recv] state= 0 0 0 0
+20:12::12 [proc]agv=:1, match:70
+20:12::13 agv=:1 [recv] pos:(5079,13961,0)
+20:12::14 agv=:1 [recv] state= 0 0 0 0
+20:12::14 [proc]agv=:1, match:70
+20:12::14 [proc] plan: currentID:70
+20:12::14 agv=:1 [recv] pos:(5079,13961,0)
+20:12::15 agv=:1 [recv] state= 0 0 0 0
+20:12::15 [proc]agv=:1, match:70
+20:12::15 agv=:1 [recv] pos:(5079,13961,0)
+20:12::16 agv=:1 [recv] state= 0 0 0 0
+20:12::16 [proc]agv=:1, match:70
+20:12::16 [proc] plan: currentID:70
+20:12::16 agv=:1 [recv] pos:(5079,13961,0)
+20:12::17 agv=:1 [recv] state= 0 0 0 0
+20:12::17 [proc]agv=:1, match:70
+20:12::17 agv=:1 [recv] pos:(5079,13961,0)
+20:12::18 agv=:1 [recv] state= 0 0 0 0
+20:12::18 [proc]agv=:1, match:70
+20:12::18 [proc] plan: currentID:70
+20:12::19 agv=:1 [recv] pos:(5079,13961,0)
+20:12::19 agv=:1 [recv] state= 0 0 0 0
+20:12::19 [proc]agv=:1, match:70
+20:12::20 agv=:1 [recv] pos:(5079,13961,0)
+20:12::20 agv=:1 [recv] state= 0 0 0 0
+20:12::20 [proc]agv=:1, match:70
+20:12::20 [proc] plan: currentID:70
+20:12::21 agv=:1 [recv] pos:(5079,13961,0)
+20:12::21 agv=:1 [recv] state= 0 0 0 0
+20:12::21 [proc]agv=:1, match:70
+20:12::22 agv=:1 [recv] pos:(5079,13961,0)
+20:12::23 agv=:1 [recv] state= 0 0 0 0
+20:12::23 [proc]agv=:1, match:70
+20:12::23 [proc] plan: currentID:70
+20:12::23 agv=:1 [recv] pos:(5079,13961,0)
+20:12::24 agv=:1 [recv] state= 0 0 0 0
+20:12::24 [proc]agv=:1, match:70
+20:12::24 agv=:1 [recv] pos:(5079,13961,0)
+20:12::25 agv=:1 [recv] state= 0 0 0 0
+20:12::25 [proc]agv=:1, match:70
+20:12::25 [proc] plan: currentID:70
+20:12::25 agv=:1 [recv] pos:(5079,13961,0)
+20:12::26 agv=:1 [recv] state= 0 0 0 0
+20:12::26 [proc]agv=:1, match:70
+20:12::26 agv=:1 [recv] pos:(5079,13961,0)
+20:12::27 agv=:1 [recv] state= 0 0 0 0
+20:12::27 [proc]agv=:1, match:70
+20:12::27 [proc] plan: currentID:70
+20:12::28 agv=:1 [recv] pos:(5079,13961,0)
+20:12::28 agv=:1 [recv] state= 0 0 0 0
+20:12::28 [proc]agv=:1, match:70
+20:12::29 agv=:1 [recv] pos:(5079,13961,0)
+20:12::29 agv=:1 [recv] state= 0 0 0 0
+20:12::29 [proc]agv=:1, match:70
+20:12::29 [proc] plan: currentID:70
+20:12::30 agv=:1 [recv] pos:(5079,13961,0)
+20:12::30 [send]agv=1 set path command: mode=100 start=70 end=71 
+20:12::30 [recv] set Path:1
+20:12::30 agv=:1 [recv] state= 0 0 70 71
+20:12::30 [proc]agv=:1, match:70
+20:12::31 agv=:1 [recv] pos:(5079,13961,0)
+20:12::31 [send] set path enable
+20:12::32 [recv] enable Path:1
+20:12::32 agv=:1 [recv] state= 65535 65535 70 71
+20:12::32 agv=:1 [recv] pos:(5079,13961,0)
+20:12::33 agv=:1 [recv] state= 65535 65535 70 71
+20:12::33 agv=:1 [recv] pos:(5079,13961,0)
+20:12::34 agv=:1 [recv] state= 65535 65535 70 71
+20:12::34 agv=:1 [recv] pos:(5079,13961,0)
+20:12::35 agv=:1 [recv] state= 65535 65535 70 71
+20:12::35 agv=:1 [recv] pos:(5079,13961,0)
+20:12::36 agv=:1 [recv] state= 65535 65535 70 71
+20:12::37 agv=:1 [recv] pos:(5079,13961,0)
+20:12::37 agv=:1 [recv] state= 65535 65535 70 71
+20:12::38 agv=:1 [recv] pos:(5079,13961,0)
+20:12::38 agv=:1 [recv] state= 65535 65535 70 71
+20:12::39 agv=:1 [recv] pos:(5079,13961,0)
+20:12::39 agv=:1 [recv] state= 65535 65535 70 71
+20:12::40 agv=:1 [recv] pos:(5079,13961,0)
+20:12::40 agv=:1 [recv] state= 65535 65535 70 71
+20:12::41 agv=:1 [recv] pos:(5079,13961,0)
+20:12::41 agv=:1 [recv] state= 65535 65535 70 71
+20:12::42 agv=:1 [recv] pos:(5079,13961,0)
+20:12::42 agv=:1 [recv] state= 65535 65535 70 71
+20:12::43 agv=:1 [recv] pos:(5079,13961,0)
+20:12::43 agv=:1 [recv] state= 65535 65535 70 71
+20:12::44 agv=:1 [recv] pos:(5079,13961,0)
+20:12::45 agv=:1 [recv] state= 65535 65535 70 71
+20:12::45 agv=:1 [recv] pos:(5079,13961,0)
+20:12::46 agv=:1 [recv] state= 65535 65535 70 71
+20:12::46 agv=:1 [recv] pos:(5079,13961,0)
+20:12::47 agv=:1 [recv] state= 65535 65535 70 71
+20:12::47 agv=:1 [recv] pos:(4880,13960,0)
+20:12::48 agv=:1 [recv] state= 65535 65535 70 71
+20:12::48 agv=:1 [recv] pos:(3281,13956,0)
+20:12::49 agv=:1 [recv] state= 65535 65535 70 71
+20:12::50 agv=:1 [recv] pos:(1793,13952,0)
+20:12::50 agv=:1 [recv] state= 65535 65535 70 71
+20:12::50 agv=:1 [recv] state= 70 71 70 71
+20:12::50 [proc] plan: currentID:71
+20:12::51 agv=:1 [recv] pos:(780,13949,0)
+20:12::51 [send]agv=1 set path command: mode=100 start=71 end=72 
+20:12::51 [recv] set Path:1
+20:12::51 agv=:1 [recv] state= 70 71 71 72
+20:12::52 agv=:1 [recv] pos:(780,13949,0)
+20:12::52 [send] set path enable
+20:12::52 [recv] enable Path:1
+20:12::52 agv=:1 [recv] state= 65535 65535 71 72
+20:12::53 agv=:1 [recv] pos:(524,13873,17)
+20:12::53 agv=:1 [recv] state= 65535 65535 71 72
+20:12::54 agv=:1 [recv] pos:(108,13560,43)
+20:12::54 agv=:1 [recv] state= 65535 65535 71 72
+20:12::55 agv=:1 [recv] pos:(-217,13153,69)
+20:12::55 agv=:1 [recv] state= 65535 65535 71 72
+20:12::56 agv=:1 [recv] state= 71 72 71 72
+20:12::56 [proc] plan: currentID:72
+20:12::56 agv=:1 [recv] pos:(-320,12849,90)
+20:12::56 [send]agv=1 set path command: mode=100 start=72 end=18 
+20:12::56 [recv] set Path:1
+20:12::56 agv=:1 [recv] state= 71 72 72 18
+20:12::57 agv=:1 [recv] pos:(-320,12849,90)
+20:12::57 [send] set path enable
+20:12::57 [recv] enable Path:1
+20:12::58 agv=:1 [recv] state= 65535 65535 72 18
+20:12::58 agv=:1 [recv] pos:(-320,11826,90)
+20:12::59 agv=:1 [recv] state= 65535 65535 72 18
+20:12::59 agv=:1 [recv] pos:(-320,10360,90)
+20:13::00 agv=:1 [recv] state= 65535 65535 72 18
+20:13::00 agv=:1 [recv] pos:(-320,8881,90)
+20:13::01 agv=:1 [recv] state= 72 18 72 18
+20:13::01 [proc] plan: currentID:18
+20:13::01 agv=:1 [recv] state= 72 18 72 18
+20:13::01 agv=:1 [recv] pos:(-320,8352,90)
+20:13::02 [send]agv=1 set path command: mode=100 start=18 end=16 
+20:13::02 [recv] set Path:1
+20:13::02 agv=:1 [recv] state= 72 18 18 16
+20:13::02 agv=:1 [recv] pos:(-320,8352,90)
+20:13::03 [send] set path enable
+20:13::03 [recv] enable Path:1
+20:13::03 agv=:1 [recv] state= 65535 65535 18 16
+20:13::03 agv=:1 [recv] pos:(-351,8499,72)
+20:13::04 agv=:1 [recv] state= 65535 65535 18 16
+20:13::04 agv=:1 [recv] pos:(51,9004,46)
+20:13::05 agv=:1 [recv] state= 65535 65535 18 16
+20:13::05 agv=:1 [recv] pos:(582,9455,20)
+20:13::06 agv=:1 [recv] state= 65535 65535 18 16
+20:13::06 agv=:1 [recv] state= 18 16 18 16
+20:13::06 [proc] plan: currentID:16
+20:13::07 agv=:1 [recv] pos:(780,9451,0)
+20:13::07 [send]agv=1 set path command: mode=100 start=16 end=15 
+20:13::07 [recv] set Path:1
+20:13::07 agv=:1 [recv] state= 18 16 16 15
+20:13::08 agv=:1 [recv] pos:(780,9451,0)
+20:13::08 [send] set path enable
+20:13::08 [recv] enable Path:1
+20:13::08 agv=:1 [recv] state= 16 15 16 15
+20:13::08 agv=:1 [recv] state= 16 15 16 15
+20:13::09 agv=:1 [recv] pos:(999,9451,0)
+20:13::09 agv=:1 [recv] state= 16 15 16 15
+20:13::09 [proc] plan: currentID:15
+20:13::10 agv=:1 [recv] pos:(999,9451,0)
+20:13::10 [send]agv=1 set path command: mode=100 start=15 end=12 
+20:13::10 [recv] set Path:1
+20:13::10 agv=:1 [recv] state= 16 15 15 12
+20:13::11 agv=:1 [recv] pos:(999,9451,0)
+20:13::11 [send] set path enable
+20:13::11 [recv] enable Path:1
+20:13::11 agv=:1 [recv] state= 65535 65535 15 12
+20:13::12 agv=:1 [recv] pos:(1999,9451,0)
+20:13::13 agv=:1 [recv] state= 65535 65535 15 12
+20:13::13 agv=:1 [recv] pos:(2302,9451,0)
+20:13::14 agv=:1 [recv] state= 65535 65535 15 12
+20:13::14 agv=:1 [recv] pos:(2302,9451,0)
+20:13::15 agv=:1 [recv] state= 65535 65535 15 12
+20:13::15 agv=:1 [recv] pos:(2302,9451,0)
+20:13::16 agv=:1 [recv] state= 65535 65535 15 12
+20:13::17 agv=:1 [recv] pos:(2302,9451,0)
+20:13::17 agv=:1 [recv] state= 65535 65535 15 12
+20:13::18 agv=:1 [recv] pos:(2302,9451,0)
+20:13::18 agv=:1 [recv] state= 65535 65535 15 12
+20:13::19 agv=:1 [recv] pos:(2302,9451,0)
+20:13::19 agv=:1 [recv] state= 65535 65535 15 12
+20:13::20 agv=:1 [recv] pos:(2302,9451,0)
+20:13::20 agv=:1 [recv] state= 65535 65535 15 12
+20:13::21 agv=:1 [recv] pos:(2302,9451,0)
+20:13::21 agv=:1 [recv] state= 65535 65535 15 12
+20:13::22 agv=:1 [recv] pos:(2302,9451,0)
+20:13::22 agv=:1 [recv] state= 65535 65535 15 12
+20:13::23 agv=:1 [recv] pos:(2302,9451,0)
+20:13::23 agv=:1 [recv] state= 65535 65535 15 12
+20:13::24 agv=:1 [recv] pos:(2302,9451,0)
+20:13::25 agv=:1 [recv] state= 65535 65535 15 12
+20:13::25 agv=:1 [recv] pos:(2302,9451,0)
+20:13::26 agv=:1 [recv] state= 65535 65535 15 12
+20:13::26 agv=:1 [recv] pos:(2302,9451,0)
+20:13::27 agv=:1 [recv] state= 65535 65535 15 12
+20:13::27 agv=:1 [recv] pos:(2302,9451,0)
+20:13::28 agv=:1 [recv] state= 65535 65535 15 12
+20:13::28 agv=:1 [recv] pos:(2302,9451,0)
+20:13::29 agv=:1 [recv] state= 65535 65535 15 12
+20:13::29 agv=:1 [recv] pos:(2302,9451,0)
+20:13::30 agv=:1 [recv] state= 65535 65535 15 12
+20:13::30 agv=:1 [recv] pos:(2302,9451,0)
+20:13::31 agv=:1 [recv] state= 65535 65535 15 12
+20:13::31 agv=:1 [recv] pos:(2302,9451,0)
+20:13::32 agv=:1 [recv] state= 65535 65535 15 12
+20:13::32 agv=:1 [recv] pos:(2302,9451,0)
+20:13::33 agv=:1 [recv] state= 65535 65535 15 12
+20:13::34 agv=:1 [recv] pos:(2302,9451,0)
+20:13::34 agv=:1 [recv] state= 65535 65535 15 12
+20:13::35 agv=:1 [recv] pos:(2302,9451,0)
+20:13::35 agv=:1 [recv] state= 65535 65535 15 12
+20:13::36 agv=:1 [recv] pos:(2302,9451,0)
+20:13::36 agv=:1 [recv] state= 65535 65535 15 12
+20:13::37 agv=:1 [recv] pos:(2302,9451,0)
+20:13::37 agv=:1 [recv] state= 65535 65535 15 12
+20:13::38 agv=:1 [recv] pos:(2302,9451,0)
+20:13::38 agv=:1 [recv] state= 65535 65535 15 12
+20:13::39 agv=:1 [recv] pos:(2302,9451,0)
+20:13::39 agv=:1 [recv] state= 65535 65535 15 12
+20:13::40 agv=:1 [recv] pos:(2302,9451,0)
+20:13::40 agv=:1 [recv] state= 65535 65535 15 12
+20:13::41 agv=:1 [recv] pos:(2302,9451,0)
+20:13::42 agv=:1 [recv] state= 65535 65535 15 12
+20:13::42 agv=:1 [recv] pos:(2302,9451,0)
+20:13::43 agv=:1 [recv] state= 65535 65535 15 12
+20:13::43 agv=:1 [recv] pos:(2302,9451,0)
+20:13::44 agv=:1 [recv] state= 65535 65535 15 12
+20:13::44 agv=:1 [recv] pos:(2302,9451,0)
+20:13::45 agv=:1 [recv] state= 65535 65535 15 12
+20:13::45 agv=:1 [recv] pos:(2302,9451,0)
+20:13::46 agv=:1 [recv] state= 65535 65535 15 12
+20:13::46 agv=:1 [recv] pos:(2302,9451,0)
+20:13::47 agv=:1 [recv] state= 65535 65535 15 12
+20:13::47 agv=:1 [recv] pos:(2302,9451,0)
+20:13::48 agv=:1 [recv] state= 65535 65535 15 12
+20:13::48 agv=:1 [recv] pos:(2302,9451,0)
+20:13::49 agv=:1 [recv] state= 65535 65535 15 12
+20:13::49 agv=:1 [recv] pos:(2302,9451,0)
+20:13::50 agv=:1 [recv] state= 65535 65535 15 12
+20:13::51 agv=:1 [recv] pos:(2302,9451,0)
+20:13::51 agv=:1 [recv] state= 65535 65535 15 12
+20:13::52 agv=:1 [recv] pos:(2302,9451,0)
+20:13::52 agv=:1 [recv] state= 65535 65535 15 12
+20:13::53 agv=:1 [recv] pos:(2302,9451,0)
+20:13::53 agv=:1 [recv] state= 65535 65535 15 12
+20:13::54 agv=:1 [recv] pos:(2302,9451,0)
+20:13::54 agv=:1 [recv] state= 65535 65535 15 12
+20:13::55 agv=:1 [recv] pos:(2302,9451,0)
+20:13::55 agv=:1 [recv] state= 65535 65535 15 12
+20:13::56 agv=:1 [recv] pos:(2302,9451,0)
+20:13::56 agv=:1 [recv] state= 65535 65535 15 12
+20:13::57 agv=:1 [recv] pos:(2302,9451,0)
+20:13::57 agv=:1 [recv] state= 65535 65535 15 12
+20:13::58 agv=:1 [recv] pos:(2302,9451,0)
+20:13::59 agv=:1 [recv] state= 65535 65535 15 12
+20:13::59 agv=:1 [recv] pos:(2302,9451,0)
+20:14::00 agv=:1 [recv] state= 65535 65535 15 12
+20:14::00 agv=:1 [recv] pos:(2302,9451,0)
+20:14::01 agv=:1 [recv] state= 65535 65535 15 12
+20:14::01 agv=:1 [recv] pos:(2302,9451,0)
+20:14::02 agv=:1 [recv] state= 65535 65535 15 12
+20:14::02 agv=:1 [recv] pos:(2302,9451,0)
+20:14::03 agv=:1 [recv] state= 65535 65535 15 12
+20:14::03 agv=:1 [recv] pos:(2302,9451,0)
+20:14::04 agv=:1 [recv] state= 65535 65535 15 12
+20:14::04 agv=:1 [recv] pos:(2302,9451,0)
+20:14::05 agv=:1 [recv] state= 65535 65535 15 12
+20:14::05 agv=:1 [recv] pos:(2302,9451,0)
+20:14::06 agv=:1 [recv] state= 65535 65535 15 12
+20:14::06 agv=:1 [recv] pos:(2302,9451,0)
+20:14::07 agv=:1 [recv] state= 65535 65535 15 12
+20:14::08 agv=:1 [recv] pos:(2302,9451,0)
+20:14::08 agv=:1 [recv] state= 65535 65535 15 12
+20:14::09 agv=:1 [recv] pos:(2302,9451,0)
+20:14::09 agv=:1 [recv] state= 65535 65535 15 12
+20:14::10 agv=:1 [recv] pos:(2302,9451,0)
+20:14::10 agv=:1 [recv] state= 65535 65535 15 12
+20:14::11 agv=:1 [recv] pos:(2302,9451,0)
+20:14::11 agv=:1 [recv] state= 65535 65535 15 12
+20:14::12 agv=:1 [recv] pos:(2302,9451,0)
+20:14::12 agv=:1 [recv] state= 65535 65535 15 12
+20:14::13 agv=:1 [recv] pos:(2302,9451,0)
+20:14::13 agv=:1 [recv] state= 65535 65535 15 12
+20:14::14 agv=:1 [recv] pos:(2302,9451,0)
+20:14::14 agv=:1 [recv] state= 65535 65535 15 12
+20:14::15 agv=:1 [recv] pos:(2302,9451,0)
+20:14::16 agv=:1 [recv] state= 65535 65535 15 12
+20:14::16 agv=:1 [recv] pos:(2302,9451,0)
+20:14::17 agv=:1 [recv] state= 65535 65535 15 12
+20:14::17 agv=:1 [recv] pos:(2302,9451,0)
+20:14::18 agv=:1 [recv] state= 65535 65535 15 12
+20:14::18 agv=:1 [recv] pos:(2302,9451,0)
+20:14::19 agv=:1 [recv] state= 65535 65535 15 12
+20:14::19 agv=:1 [recv] pos:(2302,9451,0)
+20:14::20 agv=:1 [recv] state= 65535 65535 15 12
+20:14::20 agv=:1 [recv] pos:(2302,9451,0)
+20:14::21 agv=:1 [recv] state= 65535 65535 15 12
+20:14::21 agv=:1 [recv] pos:(2302,9451,0)
+20:14::22 agv=:1 [recv] state= 65535 65535 15 12
+20:14::22 agv=:1 [recv] pos:(2302,9451,0)
+20:14::23 agv=:1 [recv] state= 65535 65535 15 12
+20:14::23 agv=:1 [recv] pos:(2302,9451,0)
+20:14::24 agv=:1 [recv] state= 65535 65535 15 12
+20:14::25 agv=:1 [recv] pos:(2302,9451,0)
+20:14::25 agv=:1 [recv] state= 65535 65535 15 12
+20:14::26 agv=:1 [recv] pos:(2302,9451,0)
+20:14::26 agv=:1 [recv] state= 65535 65535 15 12
+20:14::27 agv=:1 [recv] pos:(2302,9451,0)
+20:14::27 agv=:1 [recv] state= 65535 65535 15 12
+20:14::28 agv=:1 [recv] pos:(2302,9451,0)
+20:14::28 agv=:1 [recv] state= 65535 65535 15 12
+20:14::29 agv=:1 [recv] pos:(2302,9451,0)
+20:14::29 agv=:1 [recv] state= 65535 65535 15 12
+20:14::30 agv=:1 [recv] pos:(2302,9451,0)
+20:14::30 agv=:1 [recv] state= 65535 65535 15 12
+20:14::31 agv=:1 [recv] pos:(2302,9451,0)
+20:14::31 agv=:1 [recv] state= 65535 65535 15 12
+20:14::32 agv=:1 [recv] pos:(2302,9451,0)
+20:14::33 agv=:1 [recv] state= 65535 65535 15 12
+20:14::33 agv=:1 [recv] pos:(2302,9451,0)
+20:14::34 agv=:1 [recv] state= 65535 65535 15 12
+20:14::34 agv=:1 [recv] pos:(2302,9451,0)
+20:14::35 agv=:1 [recv] state= 65535 65535 15 12
+20:14::35 agv=:1 [recv] pos:(2302,9451,0)
+20:14::36 agv=:1 [recv] state= 65535 65535 15 12
+20:14::36 agv=:1 [recv] pos:(2302,9451,0)
+20:14::37 agv=:1 [recv] state= 65535 65535 15 12
+20:14::37 agv=:1 [recv] pos:(2302,9451,0)
+20:14::38 agv=:1 [recv] state= 65535 65535 15 12
+20:14::38 agv=:1 [recv] pos:(2302,9451,0)
+20:14::39 agv=:1 [recv] state= 65535 65535 15 12
+20:14::39 agv=:1 [recv] pos:(2302,9451,0)
+20:14::40 agv=:1 [recv] state= 65535 65535 15 12
+20:14::40 agv=:1 [recv] pos:(2302,9451,0)
+20:14::41 agv=:1 [recv] state= 65535 65535 15 12
+20:14::42 agv=:1 [recv] pos:(2302,9451,0)
+20:14::42 agv=:1 [recv] state= 65535 65535 15 12
+20:14::43 agv=:1 [recv] pos:(2302,9451,0)
+20:14::43 agv=:1 [recv] state= 65535 65535 15 12
+20:14::44 agv=:1 [recv] pos:(2302,9451,0)
+20:14::44 agv=:1 [recv] state= 65535 65535 15 12
+20:14::45 agv=:1 [recv] pos:(2302,9451,0)
+20:14::45 agv=:1 [recv] state= 65535 65535 15 12
+20:14::46 agv=:1 [recv] pos:(2302,9451,0)
+20:14::46 agv=:1 [recv] state= 65535 65535 15 12
+20:14::47 agv=:1 [recv] pos:(2302,9451,0)
+20:14::47 agv=:1 [recv] state= 65535 65535 15 12
+20:14::48 agv=:1 [recv] pos:(2302,9451,0)
+20:14::48 agv=:1 [recv] state= 65535 65535 15 12
+20:14::49 agv=:1 [recv] pos:(2302,9451,0)
+20:14::50 agv=:1 [recv] state= 65535 65535 15 12
+20:14::50 agv=:1 [recv] pos:(2302,9451,0)
+20:14::51 agv=:1 [recv] state= 65535 65535 15 12
+20:14::51 agv=:1 [recv] pos:(2302,9451,0)
+20:14::52 agv=:1 [recv] state= 65535 65535 15 12
+20:14::52 agv=:1 [recv] pos:(2302,9451,0)
+20:14::53 agv=:1 [recv] state= 65535 65535 15 12
+20:14::53 agv=:1 [recv] pos:(2302,9451,0)
+20:14::54 agv=:1 [recv] state= 65535 65535 15 12
+20:14::54 agv=:1 [recv] pos:(2302,9451,0)
+20:14::55 agv=:1 [recv] state= 65535 65535 15 12
+20:14::55 agv=:1 [recv] pos:(2302,9451,0)
+20:14::56 agv=:1 [recv] state= 65535 65535 15 12
+20:14::56 agv=:1 [recv] pos:(2302,9451,0)
+20:14::57 agv=:1 [recv] state= 65535 65535 15 12
+20:14::57 agv=:1 [recv] pos:(2302,9451,0)
+20:14::58 agv=:1 [recv] state= 65535 65535 15 12
+20:14::59 agv=:1 [recv] pos:(2302,9451,0)
+20:14::59 agv=:1 [recv] state= 65535 65535 15 12
+20:15::00 agv=:1 [recv] pos:(2302,9451,0)
+20:15::00 agv=:1 [recv] state= 65535 65535 15 12
+20:15::01 agv=:1 [recv] pos:(2302,9451,0)
+20:15::01 agv=:1 [recv] state= 65535 65535 15 12
+20:15::02 agv=:1 [recv] pos:(2302,9451,0)
+20:15::02 agv=:1 [recv] state= 65535 65535 15 12
+20:15::03 agv=:1 [recv] pos:(2302,9451,0)
+20:15::03 agv=:1 [recv] state= 65535 65535 15 12
+20:15::04 agv=:1 [recv] pos:(2302,9451,0)
+20:15::04 agv=:1 [recv] state= 65535 65535 15 12
+20:15::05 agv=:1 [recv] pos:(2302,9451,0)
+20:15::05 agv=:1 [recv] state= 65535 65535 15 12
+20:15::06 agv=:1 [recv] pos:(2302,9451,0)
+20:15::07 agv=:1 [recv] state= 65535 65535 15 12
+20:15::07 agv=:1 [recv] pos:(2302,9451,0)
+20:15::08 agv=:1 [recv] state= 65535 65535 15 12
+20:15::08 agv=:1 [recv] pos:(2302,9451,0)
+20:15::09 agv=:1 [recv] state= 65535 65535 15 12
+20:15::09 agv=:1 [recv] pos:(2302,9451,0)
+20:15::10 agv=:1 [recv] state= 65535 65535 15 12
+20:15::10 agv=:1 [recv] pos:(2302,9451,0)
+20:15::11 agv=:1 [recv] state= 65535 65535 15 12
+20:15::11 agv=:1 [recv] pos:(2302,9451,0)
+20:15::12 agv=:1 [recv] state= 65535 65535 15 12
+20:15::12 agv=:1 [recv] pos:(2302,9451,0)
+20:15::13 agv=:1 [recv] state= 65535 65535 15 12
+20:15::13 agv=:1 [recv] pos:(2302,9451,0)
+20:15::14 agv=:1 [recv] state= 65535 65535 15 12
+20:15::14 agv=:1 [recv] pos:(2302,9451,0)
+20:15::15 agv=:1 [recv] state= 65535 65535 15 12
+20:15::16 agv=:1 [recv] pos:(2302,9451,0)
+20:15::16 agv=:1 [recv] state= 65535 65535 15 12
+20:15::17 agv=:1 [recv] pos:(2302,9451,0)
+20:15::17 agv=:1 [recv] state= 65535 65535 15 12
+20:15::18 agv=:1 [recv] pos:(2302,9451,0)
+20:15::18 agv=:1 [recv] state= 65535 65535 15 12
+20:15::19 agv=:1 [recv] pos:(2302,9451,0)
+20:15::19 agv=:1 [recv] state= 65535 65535 15 12
+20:15::20 agv=:1 [recv] pos:(2302,9451,0)
+20:15::20 agv=:1 [recv] state= 65535 65535 15 12
+20:15::21 agv=:1 [recv] pos:(2302,9451,0)
+20:15::21 agv=:1 [recv] state= 65535 65535 15 12
+20:15::22 agv=:1 [recv] pos:(2302,9451,0)
+20:15::22 agv=:1 [recv] state= 65535 65535 15 12
+20:15::23 agv=:1 [recv] pos:(2302,9451,0)
+20:15::24 agv=:1 [recv] state= 65535 65535 15 12
+20:15::24 agv=:1 [recv] pos:(2302,9451,0)
+20:15::25 agv=:1 [recv] state= 65535 65535 15 12
+20:15::25 agv=:1 [recv] pos:(2302,9451,0)
+20:15::26 agv=:1 [recv] state= 65535 65535 15 12
+20:15::26 agv=:1 [recv] pos:(2302,9451,0)
+20:15::27 agv=:1 [recv] state= 65535 65535 15 12
+20:15::27 agv=:1 [recv] pos:(2302,9451,0)
+20:15::28 agv=:1 [recv] state= 65535 65535 15 12
+20:15::28 agv=:1 [recv] pos:(2302,9451,0)
+20:15::29 agv=:1 [recv] state= 65535 65535 15 12
+20:15::29 agv=:1 [recv] pos:(2302,9451,0)
+20:15::30 agv=:1 [recv] state= 65535 65535 15 12
+20:15::30 agv=:1 [recv] pos:(2302,9451,0)
+20:15::31 agv=:1 [recv] state= 65535 65535 15 12
+20:15::31 agv=:1 [recv] pos:(2302,9451,0)
+20:15::32 agv=:1 [recv] state= 65535 65535 15 12
+20:15::33 agv=:1 [recv] pos:(2302,9451,0)
+20:15::33 agv=:1 [recv] state= 65535 65535 15 12
+20:15::34 agv=:1 [recv] pos:(2302,9451,0)
+20:15::34 agv=:1 [recv] state= 65535 65535 15 12
+20:15::35 agv=:1 [recv] pos:(2302,9451,0)
+20:15::35 agv=:1 [recv] state= 65535 65535 15 12
+20:15::36 agv=:1 [recv] pos:(2302,9451,0)
+20:15::36 agv=:1 [recv] state= 65535 65535 15 12
+20:15::37 agv=:1 [recv] pos:(2302,9451,0)
+20:15::37 agv=:1 [recv] state= 65535 65535 15 12
+20:15::38 agv=:1 [recv] pos:(2302,9451,0)
+20:15::38 agv=:1 [recv] state= 65535 65535 15 12
+20:15::39 agv=:1 [recv] pos:(2302,9451,0)
+20:15::39 agv=:1 [recv] state= 65535 65535 15 12
+20:15::40 agv=:1 [recv] pos:(2302,9451,0)
+20:15::41 agv=:1 [recv] state= 65535 65535 15 12
+20:15::41 agv=:1 [recv] pos:(2302,9451,0)
+20:15::42 agv=:1 [recv] state= 65535 65535 15 12
+20:15::42 agv=:1 [recv] pos:(2302,9451,0)
+20:15::43 agv=:1 [recv] state= 65535 65535 15 12
+20:15::43 agv=:1 [recv] pos:(2302,9451,0)
+20:15::44 agv=:1 [recv] state= 65535 65535 15 12
+20:15::44 agv=:1 [recv] pos:(2302,9451,0)
+20:15::45 agv=:1 [recv] state= 65535 65535 15 12
+20:15::45 agv=:1 [recv] pos:(2302,9451,0)
+20:15::46 agv=:1 [recv] state= 65535 65535 15 12
+20:15::46 agv=:1 [recv] pos:(2302,9451,0)
+20:15::47 agv=:1 [recv] state= 65535 65535 15 12
+20:15::47 agv=:1 [recv] pos:(2302,9451,0)
+20:15::48 agv=:1 [recv] state= 65535 65535 15 12
+20:15::48 agv=:1 [recv] pos:(2302,9451,0)
+20:15::49 agv=:1 [recv] state= 65535 65535 15 12
+20:15::50 agv=:1 [recv] pos:(2302,9451,0)
+20:15::50 agv=:1 [recv] state= 65535 65535 15 12
+20:15::51 agv=:1 [recv] pos:(2302,9451,0)
+20:15::51 agv=:1 [recv] state= 65535 65535 15 12
+20:15::52 agv=:1 [recv] pos:(2302,9451,0)
+20:15::52 agv=:1 [recv] state= 15 12 15 12
+20:15::52 [proc] plan: currentID:12
+20:15::52 agv=:1 [recv] state= 15 12 15 12
+20:15::53 agv=:1 [recv] pos:(2900,9451,0)
+20:15::53 [send]agv=1 set path command: mode=100 start=12 end=11 
+20:15::53 [recv] set Path:1
+20:15::53 agv=:1 [recv] state= 15 12 12 11
+20:15::54 agv=:1 [recv] pos:(2900,9451,0)
+20:15::54 [send] set path enable
+20:15::54 [recv] enable Path:1
+20:15::54 agv=:1 [recv] state= 65535 65535 12 11

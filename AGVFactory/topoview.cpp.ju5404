@@ -1,0 +1,330 @@
+#include "topoview.h"
+#include "mainwindow.h"
+#include <QtMath>
+#include <QDebug>
+#include <QMessageBox>
+#include "global.h"
+#include <QSql>
+#include <QSqlQuery>
+#include <QSqlError>
+#include <QSqlRecord>
+TopoView::TopoView(QGraphicsScene *scene)
+{
+    m_scene = scene;
+    m_nMinY = m_nMaxY = 0;
+    m_nMinX = m_nMaxX = 0;
+    //load_topoMap("12.db");
+    m_nVerCount = 0;
+    m_nEdgeCount = 0;
+}
+
+TopoView::~TopoView()
+{
+
+}
+
+bool TopoView::add_topoVer(QPointF center, int id, int radius)
+{
+    QString ver_name = QString("Ver_%1").arg(id++);
+    int count = 65535;
+    while(m_verList.count(ver_name)>0 && count-->0){
+        ver_name = QString("Ver_%1").arg(id++);
+    }
+    m_verList.insert(ver_name,new TopoVer(scene(),id-1,center,radius));
+    m_nVerCount++;
+    return true;
+}
+
+bool TopoView::add_topoEdge(TopoVer *start, TopoVer *end)
+{
+    if(is_verExist(start) && is_verExist(end)){
+        TopoEdge *p = m_verList[start->get_name()]->m_pEdgeHead;
+        while(p!=NULL){
+            if(p->m_pEnd->get_name()==end->get_name()){
+                QMessageBox::critical(0,"错误","该边已经存在");
+                return false;
+            }
+            p = p->m_pNextEdge;
+        }
+        m_verList[start->get_name()]->m_pEdgeHead = new TopoEdge(scene(),start,end);
+        m_nEdgeCount++;
+        return true;
+    }
+    else return false;
+}
+
+bool TopoView::remove_topoVer(TopoVer *ver)
+{
+    if(!m_verList.contains(ver->get_name())){
+        return false;
+    }
+    TopoEdge *p = m_verList[ver->get_name()]->m_pEdgeHead;
+    bool result = true;
+    while(p!=NULL){
+        qDebug()<<"here";
+        result &= remove_topoEdge(p->m_pEnd,ver);
+        result &= remove_topoEdge(ver,p->m_pEnd);
+        p = p->m_pNextEdge;
+    }
+    m_verList[ver->get_name()]->deleteLater();
+    result &= m_verList.remove(ver->get_name());
+    m_nVerCount--;
+    return result;
+}
+
+bool TopoView::remove_topoEdge(TopoVer* start,TopoVer* end)
+{
+    if(is_verExist(start) && is_verExist(end)){
+        return false;
+    }
+    TopoEdge *p = m_verList[start->get_name()]->m_pEdgeHead,*q;
+    if(p==NULL) return false;
+    if(p->m_pEnd->get_name()==end->get_name()){
+        m_verList[start->get_name()]->m_pEdgeHead = p->m_pNextEdge;
+        p->deleteLater();
+        --m_nEdgeCount;
+        return true;
+    }
+    while(p->m_pNextEdge!=NULL && p->m_pNextEdge->m_pEnd!=end) p = p->m_pNextEdge;
+    if(p->m_pNextEdge==NULL) return false;
+    q = p->m_pNextEdge;p->m_pNextEdge = q->m_pNextEdge;q->deleteLater();
+    --m_nEdgeCount;
+    return true;
+}
+
+bool TopoView::remove_topoEdge(TopoEdge *edge)
+{
+    return remove_topoEdge(edge->m_pStart,edge->m_pEnd);
+}
+
+bool TopoView::is_verExist(TopoVer *ver) const
+{
+    return m_verList.count(ver->get_name())>0;
+}
+
+bool TopoView::is_edgeExist(TopoVer* start,TopoVer* end) const
+{
+    TopoEdge *p = start->m_pEdgeHead;
+    while(p!=NULL && p->m_pEnd) p = p->m_pNextEdge;
+    return p!=NULL;
+}
+
+bool TopoView::load_topoMap(QString path)
+{
+    /*QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
+    db.setDatabaseName(path);
+    if(!db.open()){
+        QMessageBox::critical(0,"Cannot open database","Unable to establish a database connection.",QMessageBox::Cancel);
+        return false;
+    }
+    m_topoMap->clear();
+    QSqlQuery query(db);
+    if(!query.exec("select * from topo_ver")) return false;
+    QString vername;
+    qreal weight,posX,posY;
+    while(query.next()){
+        QSqlRecord record = query.record();
+        vername = QString("%1").arg(record.value("NodeID").toInt());
+        weight = record.value("weight").toReal();
+        posX = record.value("x").toReal()*1000;
+        posY = record.value("y").toReal()*1000;
+
+        // 添加拓扑顶点到拓扑图
+        if(!m_topoMap->add(vername,weight,QPointF(posX,posY),NULL)) return false;
+
+        if(posX<m_nMinX) m_nMinX = posX;
+        else if(posX>m_nMaxX) m_nMaxX = posX;
+        if(posY<m_nMinY) m_nMinY = posY;
+        else if(posY>m_nMaxY) m_nMaxY = posY;
+    }
+    // 计算拓扑视图中四周留白区域
+    m_nMinX*=(100+MARGIN_LEFT)/100.0;
+    m_nMaxX*=(100+MARGIN_RIGHT)/100.0;
+    m_nMaxY*=(100+MARGIN_BOTTOM)/100.0;
+    m_nMinY*=(100+MARGIN_TOP)/100.0;
+
+    qreal scene_width = scene()->width();
+    qreal scene_height = scene()->height();
+    QTransform scale,translate;
+    translate.translate(-m_nMinX,-m_nMinY);
+    scale.scale(scene_width/(m_nMaxX-m_nMinX),scene_height/(m_nMaxY-m_nMinY));
+    m_transform = translate*scale;
+    setGlobalTransform(m_transform);
+    setGlobalInverseTransform(scale.inverted()*translate.inverted());
+    // 将拓扑图中顶点添加到拓扑视图里
+    foreach(verNode ver,m_topoMap->get_nodes()){
+        TopoVer* topover = new TopoVer(scene(),ver.name.toInt(),mapFromRealWorld(ver.pos));
+        m_topoVerList.append(topover);
+    }
+
+    // 从数据库中载入拓扑边
+    if(!query.exec("select * from topo_edge"))return false;
+    int pathID,startNodeID,endNodeID;
+    while(query.next()){
+        QSqlRecord record = query.record();
+        pathID = record.value("pathID").toInt();
+        startNodeID = record.value("startNodeID").toInt();
+        endNodeID = record.value("endNodeID").toInt();
+        QString startName = QString("%1").arg(startNodeID);
+        QString endName = QString("%1").arg(endNodeID);
+        if(m_topoMap->exist(startName,endName)){
+            qDebug()<<"该边已经存在";
+        }
+        else{
+            TopoVer *start=0,*end=0;
+            foreach(TopoVer* ver,m_topoVerList){
+                if(ver->get_id()==startNodeID)
+                    start = ver;
+                else if(ver->get_id()==endNodeID)
+                    end = ver;
+                if(start!=0 && end!=0){
+                    new TopoEdge(scene(),start,end);
+                    m_topoMap->insert(startName,endName,0);
+                    break;
+                }
+            }
+        }
+    }
+    db.close();*/
+    return true;
+}
+
+
+QBrush TopoVer::m_brushDefault=QBrush(Qt::blue);
+TopoVer::TopoVer(QGraphicsScene *scene, int id,QPointF center, int radius, int ver_type)
+{
+    scene->clearSelection();
+    setBrush(m_brushDefault);
+    setPos(center);
+    setRect(-radius/2,-radius/2,radius,radius);
+    setFlag(QGraphicsItem::ItemIsFocusable);
+    setFlag(QGraphicsItem::ItemIsSelectable);
+    setFlag(QGraphicsItem::ItemIsMovable);
+    setZValue(2);
+    m_nVerType = ver_type;
+    m_nID = id;
+    m_pEdgeHead = NULL;
+    m_strID = QString("Ver_%1").arg(id);
+    setPen(Qt::NoPen);
+    scene->addItem(this);
+    setSelected(true);
+}
+
+void TopoVer::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    if(isSelected()){
+        emit property_change(get_property());
+        emit position_change();
+    }
+    QGraphicsEllipseItem::paint(painter,option,widget);
+}
+
+QMap<QString, qreal> TopoVer::get_property()
+{
+    QMap<QString,qreal> prop;
+    prop.insert("x",pos().x());
+    prop.insert("y",pos().y());
+    prop.insert("width",get_width());
+    prop.insert("ver_type",m_nVerType);
+    return prop;
+}
+
+
+QPen TopoEdge::m_penDefault = QPen(Qt::green,2,Qt::SolidLine);
+TopoEdge::TopoEdge(QGraphicsScene *scene, TopoVer *start, TopoVer *end)
+{
+    scene->clearSelection();
+    m_pStart = start;
+    m_pEnd = end;
+    m_nWidth = 0;
+    m_pNextEdge = NULL;
+    setFlag(QGraphicsItem::ItemIsFocusable);
+    setFlag(QGraphicsItem::ItemIsMovable,false);
+    setFlag(QGraphicsItem::ItemIsSelectable,true);
+    scene->addItem(this);
+    setFocus();
+    setSelected(true);
+    setPen(m_penDefault);
+    connect(start,SIGNAL(position_change()),this,SLOT(ver_change()));
+    connect(end,SIGNAL(position_change()),this,SLOT(ver_change()));
+    if(start && end)
+        setLine(QLineF(m_pStart->pos(),m_pEnd->pos()));
+    setZValue(1);
+}
+
+int TopoEdge::type() const
+{
+    return EDGE;
+
+}
+
+void TopoEdge::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    if(isSelected()){
+        emit property_change(get_property());
+    }
+    painter->setRenderHint(QPainter::Antialiasing,true);
+    painter->setPen(pen());
+    painter->drawLine(m_nWidth/4,0,m_nWidth/4-5,5);
+    painter->drawLine(m_nWidth/4,0,m_nWidth/4-5,-5);
+    painter->drawLine(0,0,m_nWidth,0);
+}
+
+QRectF TopoEdge::boundingRect() const
+{
+    int penwidth = pen().width();
+    return QRectF(-penwidth/2,-penwidth/2-5,penwidth+m_nWidth,penwidth+10);
+}
+
+void TopoEdge::setLine(QLineF line)
+{
+    QPointF p2;
+    setPos(line.p1());
+    p2.setX(line.x2()-line.x1());
+    p2.setY(line.y2()-line.y1());
+    m_nWidth = sqrt((p2.x()*p2.x())+(p2.y()*p2.y()));
+    setRotation(atan2(p2.y(),p2.x())*180/M_PI);
+    scene()->update();
+
+}
+
+void TopoEdge::set_startVer(TopoVer *ver)
+{
+    m_pStart = ver;
+    if(m_pStart && m_pEnd){
+        setLine(QLineF(m_pStart->pos(),m_pEnd->pos()));
+    }
+}
+
+void TopoEdge::set_endVer(TopoVer *ver)
+{
+    m_pEnd = ver;
+    if(m_pStart && m_pEnd){
+        setLine(QLineF(m_pStart->pos(),m_pEnd->pos()));
+    }
+}
+
+QMap<QString, qreal> TopoEdge::get_property()
+{
+    QMap<QString,qreal> prop;
+    return prop;
+}
+
+
+void TopoEdge::set_dashLine(bool flag)
+{
+    if(isSelected()){
+        QPen p = pen();
+        if(flag)
+            p.setStyle(Qt::DashLine);
+        else
+            p.setStyle(Qt::SolidLine);
+        setPen(p);
+        m_penDefault = p;
+    }
+}
+
+void TopoEdge::ver_change()
+{
+    setLine(QLineF(m_pStart->pos(),m_pEnd->pos()));
+}

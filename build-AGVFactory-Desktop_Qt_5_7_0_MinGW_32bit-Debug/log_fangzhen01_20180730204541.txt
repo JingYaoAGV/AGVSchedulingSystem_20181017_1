@@ -1,0 +1,41 @@
+20:45::41 [init] AGV: 1 在线
+20:45::41 [init] Mac: 01
+20:45::41 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+20:45::48 [recv]agv=1 Initialization: InitialPoint=-1
+20:45::49 [send]agv=1 send path command: C1 number=1,start=1 end=1 停止 等待 length 0 angle 0
+20:45::49 [send]agv=1 send path command: C2 number=1,start=0 end=0   length 0 angle 0
+20:45::49 [recv] set Path:1
+20:45::49 [recv]agv=1 Path Command Finish: C1 number=1 start=1 end=1 number=停止 等待  length 0 angle 0
+20:45::50 [send]agv=1 send path command: C1 number=2,start=1 end=1 右拐 原地旋转 length 0 angle 90
+20:45::50 [send]agv=1 send path command: C2 number=2,start=1 end=2 前进 正常行驶 length 1 angle 0
+20:45::50 [recv] set Path:1
+20:45::55 [recv]agv=1 Path Command Finish: C1 number=2 start=1 end=1 number=右拐 原地旋转  length 0 angle 90
+20:45::57 [send]agv=1 send path command: C1 number=3,start=1 end=2 前进 正常行驶 length 1 angle 0
+20:45::57 [send]agv=1 send path command: C2 number=3,start=2 end=3 前进 减速行驶 length 1 angle 0
+20:45::57 [recv] set Path:1
+20:46::09 [recv]agv=1 Path Command Finish: C1 number=3 start=1 end=2 number=前进 正常行驶  length 1 angle 0
+20:46::10 [send]agv=1 send path command: C1 number=4,start=2 end=3 前进 减速行驶 length 1 angle 0
+20:46::10 [send]agv=1 send path command: C2 number=4,start=3 end=3 左拐 原地旋转 length 0 angle 90
+20:46::10 [recv] set Path:1
+20:46::26 [recv]agv=1 Path Command Finish: C1 number=4 start=2 end=3 number=前进 减速行驶  length 1 angle 0
+20:46::26 [send]agv=1 send path command: C1 number=5,start=3 end=3 左拐 原地旋转 length 0 angle 90
+20:46::26 [send]agv=1 send path command: C2 number=5,start=3 end=3 停止 等待 length 0 angle 0
+20:46::26 [recv] set Path:1
+20:46::30 [recv]agv=1 Path Command Finish: C1 number=5 start=3 end=3 number=左拐 原地旋转  length 0 angle 90
+20:46::31 [send]agv=1 send path command: C1 number=6,start=3 end=3 停止 等待 length 0 angle 0
+20:46::31 [send]agv=1 send path command: C2 number=6,start=0 end=0   length 0 angle 0
+20:46::31 [recv] set Path:1
+20:46::34 [recv]agv=1 Path Command Finish: C1 number=6 start=3 end=3 number=停止 等待  length 0 angle 0
+20:46::38 [send]agv=1 send path command: C1 number=7,start=3 end=3 左拐 原地旋转 length 0 angle 90
+20:46::38 [send]agv=1 send path command: C2 number=7,start=3 end=2 前进 正常行驶 length 1 angle 0
+20:46::38 [recv] set Path:1
+20:46::42 [recv]agv=1 Path Command Finish: C1 number=7 start=3 end=3 number=左拐 原地旋转  length 0 angle 90
+20:46::58 [recv]agv=1 Path Command Finish: C1 number=8 start=3 end=2 number=前进 正常行驶  length 1 angle 0
+20:46::59 [send]agv=1 send path command: C1 number=9,start=2 end=1 前进 正常行驶 length 1 angle 0
+20:46::59 [send]agv=1 send path command: C2 number=9,start=1 end=1 停止 等待 length 0 angle 0
+20:46::59 [recv] set Path:1
+20:47::14 [recv]agv=1 Path Command Finish: C1 number=9 start=2 end=1 number=前进 正常行驶  length 1 angle 0
+20:47::18 [recv]agv=1 Path Command Finish: C1 number=10 start=1 end=1 number=停止 等待  length 0 angle 0
+20:47::19 [send]agv=1 send path command: C1 number=10,start=1 end=1 停止 等待 length 0 angle 0
+20:47::19 [send]agv=1 send path command: C2 number=10,start=0 end=0   length 0 angle 0
+20:47::19 [recv] set Path:1

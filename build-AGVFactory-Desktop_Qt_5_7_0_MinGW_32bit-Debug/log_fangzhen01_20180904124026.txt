@@ -1,0 +1,489 @@
+12:40::26 [init] AGV: 1 在线
+12:40::26 [init] Mac: 01
+12:40::26 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+12:40::28 [recv]agv=1 Initialization: InitialPoint=0001,AGVType=1
+12:40::29 [send]agv=1 send path command: C1 number=1,start=0001 end=0002 后退 减速行驶 length 1.7 angle 0
+12:40::29 [send]agv=1 send path command: C2 number=2,start=0002 end=0002 右拐 原地旋转 length 0 angle 90
+12:40::29 [recv]Communication_Send Answer: number_1:1,number_2:2
+12:40::29 [recv] agv=1,Send Path Answer:number_1=1,number_2=2
+12:40::29 [recv]Communication_Send Answer: number_1:1,number_2:2
+12:40::29 [recv] agv=1,Send Path Answer:number_1=1,number_2=2
+12:40::36 [recv]Communication_ComandFinish: number:1,
+12:40::36 [recv]agv=1 Path Command Finish: C1 number=1 start=0001 end=0002 后退 减速行驶  length 1.7 angle 0
+12:40::36 [send]agv=1%,ComandFinish Answer: number:1,
+12:40::36 [recv]Communication_ComandFinish: number:1,
+12:40::36 [send]agv=1%,ComandFinish Answer: number:1,
+12:40::36 [send]agv=1 send path command: C1 number=2,start=0002 end=0002 右拐 原地旋转 length 0 angle 90
+12:40::36 [send]agv=1 send path command: C2 number=3,start=0002 end=0102 前进 正常行驶 length 1.3 angle 0
+12:40::36 [recv]Communication_Send Answer: number_1:2,number_2:3
+12:40::36 [recv] agv=1,Send Path Answer:number_1=2,number_2=3
+12:40::36 [recv]Communication_Send Answer: number_1:2,number_2:3
+12:40::36 [recv] agv=1,Send Path Answer:number_1=2,number_2=3
+12:40::40 [recv]Communication_ComandFinish: number:2,
+12:40::40 [recv]agv=1 Path Command Finish: C1 number=2 start=0002 end=0002 右拐 原地旋转  length 0 angle 90
+12:40::40 [send]agv=1%,ComandFinish Answer: number:2,
+12:40::40 [recv]Communication_ComandFinish: number:2,
+12:40::40 [send]agv=1%,ComandFinish Answer: number:2,
+12:40::40 [send]agv=1 send path command: C1 number=3,start=0002 end=0102 前进 正常行驶 length 1.3 angle 0
+12:40::40 [send]agv=1 send path command: C2 number=4,start=0102 end=0202 前进 减速行驶 length 1.3 angle 0
+12:40::40 [recv]Communication_Send Answer: number_1:3,number_2:4
+12:40::40 [recv] agv=1,Send Path Answer:number_1=3,number_2=4
+12:40::40 [recv]Communication_Send Answer: number_1:3,number_2:4
+12:40::40 [recv] agv=1,Send Path Answer:number_1=3,number_2=4
+12:40::44 [recv]Communication_ComandFinish: number:3,
+12:40::44 [recv]agv=1 Path Command Finish: C1 number=3 start=0002 end=0102 前进 正常行驶  length 1.3 angle 0
+12:40::44 [send]agv=1%,ComandFinish Answer: number:3,
+12:40::44 [recv]Communication_ComandFinish: number:3,
+12:40::44 [send]agv=1%,ComandFinish Answer: number:3,
+12:40::44 [send]agv=1 send path command: C1 number=4,start=0102 end=0202 前进 减速行驶 length 1.3 angle 0
+12:40::44 [send]agv=1 send path command: C2 number=5,start=0202 end=0202 右拐 原地旋转 length 0 angle 90
+12:40::44 [recv]Communication_Send Answer: number_1:4,number_2:5
+12:40::44 [recv] agv=1,Send Path Answer:number_1=4,number_2=5
+12:40::44 [recv]Communication_Send Answer: number_1:4,number_2:5
+12:40::44 [recv] agv=1,Send Path Answer:number_1=4,number_2=5
+12:40::48 [recv]Communication_ComandFinish: number:4,
+12:40::48 [recv]agv=1 Path Command Finish: C1 number=4 start=0102 end=0202 前进 减速行驶  length 1.3 angle 0
+12:40::48 [send]agv=1%,ComandFinish Answer: number:4,
+12:40::48 [recv]Communication_ComandFinish: number:4,
+12:40::48 [send]agv=1%,ComandFinish Answer: number:4,
+12:40::48 [send]agv=1 send path command: C1 number=5,start=0202 end=0202 右拐 原地旋转 length 0 angle 90
+12:40::48 [send]agv=1 send path command: C2 number=6,start=0202 end=0203 前进 正常行驶 length 1 angle 0
+12:40::48 [recv]Communication_Send Answer: number_1:5,number_2:6
+12:40::48 [recv] agv=1,Send Path Answer:number_1=5,number_2=6
+12:40::48 [recv]Communication_Send Answer: number_1:5,number_2:6
+12:40::48 [recv] agv=1,Send Path Answer:number_1=5,number_2=6
+12:40::52 [recv]Communication_ComandFinish: number:5,
+12:40::52 [recv]agv=1 Path Command Finish: C1 number=5 start=0202 end=0202 右拐 原地旋转  length 0 angle 90
+12:40::52 [send]agv=1%,ComandFinish Answer: number:5,
+12:40::52 [recv]Communication_ComandFinish: number:5,
+12:40::52 [send]agv=1%,ComandFinish Answer: number:5,
+12:40::52 [send]agv=1 send path command: C1 number=6,start=0202 end=0203 前进 正常行驶 length 1 angle 0
+12:40::52 [send]agv=1 send path command: C2 number=7,start=0203 end=0204 前进 减速行驶 length 1.2 angle 0
+12:40::52 [recv]Communication_Send Answer: number_1:6,number_2:7
+12:40::52 [recv] agv=1,Send Path Answer:number_1=6,number_2=7
+12:40::52 [recv]Communication_Send Answer: number_1:6,number_2:7
+12:40::52 [recv] agv=1,Send Path Answer:number_1=6,number_2=7
+12:40::56 [recv]Communication_ComandFinish: number:6,
+12:40::56 [recv]agv=1 Path Command Finish: C1 number=6 start=0202 end=0203 前进 正常行驶  length 1 angle 0
+12:40::56 [send]agv=1%,ComandFinish Answer: number:6,
+12:40::56 [recv]Communication_ComandFinish: number:6,
+12:40::56 [send]agv=1%,ComandFinish Answer: number:6,
+12:40::56 [send]agv=1 send path command: C1 number=7,start=0203 end=0204 前进 减速行驶 length 1.2 angle 0
+12:40::56 [send]agv=1 send path command: C2 number=8,start=0204 end=0204 左拐 原地旋转 length 0 angle 90
+12:40::56 [recv]Communication_Send Answer: number_1:7,number_2:8
+12:40::56 [recv] agv=1,Send Path Answer:number_1=7,number_2=8
+12:40::56 [recv]Communication_Send Answer: number_1:7,number_2:8
+12:40::56 [recv] agv=1,Send Path Answer:number_1=7,number_2=8
+12:41::00 [recv]Communication_ComandFinish: number:7,
+12:41::00 [recv]agv=1 Path Command Finish: C1 number=7 start=0203 end=0204 前进 减速行驶  length 1.2 angle 0
+12:41::00 [send]agv=1%,ComandFinish Answer: number:7,
+12:41::00 [recv]Communication_ComandFinish: number:7,
+12:41::00 [send]agv=1%,ComandFinish Answer: number:7,
+12:41::00 [send]agv=1 send path command: C1 number=8,start=0204 end=0204 左拐 原地旋转 length 0 angle 90
+12:41::00 [send]agv=1 send path command: C2 number=9,start=0204 end=0304 前进 减速行驶 length 1.3 angle 0
+12:41::00 [recv]Communication_Send Answer: number_1:8,number_2:9
+12:41::00 [recv] agv=1,Send Path Answer:number_1=8,number_2=9
+12:41::00 [recv]Communication_Send Answer: number_1:8,number_2:9
+12:41::00 [recv] agv=1,Send Path Answer:number_1=8,number_2=9
+12:41::04 [recv]Communication_ComandFinish: number:8,
+12:41::04 [recv]agv=1 Path Command Finish: C1 number=8 start=0204 end=0204 左拐 原地旋转  length 0 angle 90
+12:41::04 [send]agv=1%,ComandFinish Answer: number:8,
+12:41::04 [recv]Communication_ComandFinish: number:8,
+12:41::04 [send]agv=1%,ComandFinish Answer: number:8,
+12:41::05 [send]agv=1 send path command: C1 number=9,start=0204 end=0304 前进 减速行驶 length 1.3 angle 0
+12:41::05 [send]agv=1 send path command: C2 number=10,start=0304 end=0304 右拐 原地旋转 length 0 angle 90
+12:41::05 [recv]Communication_Send Answer: number_1:9,number_2:10
+12:41::05 [recv] agv=1,Send Path Answer:number_1=9,number_2=10
+12:41::05 [recv]Communication_Send Answer: number_1:9,number_2:10
+12:41::05 [recv] agv=1,Send Path Answer:number_1=9,number_2=10
+12:41::08 [recv]Communication_ComandFinish: number:9,
+12:41::08 [recv]agv=1 Path Command Finish: C1 number=9 start=0204 end=0304 前进 减速行驶  length 1.3 angle 0
+12:41::08 [send]agv=1%,ComandFinish Answer: number:9,
+12:41::08 [recv]Communication_ComandFinish: number:9,
+12:41::08 [send]agv=1%,ComandFinish Answer: number:9,
+12:41::08 [send]agv=1 send path command: C1 number=10,start=0304 end=0304 右拐 原地旋转 length 0 angle 90
+12:41::08 [send]agv=1 send path command: C2 number=11,start=0304 end=0305 前进 正常行驶 length 1.8 angle 0
+12:41::08 [recv]Communication_Send Answer: number_1:10,number_2:11
+12:41::08 [recv] agv=1,Send Path Answer:number_1=10,number_2=11
+12:41::08 [recv]Communication_Send Answer: number_1:10,number_2:11
+12:41::08 [recv] agv=1,Send Path Answer:number_1=10,number_2=11
+12:41::12 [recv]Communication_ComandFinish: number:10,
+12:41::12 [recv]agv=1 Path Command Finish: C1 number=10 start=0304 end=0304 右拐 原地旋转  length 0 angle 90
+12:41::12 [send]agv=1%,ComandFinish Answer: number:10,
+12:41::12 [recv]Communication_ComandFinish: number:10,
+12:41::12 [send]agv=1%,ComandFinish Answer: number:10,
+12:41::12 [send]agv=1 send path command: C1 number=11,start=0304 end=0305 前进 正常行驶 length 1.8 angle 0
+12:41::12 [send]agv=1 send path command: C2 number=12,start=0305 end=0306 前进 正常行驶 length 1.6 angle 0
+12:41::12 [recv]Communication_Send Answer: number_1:11,number_2:12
+12:41::12 [recv] agv=1,Send Path Answer:number_1=11,number_2=12
+12:41::12 [recv]Communication_Send Answer: number_1:11,number_2:12
+12:41::12 [recv] agv=1,Send Path Answer:number_1=11,number_2=12
+12:41::16 [recv]Communication_ComandFinish: number:11,
+12:41::16 [recv]agv=1 Path Command Finish: C1 number=11 start=0304 end=0305 前进 正常行驶  length 1.8 angle 0
+12:41::16 [send]agv=1%,ComandFinish Answer: number:11,
+12:41::16 [recv]Communication_ComandFinish: number:11,
+12:41::16 [send]agv=1%,ComandFinish Answer: number:11,
+12:41::17 [send]agv=1 send path command: C1 number=12,start=0305 end=0306 前进 正常行驶 length 1.6 angle 0
+12:41::17 [send]agv=1 send path command: C2 number=13,start=0306 end=0308 前进 正常行驶 length 2 angle 0
+12:41::17 [recv]Communication_Send Answer: number_1:12,number_2:13
+12:41::17 [recv] agv=1,Send Path Answer:number_1=12,number_2=13
+12:41::17 [recv]Communication_Send Answer: number_1:12,number_2:13
+12:41::17 [recv] agv=1,Send Path Answer:number_1=12,number_2=13
+12:41::22 [recv]Communication_ComandFinish: number:12,
+12:41::22 [recv]agv=1 Path Command Finish: C1 number=12 start=0305 end=0306 前进 正常行驶  length 1.6 angle 0
+12:41::22 [send]agv=1%,ComandFinish Answer: number:12,
+12:41::22 [recv]Communication_ComandFinish: number:12,
+12:41::22 [send]agv=1%,ComandFinish Answer: number:12,
+12:41::22 [send]agv=1 send path command: C1 number=13,start=0306 end=0308 前进 正常行驶 length 2 angle 0
+12:41::22 [send]agv=1 send path command: C2 number=14,start=0308 end=0309 前进 正常行驶 length 1.8 angle 0
+12:41::22 [recv]Communication_Send Answer: number_1:13,number_2:14
+12:41::22 [recv] agv=1,Send Path Answer:number_1=13,number_2=14
+12:41::22 [recv]Communication_Send Answer: number_1:13,number_2:14
+12:41::22 [recv] agv=1,Send Path Answer:number_1=13,number_2=14
+12:41::28 [recv]Communication_ComandFinish: number:13,
+12:41::28 [recv]agv=1 Path Command Finish: C1 number=13 start=0306 end=0308 前进 正常行驶  length 2 angle 0
+12:41::28 [send]agv=1%,ComandFinish Answer: number:13,
+12:41::28 [recv]Communication_ComandFinish: number:13,
+12:41::28 [send]agv=1%,ComandFinish Answer: number:13,
+12:41::28 [send]agv=1 send path command: C1 number=14,start=0308 end=0309 前进 正常行驶 length 1.8 angle 0
+12:41::28 [send]agv=1 send path command: C2 number=15,start=0309 end=030a 前进 正常行驶 length 1.5 angle 0
+12:41::28 [recv]Communication_Send Answer: number_1:14,number_2:15
+12:41::28 [recv] agv=1,Send Path Answer:number_1=14,number_2=15
+12:41::28 [recv]Communication_Send Answer: number_1:14,number_2:15
+12:41::28 [recv] agv=1,Send Path Answer:number_1=14,number_2=15
+12:41::32 [recv]Communication_ComandFinish: number:14,
+12:41::32 [recv]agv=1 Path Command Finish: C1 number=14 start=0308 end=0309 前进 正常行驶  length 1.8 angle 0
+12:41::32 [send]agv=1%,ComandFinish Answer: number:14,
+12:41::32 [recv]Communication_ComandFinish: number:14,
+12:41::32 [send]agv=1%,ComandFinish Answer: number:14,
+12:41::33 [send]agv=1 send path command: C1 number=15,start=0309 end=030a 前进 正常行驶 length 1.5 angle 0
+12:41::33 [send]agv=1 send path command: C2 number=16,start=030a end=030b 前进 正常行驶 length 1.1 angle 0
+12:41::33 [recv]Communication_Send Answer: number_1:15,number_2:16
+12:41::33 [recv] agv=1,Send Path Answer:number_1=15,number_2=16
+12:41::33 [recv]Communication_Send Answer: number_1:15,number_2:16
+12:41::33 [recv] agv=1,Send Path Answer:number_1=15,number_2=16
+12:41::38 [recv]Communication_ComandFinish: number:15,
+12:41::38 [recv]agv=1 Path Command Finish: C1 number=15 start=0309 end=030a 前进 正常行驶  length 1.5 angle 0
+12:41::38 [send]agv=1%,ComandFinish Answer: number:15,
+12:41::38 [recv]Communication_ComandFinish: number:15,
+12:41::38 [send]agv=1%,ComandFinish Answer: number:15,
+12:41::38 [send]agv=1 send path command: C1 number=16,start=030a end=030b 前进 正常行驶 length 1.1 angle 0
+12:41::38 [send]agv=1 send path command: C2 number=17,start=030b end=030c 前进 减速行驶 length 1 angle 0
+12:41::38 [recv]Communication_Send Answer: number_1:16,number_2:17
+12:41::38 [recv] agv=1,Send Path Answer:number_1=16,number_2=17
+12:41::38 [recv]Communication_Send Answer: number_1:16,number_2:17
+12:41::38 [recv] agv=1,Send Path Answer:number_1=16,number_2=17
+12:41::44 [recv]Communication_ComandFinish: number:16,
+12:41::44 [recv]agv=1 Path Command Finish: C1 number=16 start=030a end=030b 前进 正常行驶  length 1.1 angle 0
+12:41::44 [send]agv=1%,ComandFinish Answer: number:16,
+12:41::44 [recv]Communication_ComandFinish: number:16,
+12:41::44 [send]agv=1%,ComandFinish Answer: number:16,
+12:41::45 [send]agv=1 send path command: C1 number=17,start=030b end=030c 前进 减速行驶 length 1 angle 0
+12:41::45 [send]agv=1 send path command: C2 number=18,start=030c end=030c 右拐 原地旋转 length 0 angle 90
+12:41::45 [recv]Communication_Send Answer: number_1:17,number_2:18
+12:41::45 [recv] agv=1,Send Path Answer:number_1=17,number_2=18
+12:41::45 [recv]Communication_Send Answer: number_1:17,number_2:18
+12:41::45 [recv] agv=1,Send Path Answer:number_1=17,number_2=18
+12:41::48 [recv]Communication_ComandFinish: number:17,
+12:41::48 [recv]agv=1 Path Command Finish: C1 number=17 start=030b end=030c 前进 减速行驶  length 1 angle 0
+12:41::48 [send]agv=1%,ComandFinish Answer: number:17,
+12:41::48 [recv]Communication_ComandFinish: number:17,
+12:41::48 [send]agv=1%,ComandFinish Answer: number:17,
+12:41::49 [send]agv=1 send path command: C1 number=18,start=030c end=030c 右拐 原地旋转 length 0 angle 90
+12:41::49 [send]agv=1 send path command: C2 number=19,start=030c end=020c 前进 正常行驶 length 1.3 angle 0
+12:41::49 [recv]Communication_Send Answer: number_1:18,number_2:19
+12:41::49 [recv] agv=1,Send Path Answer:number_1=18,number_2=19
+12:41::49 [recv]Communication_Send Answer: number_1:18,number_2:19
+12:41::49 [recv] agv=1,Send Path Answer:number_1=18,number_2=19
+12:41::52 [recv]Communication_ComandFinish: number:18,
+12:41::52 [recv]agv=1 Path Command Finish: C1 number=18 start=030c end=030c 右拐 原地旋转  length 0 angle 90
+12:41::52 [send]agv=1%,ComandFinish Answer: number:18,
+12:41::52 [recv]Communication_ComandFinish: number:18,
+12:41::52 [send]agv=1%,ComandFinish Answer: number:18,
+12:41::53 [send]agv=1 send path command: C1 number=19,start=030c end=020c 前进 正常行驶 length 1.3 angle 0
+12:41::53 [send]agv=1 send path command: C2 number=20,start=020c end=000c 前进 减速行驶 length 2.3 angle 0
+12:41::53 [recv]Communication_Send Answer: number_1:19,number_2:20
+12:41::53 [recv] agv=1,Send Path Answer:number_1=19,number_2=20
+12:41::53 [recv]Communication_Send Answer: number_1:19,number_2:20
+12:41::53 [recv] agv=1,Send Path Answer:number_1=19,number_2=20
+12:41::56 [recv]Communication_ComandFinish: number:19,
+12:41::56 [recv]agv=1 Path Command Finish: C1 number=19 start=030c end=020c 前进 正常行驶  length 1.3 angle 0
+12:41::56 [send]agv=1%,ComandFinish Answer: number:19,
+12:41::56 [recv]Communication_ComandFinish: number:19,
+12:41::56 [send]agv=1%,ComandFinish Answer: number:19,
+12:41::57 [send]agv=1 send path command: C1 number=20,start=020c end=000c 前进 减速行驶 length 2.3 angle 0
+12:41::57 [send]agv=1 send path command: C2 number=21,start=000c end=000c 左拐  length 0 angle 0
+12:41::57 [recv]Communication_Send Answer: number_1:20,number_2:21
+12:41::57 [recv] agv=1,Send Path Answer:number_1=20,number_2=21
+12:41::57 [recv]Communication_Send Answer: number_1:20,number_2:21
+12:41::57 [recv] agv=1,Send Path Answer:number_1=20,number_2=21
+12:42::02 [recv]Communication_ComandFinish: number:20,
+12:42::02 [recv]agv=1 Path Command Finish: C1 number=20 start=020c end=000c 前进 减速行驶  length 2.3 angle 0
+12:42::02 [send]agv=1%,ComandFinish Answer: number:20,
+12:42::02 [recv]Communication_ComandFinish: number:20,
+12:42::02 [send]agv=1%,ComandFinish Answer: number:20,
+12:42::02 [send]agv=1 send path command: C1 number=21,start=000c end=000c 左拐  length 0 angle 0
+12:42::02 [send]agv=1 send path command: C2 number=22,start=000c end=000c 停止 等待 length 0 angle 0
+12:42::02 [recv]Communication_Send Answer: number_1:21,number_2:22
+12:42::02 [recv] agv=1,Send Path Answer:number_1=21,number_2=22
+12:42::02 [recv]Communication_Send Answer: number_1:21,number_2:22
+12:42::02 [recv] agv=1,Send Path Answer:number_1=21,number_2=22
+12:42::06 [recv]Communication_ComandFinish: number:21,
+12:42::06 [recv]agv=1 Path Command Finish: C1 number=21 start=000c end=000c 左拐   length 0 angle 0
+12:42::06 [send]agv=1%,ComandFinish Answer: number:21,
+12:42::06 [recv]Communication_ComandFinish: number:21,
+12:42::06 [send]agv=1%,ComandFinish Answer: number:21,
+12:42::08 [send]agv=1 send path command: C1 number=23,start=000c end=000c 右拐  length 0 angle 0
+12:42::08 [send]agv=1 send path command: C2 number=24,start=000c end=000c 停止 等待 length 0 angle 0
+12:42::08 [recv]Communication_Send Answer: number_1:23,number_2:24
+12:42::08 [recv] agv=1,Send Path Answer:number_1=23,number_2=24
+12:42::08 [recv]Communication_Send Answer: number_1:23,number_2:24
+12:42::08 [recv] agv=1,Send Path Answer:number_1=23,number_2=24
+12:42::10 [recv]Communication_ComandFinish: number:22,
+12:42::10 [recv]agv=1 Path Command Finish: C1 number=22 start=000c end=000c 停止 等待  length 0 angle 0
+12:42::10 [send]agv=1%,ComandFinish Answer: number:22,
+12:42::11 [recv]Communication_ComandFinish: number:22,
+12:42::11 [send]agv=1%,ComandFinish Answer: number:22,
+12:42::14 [recv]Communication_ComandFinish: number:23,
+12:42::14 [recv]agv=1 Path Command Finish: C1 number=23 start=000c end=000c 右拐   length 0 angle 0
+12:42::14 [send]agv=1%,ComandFinish Answer: number:23,
+12:42::14 [recv]Communication_ComandFinish: number:23,
+12:42::14 [send]agv=1%,ComandFinish Answer: number:23,
+12:42::18 [recv]Communication_ComandFinish: number:24,
+12:42::18 [recv]Communication_ComandFinish: number:24,
+12:42::19 [send]agv=1 send path command: C1 number=25,start=000c end=020c 后退 正常行驶 length 2.3 angle 0
+12:42::19 [send]agv=1 send path command: C2 number=26,start=020c end=030c 后退 减速行驶 length 1.3 angle 0
+12:42::19 [recv]Communication_Send Answer: number_1:25,number_2:26
+12:42::19 [recv] agv=1,Send Path Answer:number_1=25,number_2=26
+12:42::19 [recv]Communication_Send Answer: number_1:25,number_2:26
+12:42::19 [recv] agv=1,Send Path Answer:number_1=25,number_2=26
+12:42::20 [recv]Communication_ComandFinish: number:24,
+12:42::20 [recv]agv=1 Path Command Finish: C1 number=24 start=000c end=000c 停止 等待  length 0 angle 0
+12:42::20 [send]agv=1%,ComandFinish Answer: number:24,
+12:42::20 [recv]Communication_ComandFinish: number:24,
+12:42::20 [send]agv=1%,ComandFinish Answer: number:24,
+12:42::28 [recv]Communication_ComandFinish: number:25,
+12:42::28 [recv]agv=1 Path Command Finish: C1 number=25 start=000c end=020c 后退 正常行驶  length 2.3 angle 0
+12:42::28 [send]agv=1%,ComandFinish Answer: number:25,
+12:42::28 [recv]Communication_ComandFinish: number:25,
+12:42::28 [send]agv=1%,ComandFinish Answer: number:25,
+12:42::32 [recv]Communication_ComandFinish: number:26,
+12:42::32 [recv]agv=1 Path Command Finish: C1 number=26 start=020c end=030c 后退 减速行驶  length 1.3 angle 0
+12:42::32 [send]agv=1%,ComandFinish Answer: number:26,
+12:42::33 [recv]Communication_ComandFinish: number:26,
+12:42::33 [send]agv=1%,ComandFinish Answer: number:26,
+12:42::33 [send]agv=1 send path command: C1 number=27,start=030c end=030c 右拐 原地旋转 length 0 angle 90
+12:42::33 [send]agv=1 send path command: C2 number=28,start=030c end=030b 前进 正常行驶 length 1 angle 0
+12:42::33 [recv]Communication_Send Answer: number_1:27,number_2:28
+12:42::33 [recv] agv=1,Send Path Answer:number_1=27,number_2=28
+12:42::33 [recv]Communication_Send Answer: number_1:27,number_2:28
+12:42::33 [recv] agv=1,Send Path Answer:number_1=27,number_2=28
+12:42::38 [recv]Communication_ComandFinish: number:27,
+12:42::38 [recv]agv=1 Path Command Finish: C1 number=27 start=030c end=030c 右拐 原地旋转  length 0 angle 90
+12:42::38 [send]agv=1%,ComandFinish Answer: number:27,
+12:42::38 [recv]Communication_ComandFinish: number:27,
+12:42::38 [send]agv=1%,ComandFinish Answer: number:27,
+12:42::39 [send]agv=1 send path command: C1 number=28,start=030c end=030b 前进 正常行驶 length 1 angle 0
+12:42::39 [send]agv=1 send path command: C2 number=29,start=030b end=030a 前进 正常行驶 length 1.1 angle 0
+12:42::39 [recv]Communication_Send Answer: number_1:28,number_2:29
+12:42::39 [recv] agv=1,Send Path Answer:number_1=28,number_2=29
+12:42::39 [recv]Communication_Send Answer: number_1:28,number_2:29
+12:42::39 [recv] agv=1,Send Path Answer:number_1=28,number_2=29
+12:42::42 [recv]Communication_ComandFinish: number:28,
+12:42::42 [recv]agv=1 Path Command Finish: C1 number=28 start=030c end=030b 前进 正常行驶  length 1 angle 0
+12:42::42 [send]agv=1%,ComandFinish Answer: number:28,
+12:42::42 [recv]Communication_ComandFinish: number:28,
+12:42::42 [send]agv=1%,ComandFinish Answer: number:28,
+12:42::42 [send]agv=1 send path command: C1 number=29,start=030b end=030a 前进 正常行驶 length 1.1 angle 0
+12:42::42 [send]agv=1 send path command: C2 number=30,start=030a end=0309 前进 正常行驶 length 1.5 angle 0
+12:42::42 [recv]Communication_Send Answer: number_1:29,number_2:30
+12:42::42 [recv] agv=1,Send Path Answer:number_1=29,number_2=30
+12:42::42 [recv]Communication_Send Answer: number_1:29,number_2:30
+12:42::42 [recv] agv=1,Send Path Answer:number_1=29,number_2=30
+12:42::46 [recv]Communication_ComandFinish: number:29,
+12:42::46 [recv]agv=1 Path Command Finish: C1 number=29 start=030b end=030a 前进 正常行驶  length 1.1 angle 0
+12:42::46 [send]agv=1%,ComandFinish Answer: number:29,
+12:42::46 [recv]Communication_ComandFinish: number:29,
+12:42::46 [send]agv=1%,ComandFinish Answer: number:29,
+12:42::47 [send]agv=1 send path command: C1 number=30,start=030a end=0309 前进 正常行驶 length 1.5 angle 0
+12:42::47 [send]agv=1 send path command: C2 number=31,start=0309 end=0308 前进 正常行驶 length 1.8 angle 0
+12:42::47 [recv]Communication_Send Answer: number_1:30,number_2:31
+12:42::47 [recv] agv=1,Send Path Answer:number_1=30,number_2=31
+12:42::47 [recv]Communication_Send Answer: number_1:30,number_2:31
+12:42::47 [recv] agv=1,Send Path Answer:number_1=30,number_2=31
+12:42::52 [recv]Communication_ComandFinish: number:30,
+12:42::52 [recv]agv=1 Path Command Finish: C1 number=30 start=030a end=0309 前进 正常行驶  length 1.5 angle 0
+12:42::52 [send]agv=1%,ComandFinish Answer: number:30,
+12:42::52 [recv]Communication_ComandFinish: number:30,
+12:42::52 [send]agv=1%,ComandFinish Answer: number:30,
+12:42::53 [send]agv=1 send path command: C1 number=31,start=0309 end=0308 前进 正常行驶 length 1.8 angle 0
+12:42::53 [send]agv=1 send path command: C2 number=32,start=0308 end=0306 前进 正常行驶 length 2 angle 0
+12:42::53 [recv]Communication_Send Answer: number_1:31,number_2:32
+12:42::53 [recv] agv=1,Send Path Answer:number_1=31,number_2=32
+12:42::53 [recv]Communication_Send Answer: number_1:31,number_2:32
+12:42::53 [recv] agv=1,Send Path Answer:number_1=31,number_2=32
+12:42::56 [recv]Communication_ComandFinish: number:31,
+12:42::56 [recv]agv=1 Path Command Finish: C1 number=31 start=0309 end=0308 前进 正常行驶  length 1.8 angle 0
+12:42::56 [send]agv=1%,ComandFinish Answer: number:31,
+12:42::56 [recv]Communication_ComandFinish: number:31,
+12:42::56 [send]agv=1%,ComandFinish Answer: number:31,
+12:42::57 [send]agv=1 send path command: C1 number=32,start=0308 end=0306 前进 正常行驶 length 2 angle 0
+12:42::57 [send]agv=1 send path command: C2 number=33,start=0306 end=0305 前进 正常行驶 length 1.6 angle 0
+12:42::57 [recv]Communication_Send Answer: number_1:32,number_2:33
+12:42::57 [recv] agv=1,Send Path Answer:number_1=32,number_2=33
+12:42::57 [recv]Communication_Send Answer: number_1:32,number_2:33
+12:42::57 [recv] agv=1,Send Path Answer:number_1=32,number_2=33
+12:43::02 [recv]Communication_ComandFinish: number:32,
+12:43::02 [recv]agv=1 Path Command Finish: C1 number=32 start=0308 end=0306 前进 正常行驶  length 2 angle 0
+12:43::02 [send]agv=1%,ComandFinish Answer: number:32,
+12:43::02 [recv]Communication_ComandFinish: number:32,
+12:43::02 [send]agv=1%,ComandFinish Answer: number:32,
+12:43::03 [send]agv=1 send path command: C1 number=33,start=0306 end=0305 前进 正常行驶 length 1.6 angle 0
+12:43::03 [send]agv=1 send path command: C2 number=34,start=0305 end=0304 前进 正常行驶 length 1.8 angle 0
+12:43::03 [recv]Communication_Send Answer: number_1:33,number_2:34
+12:43::03 [recv] agv=1,Send Path Answer:number_1=33,number_2=34
+12:43::03 [recv]Communication_Send Answer: number_1:33,number_2:34
+12:43::03 [recv] agv=1,Send Path Answer:number_1=33,number_2=34
+12:43::08 [recv]Communication_ComandFinish: number:33,
+12:43::08 [recv]agv=1 Path Command Finish: C1 number=33 start=0306 end=0305 前进 正常行驶  length 1.6 angle 0
+12:43::08 [send]agv=1%,ComandFinish Answer: number:33,
+12:43::08 [recv]Communication_ComandFinish: number:33,
+12:43::08 [send]agv=1%,ComandFinish Answer: number:33,
+12:43::09 [send]agv=1 send path command: C1 number=34,start=0305 end=0304 前进 正常行驶 length 1.8 angle 0
+12:43::09 [send]agv=1 send path command: C2 number=35,start=0304 end=0303 前进 减速行驶 length 1.2 angle 0
+12:43::09 [recv]Communication_Send Answer: number_1:34,number_2:35
+12:43::09 [recv] agv=1,Send Path Answer:number_1=34,number_2=35
+12:43::09 [recv]Communication_Send Answer: number_1:34,number_2:35
+12:43::09 [recv] agv=1,Send Path Answer:number_1=34,number_2=35
+12:43::14 [recv]Communication_ComandFinish: number:34,
+12:43::14 [recv]agv=1 Path Command Finish: C1 number=34 start=0305 end=0304 前进 正常行驶  length 1.8 angle 0
+12:43::14 [send]agv=1%,ComandFinish Answer: number:34,
+12:43::14 [recv]Communication_ComandFinish: number:34,
+12:43::14 [send]agv=1%,ComandFinish Answer: number:34,
+12:43::15 [send]agv=1 send path command: C1 number=35,start=0304 end=0303 前进 减速行驶 length 1.2 angle 0
+12:43::15 [send]agv=1 send path command: C2 number=36,start=0303 end=0303 左拐 原地旋转 length 0 angle 90
+12:43::15 [recv]Communication_Send Answer: number_1:35,number_2:36
+12:43::15 [recv] agv=1,Send Path Answer:number_1=35,number_2=36
+12:43::15 [recv]Communication_Send Answer: number_1:35,number_2:36
+12:43::15 [recv] agv=1,Send Path Answer:number_1=35,number_2=36
+12:43::18 [recv]Communication_ComandFinish: number:35,
+12:43::18 [recv]agv=1 Path Command Finish: C1 number=35 start=0304 end=0303 前进 减速行驶  length 1.2 angle 0
+12:43::18 [send]agv=1%,ComandFinish Answer: number:35,
+12:43::18 [recv]Communication_ComandFinish: number:35,
+12:43::18 [send]agv=1%,ComandFinish Answer: number:35,
+12:43::19 [send]agv=1 send path command: C1 number=36,start=0303 end=0303 左拐 原地旋转 length 0 angle 90
+12:43::19 [send]agv=1 send path command: C2 number=37,start=0303 end=0203 前进 正常行驶 length 1.3 angle 0
+12:43::19 [recv]Communication_Send Answer: number_1:36,number_2:37
+12:43::19 [recv] agv=1,Send Path Answer:number_1=36,number_2=37
+12:43::19 [recv]Communication_Send Answer: number_1:36,number_2:37
+12:43::19 [recv] agv=1,Send Path Answer:number_1=36,number_2=37
+12:43::22 [recv]Communication_ComandFinish: number:36,
+12:43::22 [recv]agv=1 Path Command Finish: C1 number=36 start=0303 end=0303 左拐 原地旋转  length 0 angle 90
+12:43::22 [send]agv=1%,ComandFinish Answer: number:36,
+12:43::22 [recv]Communication_ComandFinish: number:36,
+12:43::22 [send]agv=1%,ComandFinish Answer: number:36,
+12:43::23 [send]agv=1 send path command: C1 number=37,start=0303 end=0203 前进 正常行驶 length 1.3 angle 0
+12:43::23 [send]agv=1 send path command: C2 number=38,start=0203 end=0003 前进 减速行驶 length 2.3 angle 0
+12:43::23 [recv]Communication_Send Answer: number_1:37,number_2:38
+12:43::23 [recv] agv=1,Send Path Answer:number_1=37,number_2=38
+12:43::23 [recv]Communication_Send Answer: number_1:37,number_2:38
+12:43::23 [recv] agv=1,Send Path Answer:number_1=37,number_2=38
+12:43::26 [recv]Communication_ComandFinish: number:37,
+12:43::26 [recv]agv=1 Path Command Finish: C1 number=37 start=0303 end=0203 前进 正常行驶  length 1.3 angle 0
+12:43::26 [send]agv=1%,ComandFinish Answer: number:37,
+12:43::26 [recv]Communication_ComandFinish: number:37,
+12:43::26 [send]agv=1%,ComandFinish Answer: number:37,
+12:43::27 [send]agv=1 send path command: C1 number=38,start=0203 end=0003 前进 减速行驶 length 2.3 angle 0
+12:43::27 [send]agv=1 send path command: C2 number=39,start=0003 end=0003 右拐  length 0 angle 0
+12:43::27 [recv]Communication_Send Answer: number_1:38,number_2:39
+12:43::27 [recv] agv=1,Send Path Answer:number_1=38,number_2=39
+12:43::27 [recv]Communication_Send Answer: number_1:38,number_2:39
+12:43::27 [recv] agv=1,Send Path Answer:number_1=38,number_2=39
+12:43::30 [recv]Communication_ComandFinish: number:38,
+12:43::30 [recv]agv=1 Path Command Finish: C1 number=38 start=0203 end=0003 前进 减速行驶  length 2.3 angle 0
+12:43::30 [send]agv=1%,ComandFinish Answer: number:38,
+12:43::30 [recv]Communication_ComandFinish: number:38,
+12:43::30 [send]agv=1%,ComandFinish Answer: number:38,
+12:43::31 [send]agv=1 send path command: C1 number=39,start=0003 end=0003 右拐  length 0 angle 0
+12:43::31 [send]agv=1 send path command: C2 number=40,start=0003 end=0003 停止 等待 length 0 angle 0
+12:43::31 [recv]Communication_Send Answer: number_1:39,number_2:40
+12:43::31 [recv] agv=1,Send Path Answer:number_1=39,number_2=40
+12:43::31 [recv]Communication_Send Answer: number_1:39,number_2:40
+12:43::31 [recv] agv=1,Send Path Answer:number_1=39,number_2=40
+12:43::34 [recv]Communication_ComandFinish: number:39,
+12:43::34 [recv]agv=1 Path Command Finish: C1 number=39 start=0003 end=0003 右拐   length 0 angle 0
+12:43::34 [send]agv=1%,ComandFinish Answer: number:39,
+12:43::34 [recv]Communication_ComandFinish: number:39,
+12:43::34 [send]agv=1%,ComandFinish Answer: number:39,
+12:43::36 [send]agv=1 send path command: C1 number=41,start=0003 end=0203 后退 正常行驶 length 2.3 angle 0
+12:43::36 [send]agv=1 send path command: C2 number=42,start=0203 end=0303 后退 正常行驶 length 1.3 angle 0
+12:43::36 [recv]Communication_Send Answer: number_1:41,number_2:42
+12:43::36 [recv] agv=1,Send Path Answer:number_1=41,number_2=42
+12:43::36 [recv]Communication_Send Answer: number_1:41,number_2:42
+12:43::36 [recv] agv=1,Send Path Answer:number_1=41,number_2=42
+12:43::38 [recv]Communication_ComandFinish: number:40,
+12:43::38 [recv]agv=1 Path Command Finish: C1 number=40 start=0003 end=0003 停止 等待  length 0 angle 0
+12:43::38 [send]agv=1%,ComandFinish Answer: number:40,
+12:43::39 [recv]Communication_ComandFinish: number:40,
+12:43::39 [send]agv=1%,ComandFinish Answer: number:40,
+12:43::44 [recv]Communication_ComandFinish: number:41,
+12:43::44 [recv]agv=1 Path Command Finish: C1 number=41 start=0003 end=0203 后退 正常行驶  length 2.3 angle 0
+12:43::44 [send]agv=1%,ComandFinish Answer: number:41,
+12:43::44 [recv]Communication_ComandFinish: number:41,
+12:43::44 [send]agv=1%,ComandFinish Answer: number:41,
+12:43::45 [send]agv=1 send path command: C1 number=42,start=0203 end=0303 后退 正常行驶 length 1.3 angle 0
+12:43::45 [send]agv=1 send path command: C2 number=43,start=0303 end=0403 后退 正常行驶 length 1.3 angle 0
+12:43::45 [recv]Communication_Send Answer: number_1:42,number_2:43
+12:43::45 [recv] agv=1,Send Path Answer:number_1=42,number_2=43
+12:43::45 [recv]Communication_Send Answer: number_1:42,number_2:43
+12:43::45 [recv] agv=1,Send Path Answer:number_1=42,number_2=43
+12:43::48 [recv]Communication_ComandFinish: number:42,
+12:43::48 [recv]agv=1 Path Command Finish: C1 number=42 start=0203 end=0303 后退 正常行驶  length 1.3 angle 0
+12:43::48 [send]agv=1%,ComandFinish Answer: number:42,
+12:43::48 [recv]Communication_ComandFinish: number:42,
+12:43::48 [send]agv=1%,ComandFinish Answer: number:42,
+12:43::49 [send]agv=1 send path command: C1 number=43,start=0303 end=0403 后退 正常行驶 length 1.3 angle 0
+12:43::49 [send]agv=1 send path command: C2 number=44,start=0403 end=0603 后退 减速行驶 length 2.7 angle 0
+12:43::49 [recv]Communication_Send Answer: number_1:43,number_2:44
+12:43::49 [recv] agv=1,Send Path Answer:number_1=43,number_2=44
+12:43::49 [recv]Communication_Send Answer: number_1:43,number_2:44
+12:43::49 [recv] agv=1,Send Path Answer:number_1=43,number_2=44
+12:43::52 [recv]Communication_ComandFinish: number:43,
+12:43::52 [recv]agv=1 Path Command Finish: C1 number=43 start=0303 end=0403 后退 正常行驶  length 1.3 angle 0
+12:43::52 [send]agv=1%,ComandFinish Answer: number:43,
+12:43::52 [recv]Communication_ComandFinish: number:43,
+12:43::52 [send]agv=1%,ComandFinish Answer: number:43,
+12:43::53 [send]agv=1 send path command: C1 number=44,start=0403 end=0603 后退 减速行驶 length 2.7 angle 0
+12:43::53 [send]agv=1 send path command: C2 number=45,start=0603 end=0603 左拐  length 0 angle 0
+12:43::53 [recv]Communication_Send Answer: number_1:44,number_2:45
+12:43::53 [recv] agv=1,Send Path Answer:number_1=44,number_2=45
+12:43::53 [recv]Communication_Send Answer: number_1:44,number_2:45
+12:43::53 [recv] agv=1,Send Path Answer:number_1=44,number_2=45
+12:44::00 [recv]Communication_ComandFinish: number:44,
+12:44::00 [recv]agv=1 Path Command Finish: C1 number=44 start=0403 end=0603 后退 减速行驶  length 2.7 angle 0
+12:44::00 [send]agv=1%,ComandFinish Answer: number:44,
+12:44::00 [recv]Communication_ComandFinish: number:44,
+12:44::00 [send]agv=1%,ComandFinish Answer: number:44,
+12:44::00 [send]agv=1 send path command: C1 number=45,start=0603 end=0603 左拐  length 0 angle 0
+12:44::00 [send]agv=1 send path command: C2 number=46,start=0603 end=0603 停止 等待 length 0 angle 0
+12:44::01 [recv]Communication_Send Answer: number_1:45,number_2:46
+12:44::01 [recv] agv=1,Send Path Answer:number_1=45,number_2=46
+12:44::01 [recv]Communication_Send Answer: number_1:45,number_2:46
+12:44::01 [recv] agv=1,Send Path Answer:number_1=45,number_2=46
+12:44::04 [recv]Communication_ComandFinish: number:45,
+12:44::04 [recv]agv=1 Path Command Finish: C1 number=45 start=0603 end=0603 左拐   length 0 angle 0
+12:44::04 [send]agv=1%,ComandFinish Answer: number:45,
+12:44::04 [recv]Communication_ComandFinish: number:45,
+12:44::04 [send]agv=1%,ComandFinish Answer: number:45,
+12:44::11 [send]agv=1 send path command: C1 number=47,start=0603 end=0403 前进 正常行驶 length 2.7 angle 0
+12:44::11 [send]agv=1 send path command: C2 number=48,start=0403 end=0303 前进 减速行驶 length 1.3 angle 0
+12:44::12 [send]agv=1 send path command: C1 number=47,start=0603 end=0403 前进 正常行驶 length 2.7 angle 0
+12:44::12 [send]agv=1 send path command: C2 number=48,start=0403 end=0303 前进 减速行驶 length 1.3 angle 0
+12:44::13 [send]agv=1 send path command: C1 number=47,start=0603 end=0403 前进 正常行驶 length 2.7 angle 0
+12:44::13 [send]agv=1 send path command: C2 number=48,start=0403 end=0303 前进 减速行驶 length 1.3 angle 0
+12:44::14 [send]agv=1 send path command: C1 number=47,start=0603 end=0403 前进 正常行驶 length 2.7 angle 0
+12:44::14 [send]agv=1 send path command: C2 number=48,start=0403 end=0303 前进 减速行驶 length 1.3 angle 0
+12:44::15 [send]agv=1 send path command: C1 number=47,start=0603 end=0403 前进 正常行驶 length 2.7 angle 0
+12:44::15 [send]agv=1 send path command: C2 number=48,start=0403 end=0303 前进 减速行驶 length 1.3 angle 0
+12:44::16 [send]agv=1 send path command: C1 number=47,start=0603 end=0403 前进 正常行驶 length 2.7 angle 0
+12:44::16 [send]agv=1 send path command: C2 number=48,start=0403 end=0303 前进 减速行驶 length 1.3 angle 0

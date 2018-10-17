@@ -1,0 +1,252 @@
+#include "agv.h"
+#include <QGraphicsScene>
+#include <QDataStream>
+#include "mainwindow.h"
+#include "missionmanager.h"
+#include "global.h"
+#include <QtMath>
+#include <QMessageBox>
+#include <QTimerEvent>
+#define FRAME_SET_PATH 0x10
+#define FRAME_ENABLE_PATH 0x11
+#define FRAME_GET_FINISH 0x12
+#define FRAME_GET_POS 0x41
+#define FRAME_LENGTH_PATH 5
+#define FRAME_LENGTH_ENABLE_PATH 5
+#define FRAME_LENGTH_FINISH 6
+#define FRAME_LENGTH_POS 13
+QColor color_list[4] = {Qt::yellow,Qt::red,Qt::white,Qt::lightGray};
+int agv_count = 0;
+AGV::AGV(QGraphicsScene *scene, TopoView* topoview, int type, QPointF center, int rotate)
+{
+    setPos(center);
+    scene->clearSelection();
+    setFlag(QGraphicsItem::ItemIsMovable);
+    setFlag(QGraphicsItem::ItemIsFocusable);
+    setFlag(QGraphicsItem::ItemIsSelectable);
+    m_nPenStyle = Qt::SolidLine;
+    QPen p = pen();
+    p.setWidth(3);
+    p.setColor(color_list[(agv_count++)%4]);
+    scene->addItem(this);
+    setPen(p);
+    setRotation(rotate);
+    setSelected(true);
+    set_size(25,25);
+    m_nType = type;
+    m_topoView = topoview;
+    m_nTopoPosID = -1;
+    m_nTargetID = -1;
+    m_nDestinationID = -1;
+    m_nID = 0x00;
+    m_nTimerID = 0;
+    m_bIsPathOK = false;
+    m_bIsEnableOK = false;
+    m_tcpSocket = new QTcpSocket(this);
+    m_tcpSocket->abort();
+    m_tcpSocket->connectToHost("192.168.100.113",4196);
+    qDebug()<<"正在连接...";
+    connect(m_tcpSocket,SIGNAL(connected()),this,SLOT(connected()));
+}
+
+AGV::~AGV()
+{
+    if(m_tcpSocket)
+        delete m_tcpSocket;
+    if(m_nTimerID!=0) killTimer(m_nTimerID);
+}
+
+int AGV::type() const
+{
+    return m_nType;
+
+}
+
+void AGV::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    if(isSelected()){
+        emit property_change(get_property());
+    }
+    painter->setPen(pen());
+    painter->drawLine(QPointF(0,0),QPointF(12.5,0));
+    QGraphicsEllipseItem::paint(painter,option,widget);
+}
+
+QMap<QString, qreal> AGV::get_property()
+{
+    QMap<QString,qreal> prop;
+    prop.insert("x",pos().x());
+    prop.insert("y",pos().y());
+    prop.insert("rotate",(int)(mapToRealWorld(rotation()*M_PI/180)*180/M_PI));
+    return prop;
+}
+void AGV::sendCommand(int start, int end)
+{
+    if(m_tcpSocket==NULL) return;
+    QByteArray buf;
+    buf.append(0x40);
+    buf.append(get_id());
+    buf.append(0x10);
+    buf.append(start>>8);
+    buf.append(start&0xff);
+    buf.append(end>>8);
+    buf.append(end&0xff);
+    buf.append(_8BitsSum(buf.mid(1)));
+    buf.append(0x23);
+    m_tcpSocket->write(buf);
+    if(!IS_SIMULATION) set_pathEnable(true);
+}
+
+void AGV::connected()
+{
+    qDebug()<<"连接成功";
+    connect(m_tcpSocket,SIGNAL(readyRead()),this,SLOT(recvData()));
+    connect(m_tcpSocket,SIGNAL(error(QAbstractSocket::SocketError)),this,SLOT(display_error(QAbstractSocket::SocketError)));
+    m_nTimerID = startTimer(500);
+}
+
+
+
+void AGV::display_error(QAbstractSocket::SocketError)
+{
+    QMessageBox::critical(0,"错误",m_tcpSocket->errorString()+"\n连接即将断开!");
+    m_tcpSocket->close();
+}
+
+void AGV::set_forkUp()
+{
+    sendCommand(0,1);
+}
+
+void AGV::set_forkDown()
+{
+    sendCommand(1,0);
+}
+
+void AGV::set_pathEnable(bool enable)
+{
+    QByteArray buf;
+    buf.append(0x40);
+    buf.append(m_nID);
+    buf.append(0x11);
+    buf.append(enable?0xff:0x00);
+    buf.append(QByteArray(0x00));
+    buf.append(QByteArray(0x00));
+    buf.append(_8BitsSum(buf.mid(1)));
+    buf.append(0x23);
+    m_tcpSocket->write(buf);
+}
+
+void AGV::timerEvent(QTimerEvent *event)
+{
+    static int cnt = 0;
+    qDebug()<<cnt;
+    if(cnt++%2==0){  // 1s 定时中断
+        tcp_getPos();
+    }
+}
+
+void AGV::tcp_getPos()
+{
+    QByteArray buf;
+    buf.append(0x40);
+    buf.append(0x41);
+    buf.append(QByteArray(4,0x00));
+    buf.append(0x41);
+    buf.append(0x23);
+    m_tcpSocket->write(buf);
+}
+
+void AGV::recvData()
+{
+    static int s_nLength = -1;
+    static char s_frameType;
+    qDebug()<<"receice";
+    if(s_nLength<0){
+        char startup;
+        m_tcpSocket->read(&startup,1);
+        if(startup==0x40){
+            s_nLength=0;
+        }
+    }
+    if(s_nLength==0){
+        if(m_tcpSocket->bytesAvailable()>0){
+            m_tcpSocket->read(&s_frameType,1);
+            if(s_frameType==FRAME_SET_PATH) s_nLength=FRAME_LENGTH_PATH;
+            else if(s_frameType==FRAME_ENABLE_PATH) s_nLength=FRAME_LENGTH_ENABLE_PATH;
+            else if(s_frameType==FRAME_GET_POS) s_nLength=FRAME_LENGTH_POS;
+            else if(s_frameType==FRAME_GET_FINISH) s_nLength=FRAME_LENGTH_FINISH;
+        }
+    }
+    if(s_nLength>0){
+        if(m_tcpSocket->bytesAvailable()>=s_nLength){
+            QByteArray buf;
+            buf = m_tcpSocket->read(s_nLength);
+            if(s_frameType==FRAME_SET_PATH) m_bIsPathOK=true;
+            else if(s_frameType==FRAME_ENABLE_PATH) m_bIsEnableOK=true;
+            else if(s_frameType==FRAME_GET_POS && _8BitsSum(buf.mid(0,buf.size()-1))==buf.at(buf.size()-1)){
+                qreal x,y,theta;
+                x = bytesToInt32(buf.mid(0,4));
+                y = bytesToInt32(buf.mid(4,4));
+                theta = bytesToInt32(buf.mid(8,4))/1000;
+                setPos(mapFromRealWorld(QPointF(x,y)));
+                setRotation(mapFromRealWorld((360-theta)*M_PI/180)*180/M_PI);
+                if(m_nTopoPosID == -1){
+                    m_nTopoPosID = getNearstMatchedVer(m_topoView,mapToRealWorld(pos()));
+                    emit state_change();
+                }
+                qDebug()<<x<<y<<theta;
+            }
+            else if(s_frameType==FRAME_GET_FINISH){
+                if(buf.at(2)==0xff) emit state_change();
+            }
+            s_nLength=-1;
+        }
+    }
+}
+
+void AGV::set_dashLine(bool lineType)
+{
+    if(isSelected()){
+        QPen p = pen();
+        if(lineType)
+            m_nPenStyle = Qt::DashLine;
+        else
+            m_nPenStyle = Qt::SolidLine;
+        p.setStyle(m_nPenStyle);
+        setPen(p);
+    }
+}
+
+void AGV::update_state()
+{
+    if(m_tcpSocket->bytesAvailable()<17) return;
+    qreal x,y,theta;
+    QByteArray buf = m_tcpSocket->readAll();
+    if(buf.at(0)==0x40){
+        x = bytesToInt32(buf.mid(2,4));
+        y = -bytesToInt32(buf.mid(6,4));
+        theta = bytesToInt32(buf.mid(10,4))/1000.0;
+        m_nState = buf.at(14);
+        setPos(mapFromRealWorld(QPointF(x,y)));
+        setRotation(mapFromRealWorld((360-theta)*M_PI/180)*180/M_PI);
+        if(m_nTopoPosID == -1){
+            m_nTopoPosID = getNearstMatchedVer(m_topoView,mapToRealWorld(pos()));
+            emit state_change();
+        }
+        else if(m_nState==1){
+            m_nTopoPosID = getNearstMatchedVer(m_topoView,mapToRealWorld(pos()));
+            emit state_change();
+        }
+        if(m_nTargetID==-1) m_nTargetID = m_nTopoPosID;
+        if(m_nDestinationID==-1) m_nDestinationID = m_nTopoPosID;
+        sendCommand(m_nTopoPosID,m_nTargetID);
+        if(m_nTargetID!=m_nTopoPosID){
+            QString name = m_topoView->m_verList.value(QString("Ver_%1").arg(m_nTopoPosID))->get_register();
+            if(name==get_name() || name=="")
+                m_topoView->set_register(QString("Ver_%1").arg(m_nTopoPosID),"");
+            m_topoView->set_register(QString("Ver_%1").arg(m_nTargetID),m_strID);
+        }
+    }
+
+}

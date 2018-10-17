@@ -1,0 +1,1470 @@
+17:50::26 [init] AGV: 1 Online
+17:50::26 [init] Mac: 01
+17:50::26 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+17:50::26 [send] get power cmd
+17:50::26 agv=:1 [recv] pos:(2254,41180,0)
+17:50::26 agv=:1 [recv] state= 0 0 0 0
+17:50::26 [proc]agv=:1, match:1
+17:50::27 [send] get power cmd
+17:50::27 agv=:1 [recv] pos:(2254,41180,0)
+17:50::28 agv=:1 [recv] state= 0 0 0 0
+17:50::28 [proc]agv=:1, match:1
+17:50::29 [send] get power cmd
+17:50::29 agv=:1 [recv] pos:(2254,41180,0)
+17:50::29 agv=:1 [recv] state= 0 0 0 0
+17:50::29 [proc]agv=:1, match:1
+17:50::29 [proc] plan: currentID:1
+17:50::30 [send] get power cmd
+17:50::30 agv=:1 [recv] pos:(2254,41180,0)
+17:50::30 agv=:1 [recv] state= 0 0 0 0
+17:50::30 [proc]agv=:1, match:1
+17:50::31 [send] get power cmd
+17:50::31 agv=:1 [recv] pos:(2254,41180,0)
+17:50::31 agv=:1 [recv] state= 0 0 0 0
+17:50::31 [proc]agv=:1, match:1
+17:50::31 [proc] plan: currentID:1
+17:50::32 [send] get power cmd
+17:50::32 agv=:1 [recv] pos:(2254,41180,0)
+17:50::32 agv=:1 [recv] state= 0 0 0 0
+17:50::32 [proc]agv=:1, match:1
+17:50::33 [send] get power cmd
+17:50::33 agv=:1 [recv] pos:(2254,41180,0)
+17:50::34 agv=:1 [recv] state= 0 0 0 0
+17:50::34 [proc]agv=:1, match:1
+17:50::34 [proc] plan: currentID:1
+17:50::35 [send] get power cmd
+17:50::35 agv=:1 [recv] pos:(2254,41180,0)
+17:50::35 agv=:1 [recv] state= 0 0 0 0
+17:50::35 [proc]agv=:1, match:1
+17:50::36 [send] get power cmd
+17:50::36 agv=:1 [recv] pos:(2254,41180,0)
+17:50::36 agv=:1 [recv] state= 0 0 0 0
+17:50::36 [proc]agv=:1, match:1
+17:50::36 [proc] plan: currentID:1
+17:50::37 [send] get power cmd
+17:50::37 agv=:1 [recv] pos:(2254,41180,0)
+17:50::37 agv=:1 [recv] state= 0 0 0 0
+17:50::37 [proc]agv=:1, match:1
+17:50::38 [send] get power cmd
+17:50::38 agv=:1 [recv] pos:(2254,41180,0)
+17:50::38 [send]agv=1 set path command: mode=100 start=1 end=2 
+17:50::38 [recv] set Path:1
+17:50::39 agv=:1 [recv] state= 0 0 1 2
+17:50::39 [proc]agv=:1, match:1
+17:50::39 [proc] plan: currentID:1
+17:50::39 [send] get power cmd
+17:50::39 agv=:1 [recv] pos:(2254,41180,0)
+17:50::39 [send]agv=1 set path command: mode=100 start=1 end=2 
+17:50::39 [recv] set Path:1
+17:50::40 agv=:1 [recv] state= 0 0 1 2
+17:50::40 [proc]agv=:1, match:1
+17:50::40 [send] get power cmd
+17:50::40 agv=:1 [recv] pos:(2254,41180,0)
+17:50::40 [send] set path enable
+17:50::40 [recv] enable Path:1
+17:50::41 agv=:1 [recv] state= 65535 65535 1 2
+17:50::41 [send] get power cmd
+17:50::41 agv=:1 [recv] pos:(2351,41180,0)
+17:50::42 agv=:1 [recv] state= 65535 65535 1 2
+17:50::42 [send] get power cmd
+17:50::42 agv=:1 [recv] pos:(2830,41180,0)
+17:50::43 agv=:1 [recv] state= 65535 65535 1 2
+17:50::43 [send] get power cmd
+17:50::43 agv=:1 [recv] pos:(3613,41180,0)
+17:50::44 agv=:1 [recv] state= 65535 65535 1 2
+17:50::44 [send] get power cmd
+17:50::44 agv=:1 [recv] pos:(4534,41180,0)
+17:50::45 agv=:1 [recv] state= 65535 65535 1 2
+17:50::46 [send] get power cmd
+17:50::46 agv=:1 [recv] pos:(5598,41180,0)
+17:50::47 agv=:1 [recv] state= 65535 65535 1 2
+17:50::47 [send] get power cmd
+17:50::47 agv=:1 [recv] pos:(6200,41180,0)
+17:50::48 agv=:1 [recv] state= 1 2 1 2
+17:50::48 [proc] plan: currentID:2
+17:50::48 agv=:1 [recv] state= 1 2 1 2
+17:50::48 [send] get power cmd
+17:50::48 agv=:1 [recv] pos:(6254,41180,0)
+17:50::49 [send]agv=1 set path command: mode=100 start=2 end=5 
+17:50::49 [recv] set Path:1
+17:50::49 agv=:1 [recv] state= 1 2 2 5
+17:50::49 [send] get power cmd
+17:50::49 agv=:1 [recv] pos:(6254,41180,0)
+17:50::50 [send] set path enable
+17:50::50 [recv] enable Path:1
+17:50::50 agv=:1 [recv] state= 65535 65535 2 5
+17:50::50 [send] get power cmd
+17:50::50 agv=:1 [recv] pos:(6254,41180,-4)
+17:50::51 agv=:1 [recv] state= 65535 65535 2 5
+17:50::51 [send] get power cmd
+17:50::51 agv=:1 [recv] pos:(6254,41180,-11)
+17:50::52 agv=:1 [recv] state= 65535 65535 2 5
+17:50::52 [send] get power cmd
+17:50::52 agv=:1 [recv] pos:(6254,41180,-18)
+17:50::53 agv=:1 [recv] state= 65535 65535 2 5
+17:50::54 [send] get power cmd
+17:50::54 agv=:1 [recv] pos:(6254,41180,-26)
+17:50::54 agv=:1 [recv] state= 65535 65535 2 5
+17:50::55 [send] get power cmd
+17:50::55 agv=:1 [recv] pos:(6254,41180,-33)
+17:50::55 agv=:1 [recv] state= 65535 65535 2 5
+17:50::56 [send] get power cmd
+17:50::56 agv=:1 [recv] pos:(6254,41180,-40)
+17:50::56 agv=:1 [recv] state= 65535 65535 2 5
+17:50::57 [send] get power cmd
+17:50::57 agv=:1 [recv] pos:(6254,41180,-47)
+17:50::58 agv=:1 [recv] state= 65535 65535 2 5
+17:50::58 [send] get power cmd
+17:50::58 agv=:1 [recv] pos:(6254,41180,-54)
+17:50::59 agv=:1 [recv] state= 65535 65535 2 5
+17:50::59 [send] get power cmd
+17:50::59 agv=:1 [recv] pos:(6254,41180,-61)
+17:51::00 agv=:1 [recv] state= 65535 65535 2 5
+17:51::00 [send] get power cmd
+17:51::00 agv=:1 [recv] pos:(6254,41180,-68)
+17:51::01 agv=:1 [recv] state= 65535 65535 2 5
+17:51::01 [send] get power cmd
+17:51::01 agv=:1 [recv] pos:(6254,41180,-75)
+17:51::02 agv=:1 [recv] state= 65535 65535 2 5
+17:51::02 [send] get power cmd
+17:51::02 agv=:1 [recv] pos:(6254,41180,-81)
+17:51::03 agv=:1 [recv] state= 65535 65535 2 5
+17:51::03 [send] get power cmd
+17:51::03 agv=:1 [recv] pos:(6254,41180,-88)
+17:51::04 agv=:1 [recv] state= 65535 65535 2 5
+17:51::04 [send] get power cmd
+17:51::04 agv=:1 [recv] pos:(6254,41047,-90)
+17:51::05 agv=:1 [recv] state= 65535 65535 2 5
+17:51::06 [send] get power cmd
+17:51::06 agv=:1 [recv] pos:(6254,40557,-90)
+17:51::06 agv=:1 [recv] state= 65535 65535 2 5
+17:51::07 [send] get power cmd
+17:51::07 agv=:1 [recv] pos:(6254,39897,-90)
+17:51::07 agv=:1 [recv] state= 65535 65535 2 5
+17:51::08 [send] get power cmd
+17:51::08 agv=:1 [recv] pos:(6254,39331,-90)
+17:51::08 agv=:1 [recv] state= 65535 65535 2 5
+17:51::09 [send] get power cmd
+17:51::09 agv=:1 [recv] pos:(6254,39083,-90)
+17:51::09 agv=:1 [recv] state= 2 5 2 5
+17:51::09 [proc] plan: currentID:5
+17:51::09 [send]agv=1 set path command: mode=100 start=5 end=6 
+17:51::09 [recv] set Path:1
+17:51::09 agv=:1 [recv] state= 2 5 5 6
+17:51::10 [send] get power cmd
+17:51::10 agv=:1 [recv] pos:(6254,39081,-90)
+17:51::10 [send] set path enable
+17:51::10 [recv] enable Path:1
+17:51::10 agv=:1 [recv] state= 65535 65535 5 6
+17:51::11 [send] get power cmd
+17:51::11 agv=:1 [recv] pos:(6254,38983,-90)
+17:51::11 agv=:1 [recv] state= 65535 65535 5 6
+17:51::12 [send] get power cmd
+17:51::12 agv=:1 [recv] pos:(6254,38510,-90)
+17:51::12 agv=:1 [recv] state= 65535 65535 5 6
+17:51::13 [send] get power cmd
+17:51::13 agv=:1 [recv] pos:(6254,37756,-90)
+17:51::14 agv=:1 [recv] state= 65535 65535 5 6
+17:51::14 [send] get power cmd
+17:51::14 agv=:1 [recv] pos:(6254,36915,-90)
+17:51::15 agv=:1 [recv] state= 65535 65535 5 6
+17:51::15 [send] get power cmd
+17:51::15 agv=:1 [recv] pos:(6254,36203,-90)
+17:51::16 agv=:1 [recv] state= 65535 65535 5 6
+17:51::16 [send] get power cmd
+17:51::16 agv=:1 [recv] pos:(6254,35780,-90)
+17:51::17 agv=:1 [recv] state= 65535 65535 5 6
+17:51::17 agv=:1 [recv] state= 5 6 5 6
+17:51::17 [proc] plan: currentID:6
+17:51::17 [send] get power cmd
+17:51::17 agv=:1 [recv] pos:(6254,35719,-90)
+17:51::18 [send]agv=1 set path command: mode=100 start=6 end=7 
+17:51::18 [recv] set Path:1
+17:51::18 agv=:1 [recv] state= 5 6 6 7
+17:51::18 [send] get power cmd
+17:51::18 agv=:1 [recv] pos:(6254,35719,-90)
+17:51::19 [send] set path enable
+17:51::19 [recv] enable Path:1
+17:51::19 agv=:1 [recv] state= 65535 65535 6 7
+17:51::19 [send] get power cmd
+17:51::19 agv=:1 [recv] pos:(6254,35719,-85)
+17:51::20 agv=:1 [recv] state= 65535 65535 6 7
+17:51::20 [send] get power cmd
+17:51::20 agv=:1 [recv] pos:(6254,35719,-78)
+17:51::21 agv=:1 [recv] state= 65535 65535 6 7
+17:51::22 [send] get power cmd
+17:51::22 agv=:1 [recv] pos:(6254,35719,-71)
+17:51::22 agv=:1 [recv] state= 65535 65535 6 7
+17:51::23 [send] get power cmd
+17:51::23 agv=:1 [recv] pos:(6254,35719,-64)
+17:51::23 agv=:1 [recv] state= 65535 65535 6 7
+17:51::24 [send] get power cmd
+17:51::24 agv=:1 [recv] pos:(6254,35719,-57)
+17:51::24 agv=:1 [recv] state= 65535 65535 6 7
+17:51::25 [send] get power cmd
+17:51::25 agv=:1 [recv] pos:(6254,35719,-51)
+17:51::25 agv=:1 [recv] state= 65535 65535 6 7
+17:51::26 [send] get power cmd
+17:51::26 agv=:1 [recv] pos:(6254,35719,-41)
+17:51::27 agv=:1 [recv] state= 65535 65535 6 7
+17:51::27 [send] get power cmd
+17:51::27 agv=:1 [recv] pos:(6254,35719,-35)
+17:51::28 agv=:1 [recv] state= 65535 65535 6 7
+17:51::28 [send] get power cmd
+17:51::28 agv=:1 [recv] pos:(6254,35719,-28)
+17:51::29 agv=:1 [recv] state= 65535 65535 6 7
+17:51::29 [send] get power cmd
+17:51::29 agv=:1 [recv] pos:(6254,35719,-21)
+17:51::30 agv=:1 [recv] state= 65535 65535 6 7
+17:51::30 [send] get power cmd
+17:51::30 agv=:1 [recv] pos:(6254,35719,-14)
+17:51::31 agv=:1 [recv] state= 65535 65535 6 7
+17:51::32 [send] get power cmd
+17:51::32 agv=:1 [recv] pos:(6254,35719,-7)
+17:51::32 agv=:1 [recv] state= 65535 65535 6 7
+17:51::33 [send] get power cmd
+17:51::33 agv=:1 [recv] pos:(6254,35719,0)
+17:51::33 agv=:1 [recv] state= 65535 65535 6 7
+17:51::34 [send] get power cmd
+17:51::34 agv=:1 [recv] pos:(6432,35719,0)
+17:51::34 agv=:1 [recv] state= 65535 65535 6 7
+17:51::35 [send] get power cmd
+17:51::35 agv=:1 [recv] pos:(6999,35719,0)
+17:51::35 agv=:1 [recv] state= 65535 65535 6 7
+17:51::36 [send] get power cmd
+17:51::36 agv=:1 [recv] pos:(7836,35719,0)
+17:51::36 agv=:1 [recv] state= 65535 65535 6 7
+17:51::37 [send] get power cmd
+17:51::37 agv=:1 [recv] pos:(8756,35719,0)
+17:51::37 agv=:1 [recv] state= 65535 65535 6 7
+17:51::38 [send] get power cmd
+17:51::38 agv=:1 [recv] pos:(9596,35719,0)
+17:51::38 agv=:1 [recv] state= 65535 65535 6 7
+17:51::39 [send] get power cmd
+17:51::39 agv=:1 [recv] pos:(10169,35719,0)
+17:51::40 agv=:1 [recv] state= 65535 65535 6 7
+17:51::40 agv=:1 [recv] state= 6 7 6 7
+17:51::40 [proc] plan: currentID:7
+17:51::40 [send] get power cmd
+17:51::40 agv=:1 [recv] pos:(10354,35719,0)
+17:51::40 [send]agv=1 set path command: mode=100 start=7 end=10 
+17:51::40 [recv] set Path:1
+17:51::41 agv=:1 [recv] state= 6 7 7 10
+17:51::41 [send] get power cmd
+17:51::41 agv=:1 [recv] pos:(10354,35719,0)
+17:51::41 [send] set path enable
+17:51::41 [recv] enable Path:1
+17:51::42 agv=:1 [recv] state= 65535 65535 7 10
+17:51::42 [send] get power cmd
+17:51::42 agv=:1 [recv] pos:(10454,35719,0)
+17:51::43 agv=:1 [recv] state= 65535 65535 7 10
+17:51::43 [send] get power cmd
+17:51::43 agv=:1 [recv] pos:(10941,35719,0)
+17:51::44 agv=:1 [recv] state= 65535 65535 7 10
+17:51::44 [send] get power cmd
+17:51::44 agv=:1 [recv] pos:(11786,35719,0)
+17:51::45 agv=:1 [recv] state= 65535 65535 7 10
+17:51::45 [send] get power cmd
+17:51::45 agv=:1 [recv] pos:(12951,35719,0)
+17:51::46 agv=:1 [recv] state= 65535 65535 7 10
+17:51::46 [send] get power cmd
+17:51::46 agv=:1 [recv] pos:(14338,35719,0)
+17:51::47 agv=:1 [recv] state= 65535 65535 7 10
+17:51::47 [send] get power cmd
+17:51::47 agv=:1 [recv] pos:(15795,35719,0)
+17:51::48 agv=:1 [recv] state= 65535 65535 7 10
+17:51::49 [send] get power cmd
+17:51::49 agv=:1 [recv] pos:(17339,35719,0)
+17:51::49 agv=:1 [recv] state= 65535 65535 7 10
+17:51::50 [send] get power cmd
+17:51::50 agv=:1 [recv] pos:(18741,35719,0)
+17:51::50 agv=:1 [recv] state= 65535 65535 7 10
+17:51::51 [send] get power cmd
+17:51::51 agv=:1 [recv] pos:(19913,35719,0)
+17:51::51 agv=:1 [recv] state= 65535 65535 7 10
+17:51::52 [send] get power cmd
+17:51::52 agv=:1 [recv] pos:(20524,35719,0)
+17:51::52 agv=:1 [recv] state= 65535 65535 7 10
+17:51::53 [send] get power cmd
+17:51::53 agv=:1 [recv] pos:(21020,35719,0)
+17:51::53 agv=:1 [recv] state= 65535 65535 7 10
+17:51::54 [send] get power cmd
+17:51::54 agv=:1 [recv] pos:(21020,35719,0)
+17:51::54 agv=:1 [recv] state= 65535 65535 7 10
+17:51::55 [send] get power cmd
+17:51::55 agv=:1 [recv] pos:(21020,35719,0)
+17:51::55 agv=:1 [recv] state= 65535 65535 7 10
+17:51::56 [send] get power cmd
+17:51::56 agv=:1 [recv] pos:(21020,35719,0)
+17:51::57 agv=:1 [recv] state= 65535 65535 7 10
+17:51::57 [send] get power cmd
+17:51::57 agv=:1 [recv] pos:(21020,35719,0)
+17:51::58 agv=:1 [recv] state= 65535 65535 7 10
+17:51::58 [send] get power cmd
+17:51::58 agv=:1 [recv] pos:(21020,35719,0)
+17:51::59 agv=:1 [recv] state= 65535 65535 7 10
+17:51::59 [send] get power cmd
+17:51::59 agv=:1 [recv] pos:(21020,35719,0)
+17:52::00 agv=:1 [recv] state= 65535 65535 7 10
+17:52::00 [send] get power cmd
+17:52::00 agv=:1 [recv] pos:(21020,35719,0)
+17:52::01 agv=:1 [recv] state= 65535 65535 7 10
+17:52::01 [send] get power cmd
+17:52::01 agv=:1 [recv] pos:(21020,35719,0)
+17:52::02 agv=:1 [recv] state= 65535 65535 7 10
+17:52::02 [send] get power cmd
+17:52::02 agv=:1 [recv] pos:(21020,35719,0)
+17:52::03 agv=:1 [recv] state= 65535 65535 7 10
+17:52::03 [send] get power cmd
+17:52::03 agv=:1 [recv] pos:(21020,35719,0)
+17:52::04 agv=:1 [recv] state= 65535 65535 7 10
+17:52::04 [send] get power cmd
+17:52::04 agv=:1 [recv] pos:(21020,35719,0)
+17:52::05 agv=:1 [recv] state= 65535 65535 7 10
+17:52::06 [send] get power cmd
+17:52::06 agv=:1 [recv] pos:(21020,35719,0)
+17:52::06 agv=:1 [recv] state= 65535 65535 7 10
+17:52::07 [send] get power cmd
+17:52::07 agv=:1 [recv] pos:(21020,35719,0)
+17:52::07 agv=:1 [recv] state= 65535 65535 7 10
+17:52::08 [send] get power cmd
+17:52::08 agv=:1 [recv] pos:(21020,35719,0)
+17:52::08 agv=:1 [recv] state= 65535 65535 7 10
+17:52::09 [send] get power cmd
+17:52::09 agv=:1 [recv] pos:(21020,35719,0)
+17:52::09 agv=:1 [recv] state= 65535 65535 7 10
+17:52::10 [send] get power cmd
+17:52::10 agv=:1 [recv] pos:(21020,35719,0)
+17:52::10 agv=:1 [recv] state= 65535 65535 7 10
+17:52::11 [send] get power cmd
+17:52::11 agv=:1 [recv] pos:(21020,35719,0)
+17:52::11 agv=:1 [recv] state= 65535 65535 7 10
+17:52::12 [send] get power cmd
+17:52::12 agv=:1 [recv] pos:(21020,35719,0)
+17:52::12 agv=:1 [recv] state= 65535 65535 7 10
+17:52::13 [send] get power cmd
+17:52::13 agv=:1 [recv] pos:(21020,35719,0)
+17:52::14 agv=:1 [recv] state= 65535 65535 7 10
+17:52::14 [send] get power cmd
+17:52::14 agv=:1 [recv] pos:(21020,35719,0)
+17:52::15 agv=:1 [recv] state= 65535 65535 7 10
+17:52::15 [send] get power cmd
+17:52::15 agv=:1 [recv] pos:(21020,35719,0)
+17:52::16 agv=:1 [recv] state= 65535 65535 7 10
+17:52::16 [send] get power cmd
+17:52::16 agv=:1 [recv] pos:(21020,35719,0)
+17:52::17 agv=:1 [recv] state= 65535 65535 7 10
+17:52::17 [send] get power cmd
+17:52::17 agv=:1 [recv] pos:(21020,35719,0)
+17:52::18 agv=:1 [recv] state= 65535 65535 7 10
+17:52::18 [send] get power cmd
+17:52::18 agv=:1 [recv] pos:(21020,35719,0)
+17:52::19 agv=:1 [recv] state= 65535 65535 7 10
+17:52::19 [send] get power cmd
+17:52::19 agv=:1 [recv] pos:(21020,35719,0)
+17:52::20 agv=:1 [recv] state= 65535 65535 7 10
+17:52::20 [send] get power cmd
+17:52::20 agv=:1 [recv] pos:(21020,35719,0)
+17:52::21 agv=:1 [recv] state= 65535 65535 7 10
+17:52::21 [send] get power cmd
+17:52::21 agv=:1 [recv] pos:(21020,35719,0)
+17:52::22 agv=:1 [recv] state= 65535 65535 7 10
+17:52::23 [send] get power cmd
+17:52::23 agv=:1 [recv] pos:(21020,35719,0)
+17:52::23 agv=:1 [recv] state= 65535 65535 7 10
+17:52::24 [send] get power cmd
+17:52::24 agv=:1 [recv] pos:(21020,35719,0)
+17:52::24 agv=:1 [recv] state= 65535 65535 7 10
+17:52::25 [send] get power cmd
+17:52::25 agv=:1 [recv] pos:(21020,35719,0)
+17:52::25 agv=:1 [recv] state= 65535 65535 7 10
+17:52::26 [send] get power cmd
+17:52::26 agv=:1 [recv] pos:(21020,35719,0)
+17:52::26 agv=:1 [recv] state= 65535 65535 7 10
+17:52::27 [send] get power cmd
+17:52::27 agv=:1 [recv] pos:(21020,35719,0)
+17:52::27 agv=:1 [recv] state= 65535 65535 7 10
+17:52::28 [send] get power cmd
+17:52::28 agv=:1 [recv] pos:(21020,35719,0)
+17:52::28 agv=:1 [recv] state= 65535 65535 7 10
+17:52::29 [send] get power cmd
+17:52::29 agv=:1 [recv] pos:(21020,35719,0)
+17:52::29 agv=:1 [recv] state= 65535 65535 7 10
+17:52::30 [send] get power cmd
+17:52::30 agv=:1 [recv] pos:(21020,35719,0)
+17:52::31 agv=:1 [recv] state= 65535 65535 7 10
+17:52::31 [send] get power cmd
+17:52::31 agv=:1 [recv] pos:(21020,35719,0)
+17:52::32 agv=:1 [recv] state= 65535 65535 7 10
+17:52::32 [send] get power cmd
+17:52::32 agv=:1 [recv] pos:(21020,35719,0)
+17:52::33 agv=:1 [recv] state= 65535 65535 7 10
+17:52::33 [send] get power cmd
+17:52::33 agv=:1 [recv] pos:(21020,35719,0)
+17:52::34 agv=:1 [recv] state= 65535 65535 7 10
+17:52::34 [send] get power cmd
+17:52::34 agv=:1 [recv] pos:(21020,35719,0)
+17:52::35 agv=:1 [recv] state= 65535 65535 7 10
+17:52::35 [send] get power cmd
+17:52::35 agv=:1 [recv] pos:(21020,35719,0)
+17:52::36 agv=:1 [recv] state= 65535 65535 7 10
+17:52::36 [send] get power cmd
+17:52::36 agv=:1 [recv] pos:(21020,35719,0)
+17:52::37 agv=:1 [recv] state= 65535 65535 7 10
+17:52::37 [send] get power cmd
+17:52::37 agv=:1 [recv] pos:(21020,35719,0)
+17:52::38 agv=:1 [recv] state= 65535 65535 7 10
+17:52::38 [send] get power cmd
+17:52::38 agv=:1 [recv] pos:(21020,35719,0)
+17:52::39 agv=:1 [recv] state= 65535 65535 7 10
+17:52::40 [send] get power cmd
+17:52::40 agv=:1 [recv] pos:(21020,35719,0)
+17:52::40 agv=:1 [recv] state= 65535 65535 7 10
+17:52::41 [send] get power cmd
+17:52::41 agv=:1 [recv] pos:(21020,35719,0)
+17:52::41 agv=:1 [recv] state= 65535 65535 7 10
+17:52::42 [send] get power cmd
+17:52::42 agv=:1 [recv] pos:(21020,35719,0)
+17:52::42 agv=:1 [recv] state= 65535 65535 7 10
+17:52::43 [send] get power cmd
+17:52::43 agv=:1 [recv] pos:(21020,35719,0)
+17:52::43 agv=:1 [recv] state= 65535 65535 7 10
+17:52::44 [send] get power cmd
+17:52::44 agv=:1 [recv] pos:(21020,35719,0)
+17:52::44 agv=:1 [recv] state= 65535 65535 7 10
+17:52::45 [send] get power cmd
+17:52::45 agv=:1 [recv] pos:(21020,35719,0)
+17:52::45 agv=:1 [recv] state= 65535 65535 7 10
+17:52::46 [send] get power cmd
+17:52::46 agv=:1 [recv] pos:(21020,35719,0)
+17:52::46 agv=:1 [recv] state= 65535 65535 7 10
+17:52::47 [send] get power cmd
+17:52::47 agv=:1 [recv] pos:(21020,35719,0)
+17:52::48 agv=:1 [recv] state= 65535 65535 7 10
+17:52::48 [send] get power cmd
+17:52::48 agv=:1 [recv] pos:(21020,35719,0)
+17:52::49 agv=:1 [recv] state= 65535 65535 7 10
+17:52::49 [send] get power cmd
+17:52::49 agv=:1 [recv] pos:(21020,35719,0)
+17:52::50 agv=:1 [recv] state= 65535 65535 7 10
+17:52::50 [send] get power cmd
+17:52::50 agv=:1 [recv] pos:(21020,35719,0)
+17:52::51 agv=:1 [recv] state= 65535 65535 7 10
+17:52::51 [send] get power cmd
+17:52::51 agv=:1 [recv] pos:(21020,35719,0)
+17:52::52 agv=:1 [recv] state= 65535 65535 7 10
+17:52::52 [send] get power cmd
+17:52::52 agv=:1 [recv] pos:(21020,35719,0)
+17:52::53 agv=:1 [recv] state= 65535 65535 7 10
+17:52::53 [send] get power cmd
+17:52::53 agv=:1 [recv] pos:(21020,35719,0)
+17:52::54 agv=:1 [recv] state= 65535 65535 7 10
+17:52::54 [send] get power cmd
+17:52::54 agv=:1 [recv] pos:(21020,35719,0)
+17:52::55 agv=:1 [recv] state= 65535 65535 7 10
+17:52::55 [send] get power cmd
+17:52::55 agv=:1 [recv] pos:(21020,35719,0)
+17:52::56 agv=:1 [recv] state= 65535 65535 7 10
+17:52::57 [send] get power cmd
+17:52::57 agv=:1 [recv] pos:(21020,35719,0)
+17:52::57 agv=:1 [recv] state= 65535 65535 7 10
+17:52::58 [send] get power cmd
+17:52::58 agv=:1 [recv] pos:(21020,35719,0)
+17:52::58 agv=:1 [recv] state= 65535 65535 7 10
+17:52::59 [send] get power cmd
+17:52::59 agv=:1 [recv] pos:(21020,35719,0)
+17:52::59 agv=:1 [recv] state= 65535 65535 7 10
+17:53::00 [send] get power cmd
+17:53::00 agv=:1 [recv] pos:(21020,35719,0)
+17:53::00 agv=:1 [recv] state= 65535 65535 7 10
+17:53::01 [send] get power cmd
+17:53::01 agv=:1 [recv] pos:(21020,35719,0)
+17:53::01 agv=:1 [recv] state= 65535 65535 7 10
+17:53::02 [send] get power cmd
+17:53::02 agv=:1 [recv] pos:(21020,35719,0)
+17:53::02 agv=:1 [recv] state= 65535 65535 7 10
+17:53::03 [send] get power cmd
+17:53::03 agv=:1 [recv] pos:(21020,35719,0)
+17:53::03 agv=:1 [recv] state= 65535 65535 7 10
+17:53::04 [send] get power cmd
+17:53::04 agv=:1 [recv] pos:(21020,35719,0)
+17:53::05 agv=:1 [recv] state= 65535 65535 7 10
+17:53::05 [send] get power cmd
+17:53::05 agv=:1 [recv] pos:(21020,35719,0)
+17:53::06 agv=:1 [recv] state= 65535 65535 7 10
+17:53::06 [send] get power cmd
+17:53::06 agv=:1 [recv] pos:(21020,35719,0)
+17:53::07 agv=:1 [recv] state= 65535 65535 7 10
+17:53::07 [send] get power cmd
+17:53::07 agv=:1 [recv] pos:(21020,35719,0)
+17:53::08 agv=:1 [recv] state= 65535 65535 7 10
+17:53::08 [send] get power cmd
+17:53::08 agv=:1 [recv] pos:(21020,35719,0)
+17:53::09 agv=:1 [recv] state= 65535 65535 7 10
+17:53::09 [send] get power cmd
+17:53::09 agv=:1 [recv] pos:(21020,35719,0)
+17:53::10 agv=:1 [recv] state= 65535 65535 7 10
+17:53::10 [send] get power cmd
+17:53::10 agv=:1 [recv] pos:(21020,35719,0)
+17:53::11 agv=:1 [recv] state= 65535 65535 7 10
+17:53::11 [send] get power cmd
+17:53::11 agv=:1 [recv] pos:(21020,35719,0)
+17:53::12 agv=:1 [recv] state= 65535 65535 7 10
+17:53::12 [send] get power cmd
+17:53::12 agv=:1 [recv] pos:(21020,35719,0)
+17:53::13 agv=:1 [recv] state= 65535 65535 7 10
+17:53::14 [send] get power cmd
+17:53::14 agv=:1 [recv] pos:(21020,35719,0)
+17:53::14 agv=:1 [recv] state= 65535 65535 7 10
+17:53::15 [send] get power cmd
+17:53::15 agv=:1 [recv] pos:(21020,35719,0)
+17:53::15 agv=:1 [recv] state= 65535 65535 7 10
+17:53::16 [send] get power cmd
+17:53::16 agv=:1 [recv] pos:(21020,35719,0)
+17:53::16 agv=:1 [recv] state= 65535 65535 7 10
+17:53::17 [send] get power cmd
+17:53::17 agv=:1 [recv] pos:(21020,35719,0)
+17:53::17 agv=:1 [recv] state= 65535 65535 7 10
+17:53::18 [send] get power cmd
+17:53::18 agv=:1 [recv] pos:(21020,35719,0)
+17:53::18 agv=:1 [recv] state= 65535 65535 7 10
+17:53::19 [send] get power cmd
+17:53::19 agv=:1 [recv] pos:(21020,35719,0)
+17:53::19 agv=:1 [recv] state= 65535 65535 7 10
+17:53::20 [send] get power cmd
+17:53::20 agv=:1 [recv] pos:(21020,35719,0)
+17:53::20 agv=:1 [recv] state= 65535 65535 7 10
+17:53::21 [send] get power cmd
+17:53::21 agv=:1 [recv] pos:(21020,35719,0)
+17:53::22 agv=:1 [recv] state= 65535 65535 7 10
+17:53::22 [send] get power cmd
+17:53::22 agv=:1 [recv] pos:(21020,35719,0)
+17:53::23 agv=:1 [recv] state= 65535 65535 7 10
+17:53::23 [send] get power cmd
+17:53::23 agv=:1 [recv] pos:(21020,35719,0)
+17:53::24 agv=:1 [recv] state= 65535 65535 7 10
+17:53::24 [send] get power cmd
+17:53::24 agv=:1 [recv] pos:(21020,35719,0)
+17:53::25 agv=:1 [recv] state= 65535 65535 7 10
+17:53::25 [send] get power cmd
+17:53::25 agv=:1 [recv] pos:(21020,35719,0)
+17:53::26 agv=:1 [recv] state= 65535 65535 7 10
+17:53::26 [send] get power cmd
+17:53::26 agv=:1 [recv] pos:(21020,35719,0)
+17:53::27 agv=:1 [recv] state= 65535 65535 7 10
+17:53::27 [send] get power cmd
+17:53::27 agv=:1 [recv] pos:(21020,35719,0)
+17:53::28 agv=:1 [recv] state= 65535 65535 7 10
+17:53::28 [send] get power cmd
+17:53::28 agv=:1 [recv] pos:(21020,35719,0)
+17:53::29 agv=:1 [recv] state= 65535 65535 7 10
+17:53::29 [send] get power cmd
+17:53::29 agv=:1 [recv] pos:(21020,35719,0)
+17:53::30 agv=:1 [recv] state= 65535 65535 7 10
+17:53::31 [send] get power cmd
+17:53::31 agv=:1 [recv] pos:(21020,35719,0)
+17:53::31 agv=:1 [recv] state= 65535 65535 7 10
+17:53::32 [send] get power cmd
+17:53::32 agv=:1 [recv] pos:(21020,35719,0)
+17:53::32 agv=:1 [recv] state= 65535 65535 7 10
+17:53::33 [send] get power cmd
+17:53::33 agv=:1 [recv] pos:(21020,35719,0)
+17:53::33 agv=:1 [recv] state= 65535 65535 7 10
+17:53::34 [send] get power cmd
+17:53::34 agv=:1 [recv] pos:(21020,35719,0)
+17:53::34 agv=:1 [recv] state= 65535 65535 7 10
+17:53::35 [send] get power cmd
+17:53::35 agv=:1 [recv] pos:(21020,35719,0)
+17:53::35 agv=:1 [recv] state= 65535 65535 7 10
+17:53::36 [send] get power cmd
+17:53::36 agv=:1 [recv] pos:(21020,35719,0)
+17:53::36 agv=:1 [recv] state= 65535 65535 7 10
+17:53::37 [send] get power cmd
+17:53::37 agv=:1 [recv] pos:(21020,35719,0)
+17:53::37 agv=:1 [recv] state= 65535 65535 7 10
+17:53::38 [send] get power cmd
+17:53::38 agv=:1 [recv] pos:(21020,35719,0)
+17:53::39 agv=:1 [recv] state= 65535 65535 7 10
+17:53::39 [send] get power cmd
+17:53::39 agv=:1 [recv] pos:(21020,35719,0)
+17:53::40 agv=:1 [recv] state= 65535 65535 7 10
+17:53::40 [send] get power cmd
+17:53::40 agv=:1 [recv] pos:(21020,35719,0)
+17:53::41 agv=:1 [recv] state= 65535 65535 7 10
+17:53::41 [send] get power cmd
+17:53::41 agv=:1 [recv] pos:(21020,35719,0)
+17:53::42 agv=:1 [recv] state= 65535 65535 7 10
+17:53::42 [send] get power cmd
+17:53::42 agv=:1 [recv] pos:(21020,35719,0)
+17:53::43 agv=:1 [recv] state= 65535 65535 7 10
+17:53::43 [send] get power cmd
+17:53::43 agv=:1 [recv] pos:(21020,35719,0)
+17:53::44 agv=:1 [recv] state= 65535 65535 7 10
+17:53::44 [send] get power cmd
+17:53::44 agv=:1 [recv] pos:(21020,35719,0)
+17:53::45 agv=:1 [recv] state= 65535 65535 7 10
+17:53::45 [send] get power cmd
+17:53::45 agv=:1 [recv] pos:(21020,35719,0)
+17:53::46 agv=:1 [recv] state= 65535 65535 7 10
+17:53::46 [send] get power cmd
+17:53::46 agv=:1 [recv] pos:(21020,35719,0)
+17:53::47 agv=:1 [recv] state= 65535 65535 7 10
+17:53::48 [send] get power cmd
+17:53::48 agv=:1 [recv] pos:(21020,35719,0)
+17:53::48 agv=:1 [recv] state= 65535 65535 7 10
+17:53::49 [send] get power cmd
+17:53::49 agv=:1 [recv] pos:(21020,35719,0)
+17:53::49 agv=:1 [recv] state= 65535 65535 7 10
+17:53::50 [send] get power cmd
+17:53::50 agv=:1 [recv] pos:(21020,35719,0)
+17:53::50 agv=:1 [recv] state= 65535 65535 7 10
+17:53::51 [send] get power cmd
+17:53::51 agv=:1 [recv] pos:(21020,35719,0)
+17:53::51 agv=:1 [recv] state= 65535 65535 7 10
+17:53::52 [send] get power cmd
+17:53::52 agv=:1 [recv] pos:(21020,35719,0)
+17:53::52 agv=:1 [recv] state= 65535 65535 7 10
+17:53::53 [send] get power cmd
+17:53::53 agv=:1 [recv] pos:(21020,35719,0)
+17:53::53 agv=:1 [recv] state= 65535 65535 7 10
+17:53::54 [send] get power cmd
+17:53::54 agv=:1 [recv] pos:(21020,35719,0)
+17:53::54 agv=:1 [recv] state= 65535 65535 7 10
+17:53::55 [send] get power cmd
+17:53::55 agv=:1 [recv] pos:(21020,35719,0)
+17:53::56 agv=:1 [recv] state= 65535 65535 7 10
+17:53::56 [send] get power cmd
+17:53::56 agv=:1 [recv] pos:(21020,35719,0)
+17:53::57 agv=:1 [recv] state= 65535 65535 7 10
+17:53::57 [send] get power cmd
+17:53::57 agv=:1 [recv] pos:(21020,35719,0)
+17:53::58 agv=:1 [recv] state= 65535 65535 7 10
+17:53::58 [send] get power cmd
+17:53::58 agv=:1 [recv] pos:(21020,35719,0)
+17:53::59 agv=:1 [recv] state= 65535 65535 7 10
+17:53::59 [send] get power cmd
+17:53::59 agv=:1 [recv] pos:(21020,35719,0)
+17:54::00 agv=:1 [recv] state= 65535 65535 7 10
+17:54::00 [send] get power cmd
+17:54::00 agv=:1 [recv] pos:(21020,35719,0)
+17:54::01 agv=:1 [recv] state= 65535 65535 7 10
+17:54::01 [send] get power cmd
+17:54::01 agv=:1 [recv] pos:(21020,35719,0)
+17:54::02 agv=:1 [recv] state= 65535 65535 7 10
+17:54::02 [send] get power cmd
+17:54::02 agv=:1 [recv] pos:(21020,35719,0)
+17:54::03 agv=:1 [recv] state= 65535 65535 7 10
+17:54::03 [send] get power cmd
+17:54::03 agv=:1 [recv] pos:(21020,35719,0)
+17:54::04 agv=:1 [recv] state= 65535 65535 7 10
+17:54::05 [send] get power cmd
+17:54::05 agv=:1 [recv] pos:(21020,35719,0)
+17:54::05 agv=:1 [recv] state= 65535 65535 7 10
+17:54::06 [send] get power cmd
+17:54::06 agv=:1 [recv] pos:(21020,35719,0)
+17:54::06 agv=:1 [recv] state= 65535 65535 7 10
+17:54::07 [send] get power cmd
+17:54::07 agv=:1 [recv] pos:(21020,35719,0)
+17:54::07 agv=:1 [recv] state= 65535 65535 7 10
+17:54::08 [send] get power cmd
+17:54::08 agv=:1 [recv] pos:(21020,35719,0)
+17:54::08 agv=:1 [recv] state= 65535 65535 7 10
+17:54::09 [send] get power cmd
+17:54::09 agv=:1 [recv] pos:(21020,35719,0)
+17:54::09 agv=:1 [recv] state= 65535 65535 7 10
+17:54::10 [send] get power cmd
+17:54::10 agv=:1 [recv] pos:(21020,35719,0)
+17:54::10 agv=:1 [recv] state= 65535 65535 7 10
+17:54::11 [send] get power cmd
+17:54::11 agv=:1 [recv] pos:(21020,35719,0)
+17:54::11 agv=:1 [recv] state= 65535 65535 7 10
+17:54::12 [send] get power cmd
+17:54::12 agv=:1 [recv] pos:(21020,35719,0)
+17:54::13 agv=:1 [recv] state= 65535 65535 7 10
+17:54::13 [send] get power cmd
+17:54::13 agv=:1 [recv] pos:(21020,35719,0)
+17:54::14 agv=:1 [recv] state= 65535 65535 7 10
+17:54::14 [send] get power cmd
+17:54::14 agv=:1 [recv] pos:(21020,35719,0)
+17:54::15 agv=:1 [recv] state= 65535 65535 7 10
+17:54::15 [send] get power cmd
+17:54::15 agv=:1 [recv] pos:(21020,35719,0)
+17:54::16 agv=:1 [recv] state= 65535 65535 7 10
+17:54::16 [send] get power cmd
+17:54::16 agv=:1 [recv] pos:(21020,35719,0)
+17:54::17 agv=:1 [recv] state= 65535 65535 7 10
+17:54::17 [send] get power cmd
+17:54::17 agv=:1 [recv] pos:(21020,35719,0)
+17:54::18 agv=:1 [recv] state= 65535 65535 7 10
+17:54::18 [send] get power cmd
+17:54::18 agv=:1 [recv] pos:(21020,35719,0)
+17:54::19 agv=:1 [recv] state= 65535 65535 7 10
+17:54::19 [send] get power cmd
+17:54::19 agv=:1 [recv] pos:(21020,35719,0)
+17:54::20 agv=:1 [recv] state= 65535 65535 7 10
+17:54::20 [send] get power cmd
+17:54::20 agv=:1 [recv] pos:(21020,35719,0)
+17:54::21 agv=:1 [recv] state= 65535 65535 7 10
+17:54::22 [send] get power cmd
+17:54::22 agv=:1 [recv] pos:(21020,35719,0)
+17:54::22 agv=:1 [recv] state= 65535 65535 7 10
+17:54::23 [send] get power cmd
+17:54::23 agv=:1 [recv] pos:(21020,35719,0)
+17:54::23 agv=:1 [recv] state= 65535 65535 7 10
+17:54::24 [send] get power cmd
+17:54::24 agv=:1 [recv] pos:(21020,35719,0)
+17:54::24 agv=:1 [recv] state= 65535 65535 7 10
+17:54::25 [send] get power cmd
+17:54::25 agv=:1 [recv] pos:(21020,35719,0)
+17:54::25 agv=:1 [recv] state= 65535 65535 7 10
+17:54::26 [send] get power cmd
+17:54::26 agv=:1 [recv] pos:(21020,35719,0)
+17:54::26 agv=:1 [recv] state= 65535 65535 7 10
+17:54::27 [send] get power cmd
+17:54::27 agv=:1 [recv] pos:(21020,35719,0)
+17:54::27 agv=:1 [recv] state= 65535 65535 7 10
+17:54::28 [send] get power cmd
+17:54::28 agv=:1 [recv] pos:(21020,35719,0)
+17:54::28 agv=:1 [recv] state= 65535 65535 7 10
+17:54::29 [send] get power cmd
+17:54::29 agv=:1 [recv] pos:(21020,35719,0)
+17:54::30 agv=:1 [recv] state= 65535 65535 7 10
+17:54::30 [send] get power cmd
+17:54::30 agv=:1 [recv] pos:(21020,35719,0)
+17:54::31 agv=:1 [recv] state= 65535 65535 7 10
+17:54::31 [send] get power cmd
+17:54::31 agv=:1 [recv] pos:(21020,35719,0)
+17:54::32 agv=:1 [recv] state= 65535 65535 7 10
+17:54::32 [send] get power cmd
+17:54::32 agv=:1 [recv] pos:(21020,35719,0)
+17:54::33 agv=:1 [recv] state= 65535 65535 7 10
+17:54::33 [send] get power cmd
+17:54::33 agv=:1 [recv] pos:(21020,35719,0)
+17:54::34 agv=:1 [recv] state= 65535 65535 7 10
+17:54::34 [send] get power cmd
+17:54::34 agv=:1 [recv] pos:(21020,35719,0)
+17:54::35 agv=:1 [recv] state= 65535 65535 7 10
+17:54::35 [send] get power cmd
+17:54::35 agv=:1 [recv] pos:(21020,35719,0)
+17:54::36 agv=:1 [recv] state= 65535 65535 7 10
+17:54::36 [send] get power cmd
+17:54::36 agv=:1 [recv] pos:(21020,35719,0)
+17:54::37 agv=:1 [recv] state= 65535 65535 7 10
+17:54::37 [send] get power cmd
+17:54::37 agv=:1 [recv] pos:(21020,35719,0)
+17:54::38 agv=:1 [recv] state= 65535 65535 7 10
+17:54::39 [send] get power cmd
+17:54::39 agv=:1 [recv] pos:(21020,35719,0)
+17:54::39 agv=:1 [recv] state= 65535 65535 7 10
+17:54::40 [send] get power cmd
+17:54::40 agv=:1 [recv] pos:(21020,35719,0)
+17:54::40 agv=:1 [recv] state= 65535 65535 7 10
+17:54::41 [send] get power cmd
+17:54::41 agv=:1 [recv] pos:(21020,35719,0)
+17:54::41 agv=:1 [recv] state= 65535 65535 7 10
+17:54::42 [send] get power cmd
+17:54::42 agv=:1 [recv] pos:(21020,35719,0)
+17:54::42 agv=:1 [recv] state= 65535 65535 7 10
+17:54::43 [send] get power cmd
+17:54::43 agv=:1 [recv] pos:(21020,35719,0)
+17:54::43 agv=:1 [recv] state= 65535 65535 7 10
+17:54::44 [send] get power cmd
+17:54::44 agv=:1 [recv] pos:(21020,35719,0)
+17:54::44 agv=:1 [recv] state= 65535 65535 7 10
+17:54::45 [send] get power cmd
+17:54::45 agv=:1 [recv] pos:(21020,35719,0)
+17:54::45 agv=:1 [recv] state= 65535 65535 7 10
+17:54::46 [send] get power cmd
+17:54::46 agv=:1 [recv] pos:(21020,35719,0)
+17:54::47 agv=:1 [recv] state= 65535 65535 7 10
+17:54::47 [send] get power cmd
+17:54::47 agv=:1 [recv] pos:(21020,35719,0)
+17:54::48 agv=:1 [recv] state= 65535 65535 7 10
+17:54::48 [send] get power cmd
+17:54::48 agv=:1 [recv] pos:(21020,35719,0)
+17:54::49 agv=:1 [recv] state= 65535 65535 7 10
+17:54::49 [send] get power cmd
+17:54::49 agv=:1 [recv] pos:(21020,35719,0)
+17:54::50 agv=:1 [recv] state= 65535 65535 7 10
+17:54::50 [send] get power cmd
+17:54::50 agv=:1 [recv] pos:(21020,35719,0)
+17:54::51 agv=:1 [recv] state= 65535 65535 7 10
+17:54::51 [send] get power cmd
+17:54::51 agv=:1 [recv] pos:(21020,35719,0)
+17:54::52 agv=:1 [recv] state= 65535 65535 7 10
+17:54::52 [send] get power cmd
+17:54::52 agv=:1 [recv] pos:(21020,35719,0)
+17:54::53 agv=:1 [recv] state= 65535 65535 7 10
+17:54::53 [send] get power cmd
+17:54::53 agv=:1 [recv] pos:(21020,35719,0)
+17:54::54 agv=:1 [recv] state= 65535 65535 7 10
+17:54::54 [send] get power cmd
+17:54::54 agv=:1 [recv] pos:(21020,35719,0)
+17:54::55 agv=:1 [recv] state= 65535 65535 7 10
+17:54::56 [send] get power cmd
+17:54::56 agv=:1 [recv] pos:(21020,35719,0)
+17:54::56 agv=:1 [recv] state= 65535 65535 7 10
+17:54::57 [send] get power cmd
+17:54::57 agv=:1 [recv] pos:(21020,35719,0)
+17:54::57 agv=:1 [recv] state= 65535 65535 7 10
+17:54::58 [send] get power cmd
+17:54::58 agv=:1 [recv] pos:(21020,35719,0)
+17:54::58 agv=:1 [recv] state= 65535 65535 7 10
+17:54::59 [send] get power cmd
+17:54::59 agv=:1 [recv] pos:(21020,35719,0)
+17:54::59 agv=:1 [recv] state= 65535 65535 7 10
+17:55::00 [send] get power cmd
+17:55::00 agv=:1 [recv] pos:(21020,35719,0)
+17:55::00 agv=:1 [recv] state= 65535 65535 7 10
+17:55::01 [send] get power cmd
+17:55::01 agv=:1 [recv] pos:(21020,35719,0)
+17:55::01 agv=:1 [recv] state= 65535 65535 7 10
+17:55::02 [send] get power cmd
+17:55::02 agv=:1 [recv] pos:(21020,35719,0)
+17:55::02 agv=:1 [recv] state= 65535 65535 7 10
+17:55::03 [send] get power cmd
+17:55::03 agv=:1 [recv] pos:(21020,35719,0)
+17:55::04 agv=:1 [recv] state= 65535 65535 7 10
+17:55::04 [send] get power cmd
+17:55::04 agv=:1 [recv] pos:(21020,35719,0)
+17:55::05 agv=:1 [recv] state= 65535 65535 7 10
+17:55::05 [send] get power cmd
+17:55::05 agv=:1 [recv] pos:(21020,35719,0)
+17:55::06 agv=:1 [recv] state= 65535 65535 7 10
+17:55::06 [send] get power cmd
+17:55::06 agv=:1 [recv] pos:(21020,35719,0)
+17:55::07 agv=:1 [recv] state= 65535 65535 7 10
+17:55::07 [send] get power cmd
+17:55::07 agv=:1 [recv] pos:(21020,35719,0)
+17:55::08 agv=:1 [recv] state= 65535 65535 7 10
+17:55::08 [send] get power cmd
+17:55::08 agv=:1 [recv] pos:(21020,35719,0)
+17:55::09 agv=:1 [recv] state= 65535 65535 7 10
+17:55::09 [send] get power cmd
+17:55::09 agv=:1 [recv] pos:(21020,35719,0)
+17:55::10 agv=:1 [recv] state= 65535 65535 7 10
+17:55::10 [send] get power cmd
+17:55::10 agv=:1 [recv] pos:(21020,35719,0)
+17:55::11 agv=:1 [recv] state= 65535 65535 7 10
+17:55::11 [send] get power cmd
+17:55::11 agv=:1 [recv] pos:(21020,35719,0)
+17:55::12 agv=:1 [recv] state= 65535 65535 7 10
+17:55::13 [send] get power cmd
+17:55::13 agv=:1 [recv] pos:(21020,35719,0)
+17:55::13 agv=:1 [recv] state= 65535 65535 7 10
+17:55::14 [send] get power cmd
+17:55::14 agv=:1 [recv] pos:(21020,35719,0)
+17:55::14 agv=:1 [recv] state= 65535 65535 7 10
+17:55::15 [send] get power cmd
+17:55::15 agv=:1 [recv] pos:(21020,35719,0)
+17:55::15 agv=:1 [recv] state= 65535 65535 7 10
+17:55::16 [send] get power cmd
+17:55::16 agv=:1 [recv] pos:(21020,35719,0)
+17:55::16 agv=:1 [recv] state= 65535 65535 7 10
+17:55::17 [send] get power cmd
+17:55::17 agv=:1 [recv] pos:(21020,35719,0)
+17:55::17 agv=:1 [recv] state= 65535 65535 7 10
+17:55::18 [send] get power cmd
+17:55::18 agv=:1 [recv] pos:(21020,35719,0)
+17:55::18 agv=:1 [recv] state= 65535 65535 7 10
+17:55::19 [send] get power cmd
+17:55::19 agv=:1 [recv] pos:(21020,35719,0)
+17:55::19 agv=:1 [recv] state= 65535 65535 7 10
+17:55::20 [send] get power cmd
+17:55::20 agv=:1 [recv] pos:(21020,35719,0)
+17:55::21 agv=:1 [recv] state= 65535 65535 7 10
+17:55::21 [send] get power cmd
+17:55::21 agv=:1 [recv] pos:(21020,35719,0)
+17:55::22 agv=:1 [recv] state= 65535 65535 7 10
+17:55::22 [send] get power cmd
+17:55::22 agv=:1 [recv] pos:(21020,35719,0)
+17:55::23 agv=:1 [recv] state= 65535 65535 7 10
+17:55::23 [send] get power cmd
+17:55::23 agv=:1 [recv] pos:(21020,35719,0)
+17:55::24 agv=:1 [recv] state= 65535 65535 7 10
+17:55::24 [send] get power cmd
+17:55::24 agv=:1 [recv] pos:(21020,35719,0)
+17:55::25 agv=:1 [recv] state= 65535 65535 7 10
+17:55::25 [send] get power cmd
+17:55::25 agv=:1 [recv] pos:(21020,35719,0)
+17:55::26 agv=:1 [recv] state= 65535 65535 7 10
+17:55::26 [send] get power cmd
+17:55::26 agv=:1 [recv] pos:(21020,35719,0)
+17:55::27 agv=:1 [recv] state= 65535 65535 7 10
+17:55::27 [send] get power cmd
+17:55::27 agv=:1 [recv] pos:(21020,35719,0)
+17:55::28 agv=:1 [recv] state= 65535 65535 7 10
+17:55::28 [send] get power cmd
+17:55::28 agv=:1 [recv] pos:(21020,35719,0)
+17:55::29 agv=:1 [recv] state= 65535 65535 7 10
+17:55::30 [send] get power cmd
+17:55::30 agv=:1 [recv] pos:(21020,35719,0)
+17:55::30 agv=:1 [recv] state= 65535 65535 7 10
+17:55::31 [send] get power cmd
+17:55::31 agv=:1 [recv] pos:(21020,35719,0)
+17:55::31 agv=:1 [recv] state= 65535 65535 7 10
+17:55::32 [send] get power cmd
+17:55::32 agv=:1 [recv] pos:(21020,35719,0)
+17:55::32 agv=:1 [recv] state= 65535 65535 7 10
+17:55::33 [send] get power cmd
+17:55::33 agv=:1 [recv] pos:(21020,35719,0)
+17:55::33 agv=:1 [recv] state= 65535 65535 7 10
+17:55::34 [send] get power cmd
+17:55::34 agv=:1 [recv] pos:(21020,35719,0)
+17:55::34 agv=:1 [recv] state= 65535 65535 7 10
+17:55::35 [send] get power cmd
+17:55::35 agv=:1 [recv] pos:(21020,35719,0)
+17:55::35 agv=:1 [recv] state= 65535 65535 7 10
+17:55::36 [send] get power cmd
+17:55::36 agv=:1 [recv] pos:(21020,35719,0)
+17:55::36 agv=:1 [recv] state= 65535 65535 7 10
+17:55::37 [send] get power cmd
+17:55::37 agv=:1 [recv] pos:(21020,35719,0)
+17:55::38 agv=:1 [recv] state= 65535 65535 7 10
+17:55::38 [send] get power cmd
+17:55::38 agv=:1 [recv] pos:(21020,35719,0)
+17:55::39 agv=:1 [recv] state= 65535 65535 7 10
+17:55::39 [send] get power cmd
+17:55::39 agv=:1 [recv] pos:(21020,35719,0)
+17:55::40 agv=:1 [recv] state= 65535 65535 7 10
+17:55::40 [send] get power cmd
+17:55::40 agv=:1 [recv] pos:(21020,35719,0)
+17:55::41 agv=:1 [recv] state= 65535 65535 7 10
+17:55::41 [send] get power cmd
+17:55::41 agv=:1 [recv] pos:(21020,35719,0)
+17:55::42 agv=:1 [recv] state= 65535 65535 7 10
+17:55::42 [send] get power cmd
+17:55::42 agv=:1 [recv] pos:(21020,35719,0)
+17:55::43 agv=:1 [recv] state= 65535 65535 7 10
+17:55::43 [send] get power cmd
+17:55::43 agv=:1 [recv] pos:(21020,35719,0)
+17:55::44 agv=:1 [recv] state= 65535 65535 7 10
+17:55::44 [send] get power cmd
+17:55::44 agv=:1 [recv] pos:(21020,35719,0)
+17:55::45 agv=:1 [recv] state= 65535 65535 7 10
+17:55::45 [send] get power cmd
+17:55::45 agv=:1 [recv] pos:(21020,35719,0)
+17:55::46 agv=:1 [recv] state= 65535 65535 7 10
+17:55::47 [send] get power cmd
+17:55::47 agv=:1 [recv] pos:(21020,35719,0)
+17:55::47 agv=:1 [recv] state= 65535 65535 7 10
+17:55::48 [send] get power cmd
+17:55::48 agv=:1 [recv] pos:(21020,35719,0)
+17:55::48 agv=:1 [recv] state= 65535 65535 7 10
+17:55::49 [send] get power cmd
+17:55::49 agv=:1 [recv] pos:(21020,35719,0)
+17:55::49 agv=:1 [recv] state= 65535 65535 7 10
+17:55::50 [send] get power cmd
+17:55::50 agv=:1 [recv] pos:(21020,35719,0)
+17:55::50 agv=:1 [recv] state= 65535 65535 7 10
+17:55::51 [send] get power cmd
+17:55::51 agv=:1 [recv] pos:(21020,35719,0)
+17:55::51 agv=:1 [recv] state= 65535 65535 7 10
+17:55::52 [send] get power cmd
+17:55::52 agv=:1 [recv] pos:(21020,35719,0)
+17:55::52 agv=:1 [recv] state= 65535 65535 7 10
+17:55::53 [send] get power cmd
+17:55::53 agv=:1 [recv] pos:(21020,35719,0)
+17:55::53 agv=:1 [recv] state= 65535 65535 7 10
+17:55::54 [send] get power cmd
+17:55::54 agv=:1 [recv] pos:(21020,35719,0)
+17:55::55 agv=:1 [recv] state= 65535 65535 7 10
+17:55::55 [send] get power cmd
+17:55::55 agv=:1 [recv] pos:(21020,35719,0)
+17:55::56 agv=:1 [recv] state= 65535 65535 7 10
+17:55::56 [send] get power cmd
+17:55::56 agv=:1 [recv] pos:(21020,35719,0)
+17:55::57 agv=:1 [recv] state= 65535 65535 7 10
+17:55::57 [send] get power cmd
+17:55::57 agv=:1 [recv] pos:(21020,35719,0)
+17:55::58 agv=:1 [recv] state= 65535 65535 7 10
+17:55::58 [send] get power cmd
+17:55::58 agv=:1 [recv] pos:(21020,35719,0)
+17:55::59 agv=:1 [recv] state= 65535 65535 7 10
+17:55::59 [send] get power cmd
+17:55::59 agv=:1 [recv] pos:(21020,35719,0)
+17:56::00 agv=:1 [recv] state= 65535 65535 7 10
+17:56::00 [send] get power cmd
+17:56::00 agv=:1 [recv] pos:(21020,35719,0)
+17:56::01 agv=:1 [recv] state= 65535 65535 7 10
+17:56::01 [send] get power cmd
+17:56::01 agv=:1 [recv] pos:(21020,35719,0)
+17:56::02 agv=:1 [recv] state= 65535 65535 7 10
+17:56::02 [send] get power cmd
+17:56::02 agv=:1 [recv] pos:(21020,35719,0)
+17:56::03 agv=:1 [recv] state= 65535 65535 7 10
+17:56::04 [send] get power cmd
+17:56::04 agv=:1 [recv] pos:(21020,35719,0)
+17:56::04 agv=:1 [recv] state= 65535 65535 7 10
+17:56::05 [send] get power cmd
+17:56::05 agv=:1 [recv] pos:(21020,35719,0)
+17:56::05 agv=:1 [recv] state= 65535 65535 7 10
+17:56::06 [send] get power cmd
+17:56::06 agv=:1 [recv] pos:(21020,35719,0)
+17:56::06 agv=:1 [recv] state= 65535 65535 7 10
+17:56::07 [send] get power cmd
+17:56::07 agv=:1 [recv] pos:(21020,35719,0)
+17:56::07 agv=:1 [recv] state= 65535 65535 7 10
+17:56::08 [send] get power cmd
+17:56::08 agv=:1 [recv] pos:(21020,35719,0)
+17:56::08 agv=:1 [recv] state= 65535 65535 7 10
+17:56::09 [send] get power cmd
+17:56::09 agv=:1 [recv] pos:(21020,35719,0)
+17:56::09 agv=:1 [recv] state= 65535 65535 7 10
+17:56::10 [send] get power cmd
+17:56::10 agv=:1 [recv] pos:(21020,35719,0)
+17:56::10 agv=:1 [recv] state= 65535 65535 7 10
+17:56::11 [send] get power cmd
+17:56::11 agv=:1 [recv] pos:(21020,35719,0)
+17:56::12 agv=:1 [recv] state= 65535 65535 7 10
+17:56::12 [send] get power cmd
+17:56::12 agv=:1 [recv] pos:(21020,35719,0)
+17:56::13 agv=:1 [recv] state= 65535 65535 7 10
+17:56::13 [send] get power cmd
+17:56::13 agv=:1 [recv] pos:(21020,35719,0)
+17:56::14 agv=:1 [recv] state= 65535 65535 7 10
+17:56::14 [send] get power cmd
+17:56::14 agv=:1 [recv] pos:(21020,35719,0)
+17:56::15 agv=:1 [recv] state= 65535 65535 7 10
+17:56::15 [send] get power cmd
+17:56::15 agv=:1 [recv] pos:(21020,35719,0)
+17:56::16 agv=:1 [recv] state= 65535 65535 7 10
+17:56::16 [send] get power cmd
+17:56::16 agv=:1 [recv] pos:(21020,35719,0)
+17:56::17 agv=:1 [recv] state= 65535 65535 7 10
+17:56::17 [send] get power cmd
+17:56::17 agv=:1 [recv] pos:(21020,35719,0)
+17:56::18 agv=:1 [recv] state= 65535 65535 7 10
+17:56::18 [send] get power cmd
+17:56::18 agv=:1 [recv] pos:(21020,35719,0)
+17:56::19 agv=:1 [recv] state= 65535 65535 7 10
+17:56::19 [send] get power cmd
+17:56::19 agv=:1 [recv] pos:(21020,35719,0)
+17:56::20 agv=:1 [recv] state= 65535 65535 7 10
+17:56::21 [send] get power cmd
+17:56::21 agv=:1 [recv] pos:(21020,35719,0)
+17:56::21 agv=:1 [recv] state= 65535 65535 7 10
+17:56::22 [send] get power cmd
+17:56::22 agv=:1 [recv] pos:(21020,35719,0)
+17:56::22 agv=:1 [recv] state= 65535 65535 7 10
+17:56::23 [send] get power cmd
+17:56::23 agv=:1 [recv] pos:(21020,35719,0)
+17:56::23 agv=:1 [recv] state= 65535 65535 7 10
+17:56::24 [send] get power cmd
+17:56::24 agv=:1 [recv] pos:(21020,35719,0)
+17:56::24 agv=:1 [recv] state= 65535 65535 7 10
+17:56::25 [send] get power cmd
+17:56::25 agv=:1 [recv] pos:(21020,35719,0)
+17:56::25 agv=:1 [recv] state= 65535 65535 7 10
+17:56::26 [send] get power cmd
+17:56::26 agv=:1 [recv] pos:(21020,35719,0)
+17:56::26 agv=:1 [recv] state= 65535 65535 7 10
+17:56::27 [send] get power cmd
+17:56::27 agv=:1 [recv] pos:(21020,35719,0)
+17:56::27 agv=:1 [recv] state= 65535 65535 7 10
+17:56::28 [send] get power cmd
+17:56::28 agv=:1 [recv] pos:(21020,35719,0)
+17:56::29 agv=:1 [recv] state= 65535 65535 7 10
+17:56::29 [send] get power cmd
+17:56::29 agv=:1 [recv] pos:(21020,35719,0)
+17:56::30 agv=:1 [recv] state= 65535 65535 7 10
+17:56::30 [send] get power cmd
+17:56::30 agv=:1 [recv] pos:(21020,35719,0)
+17:56::31 agv=:1 [recv] state= 65535 65535 7 10
+17:56::31 [send] get power cmd
+17:56::31 agv=:1 [recv] pos:(21020,35719,0)
+17:56::32 agv=:1 [recv] state= 65535 65535 7 10
+17:56::32 [send] get power cmd
+17:56::32 agv=:1 [recv] pos:(21020,35719,0)
+17:56::33 agv=:1 [recv] state= 65535 65535 7 10
+17:56::33 [send] get power cmd
+17:56::33 agv=:1 [recv] pos:(21020,35719,0)
+17:56::34 agv=:1 [recv] state= 65535 65535 7 10
+17:56::34 [send] get power cmd
+17:56::34 agv=:1 [recv] pos:(21020,35719,0)
+17:56::35 agv=:1 [recv] state= 65535 65535 7 10
+17:56::35 [send] get power cmd
+17:56::35 agv=:1 [recv] pos:(21020,35719,0)
+17:56::36 agv=:1 [recv] state= 65535 65535 7 10
+17:56::36 [send] get power cmd
+17:56::36 agv=:1 [recv] pos:(21020,35719,0)
+17:56::37 agv=:1 [recv] state= 65535 65535 7 10
+17:56::38 [send] get power cmd
+17:56::38 agv=:1 [recv] pos:(21020,35719,0)
+17:56::38 agv=:1 [recv] state= 65535 65535 7 10
+17:56::39 [send] get power cmd
+17:56::39 agv=:1 [recv] pos:(21020,35719,0)
+17:56::39 agv=:1 [recv] state= 65535 65535 7 10
+17:56::40 [send] get power cmd
+17:56::40 agv=:1 [recv] pos:(21020,35719,0)
+17:56::40 agv=:1 [recv] state= 65535 65535 7 10
+17:56::41 [send] get power cmd
+17:56::41 agv=:1 [recv] pos:(21020,35719,0)
+17:56::41 agv=:1 [recv] state= 65535 65535 7 10
+17:56::42 [send] get power cmd
+17:56::42 agv=:1 [recv] pos:(21020,35719,0)
+17:56::42 agv=:1 [recv] state= 65535 65535 7 10
+17:56::43 [send] get power cmd
+17:56::43 agv=:1 [recv] pos:(21020,35719,0)
+17:56::43 agv=:1 [recv] state= 65535 65535 7 10
+17:56::44 [send] get power cmd
+17:56::44 agv=:1 [recv] pos:(21020,35719,0)
+17:56::44 agv=:1 [recv] state= 65535 65535 7 10
+17:56::45 [send] get power cmd
+17:56::45 agv=:1 [recv] pos:(21020,35719,0)
+17:56::46 agv=:1 [recv] state= 65535 65535 7 10
+17:56::46 [send] get power cmd
+17:56::46 agv=:1 [recv] pos:(21020,35719,0)
+17:56::47 agv=:1 [recv] state= 65535 65535 7 10
+17:56::47 [send] get power cmd
+17:56::47 agv=:1 [recv] pos:(21020,35719,0)
+17:56::48 agv=:1 [recv] state= 65535 65535 7 10
+17:56::48 [send] get power cmd
+17:56::48 agv=:1 [recv] pos:(21020,35719,0)
+17:56::49 agv=:1 [recv] state= 65535 65535 7 10
+17:56::49 [send] get power cmd
+17:56::49 agv=:1 [recv] pos:(21020,35719,0)
+17:56::50 agv=:1 [recv] state= 65535 65535 7 10
+17:56::50 [send] get power cmd
+17:56::50 agv=:1 [recv] pos:(21020,35719,0)
+17:56::51 agv=:1 [recv] state= 65535 65535 7 10
+17:56::51 [send] get power cmd
+17:56::51 agv=:1 [recv] pos:(21020,35719,0)
+17:56::52 agv=:1 [recv] state= 65535 65535 7 10
+17:56::52 [send] get power cmd
+17:56::52 agv=:1 [recv] pos:(21020,35719,0)
+17:56::53 agv=:1 [recv] state= 65535 65535 7 10
+17:56::53 [send] get power cmd
+17:56::53 agv=:1 [recv] pos:(21020,35719,0)
+17:56::54 agv=:1 [recv] state= 65535 65535 7 10
+17:56::55 [send] get power cmd
+17:56::55 agv=:1 [recv] pos:(21020,35719,0)
+17:56::55 agv=:1 [recv] state= 65535 65535 7 10
+17:56::56 [send] get power cmd
+17:56::56 agv=:1 [recv] pos:(21020,35719,0)
+17:56::56 agv=:1 [recv] state= 65535 65535 7 10
+17:56::57 [send] get power cmd
+17:56::57 agv=:1 [recv] pos:(21020,35719,0)
+17:56::57 agv=:1 [recv] state= 65535 65535 7 10
+17:56::58 [send] get power cmd
+17:56::58 agv=:1 [recv] pos:(21020,35719,0)
+17:56::58 agv=:1 [recv] state= 65535 65535 7 10
+17:56::59 [send] get power cmd
+17:56::59 agv=:1 [recv] pos:(21020,35719,0)
+17:56::59 agv=:1 [recv] state= 65535 65535 7 10
+17:57::00 [send] get power cmd
+17:57::00 agv=:1 [recv] pos:(21020,35719,0)
+17:57::00 agv=:1 [recv] state= 65535 65535 7 10
+17:57::01 [send] get power cmd
+17:57::01 agv=:1 [recv] pos:(21020,35719,0)
+17:57::01 agv=:1 [recv] state= 65535 65535 7 10
+17:57::02 [send] get power cmd
+17:57::02 agv=:1 [recv] pos:(21020,35719,0)
+17:57::03 agv=:1 [recv] state= 65535 65535 7 10
+17:57::03 [send] get power cmd
+17:57::03 agv=:1 [recv] pos:(21020,35719,0)
+17:57::04 agv=:1 [recv] state= 65535 65535 7 10
+17:57::04 [send] get power cmd
+17:57::04 agv=:1 [recv] pos:(21020,35719,0)
+17:57::05 agv=:1 [recv] state= 65535 65535 7 10
+17:57::05 [send] get power cmd
+17:57::05 agv=:1 [recv] pos:(21020,35719,0)
+17:57::06 agv=:1 [recv] state= 65535 65535 7 10
+17:57::06 [send] get power cmd
+17:57::06 agv=:1 [recv] pos:(21020,35719,0)
+17:57::07 agv=:1 [recv] state= 65535 65535 7 10
+17:57::07 [send] get power cmd
+17:57::07 agv=:1 [recv] pos:(21020,35719,0)
+17:57::08 agv=:1 [recv] state= 65535 65535 7 10
+17:57::08 [send] get power cmd
+17:57::08 agv=:1 [recv] pos:(21020,35719,0)
+17:57::09 agv=:1 [recv] state= 65535 65535 7 10
+17:57::09 [send] get power cmd
+17:57::09 agv=:1 [recv] pos:(21020,35719,0)
+17:57::10 agv=:1 [recv] state= 65535 65535 7 10
+17:57::10 [send] get power cmd
+17:57::10 agv=:1 [recv] pos:(21020,35719,0)
+17:57::11 agv=:1 [recv] state= 65535 65535 7 10
+17:57::12 [send] get power cmd
+17:57::12 agv=:1 [recv] pos:(21020,35719,0)
+17:57::12 agv=:1 [recv] state= 65535 65535 7 10
+17:57::13 [send] get power cmd
+17:57::13 agv=:1 [recv] pos:(21020,35719,0)
+17:57::13 agv=:1 [recv] state= 65535 65535 7 10
+17:57::14 [send] get power cmd
+17:57::14 agv=:1 [recv] pos:(21020,35719,0)
+17:57::14 agv=:1 [recv] state= 65535 65535 7 10
+17:57::15 [send] get power cmd
+17:57::15 agv=:1 [recv] pos:(21020,35719,0)
+17:57::15 agv=:1 [recv] state= 65535 65535 7 10
+17:57::16 [send] get power cmd
+17:57::16 agv=:1 [recv] pos:(21020,35719,0)
+17:57::16 agv=:1 [recv] state= 65535 65535 7 10
+17:57::17 [send] get power cmd
+17:57::17 agv=:1 [recv] pos:(21020,35719,0)
+17:57::17 agv=:1 [recv] state= 65535 65535 7 10
+17:57::18 [send] get power cmd
+17:57::18 agv=:1 [recv] pos:(21020,35719,0)
+17:57::18 agv=:1 [recv] state= 65535 65535 7 10
+17:57::19 [send] get power cmd
+17:57::19 agv=:1 [recv] pos:(21241,35719,0)
+17:57::20 agv=:1 [recv] state= 65535 65535 7 10
+17:57::20 [send] get power cmd
+17:57::20 agv=:1 [recv] pos:(21454,35719,0)
+17:57::20 agv=:1 [recv] state= 7 10 7 10
+17:57::20 [proc] plan: currentID:10
+17:57::20 [send]agv=1 set path command: mode=100 start=10 end=11 
+17:57::20 [recv] set Path:1
+17:57::21 agv=:1 [recv] state= 7 10 10 11
+17:57::21 [send] get power cmd
+17:57::21 agv=:1 [recv] pos:(21455,35719,0)
+17:57::21 [send] set path enable
+17:57::21 [recv] enable Path:1
+17:57::22 agv=:1 [recv] state= 65535 65535 10 11
+17:57::22 [send] get power cmd
+17:57::22 agv=:1 [recv] pos:(21555,35719,0)
+17:57::23 agv=:1 [recv] state= 65535 65535 10 11
+17:57::23 [send] get power cmd
+17:57::23 agv=:1 [recv] pos:(22011,35719,0)
+17:57::24 agv=:1 [recv] state= 65535 65535 10 11
+17:57::24 [send] get power cmd
+17:57::24 agv=:1 [recv] pos:(22642,35719,0)
+17:57::25 agv=:1 [recv] state= 65535 65535 10 11
+17:57::25 [send] get power cmd
+17:57::25 agv=:1 [recv] pos:(23203,35719,0)
+17:57::26 agv=:1 [recv] state= 65535 65535 10 11
+17:57::26 [send] get power cmd
+17:57::26 agv=:1 [recv] pos:(23451,35719,0)
+17:57::27 agv=:1 [recv] state= 10 11 10 11
+17:57::27 [proc] plan: currentID:11
+17:57::27 [send]agv=1 set path command: mode=100 start=11 end=10 
+17:57::27 [recv] set Path:1
+17:57::27 agv=:1 [recv] state= 10 11 11 10
+17:57::27 [send] get power cmd
+17:57::27 agv=:1 [recv] pos:(23453,35719,0)
+17:57::28 [send] set path enable
+17:57::28 [recv] enable Path:1
+17:57::28 agv=:1 [recv] state= 65535 65535 11 10
+17:57::29 [send] get power cmd
+17:57::29 agv=:1 [recv] pos:(23353,35719,0)
+17:57::29 agv=:1 [recv] state= 65535 65535 11 10
+17:57::30 [send] get power cmd
+17:57::30 agv=:1 [recv] pos:(22907,35719,0)
+17:57::30 agv=:1 [recv] state= 65535 65535 11 10
+17:57::31 [send] get power cmd
+17:57::31 agv=:1 [recv] pos:(22377,35719,0)
+17:57::31 agv=:1 [recv] state= 65535 65535 11 10
+17:57::32 [send] get power cmd
+17:57::32 agv=:1 [recv] pos:(21914,35719,0)
+17:57::32 agv=:1 [recv] state= 65535 65535 11 10
+17:57::33 [send] get power cmd
+17:57::33 agv=:1 [recv] pos:(21565,35719,0)
+17:57::33 agv=:1 [recv] state= 65535 65535 11 10
+17:57::34 agv=:1 [recv] state= 11 10 11 10
+17:57::34 [proc] plan: currentID:10
+17:57::34 [send] get power cmd
+17:57::34 agv=:1 [recv] pos:(21455,35719,0)
+17:57::34 [send]agv=1 set path command: mode=100 start=10 end=9 
+17:57::34 [recv] set Path:1
+17:57::35 agv=:1 [recv] state= 11 10 10 9
+17:57::35 [send] get power cmd
+17:57::35 agv=:1 [recv] pos:(21455,35719,0)
+17:57::35 [send] set path enable
+17:57::36 [send] get power cmd
+17:57::36 [send] set path enable
+17:57::37 [send] get power cmd
+17:57::37 [send] set path enable
+17:57::38 [send] get power cmd
+17:57::39 [send] set path enable
+17:57::39 [recv] enable Path:1
+17:57::39 [send] get power cmd
+17:57::40 [send] get power cmd
+17:57::41 [send] get power cmd
+17:57::42 [send] get power cmd
+17:57::44 [send] get power cmd
+17:57::45 [send] get power cmd
+17:57::45 agv=:1 [recv] state= 65535 65535 10 9
+17:57::46 [send] get power cmd
+17:57::47 [send] get power cmd
+17:57::48 [send] get power cmd
+17:57::49 [send] get power cmd
+17:57::50 [send] get power cmd
+17:57::51 [send] get power cmd
+17:57::52 [send] get power cmd
+17:57::53 [send] get power cmd
+17:57::54 [send] get power cmd
+17:57::55 [send] get power cmd
+17:57::56 [send] get power cmd
+17:57::57 [send] get power cmd
+17:57::58 [send] get power cmd
+17:57::59 [send] get power cmd
+17:58::01 [send] get power cmd
+17:58::02 [send] get power cmd
+17:58::03 [send] get power cmd
+17:58::04 [send] get power cmd
+17:58::05 [send] get power cmd
+17:58::06 [send] get power cmd
+17:58::07 [send] get power cmd
+17:58::08 [send] get power cmd
+17:58::09 [send] get power cmd
+17:58::10 [send] get power cmd
+17:58::11 [send] get power cmd
+17:58::12 [send] get power cmd
+17:58::13 [send] get power cmd
+17:58::14 [send] get power cmd
+17:58::15 [send] get power cmd
+17:58::16 [send] get power cmd
+17:58::18 [send] get power cmd
+17:58::19 [send] get power cmd
+17:58::20 [send] get power cmd
+17:58::21 [send] get power cmd
+17:58::22 [send] get power cmd
+17:58::23 [send] get power cmd
+17:58::24 [send] get power cmd
+17:58::25 [send] get power cmd
+17:58::26 [send] get power cmd
+17:58::27 [send] get power cmd
+17:58::28 [send] get power cmd
+17:58::29 [send] get power cmd
+17:58::30 [send] get power cmd
+17:58::31 [send] get power cmd
+17:58::32 [send] get power cmd
+17:58::33 [send] get power cmd
+17:58::35 [send] get power cmd
+17:58::36 [send] get power cmd
+17:58::37 [send] get power cmd
+17:58::38 [send] get power cmd
+17:58::39 [send] get power cmd
+17:58::40 [send] get power cmd
+17:58::41 [send] get power cmd
+17:58::42 [send] get power cmd
+17:58::43 [send] get power cmd
+17:58::44 [send] get power cmd
+17:58::45 [send] get power cmd
+17:58::46 [send] get power cmd
+17:58::47 [send] get power cmd
+17:58::48 [send] get power cmd
+17:58::49 [send] get power cmd
+17:58::50 [send] get power cmd
+17:58::52 [send] get power cmd
+17:58::53 [send] get power cmd
+17:58::54 [send] get power cmd
+17:58::55 [send] get power cmd
+17:58::56 [send] get power cmd
+17:58::57 [send] get power cmd
+17:58::58 [send] get power cmd
+17:58::59 [send] get power cmd
+17:59::00 [send] get power cmd
+17:59::01 [send] get power cmd
+17:59::02 [send] get power cmd
+17:59::03 [send] get power cmd
+17:59::04 [send] get power cmd
+17:59::05 [send] get power cmd
+17:59::06 [send] get power cmd
+17:59::07 [send] get power cmd
+17:59::09 [send] get power cmd
+17:59::10 [send] get power cmd
+17:59::11 [send] get power cmd
+17:59::12 [send] get power cmd
+17:59::13 [send] get power cmd
+17:59::14 [send] get power cmd
+17:59::15 [send] get power cmd
+17:59::16 [send] get power cmd
+17:59::17 [send] get power cmd
+17:59::18 [send] get power cmd
+17:59::19 [send] get power cmd
+17:59::20 [send] get power cmd
+17:59::21 [send] get power cmd
+17:59::22 [send] get power cmd
+17:59::23 [send] get power cmd
+17:59::24 [send] get power cmd
+17:59::26 [send] get power cmd
+17:59::27 [send] get power cmd
+17:59::28 [send] get power cmd
+17:59::29 [send] get power cmd
+17:59::30 [send] get power cmd
+17:59::31 [send] get power cmd
+17:59::32 [send] get power cmd
+17:59::33 [send] get power cmd
+17:59::34 [send] get power cmd
+17:59::35 [send] get power cmd
+17:59::36 [send] get power cmd
+17:59::37 [send] get power cmd
+17:59::38 [send] get power cmd
+17:59::39 [send] get power cmd
+17:59::40 [send] get power cmd
+17:59::41 [send] get power cmd
+17:59::43 [send] get power cmd
+17:59::44 [send] get power cmd
+17:59::45 [send] get power cmd
+17:59::46 [send] get power cmd
+17:59::47 [send] get power cmd
+17:59::48 [send] get power cmd
+17:59::49 [send] get power cmd
+17:59::50 [send] get power cmd
+17:59::51 [send] get power cmd
+17:59::52 [send] get power cmd
+17:59::53 [send] get power cmd
+17:59::54 [send] get power cmd
+17:59::55 [send] get power cmd
+17:59::56 [send] get power cmd
+17:59::57 [send] get power cmd
+17:59::58 [send] get power cmd
+18:00::00 [send] get power cmd
+18:00::01 [send] get power cmd
+18:00::02 [send] get power cmd
+18:00::03 [send] get power cmd
+18:00::04 [send] get power cmd
+18:00::05 [send] get power cmd
+18:00::06 [send] get power cmd
+18:00::07 [send] get power cmd
+18:00::08 [send] get power cmd
+18:00::09 [send] get power cmd
+18:00::10 [send] get power cmd
+18:00::11 [send] get power cmd
+18:00::12 [send] get power cmd
+18:00::13 [send] get power cmd
+18:00::14 [send] get power cmd
+18:00::15 [send] get power cmd
+18:00::17 [send] get power cmd
+18:00::18 [send] get power cmd
+18:00::19 [send] get power cmd
+18:00::20 [send] get power cmd
+18:00::21 [send] get power cmd
+18:00::22 [send] get power cmd
+18:00::23 [send] get power cmd
+18:00::24 [send] get power cmd
+18:00::25 [send] get power cmd
+18:00::26 [send] get power cmd
+18:00::27 [send] get power cmd
+18:00::28 [send] get power cmd
+18:00::29 [send] get power cmd
+18:00::30 [send] get power cmd
+18:00::31 [send] get power cmd
+18:00::32 [send] get power cmd
+18:00::34 [send] get power cmd
+18:00::35 [send] get power cmd
+18:00::36 [send] get power cmd
+18:00::37 [send] get power cmd
+18:00::38 [send] get power cmd
+18:00::39 [send] get power cmd
+18:00::40 [send] get power cmd
+18:00::41 [send] get power cmd
+18:00::42 [send] get power cmd
+18:00::43 [send] get power cmd
+18:00::44 [send] get power cmd
+18:00::45 [send] get power cmd
+18:00::46 [send] get power cmd
+18:00::47 [send] get power cmd
+18:00::48 [send] get power cmd
+18:00::49 [send] get power cmd
+18:00::51 [send] get power cmd
+18:00::52 [send] get power cmd
+18:00::53 [send] get power cmd
+18:00::54 [send] get power cmd
+18:00::55 [send] get power cmd
+18:00::56 [send] get power cmd
+18:00::57 [send] get power cmd
+18:00::58 [send] get power cmd
+18:00::59 [send] get power cmd
+18:01::00 [send] get power cmd

@@ -1,0 +1,1001 @@
+21:03::49 [init] AGV: 2 在线
+21:03::49 [init] Mac: 02
+21:03::49 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+21:03::49 [Speical] agv=2,CurrentMissionID:0
+21:03::51 [Speical] agv=2,CurrentMissionID:0
+21:03::51 [recv]agv=2 Initialization: InitialPoint=0101,AGVType=2
+21:03::52 [Speical] agv=2,CurrentMissionID:0
+21:03::53 [Speical] agv=2,CurrentMissionID:0
+21:03::55 [Speical] agv=2,CurrentMissionID:0
+21:03::56 [Speical] agv=2,CurrentMissionID:0
+21:03::57 [Speical] agv=2,CurrentMissionID:0
+21:03::58 [Speical] agv=2,CurrentMissionID:0
+21:04::00 [Speical] agv=2,CurrentMissionID:384460456
+21:04::00 [send]agv=2 send path command: C1 number=1,start=0101 end=0102 后退 减速行驶 length 1.7 angle 0
+21:04::00 [send]agv=2 send path command: C2 number=2,start=0102 end=0102 右拐 原地旋转 length 0 angle 90
+21:04::00 [recv]Communication_Send Answer: number_1:1,number_2:2
+21:04::00 [recv] agv=2,Send Path Answer:number_1=1,number_2=2
+21:04::01 [Speical] agv=2,CurrentMissionID:384460456
+21:04::03 [Speical] agv=2,CurrentMissionID:384460456
+21:04::04 [Speical] agv=2,CurrentMissionID:384460456
+21:04::05 [Speical] agv=2,CurrentMissionID:384460456
+21:04::06 [Speical] agv=2,CurrentMissionID:384460456
+21:04::06 [recv]Communication_ComandFinish: number:1,
+21:04::06 [recv]agv=2 Path Command Finish: C1 number=1 start=0101 end=0102 后退 减速行驶  length 1.7 angle 0
+21:04::06 [send]agv=1%,ComandFinish Answer: number:1,
+21:04::07 [Speical] agv=2,CurrentMissionID:384460456
+21:04::07 [send]agv=2 send path command: C1 number=2,start=0102 end=0102 右拐 原地旋转 length 0 angle 90
+21:04::07 [send]agv=2 send path command: C2 number=3,start=0102 end=0202 前进 减速行驶 length 1.3 angle 0
+21:04::07 [recv]Communication_Send Answer: number_1:2,number_2:3
+21:04::07 [recv] agv=2,Send Path Answer:number_1=2,number_2=3
+21:04::08 [Speical] agv=2,CurrentMissionID:384460456
+21:04::09 [Speical] agv=2,CurrentMissionID:384460456
+21:04::10 [Speical] agv=2,CurrentMissionID:384460456
+21:04::10 [recv]Communication_ComandFinish: number:2,
+21:04::10 [recv]agv=2 Path Command Finish: C1 number=2 start=0102 end=0102 右拐 原地旋转  length 0 angle 90
+21:04::10 [send]agv=1%,ComandFinish Answer: number:2,
+21:04::11 [Speical] agv=2,CurrentMissionID:384460456
+21:04::11 [send]agv=2 send path command: C1 number=3,start=0102 end=0202 前进 减速行驶 length 1.3 angle 0
+21:04::11 [send]agv=2 send path command: C2 number=4,start=0202 end=0202 右拐 原地旋转 length 0 angle 90
+21:04::11 [recv]Communication_Send Answer: number_1:3,number_2:4
+21:04::11 [recv] agv=2,Send Path Answer:number_1=3,number_2=4
+21:04::12 [Speical] agv=2,CurrentMissionID:384460456
+21:04::13 [Speical] agv=2,CurrentMissionID:384460456
+21:04::14 [recv]Communication_ComandFinish: number:3,
+21:04::14 [recv]agv=2 Path Command Finish: C1 number=3 start=0102 end=0202 前进 减速行驶  length 1.3 angle 0
+21:04::14 [send]agv=1%,ComandFinish Answer: number:3,
+21:04::14 [Speical] agv=2,CurrentMissionID:384460456
+21:04::14 [send]agv=2 send path command: C1 number=4,start=0202 end=0202 右拐 原地旋转 length 0 angle 90
+21:04::14 [send]agv=2 send path command: C2 number=5,start=0202 end=0203 前进 正常行驶 length 1 angle 0
+21:04::14 [recv]Communication_Send Answer: number_1:4,number_2:5
+21:04::14 [recv] agv=2,Send Path Answer:number_1=4,number_2=5
+21:04::15 [Speical] agv=2,CurrentMissionID:384460456
+21:04::16 [Speical] agv=2,CurrentMissionID:384460456
+21:04::17 [Speical] agv=2,CurrentMissionID:384460456
+21:04::18 [recv]Communication_ComandFinish: number:4,
+21:04::18 [recv]agv=2 Path Command Finish: C1 number=4 start=0202 end=0202 右拐 原地旋转  length 0 angle 90
+21:04::18 [send]agv=1%,ComandFinish Answer: number:4,
+21:04::18 [Speical] agv=2,CurrentMissionID:384460456
+21:04::18 [send]agv=2 send path command: C1 number=5,start=0202 end=0203 前进 正常行驶 length 1 angle 0
+21:04::18 [send]agv=2 send path command: C2 number=6,start=0203 end=0204 前进 正常行驶 length 1.2 angle 0
+21:04::18 [recv]Communication_Send Answer: number_1:5,number_2:6
+21:04::18 [recv] agv=2,Send Path Answer:number_1=5,number_2=6
+21:04::20 [Speical] agv=2,CurrentMissionID:384460456
+21:04::21 [Speical] agv=2,CurrentMissionID:384460456
+21:04::22 [Speical] agv=2,CurrentMissionID:384460456
+21:04::22 [recv]Communication_ComandFinish: number:5,
+21:04::22 [recv]agv=2 Path Command Finish: C1 number=5 start=0202 end=0203 前进 正常行驶  length 1 angle 0
+21:04::22 [send]agv=1%,ComandFinish Answer: number:5,
+21:04::23 [Speical] agv=2,CurrentMissionID:384460456
+21:04::23 [send]agv=2 send path command: C1 number=6,start=0203 end=0204 前进 正常行驶 length 1.2 angle 0
+21:04::23 [send]agv=2 send path command: C2 number=7,start=0204 end=0205 前进 正常行驶 length 1.8 angle 0
+21:04::23 [recv]Communication_Send Answer: number_1:6,number_2:7
+21:04::23 [recv] agv=2,Send Path Answer:number_1=6,number_2=7
+21:04::24 [Speical] agv=2,CurrentMissionID:384460456
+21:04::25 [Speical] agv=2,CurrentMissionID:384460456
+21:04::26 [Speical] agv=2,CurrentMissionID:384460456
+21:04::26 [recv]Communication_ComandFinish: number:6,
+21:04::26 [recv]agv=2 Path Command Finish: C1 number=6 start=0203 end=0204 前进 正常行驶  length 1.2 angle 0
+21:04::26 [send]agv=1%,ComandFinish Answer: number:6,
+21:04::27 [Speical] agv=2,CurrentMissionID:384460456
+21:04::27 [send]agv=2 send path command: C1 number=7,start=0204 end=0205 前进 正常行驶 length 1.8 angle 0
+21:04::27 [send]agv=2 send path command: C2 number=8,start=0205 end=0206 前进 减速行驶 length 1.6 angle 0
+21:04::27 [recv]Communication_Send Answer: number_1:7,number_2:8
+21:04::27 [recv] agv=2,Send Path Answer:number_1=7,number_2=8
+21:04::28 [Speical] agv=2,CurrentMissionID:384460456
+21:04::29 [Speical] agv=2,CurrentMissionID:384460456
+21:04::30 [recv]Communication_ComandFinish: number:7,
+21:04::30 [recv]agv=2 Path Command Finish: C1 number=7 start=0204 end=0205 前进 正常行驶  length 1.8 angle 0
+21:04::30 [send]agv=1%,ComandFinish Answer: number:7,
+21:04::30 [Speical] agv=2,CurrentMissionID:384460456
+21:04::30 [send]agv=2 send path command: C1 number=8,start=0205 end=0206 前进 减速行驶 length 1.6 angle 0
+21:04::30 [send]agv=2 send path command: C2 number=9,start=0206 end=0206 右拐 原地旋转 length 0 angle 90
+21:04::30 [recv]Communication_Send Answer: number_1:8,number_2:9
+21:04::30 [recv] agv=2,Send Path Answer:number_1=8,number_2=9
+21:04::31 [Speical] agv=2,CurrentMissionID:384460456
+21:04::32 [Speical] agv=2,CurrentMissionID:384460456
+21:04::33 [Speical] agv=2,CurrentMissionID:384460456
+21:04::34 [recv]Communication_ComandFinish: number:8,
+21:04::34 [recv]agv=2 Path Command Finish: C1 number=8 start=0205 end=0206 前进 减速行驶  length 1.6 angle 0
+21:04::34 [send]agv=1%,ComandFinish Answer: number:8,
+21:04::34 [Speical] agv=2,CurrentMissionID:384460456
+21:04::34 [send]agv=2 send path command: C1 number=9,start=0206 end=0206 右拐 原地旋转 length 0 angle 90
+21:04::34 [send]agv=2 send path command: C2 number=10,start=0206 end=0106 前进 正常行驶 length 1.5 angle 0
+21:04::34 [recv]Communication_Send Answer: number_1:9,number_2:10
+21:04::34 [recv] agv=2,Send Path Answer:number_1=9,number_2=10
+21:04::35 [Speical] agv=2,CurrentMissionID:384460456
+21:04::37 [Speical] agv=2,CurrentMissionID:384460456
+21:04::38 [Speical] agv=2,CurrentMissionID:384460456
+21:04::38 [recv]Communication_ComandFinish: number:9,
+21:04::38 [recv]agv=2 Path Command Finish: C1 number=9 start=0206 end=0206 右拐 原地旋转  length 0 angle 90
+21:04::38 [send]agv=1%,ComandFinish Answer: number:9,
+21:04::39 [Speical] agv=2,CurrentMissionID:384460456
+21:04::39 [send]agv=2 send path command: C1 number=10,start=0206 end=0106 前进 正常行驶 length 1.5 angle 0
+21:04::39 [send]agv=2 send path command: C2 number=11,start=0106 end=0106 前进  length 0 angle 0
+21:04::39 [recv]Communication_Send Answer: number_1:10,number_2:11
+21:04::39 [recv] agv=2,Send Path Answer:number_1=10,number_2=11
+21:04::40 [Speical] agv=2,CurrentMissionID:384460456
+21:04::41 [Speical] agv=2,CurrentMissionID:384460456
+21:04::42 [Speical] agv=2,CurrentMissionID:384460456
+21:04::42 [recv]Communication_ComandFinish: number:10,
+21:04::42 [recv]agv=2 Path Command Finish: C1 number=10 start=0206 end=0106 前进 正常行驶  length 1.5 angle 0
+21:04::42 [send]agv=1%,ComandFinish Answer: number:10,
+21:04::43 [Speical] agv=2,CurrentMissionID:384460456
+21:04::43 [send]agv=2 send path command: C1 number=11,start=0106 end=0106 前进  length 0 angle 0
+21:04::43 [send]agv=2 send path command: C2 number=12,start=0106 end=0106 停止 等待 length 0 angle 0
+21:04::43 [recv]Communication_Send Answer: number_1:11,number_2:12
+21:04::43 [recv] agv=2,Send Path Answer:number_1=11,number_2=12
+21:04::44 [Speical] agv=2,CurrentMissionID:384460456
+21:04::45 [Speical] agv=2,CurrentMissionID:384460456
+21:04::46 [recv]Communication_ComandFinish: number:11,
+21:04::46 [recv]agv=2 Path Command Finish: C1 number=11 start=0106 end=0106 前进   length 0 angle 0
+21:04::46 [send]agv=1%,ComandFinish Answer: number:11,
+21:04::46 [Speical] agv=2,CurrentMissionID:384460456
+21:04::46 [send]agv=2 send path command: C1 number=13,start=0106 end=0206 后退 减速行驶 length 1.5 angle 0
+21:04::46 [send]agv=2 send path command: C2 number=14,start=0206 end=0206 右拐 原地旋转 length 0 angle 90
+21:04::46 [recv]Communication_Send Answer: number_1:13,number_2:14
+21:04::46 [recv] agv=2,Send Path Answer:number_1=13,number_2=14
+21:04::47 [Speical] agv=2,CurrentMissionID:384460456
+21:04::48 [Speical] agv=2,CurrentMissionID:384460456
+21:04::49 [Speical] agv=2,CurrentMissionID:384460456
+21:04::50 [recv]Communication_ComandFinish: number:12,
+21:04::50 [recv]agv=2 Path Command Finish: C1 number=12 start=0106 end=0106 停止 等待  length 0 angle 0
+21:04::50 [send]agv=1%,ComandFinish Answer: number:12,
+21:04::51 [Speical] agv=2,CurrentMissionID:384460456
+21:04::52 [Speical] agv=2,CurrentMissionID:384460456
+21:04::53 [Speical] agv=2,CurrentMissionID:384460456
+21:04::54 [Speical] agv=2,CurrentMissionID:384460456
+21:04::54 [recv]Communication_ComandFinish: number:13,
+21:04::54 [recv]agv=2 Path Command Finish: C1 number=13 start=0106 end=0206 后退 减速行驶  length 1.5 angle 0
+21:04::54 [send]agv=1%,ComandFinish Answer: number:13,
+21:04::55 [Speical] agv=2,CurrentMissionID:384460456
+21:04::55 [send]agv=2 send path command: C1 number=14,start=0206 end=0206 右拐 原地旋转 length 0 angle 90
+21:04::55 [send]agv=2 send path command: C2 number=15,start=0206 end=0205 前进 减速行驶 length 1.6 angle 0
+21:04::55 [recv]Communication_Send Answer: number_1:14,number_2:15
+21:04::55 [recv] agv=2,Send Path Answer:number_1=14,number_2=15
+21:04::56 [Speical] agv=2,CurrentMissionID:384460456
+21:04::57 [Speical] agv=2,CurrentMissionID:384460456
+21:04::58 [Speical] agv=2,CurrentMissionID:384460456
+21:04::58 [recv]Communication_ComandFinish: number:14,
+21:04::58 [recv]agv=2 Path Command Finish: C1 number=14 start=0206 end=0206 右拐 原地旋转  length 0 angle 90
+21:04::58 [send]agv=1%,ComandFinish Answer: number:14,
+21:04::59 [Speical] agv=2,CurrentMissionID:384460456
+21:04::59 [send]agv=2 send path command: C1 number=15,start=0206 end=0205 前进 减速行驶 length 1.6 angle 0
+21:04::59 [send]agv=2 send path command: C2 number=16,start=0205 end=0205 右拐 原地旋转 length 0 angle 90
+21:04::59 [recv]Communication_Send Answer: number_1:15,number_2:16
+21:04::59 [recv] agv=2,Send Path Answer:number_1=15,number_2=16
+21:05::00 [Speical] agv=2,CurrentMissionID:384460456
+21:05::01 [Speical] agv=2,CurrentMissionID:384460456
+21:05::02 [recv]Communication_ComandFinish: number:15,
+21:05::02 [recv]agv=2 Path Command Finish: C1 number=15 start=0206 end=0205 前进 减速行驶  length 1.6 angle 0
+21:05::02 [send]agv=1%,ComandFinish Answer: number:15,
+21:05::02 [Speical] agv=2,CurrentMissionID:384460456
+21:05::02 [send]agv=2 send path command: C1 number=16,start=0205 end=0205 右拐 原地旋转 length 0 angle 90
+21:05::02 [send]agv=2 send path command: C2 number=17,start=0205 end=0305 前进 减速行驶 length 1.3 angle 0
+21:05::02 [recv]Communication_Send Answer: number_1:16,number_2:17
+21:05::02 [recv] agv=2,Send Path Answer:number_1=16,number_2=17
+21:05::03 [Speical] agv=2,CurrentMissionID:384460456
+21:05::04 [Speical] agv=2,CurrentMissionID:384460456
+21:05::05 [Speical] agv=2,CurrentMissionID:384460456
+21:05::06 [recv]Communication_ComandFinish: number:16,
+21:05::06 [recv]agv=2 Path Command Finish: C1 number=16 start=0205 end=0205 右拐 原地旋转  length 0 angle 90
+21:05::06 [send]agv=1%,ComandFinish Answer: number:16,
+21:05::07 [Speical] agv=2,CurrentMissionID:384460456
+21:05::07 [send]agv=2 send path command: C1 number=17,start=0205 end=0305 前进 减速行驶 length 1.3 angle 0
+21:05::07 [send]agv=2 send path command: C2 number=18,start=0305 end=0305 左拐 原地旋转 length 0 angle 90
+21:05::07 [recv]Communication_Send Answer: number_1:17,number_2:18
+21:05::07 [recv] agv=2,Send Path Answer:number_1=17,number_2=18
+21:05::08 [Speical] agv=2,CurrentMissionID:384460456
+21:05::09 [Speical] agv=2,CurrentMissionID:384460456
+21:05::10 [Speical] agv=2,CurrentMissionID:384460456
+21:05::10 [recv]Communication_ComandFinish: number:17,
+21:05::10 [recv]agv=2 Path Command Finish: C1 number=17 start=0205 end=0305 前进 减速行驶  length 1.3 angle 0
+21:05::10 [send]agv=1%,ComandFinish Answer: number:17,
+21:05::11 [Speical] agv=2,CurrentMissionID:384460456
+21:05::11 [send]agv=2 send path command: C1 number=18,start=0305 end=0305 左拐 原地旋转 length 0 angle 90
+21:05::11 [send]agv=2 send path command: C2 number=19,start=0305 end=0304 前进 减速行驶 length 1.8 angle 0
+21:05::11 [recv]Communication_Send Answer: number_1:18,number_2:19
+21:05::11 [recv] agv=2,Send Path Answer:number_1=18,number_2=19
+21:05::12 [Speical] agv=2,CurrentMissionID:384460456
+21:05::13 [Speical] agv=2,CurrentMissionID:384460456
+21:05::14 [Speical] agv=2,CurrentMissionID:384460456
+21:05::14 [recv]Communication_ComandFinish: number:18,
+21:05::14 [recv]agv=2 Path Command Finish: C1 number=18 start=0305 end=0305 左拐 原地旋转  length 0 angle 90
+21:05::14 [send]agv=1%,ComandFinish Answer: number:18,
+21:05::15 [Speical] agv=2,CurrentMissionID:384460456
+21:05::15 [send]agv=2 send path command: C1 number=19,start=0305 end=0304 前进 减速行驶 length 1.8 angle 0
+21:05::15 [send]agv=2 send path command: C2 number=20,start=0304 end=0304 右拐 原地旋转 length 0 angle 90
+21:05::15 [recv]Communication_Send Answer: number_1:19,number_2:20
+21:05::15 [recv] agv=2,Send Path Answer:number_1=19,number_2=20
+21:05::16 [Speical] agv=2,CurrentMissionID:384460456
+21:05::17 [Speical] agv=2,CurrentMissionID:384460456
+21:05::18 [recv]Communication_ComandFinish: number:19,
+21:05::18 [recv]agv=2 Path Command Finish: C1 number=19 start=0305 end=0304 前进 减速行驶  length 1.8 angle 0
+21:05::18 [send]agv=1%,ComandFinish Answer: number:19,
+21:05::18 [Speical] agv=2,CurrentMissionID:384460456
+21:05::18 [send]agv=2 send path command: C1 number=20,start=0304 end=0304 右拐 原地旋转 length 0 angle 90
+21:05::18 [send]agv=2 send path command: C2 number=21,start=0304 end=0404 前进 正常行驶 length 1 angle 0
+21:05::18 [recv]Communication_Send Answer: number_1:20,number_2:21
+21:05::18 [recv] agv=2,Send Path Answer:number_1=20,number_2=21
+21:05::19 [Speical] agv=2,CurrentMissionID:384460456
+21:05::20 [Speical] agv=2,CurrentMissionID:384460456
+21:05::21 [Speical] agv=2,CurrentMissionID:384460456
+21:05::22 [recv]Communication_ComandFinish: number:20,
+21:05::22 [recv]agv=2 Path Command Finish: C1 number=20 start=0304 end=0304 右拐 原地旋转  length 0 angle 90
+21:05::22 [send]agv=1%,ComandFinish Answer: number:20,
+21:05::22 [Speical] agv=2,CurrentMissionID:384460456
+21:05::22 [send]agv=2 send path command: C1 number=21,start=0304 end=0404 前进 正常行驶 length 1 angle 0
+21:05::22 [send]agv=2 send path command: C2 number=22,start=0404 end=0504 前进 减速行驶 length 1.1 angle 0
+21:05::22 [recv]Communication_Send Answer: number_1:21,number_2:22
+21:05::22 [recv] agv=2,Send Path Answer:number_1=21,number_2=22
+21:05::24 [Speical] agv=2,CurrentMissionID:384460456
+21:05::25 [Speical] agv=2,CurrentMissionID:384460456
+21:05::26 [Speical] agv=2,CurrentMissionID:384460456
+21:05::26 [recv]Communication_ComandFinish: number:21,
+21:05::26 [recv]agv=2 Path Command Finish: C1 number=21 start=0304 end=0404 前进 正常行驶  length 1 angle 0
+21:05::26 [send]agv=1%,ComandFinish Answer: number:21,
+21:05::27 [Speical] agv=2,CurrentMissionID:384460456
+21:05::27 [send]agv=2 send path command: C1 number=22,start=0404 end=0504 前进 减速行驶 length 1.1 angle 0
+21:05::27 [send]agv=2 send path command: C2 number=23,start=0504 end=0504 前进  length 0 angle 0
+21:05::27 [recv]Communication_Send Answer: number_1:22,number_2:23
+21:05::27 [recv] agv=2,Send Path Answer:number_1=22,number_2=23
+21:05::28 [Speical] agv=2,CurrentMissionID:384460456
+21:05::29 [Speical] agv=2,CurrentMissionID:384460456
+21:05::30 [Speical] agv=2,CurrentMissionID:384460456
+21:05::30 [recv]Communication_ComandFinish: number:22,
+21:05::30 [recv]agv=2 Path Command Finish: C1 number=22 start=0404 end=0504 前进 减速行驶  length 1.1 angle 0
+21:05::30 [send]agv=1%,ComandFinish Answer: number:22,
+21:05::31 [Speical] agv=2,CurrentMissionID:384460456
+21:05::31 [send]agv=2 send path command: C1 number=23,start=0504 end=0504 前进  length 0 angle 0
+21:05::31 [send]agv=2 send path command: C2 number=24,start=0504 end=0504 停止 等待 length 0 angle 0
+21:05::31 [recv]Communication_Send Answer: number_1:23,number_2:24
+21:05::31 [recv] agv=2,Send Path Answer:number_1=23,number_2=24
+21:05::32 [Speical] agv=2,CurrentMissionID:384460456
+21:05::33 [Speical] agv=2,CurrentMissionID:384460456
+21:05::34 [recv]Communication_ComandFinish: number:23,
+21:05::34 [recv]agv=2 Path Command Finish: C1 number=23 start=0504 end=0504 前进   length 0 angle 0
+21:05::34 [send]agv=1%,ComandFinish Answer: number:23,
+21:05::38 [Speical] agv=2,CurrentMissionID:0
+21:05::38 [send]agv=2 send path command: C1 number=25,start=0504 end=0404 后退 正常行驶 length 1.1 angle 0
+21:05::38 [send]agv=2 send path command: C2 number=26,start=0404 end=0304 后退 减速行驶 length 1 angle 0
+21:05::38 [recv]Communication_Send Answer: number_1:25,number_2:26
+21:05::38 [recv] agv=2,Send Path Answer:number_1=25,number_2=26
+21:05::38 [recv]Communication_ComandFinish: number:24,
+21:05::38 [recv]agv=2 Path Command Finish: C1 number=24 start=0504 end=0504 停止 等待  length 0 angle 0
+21:05::38 [send]agv=1%,ComandFinish Answer: number:24,
+21:05::39 [Speical] agv=2,CurrentMissionID:0
+21:05::40 [Speical] agv=2,CurrentMissionID:0
+21:05::41 [Speical] agv=2,CurrentMissionID:0
+21:05::42 [Speical] agv=2,CurrentMissionID:0
+21:05::42 [recv]Communication_ComandFinish: number:25,
+21:05::42 [recv]agv=2 Path Command Finish: C1 number=25 start=0504 end=0404 后退 正常行驶  length 1.1 angle 0
+21:05::42 [send]agv=1%,ComandFinish Answer: number:25,
+21:05::43 [Speical] agv=2,CurrentMissionID:0
+21:05::43 [send]agv=2 send path command: C1 number=26,start=0404 end=0304 后退 减速行驶 length 1 angle 0
+21:05::43 [send]agv=2 send path command: C2 number=27,start=0304 end=0304 左拐 原地旋转 length 0 angle 90
+21:05::43 [recv]Communication_Send Answer: number_1:26,number_2:27
+21:05::43 [recv] agv=2,Send Path Answer:number_1=26,number_2=27
+21:05::44 [Speical] agv=2,CurrentMissionID:0
+21:05::45 [Speical] agv=2,CurrentMissionID:0
+21:05::46 [recv]Communication_ComandFinish: number:26,
+21:05::46 [recv]agv=2 Path Command Finish: C1 number=26 start=0404 end=0304 后退 减速行驶  length 1 angle 0
+21:05::46 [send]agv=1%,ComandFinish Answer: number:26,
+21:05::46 [Speical] agv=2,CurrentMissionID:0
+21:05::46 [send]agv=2 send path command: C1 number=27,start=0304 end=0304 左拐 原地旋转 length 0 angle 90
+21:05::46 [send]agv=2 send path command: C2 number=28,start=0304 end=0303 前进 正常行驶 length 1.2 angle 0
+21:05::46 [recv]Communication_Send Answer: number_1:27,number_2:28
+21:05::46 [recv] agv=2,Send Path Answer:number_1=27,number_2=28
+21:05::47 [Speical] agv=2,CurrentMissionID:0
+21:05::48 [Speical] agv=2,CurrentMissionID:0
+21:05::49 [Speical] agv=2,CurrentMissionID:0
+21:05::50 [recv]Communication_ComandFinish: number:27,
+21:05::50 [recv]agv=2 Path Command Finish: C1 number=27 start=0304 end=0304 左拐 原地旋转  length 0 angle 90
+21:05::50 [send]agv=1%,ComandFinish Answer: number:27,
+21:05::51 [Speical] agv=2,CurrentMissionID:0
+21:05::51 [send]agv=2 send path command: C1 number=28,start=0304 end=0303 前进 正常行驶 length 1.2 angle 0
+21:05::51 [send]agv=2 send path command: C2 number=29,start=0303 end=0302 前进 减速行驶 length 1 angle 0
+21:05::51 [recv]Communication_Send Answer: number_1:28,number_2:29
+21:05::51 [recv] agv=2,Send Path Answer:number_1=28,number_2=29
+21:05::52 [Speical] agv=2,CurrentMissionID:0
+21:05::53 [Speical] agv=2,CurrentMissionID:0
+21:05::54 [Speical] agv=2,CurrentMissionID:0
+21:05::54 [recv]Communication_ComandFinish: number:28,
+21:05::54 [recv]agv=2 Path Command Finish: C1 number=28 start=0304 end=0303 前进 正常行驶  length 1.2 angle 0
+21:05::54 [send]agv=1%,ComandFinish Answer: number:28,
+21:05::55 [Speical] agv=2,CurrentMissionID:0
+21:05::55 [send]agv=2 send path command: C1 number=29,start=0303 end=0302 前进 减速行驶 length 1 angle 0
+21:05::55 [send]agv=2 send path command: C2 number=30,start=0302 end=0302 左拐 原地旋转 length 0 angle 90
+21:05::55 [recv]Communication_Send Answer: number_1:29,number_2:30
+21:05::55 [recv] agv=2,Send Path Answer:number_1=29,number_2=30
+21:05::56 [Speical] agv=2,CurrentMissionID:0
+21:05::57 [Speical] agv=2,CurrentMissionID:0
+21:05::58 [recv]Communication_ComandFinish: number:29,
+21:05::58 [recv]agv=2 Path Command Finish: C1 number=29 start=0303 end=0302 前进 减速行驶  length 1 angle 0
+21:05::58 [send]agv=1%,ComandFinish Answer: number:29,
+21:05::59 [Speical] agv=2,CurrentMissionID:0
+21:06::01 [Speical] agv=2,CurrentMissionID:0
+21:06::02 [Speical] agv=2,CurrentMissionID:0
+21:06::02 [recv]Communication_ComandFinish: number:30,
+21:06::02 [recv]agv=2 Path Command Finish: C1 number=30 start=0302 end=0302 左拐 原地旋转  length 0 angle 90
+21:06::02 [send]agv=1%,ComandFinish Answer: number:30,
+21:06::03 [Speical] agv=2,CurrentMissionID:384579255
+21:06::03 [send]agv=2 send path command: C1 number=31,start=0302 end=0302 左拐 原地旋转 length 0 angle 90
+21:06::03 [send]agv=2 send path command: C2 number=32,start=0302 end=0303 前进 正常行驶 length 1 angle 0
+21:06::03 [recv]Communication_Send Answer: number_1:31,number_2:32
+21:06::03 [recv] agv=2,Send Path Answer:number_1=31,number_2=32
+21:06::04 [Speical] agv=2,CurrentMissionID:384579255
+21:06::05 [Speical] agv=2,CurrentMissionID:384579255
+21:06::06 [Speical] agv=2,CurrentMissionID:384579255
+21:06::07 [Speical] agv=2,CurrentMissionID:384579255
+21:06::08 [recv]Communication_ComandFinish: number:31,
+21:06::08 [recv]agv=2 Path Command Finish: C1 number=31 start=0302 end=0302 左拐 原地旋转  length 0 angle 90
+21:06::08 [send]agv=1%,ComandFinish Answer: number:31,
+21:06::08 [Speical] agv=2,CurrentMissionID:384579255
+21:06::08 [send]agv=2 send path command: C1 number=32,start=0302 end=0303 前进 正常行驶 length 1 angle 0
+21:06::08 [send]agv=2 send path command: C2 number=33,start=0303 end=0304 前进 减速行驶 length 1.2 angle 0
+21:06::08 [recv]Communication_Send Answer: number_1:32,number_2:33
+21:06::08 [recv] agv=2,Send Path Answer:number_1=32,number_2=33
+21:06::09 [Speical] agv=2,CurrentMissionID:384579255
+21:06::10 [Speical] agv=2,CurrentMissionID:384579255
+21:06::11 [Speical] agv=2,CurrentMissionID:384579255
+21:06::12 [recv]Communication_ComandFinish: number:32,
+21:06::12 [recv]agv=2 Path Command Finish: C1 number=32 start=0302 end=0303 前进 正常行驶  length 1 angle 0
+21:06::12 [send]agv=1%,ComandFinish Answer: number:32,
+21:06::12 [Speical] agv=2,CurrentMissionID:384579255
+21:06::12 [send]agv=2 send path command: C1 number=33,start=0303 end=0304 前进 减速行驶 length 1.2 angle 0
+21:06::12 [send]agv=2 send path command: C2 number=34,start=0304 end=0304 右拐 原地旋转 length 0 angle 90
+21:06::12 [recv]Communication_Send Answer: number_1:33,number_2:34
+21:06::12 [recv] agv=2,Send Path Answer:number_1=33,number_2=34
+21:06::13 [Speical] agv=2,CurrentMissionID:384579255
+21:06::15 [Speical] agv=2,CurrentMissionID:384579255
+21:06::16 [Speical] agv=2,CurrentMissionID:384579255
+21:06::16 [recv]Communication_ComandFinish: number:33,
+21:06::16 [recv]agv=2 Path Command Finish: C1 number=33 start=0303 end=0304 前进 减速行驶  length 1.2 angle 0
+21:06::16 [send]agv=1%,ComandFinish Answer: number:33,
+21:06::17 [Speical] agv=2,CurrentMissionID:384579255
+21:06::17 [send]agv=2 send path command: C1 number=34,start=0304 end=0304 右拐 原地旋转 length 0 angle 90
+21:06::17 [send]agv=2 send path command: C2 number=35,start=0304 end=0204 前进 减速行驶 length 1.3 angle 0
+21:06::17 [recv]Communication_Send Answer: number_1:34,number_2:35
+21:06::17 [recv] agv=2,Send Path Answer:number_1=34,number_2=35
+21:06::18 [Speical] agv=2,CurrentMissionID:384579255
+21:06::19 [Speical] agv=2,CurrentMissionID:384579255
+21:06::20 [Speical] agv=2,CurrentMissionID:384579255
+21:06::20 [recv]Communication_ComandFinish: number:34,
+21:06::20 [recv]agv=2 Path Command Finish: C1 number=34 start=0304 end=0304 右拐 原地旋转  length 0 angle 90
+21:06::20 [send]agv=1%,ComandFinish Answer: number:34,
+21:06::21 [Speical] agv=2,CurrentMissionID:384579255
+21:06::21 [send]agv=2 send path command: C1 number=35,start=0304 end=0204 前进 减速行驶 length 1.3 angle 0
+21:06::21 [send]agv=2 send path command: C2 number=36,start=0204 end=0204 左拐 原地旋转 length 0 angle 90
+21:06::21 [recv]Communication_Send Answer: number_1:35,number_2:36
+21:06::21 [recv] agv=2,Send Path Answer:number_1=35,number_2=36
+21:06::22 [Speical] agv=2,CurrentMissionID:384579255
+21:06::23 [Speical] agv=2,CurrentMissionID:384579255
+21:06::24 [recv]Communication_ComandFinish: number:35,
+21:06::24 [recv]agv=2 Path Command Finish: C1 number=35 start=0304 end=0204 前进 减速行驶  length 1.3 angle 0
+21:06::24 [send]agv=1%,ComandFinish Answer: number:35,
+21:06::24 [Speical] agv=2,CurrentMissionID:384579255
+21:06::24 [send]agv=2 send path command: C1 number=36,start=0204 end=0204 左拐 原地旋转 length 0 angle 90
+21:06::24 [send]agv=2 send path command: C2 number=37,start=0204 end=0205 前进 正常行驶 length 1.8 angle 0
+21:06::24 [recv]Communication_Send Answer: number_1:36,number_2:37
+21:06::24 [recv] agv=2,Send Path Answer:number_1=36,number_2=37
+21:06::25 [Speical] agv=2,CurrentMissionID:384579255
+21:06::26 [Speical] agv=2,CurrentMissionID:384579255
+21:06::27 [Speical] agv=2,CurrentMissionID:384579255
+21:06::28 [recv]Communication_ComandFinish: number:36,
+21:06::28 [recv]agv=2 Path Command Finish: C1 number=36 start=0204 end=0204 左拐 原地旋转  length 0 angle 90
+21:06::28 [send]agv=1%,ComandFinish Answer: number:36,
+21:06::28 [Speical] agv=2,CurrentMissionID:384579255
+21:06::28 [send]agv=2 send path command: C1 number=37,start=0204 end=0205 前进 正常行驶 length 1.8 angle 0
+21:06::28 [send]agv=2 send path command: C2 number=38,start=0205 end=0206 前进 减速行驶 length 1.6 angle 0
+21:06::28 [recv]Communication_Send Answer: number_1:37,number_2:38
+21:06::28 [recv] agv=2,Send Path Answer:number_1=37,number_2=38
+21:06::29 [Speical] agv=2,CurrentMissionID:384579255
+21:06::30 [Speical] agv=2,CurrentMissionID:384579255
+21:06::32 [Speical] agv=2,CurrentMissionID:384579255
+21:06::32 [recv]Communication_ComandFinish: number:37,
+21:06::32 [recv]agv=2 Path Command Finish: C1 number=37 start=0204 end=0205 前进 正常行驶  length 1.8 angle 0
+21:06::32 [send]agv=1%,ComandFinish Answer: number:37,
+21:06::33 [Speical] agv=2,CurrentMissionID:384579255
+21:06::33 [send]agv=2 send path command: C1 number=38,start=0205 end=0206 前进 减速行驶 length 1.6 angle 0
+21:06::33 [send]agv=2 send path command: C2 number=39,start=0206 end=0206 右拐 原地旋转 length 0 angle 90
+21:06::33 [recv]Communication_Send Answer: number_1:38,number_2:39
+21:06::33 [recv] agv=2,Send Path Answer:number_1=38,number_2=39
+21:06::34 [Speical] agv=2,CurrentMissionID:384579255
+21:06::35 [Speical] agv=2,CurrentMissionID:384579255
+21:06::36 [Speical] agv=2,CurrentMissionID:384579255
+21:06::36 [recv]Communication_ComandFinish: number:38,
+21:06::36 [recv]agv=2 Path Command Finish: C1 number=38 start=0205 end=0206 前进 减速行驶  length 1.6 angle 0
+21:06::36 [send]agv=1%,ComandFinish Answer: number:38,
+21:06::37 [Speical] agv=2,CurrentMissionID:384579255
+21:06::37 [send]agv=2 send path command: C1 number=39,start=0206 end=0206 右拐 原地旋转 length 0 angle 90
+21:06::37 [send]agv=2 send path command: C2 number=40,start=0206 end=0106 前进 正常行驶 length 1.5 angle 0
+21:06::37 [recv]Communication_Send Answer: number_1:39,number_2:40
+21:06::37 [recv] agv=2,Send Path Answer:number_1=39,number_2=40
+21:06::38 [Speical] agv=2,CurrentMissionID:384579255
+21:06::39 [Speical] agv=2,CurrentMissionID:384579255
+21:06::40 [recv]Communication_ComandFinish: number:39,
+21:06::40 [recv]agv=2 Path Command Finish: C1 number=39 start=0206 end=0206 右拐 原地旋转  length 0 angle 90
+21:06::40 [send]agv=1%,ComandFinish Answer: number:39,
+21:06::40 [Speical] agv=2,CurrentMissionID:384579255
+21:06::40 [send]agv=2 send path command: C1 number=40,start=0206 end=0106 前进 正常行驶 length 1.5 angle 0
+21:06::40 [send]agv=2 send path command: C2 number=41,start=0106 end=0106 前进  length 0 angle 0
+21:06::40 [recv]Communication_Send Answer: number_1:40,number_2:41
+21:06::40 [recv] agv=2,Send Path Answer:number_1=40,number_2=41
+21:06::41 [Speical] agv=2,CurrentMissionID:384579255
+21:06::42 [Speical] agv=2,CurrentMissionID:384579255
+21:06::43 [Speical] agv=2,CurrentMissionID:384579255
+21:06::44 [recv]Communication_ComandFinish: number:40,
+21:06::44 [recv]agv=2 Path Command Finish: C1 number=40 start=0206 end=0106 前进 正常行驶  length 1.5 angle 0
+21:06::44 [send]agv=1%,ComandFinish Answer: number:40,
+21:06::44 [Speical] agv=2,CurrentMissionID:384579255
+21:06::44 [send]agv=2 send path command: C1 number=41,start=0106 end=0106 前进  length 0 angle 0
+21:06::44 [send]agv=2 send path command: C2 number=42,start=0106 end=0106 停止 等待 length 0 angle 0
+21:06::44 [recv]Communication_Send Answer: number_1:41,number_2:42
+21:06::44 [recv] agv=2,Send Path Answer:number_1=41,number_2=42
+21:06::45 [Speical] agv=2,CurrentMissionID:384579255
+21:06::46 [Speical] agv=2,CurrentMissionID:384579255
+21:06::47 [Speical] agv=2,CurrentMissionID:384579255
+21:06::48 [recv]Communication_ComandFinish: number:41,
+21:06::48 [recv]agv=2 Path Command Finish: C1 number=41 start=0106 end=0106 前进   length 0 angle 0
+21:06::48 [send]agv=1%,ComandFinish Answer: number:41,
+21:06::49 [Speical] agv=2,CurrentMissionID:384579255
+21:06::49 [send]agv=2 send path command: C1 number=43,start=0106 end=0206 后退 减速行驶 length 1.5 angle 0
+21:06::49 [send]agv=2 send path command: C2 number=44,start=0206 end=0206 右拐 原地旋转 length 0 angle 90
+21:06::49 [recv]Communication_Send Answer: number_1:43,number_2:44
+21:06::49 [recv] agv=2,Send Path Answer:number_1=43,number_2=44
+21:06::50 [Speical] agv=2,CurrentMissionID:384579255
+21:06::51 [Speical] agv=2,CurrentMissionID:384579255
+21:06::52 [Speical] agv=2,CurrentMissionID:384579255
+21:06::52 [recv]Communication_ComandFinish: number:42,
+21:06::52 [recv]agv=2 Path Command Finish: C1 number=42 start=0106 end=0106 停止 等待  length 0 angle 0
+21:06::52 [send]agv=1%,ComandFinish Answer: number:42,
+21:06::53 [Speical] agv=2,CurrentMissionID:384579255
+21:06::54 [Speical] agv=2,CurrentMissionID:384579255
+21:06::55 [Speical] agv=2,CurrentMissionID:384579255
+21:06::56 [recv]Communication_ComandFinish: number:43,
+21:06::56 [recv]agv=2 Path Command Finish: C1 number=43 start=0106 end=0206 后退 减速行驶  length 1.5 angle 0
+21:06::56 [send]agv=1%,ComandFinish Answer: number:43,
+21:06::56 [Speical] agv=2,CurrentMissionID:384579255
+21:06::56 [send]agv=2 send path command: C1 number=44,start=0206 end=0206 右拐 原地旋转 length 0 angle 90
+21:06::56 [send]agv=2 send path command: C2 number=45,start=0206 end=0205 前进 减速行驶 length 1.6 angle 0
+21:06::56 [recv]Communication_Send Answer: number_1:44,number_2:45
+21:06::56 [recv] agv=2,Send Path Answer:number_1=44,number_2=45
+21:06::57 [Speical] agv=2,CurrentMissionID:384579255
+21:06::58 [Speical] agv=2,CurrentMissionID:384579255
+21:06::59 [Speical] agv=2,CurrentMissionID:384579255
+21:07::00 [recv]Communication_ComandFinish: number:44,
+21:07::00 [recv]agv=2 Path Command Finish: C1 number=44 start=0206 end=0206 右拐 原地旋转  length 0 angle 90
+21:07::00 [send]agv=1%,ComandFinish Answer: number:44,
+21:07::01 [Speical] agv=2,CurrentMissionID:384579255
+21:07::01 [send]agv=2 send path command: C1 number=45,start=0206 end=0205 前进 减速行驶 length 1.6 angle 0
+21:07::01 [send]agv=2 send path command: C2 number=46,start=0205 end=0205 右拐 原地旋转 length 0 angle 90
+21:07::01 [recv]Communication_Send Answer: number_1:45,number_2:46
+21:07::01 [recv] agv=2,Send Path Answer:number_1=45,number_2=46
+21:07::02 [Speical] agv=2,CurrentMissionID:384579255
+21:07::03 [Speical] agv=2,CurrentMissionID:384579255
+21:07::04 [Speical] agv=2,CurrentMissionID:384579255
+21:07::04 [recv]Communication_ComandFinish: number:45,
+21:07::04 [recv]agv=2 Path Command Finish: C1 number=45 start=0206 end=0205 前进 减速行驶  length 1.6 angle 0
+21:07::04 [send]agv=1%,ComandFinish Answer: number:45,
+21:07::05 [Speical] agv=2,CurrentMissionID:384579255
+21:07::05 [send]agv=2 send path command: C1 number=46,start=0205 end=0205 右拐 原地旋转 length 0 angle 90
+21:07::05 [send]agv=2 send path command: C2 number=47,start=0205 end=0305 前进 减速行驶 length 1.3 angle 0
+21:07::05 [recv]Communication_Send Answer: number_1:46,number_2:47
+21:07::05 [recv] agv=2,Send Path Answer:number_1=46,number_2=47
+21:07::06 [Speical] agv=2,CurrentMissionID:384579255
+21:07::07 [Speical] agv=2,CurrentMissionID:384579255
+21:07::08 [Speical] agv=2,CurrentMissionID:384579255
+21:07::08 [recv]Communication_ComandFinish: number:46,
+21:07::08 [recv]agv=2 Path Command Finish: C1 number=46 start=0205 end=0205 右拐 原地旋转  length 0 angle 90
+21:07::08 [send]agv=1%,ComandFinish Answer: number:46,
+21:07::09 [Speical] agv=2,CurrentMissionID:384579255
+21:07::09 [send]agv=2 send path command: C1 number=47,start=0205 end=0305 前进 减速行驶 length 1.3 angle 0
+21:07::09 [send]agv=2 send path command: C2 number=48,start=0305 end=0305 左拐 原地旋转 length 0 angle 90
+21:07::09 [recv]Communication_Send Answer: number_1:47,number_2:48
+21:07::09 [recv] agv=2,Send Path Answer:number_1=47,number_2=48
+21:07::10 [Speical] agv=2,CurrentMissionID:384579255
+21:07::11 [Speical] agv=2,CurrentMissionID:384579255
+21:07::12 [recv]Communication_ComandFinish: number:47,
+21:07::12 [recv]agv=2 Path Command Finish: C1 number=47 start=0205 end=0305 前进 减速行驶  length 1.3 angle 0
+21:07::12 [send]agv=1%,ComandFinish Answer: number:47,
+21:07::12 [Speical] agv=2,CurrentMissionID:384579255
+21:07::12 [send]agv=2 send path command: C1 number=48,start=0305 end=0305 左拐 原地旋转 length 0 angle 90
+21:07::12 [send]agv=2 send path command: C2 number=49,start=0305 end=0304 前进 减速行驶 length 1.8 angle 0
+21:07::12 [recv]Communication_Send Answer: number_1:48,number_2:49
+21:07::12 [recv] agv=2,Send Path Answer:number_1=48,number_2=49
+21:07::13 [Speical] agv=2,CurrentMissionID:384579255
+21:07::14 [Speical] agv=2,CurrentMissionID:384579255
+21:07::15 [Speical] agv=2,CurrentMissionID:384579255
+21:07::16 [recv]Communication_ComandFinish: number:48,
+21:07::16 [recv]agv=2 Path Command Finish: C1 number=48 start=0305 end=0305 左拐 原地旋转  length 0 angle 90
+21:07::16 [send]agv=1%,ComandFinish Answer: number:48,
+21:07::16 [Speical] agv=2,CurrentMissionID:384579255
+21:07::16 [send]agv=2 send path command: C1 number=49,start=0305 end=0304 前进 减速行驶 length 1.8 angle 0
+21:07::16 [send]agv=2 send path command: C2 number=50,start=0304 end=0304 右拐 原地旋转 length 0 angle 90
+21:07::16 [recv]Communication_Send Answer: number_1:49,number_2:50
+21:07::16 [recv] agv=2,Send Path Answer:number_1=49,number_2=50
+21:07::18 [Speical] agv=2,CurrentMissionID:384579255
+21:07::19 [Speical] agv=2,CurrentMissionID:384579255
+21:07::20 [Speical] agv=2,CurrentMissionID:384579255
+21:07::20 [recv]Communication_ComandFinish: number:49,
+21:07::20 [recv]agv=2 Path Command Finish: C1 number=49 start=0305 end=0304 前进 减速行驶  length 1.8 angle 0
+21:07::20 [send]agv=1%,ComandFinish Answer: number:49,
+21:07::21 [Speical] agv=2,CurrentMissionID:384579255
+21:07::21 [send]agv=2 send path command: C1 number=50,start=0304 end=0304 右拐 原地旋转 length 0 angle 90
+21:07::21 [send]agv=2 send path command: C2 number=51,start=0304 end=0404 前进 正常行驶 length 1 angle 0
+21:07::21 [recv]Communication_Send Answer: number_1:50,number_2:51
+21:07::21 [recv] agv=2,Send Path Answer:number_1=50,number_2=51
+21:07::22 [Speical] agv=2,CurrentMissionID:384579255
+21:07::23 [Speical] agv=2,CurrentMissionID:384579255
+21:07::24 [Speical] agv=2,CurrentMissionID:384579255
+21:07::24 [recv]Communication_ComandFinish: number:50,
+21:07::24 [recv]agv=2 Path Command Finish: C1 number=50 start=0304 end=0304 右拐 原地旋转  length 0 angle 90
+21:07::24 [send]agv=1%,ComandFinish Answer: number:50,
+21:07::25 [Speical] agv=2,CurrentMissionID:384579255
+21:07::25 [send]agv=2 send path command: C1 number=51,start=0304 end=0404 前进 正常行驶 length 1 angle 0
+21:07::25 [send]agv=2 send path command: C2 number=52,start=0404 end=0504 前进 减速行驶 length 1.1 angle 0
+21:07::25 [recv]Communication_Send Answer: number_1:51,number_2:52
+21:07::25 [recv] agv=2,Send Path Answer:number_1=51,number_2=52
+21:07::26 [Speical] agv=2,CurrentMissionID:384579255
+21:07::27 [Speical] agv=2,CurrentMissionID:384579255
+21:07::28 [recv]Communication_ComandFinish: number:51,
+21:07::28 [recv]agv=2 Path Command Finish: C1 number=51 start=0304 end=0404 前进 正常行驶  length 1 angle 0
+21:07::28 [send]agv=1%,ComandFinish Answer: number:51,
+21:07::28 [Speical] agv=2,CurrentMissionID:384579255
+21:07::28 [send]agv=2 send path command: C1 number=52,start=0404 end=0504 前进 减速行驶 length 1.1 angle 0
+21:07::28 [send]agv=2 send path command: C2 number=53,start=0504 end=0504 前进  length 0 angle 0
+21:07::28 [recv]Communication_Send Answer: number_1:52,number_2:53
+21:07::28 [recv] agv=2,Send Path Answer:number_1=52,number_2=53
+21:07::29 [Speical] agv=2,CurrentMissionID:384579255
+21:07::30 [Speical] agv=2,CurrentMissionID:384579255
+21:07::31 [Speical] agv=2,CurrentMissionID:384579255
+21:07::32 [recv]Communication_ComandFinish: number:52,
+21:07::32 [recv]agv=2 Path Command Finish: C1 number=52 start=0404 end=0504 前进 减速行驶  length 1.1 angle 0
+21:07::32 [send]agv=1%,ComandFinish Answer: number:52,
+21:07::32 [Speical] agv=2,CurrentMissionID:384579255
+21:07::32 [send]agv=2 send path command: C1 number=53,start=0504 end=0504 前进  length 0 angle 0
+21:07::32 [send]agv=2 send path command: C2 number=54,start=0504 end=0504 停止 等待 length 0 angle 0
+21:07::32 [recv]Communication_Send Answer: number_1:53,number_2:54
+21:07::32 [recv] agv=2,Send Path Answer:number_1=53,number_2=54
+21:07::33 [Speical] agv=2,CurrentMissionID:384579255
+21:07::35 [Speical] agv=2,CurrentMissionID:384579255
+21:07::36 [Speical] agv=2,CurrentMissionID:384579255
+21:07::36 [recv]Communication_ComandFinish: number:53,
+21:07::36 [recv]agv=2 Path Command Finish: C1 number=53 start=0504 end=0504 前进   length 0 angle 0
+21:07::36 [send]agv=1%,ComandFinish Answer: number:53,
+21:07::40 [recv]Communication_ComandFinish: number:54,
+21:07::40 [Speical] agv=2,CurrentMissionID:0
+21:07::40 [send]agv=2 send path command: C1 number=55,start=0504 end=0404 后退 正常行驶 length 1.1 angle 0
+21:07::40 [send]agv=2 send path command: C2 number=56,start=0404 end=0304 后退 减速行驶 length 1 angle 0
+21:07::40 [recv]Communication_Send Answer: number_1:55,number_2:56
+21:07::40 [recv] agv=2,Send Path Answer:number_1=55,number_2=56
+21:07::41 [Speical] agv=2,CurrentMissionID:0
+21:07::42 [recv]Communication_ComandFinish: number:54,
+21:07::42 [recv]agv=2 Path Command Finish: C1 number=54 start=0504 end=0504 停止 等待  length 0 angle 0
+21:07::42 [send]agv=1%,ComandFinish Answer: number:54,
+21:07::42 [Speical] agv=2,CurrentMissionID:0
+21:07::43 [Speical] agv=2,CurrentMissionID:0
+21:07::44 [Speical] agv=2,CurrentMissionID:0
+21:07::45 [Speical] agv=2,CurrentMissionID:0
+21:07::46 [recv]Communication_ComandFinish: number:55,
+21:07::46 [recv]agv=2 Path Command Finish: C1 number=55 start=0504 end=0404 后退 正常行驶  length 1.1 angle 0
+21:07::46 [send]agv=1%,ComandFinish Answer: number:55,
+21:07::46 [Speical] agv=2,CurrentMissionID:0
+21:07::46 [send]agv=2 send path command: C1 number=56,start=0404 end=0304 后退 减速行驶 length 1 angle 0
+21:07::46 [send]agv=2 send path command: C2 number=57,start=0304 end=0304 左拐 原地旋转 length 0 angle 90
+21:07::46 [recv]Communication_Send Answer: number_1:56,number_2:57
+21:07::46 [recv] agv=2,Send Path Answer:number_1=56,number_2=57
+21:07::48 [Speical] agv=2,CurrentMissionID:0
+21:07::49 [Speical] agv=2,CurrentMissionID:0
+21:07::50 [Speical] agv=2,CurrentMissionID:0
+21:07::50 [recv]Communication_ComandFinish: number:56,
+21:07::50 [recv]agv=2 Path Command Finish: C1 number=56 start=0404 end=0304 后退 减速行驶  length 1 angle 0
+21:07::50 [send]agv=1%,ComandFinish Answer: number:56,
+21:07::51 [Speical] agv=2,CurrentMissionID:0
+21:07::51 [send]agv=2 send path command: C1 number=57,start=0304 end=0304 左拐 原地旋转 length 0 angle 90
+21:07::51 [send]agv=2 send path command: C2 number=58,start=0304 end=0303 前进 正常行驶 length 1.2 angle 0
+21:07::51 [recv]Communication_Send Answer: number_1:57,number_2:58
+21:07::51 [recv] agv=2,Send Path Answer:number_1=57,number_2=58
+21:07::52 [Speical] agv=2,CurrentMissionID:0
+21:07::53 [Speical] agv=2,CurrentMissionID:0
+21:07::54 [Speical] agv=2,CurrentMissionID:0
+21:07::54 [recv]Communication_ComandFinish: number:57,
+21:07::54 [recv]agv=2 Path Command Finish: C1 number=57 start=0304 end=0304 左拐 原地旋转  length 0 angle 90
+21:07::54 [send]agv=1%,ComandFinish Answer: number:57,
+21:07::55 [Speical] agv=2,CurrentMissionID:0
+21:07::55 [send]agv=2 send path command: C1 number=58,start=0304 end=0303 前进 正常行驶 length 1.2 angle 0
+21:07::55 [send]agv=2 send path command: C2 number=59,start=0303 end=0302 前进 减速行驶 length 1 angle 0
+21:07::55 [recv]Communication_Send Answer: number_1:58,number_2:59
+21:07::55 [recv] agv=2,Send Path Answer:number_1=58,number_2=59
+21:07::56 [Speical] agv=2,CurrentMissionID:0
+21:07::57 [Speical] agv=2,CurrentMissionID:0
+21:07::58 [recv]Communication_ComandFinish: number:58,
+21:07::58 [recv]agv=2 Path Command Finish: C1 number=58 start=0304 end=0303 前进 正常行驶  length 1.2 angle 0
+21:07::58 [send]agv=1%,ComandFinish Answer: number:58,
+21:07::58 [Speical] agv=2,CurrentMissionID:0
+21:07::58 [send]agv=2 send path command: C1 number=59,start=0303 end=0302 前进 减速行驶 length 1 angle 0
+21:07::58 [send]agv=2 send path command: C2 number=60,start=0302 end=0302 左拐 原地旋转 length 0 angle 90
+21:07::58 [recv]Communication_Send Answer: number_1:59,number_2:60
+21:07::58 [recv] agv=2,Send Path Answer:number_1=59,number_2=60
+21:07::59 [Speical] agv=2,CurrentMissionID:0
+21:08::00 [Speical] agv=2,CurrentMissionID:0
+21:08::01 [Speical] agv=2,CurrentMissionID:0
+21:08::02 [recv]Communication_ComandFinish: number:59,
+21:08::02 [recv]agv=2 Path Command Finish: C1 number=59 start=0303 end=0302 前进 减速行驶  length 1 angle 0
+21:08::02 [send]agv=1%,ComandFinish Answer: number:59,
+21:08::02 [Speical] agv=2,CurrentMissionID:0
+21:08::02 [send]agv=2 send path command: C1 number=60,start=0302 end=0302 左拐 原地旋转 length 0 angle 90
+21:08::02 [send]agv=2 send path command: C2 number=61,start=0302 end=0202 前进 正常行驶 length 1.3 angle 0
+21:08::02 [recv]Communication_Send Answer: number_1:60,number_2:61
+21:08::02 [recv] agv=2,Send Path Answer:number_1=60,number_2=61
+21:08::03 [Speical] agv=2,CurrentMissionID:0
+21:08::05 [Speical] agv=2,CurrentMissionID:0
+21:08::06 [Speical] agv=2,CurrentMissionID:0
+21:08::06 [recv]Communication_ComandFinish: number:60,
+21:08::06 [recv]agv=2 Path Command Finish: C1 number=60 start=0302 end=0302 左拐 原地旋转  length 0 angle 90
+21:08::06 [send]agv=1%,ComandFinish Answer: number:60,
+21:08::07 [Speical] agv=2,CurrentMissionID:0
+21:08::07 [send]agv=2 send path command: C1 number=61,start=0302 end=0202 前进 正常行驶 length 1.3 angle 0
+21:08::07 [send]agv=2 send path command: C2 number=62,start=0202 end=0102 前进 减速行驶 length 1.3 angle 0
+21:08::07 [recv]Communication_Send Answer: number_1:61,number_2:62
+21:08::07 [recv] agv=2,Send Path Answer:number_1=61,number_2=62
+21:08::08 [Speical] agv=2,CurrentMissionID:0
+21:08::09 [Speical] agv=2,CurrentMissionID:0
+21:08::10 [Speical] agv=2,CurrentMissionID:0
+21:08::10 [recv]Communication_ComandFinish: number:61,
+21:08::10 [recv]agv=2 Path Command Finish: C1 number=61 start=0302 end=0202 前进 正常行驶  length 1.3 angle 0
+21:08::10 [send]agv=1%,ComandFinish Answer: number:61,
+21:08::11 [Speical] agv=2,CurrentMissionID:0
+21:08::11 [send]agv=2 send path command: C1 number=62,start=0202 end=0102 前进 减速行驶 length 1.3 angle 0
+21:08::11 [send]agv=2 send path command: C2 number=63,start=0102 end=0102 右拐 原地旋转 length 0 angle 90
+21:08::11 [recv]Communication_Send Answer: number_1:62,number_2:63
+21:08::11 [recv] agv=2,Send Path Answer:number_1=62,number_2=63
+21:08::12 [Speical] agv=2,CurrentMissionID:0
+21:08::13 [Speical] agv=2,CurrentMissionID:0
+21:08::14 [recv]Communication_ComandFinish: number:62,
+21:08::14 [recv]agv=2 Path Command Finish: C1 number=62 start=0202 end=0102 前进 减速行驶  length 1.3 angle 0
+21:08::14 [send]agv=1%,ComandFinish Answer: number:62,
+21:08::14 [Speical] agv=2,CurrentMissionID:0
+21:08::14 [send]agv=2 send path command: C1 number=63,start=0102 end=0102 右拐 原地旋转 length 0 angle 90
+21:08::14 [send]agv=2 send path command: C2 number=64,start=0102 end=0101 前进 正常行驶 length 1.7 angle 0
+21:08::14 [recv]Communication_Send Answer: number_1:63,number_2:64
+21:08::14 [recv] agv=2,Send Path Answer:number_1=63,number_2=64
+21:08::15 [Speical] agv=2,CurrentMissionID:0
+21:08::16 [Speical] agv=2,CurrentMissionID:0
+21:08::18 [Speical] agv=2,CurrentMissionID:0
+21:08::18 [recv]Communication_ComandFinish: number:63,
+21:08::18 [recv]agv=2 Path Command Finish: C1 number=63 start=0102 end=0102 右拐 原地旋转  length 0 angle 90
+21:08::18 [send]agv=1%,ComandFinish Answer: number:63,
+21:08::19 [Speical] agv=2,CurrentMissionID:0
+21:08::19 [send]agv=2 send path command: C1 number=64,start=0102 end=0101 前进 正常行驶 length 1.7 angle 0
+21:08::19 [send]agv=2 send path command: C2 number=65,start=0101 end=0101 停止 等待 length 0 angle 0
+21:08::19 [recv]Communication_Send Answer: number_1:64,number_2:65
+21:08::19 [recv] agv=2,Send Path Answer:number_1=64,number_2=65
+21:08::20 [Speical] agv=2,CurrentMissionID:0
+21:08::21 [Speical] agv=2,CurrentMissionID:0
+21:08::22 [recv]Communication_ComandFinish: number:64,
+21:08::22 [recv]agv=2 Path Command Finish: C1 number=64 start=0102 end=0101 前进 正常行驶  length 1.7 angle 0
+21:08::22 [send]agv=1%,ComandFinish Answer: number:64,
+21:08::22 [Speical] agv=2,CurrentMissionID:0
+21:08::23 [Speical] agv=2,CurrentMissionID:0
+21:08::24 [Speical] agv=2,CurrentMissionID:0
+21:08::26 [Speical] agv=2,CurrentMissionID:0
+21:08::26 [recv]Communication_ComandFinish: number:65,
+21:08::26 [recv]agv=2 Path Command Finish: C1 number=65 start=0101 end=0101 停止 等待  length 0 angle 0
+21:08::26 [send]agv=1%,ComandFinish Answer: number:65,
+21:08::27 [Speical] agv=2,CurrentMissionID:0
+21:08::28 [Speical] agv=2,CurrentMissionID:0
+21:08::29 [Speical] agv=2,CurrentMissionID:0
+21:08::31 [Speical] agv=2,CurrentMissionID:384730827
+21:08::31 [send]agv=2 send path command: C1 number=66,start=0101 end=0102 后退 减速行驶 length 1.7 angle 0
+21:08::31 [send]agv=2 send path command: C2 number=67,start=0102 end=0102 右拐 原地旋转 length 0 angle 90
+21:08::31 [recv]Communication_Send Answer: number_1:66,number_2:67
+21:08::31 [recv] agv=2,Send Path Answer:number_1=66,number_2=67
+21:08::32 [Speical] agv=2,CurrentMissionID:384730827
+21:08::33 [Speical] agv=2,CurrentMissionID:384730827
+21:08::34 [Speical] agv=2,CurrentMissionID:384730827
+21:08::36 [Speical] agv=2,CurrentMissionID:384730827
+21:08::37 [Speical] agv=2,CurrentMissionID:384730827
+21:08::38 [Speical] agv=2,CurrentMissionID:384730827
+21:08::38 [recv]Communication_ComandFinish: number:66,
+21:08::38 [recv]agv=2 Path Command Finish: C1 number=66 start=0101 end=0102 后退 减速行驶  length 1.7 angle 0
+21:08::38 [send]agv=1%,ComandFinish Answer: number:66,
+21:08::39 [Speical] agv=2,CurrentMissionID:384730827
+21:08::39 [send]agv=2 send path command: C1 number=67,start=0102 end=0102 右拐 原地旋转 length 0 angle 90
+21:08::39 [send]agv=2 send path command: C2 number=68,start=0102 end=0202 前进 减速行驶 length 1.3 angle 0
+21:08::39 [recv]Communication_Send Answer: number_1:67,number_2:68
+21:08::39 [recv] agv=2,Send Path Answer:number_1=67,number_2=68
+21:08::40 [Speical] agv=2,CurrentMissionID:384730827
+21:08::41 [Speical] agv=2,CurrentMissionID:384730827
+21:08::42 [Speical] agv=2,CurrentMissionID:384730827
+21:08::42 [recv]Communication_ComandFinish: number:67,
+21:08::42 [recv]agv=2 Path Command Finish: C1 number=67 start=0102 end=0102 右拐 原地旋转  length 0 angle 90
+21:08::42 [send]agv=1%,ComandFinish Answer: number:67,
+21:08::43 [Speical] agv=2,CurrentMissionID:384730827
+21:08::43 [send]agv=2 send path command: C1 number=68,start=0102 end=0202 前进 减速行驶 length 1.3 angle 0
+21:08::43 [send]agv=2 send path command: C2 number=69,start=0202 end=0202 右拐 原地旋转 length 0 angle 90
+21:08::43 [recv]Communication_Send Answer: number_1:68,number_2:69
+21:08::43 [recv] agv=2,Send Path Answer:number_1=68,number_2=69
+21:08::44 [Speical] agv=2,CurrentMissionID:384730827
+21:08::45 [Speical] agv=2,CurrentMissionID:384730827
+21:08::46 [recv]Communication_ComandFinish: number:68,
+21:08::46 [recv]agv=2 Path Command Finish: C1 number=68 start=0102 end=0202 前进 减速行驶  length 1.3 angle 0
+21:08::46 [send]agv=1%,ComandFinish Answer: number:68,
+21:08::46 [Speical] agv=2,CurrentMissionID:384730827
+21:08::46 [send]agv=2 send path command: C1 number=69,start=0202 end=0202 右拐 原地旋转 length 0 angle 90
+21:08::46 [send]agv=2 send path command: C2 number=70,start=0202 end=0203 前进 正常行驶 length 1 angle 0
+21:08::46 [recv]Communication_Send Answer: number_1:69,number_2:70
+21:08::46 [recv] agv=2,Send Path Answer:number_1=69,number_2=70
+21:08::47 [Speical] agv=2,CurrentMissionID:384730827
+21:08::48 [Speical] agv=2,CurrentMissionID:384730827
+21:08::49 [Speical] agv=2,CurrentMissionID:384730827
+21:08::50 [recv]Communication_ComandFinish: number:69,
+21:08::50 [recv]agv=2 Path Command Finish: C1 number=69 start=0202 end=0202 右拐 原地旋转  length 0 angle 90
+21:08::50 [send]agv=1%,ComandFinish Answer: number:69,
+21:08::50 [Speical] agv=2,CurrentMissionID:384730827
+21:08::50 [send]agv=2 send path command: C1 number=70,start=0202 end=0203 前进 正常行驶 length 1 angle 0
+21:08::50 [send]agv=2 send path command: C2 number=71,start=0203 end=0204 前进 正常行驶 length 1.2 angle 0
+21:08::50 [recv]Communication_Send Answer: number_1:70,number_2:71
+21:08::50 [recv] agv=2,Send Path Answer:number_1=70,number_2=71
+21:08::51 [Speical] agv=2,CurrentMissionID:384730827
+21:08::53 [Speical] agv=2,CurrentMissionID:384730827
+21:08::54 [Speical] agv=2,CurrentMissionID:384730827
+21:08::54 [recv]Communication_ComandFinish: number:70,
+21:08::54 [recv]agv=2 Path Command Finish: C1 number=70 start=0202 end=0203 前进 正常行驶  length 1 angle 0
+21:08::54 [send]agv=1%,ComandFinish Answer: number:70,
+21:08::55 [Speical] agv=2,CurrentMissionID:384730827
+21:08::55 [send]agv=2 send path command: C1 number=71,start=0203 end=0204 前进 正常行驶 length 1.2 angle 0
+21:08::55 [send]agv=2 send path command: C2 number=72,start=0204 end=0205 前进 减速行驶 length 1.8 angle 0
+21:08::55 [recv]Communication_Send Answer: number_1:71,number_2:72
+21:08::55 [recv] agv=2,Send Path Answer:number_1=71,number_2=72
+21:08::56 [Speical] agv=2,CurrentMissionID:384730827
+21:08::57 [Speical] agv=2,CurrentMissionID:384730827
+21:08::58 [Speical] agv=2,CurrentMissionID:384730827
+21:08::58 [recv]Communication_ComandFinish: number:71,
+21:08::58 [recv]agv=2 Path Command Finish: C1 number=71 start=0203 end=0204 前进 正常行驶  length 1.2 angle 0
+21:08::58 [send]agv=1%,ComandFinish Answer: number:71,
+21:08::59 [Speical] agv=2,CurrentMissionID:384730827
+21:08::59 [send]agv=2 send path command: C1 number=72,start=0204 end=0205 前进 减速行驶 length 1.8 angle 0
+21:08::59 [send]agv=2 send path command: C2 number=73,start=0205 end=0205 右拐 原地旋转 length 0 angle 90
+21:08::59 [recv]Communication_Send Answer: number_1:72,number_2:73
+21:08::59 [recv] agv=2,Send Path Answer:number_1=72,number_2=73
+21:09::00 [Speical] agv=2,CurrentMissionID:384730827
+21:09::01 [Speical] agv=2,CurrentMissionID:384730827
+21:09::02 [recv]Communication_ComandFinish: number:72,
+21:09::02 [recv]agv=2 Path Command Finish: C1 number=72 start=0204 end=0205 前进 减速行驶  length 1.8 angle 0
+21:09::02 [send]agv=1%,ComandFinish Answer: number:72,
+21:09::02 [Speical] agv=2,CurrentMissionID:384730827
+21:09::02 [send]agv=2 send path command: C1 number=73,start=0205 end=0205 右拐 原地旋转 length 0 angle 90
+21:09::02 [send]agv=2 send path command: C2 number=74,start=0205 end=0105 前进 正常行驶 length 1.5 angle 0
+21:09::02 [recv]Communication_Send Answer: number_1:73,number_2:74
+21:09::02 [recv] agv=2,Send Path Answer:number_1=73,number_2=74
+21:09::03 [Speical] agv=2,CurrentMissionID:384730827
+21:09::04 [Speical] agv=2,CurrentMissionID:384730827
+21:09::05 [Speical] agv=2,CurrentMissionID:384730827
+21:09::06 [recv]Communication_ComandFinish: number:73,
+21:09::06 [recv]agv=2 Path Command Finish: C1 number=73 start=0205 end=0205 右拐 原地旋转  length 0 angle 90
+21:09::06 [send]agv=1%,ComandFinish Answer: number:73,
+21:09::06 [Speical] agv=2,CurrentMissionID:384730827
+21:09::06 [send]agv=2 send path command: C1 number=74,start=0205 end=0105 前进 正常行驶 length 1.5 angle 0
+21:09::06 [send]agv=2 send path command: C2 number=75,start=0105 end=0105 前进  length 0 angle 0
+21:09::06 [recv]Communication_Send Answer: number_1:74,number_2:75
+21:09::06 [recv] agv=2,Send Path Answer:number_1=74,number_2=75
+21:09::07 [Speical] agv=2,CurrentMissionID:384730827
+21:09::08 [Speical] agv=2,CurrentMissionID:384730827
+21:09::10 [Speical] agv=2,CurrentMissionID:384730827
+21:09::10 [recv]Communication_ComandFinish: number:74,
+21:09::10 [recv]agv=2 Path Command Finish: C1 number=74 start=0205 end=0105 前进 正常行驶  length 1.5 angle 0
+21:09::10 [send]agv=1%,ComandFinish Answer: number:74,
+21:09::11 [Speical] agv=2,CurrentMissionID:384730827
+21:09::11 [send]agv=2 send path command: C1 number=75,start=0105 end=0105 前进  length 0 angle 0
+21:09::11 [send]agv=2 send path command: C2 number=76,start=0105 end=0105 停止 等待 length 0 angle 0
+21:09::11 [recv]Communication_Send Answer: number_1:75,number_2:76
+21:09::11 [recv] agv=2,Send Path Answer:number_1=75,number_2=76
+21:09::12 [Speical] agv=2,CurrentMissionID:384730827
+21:09::13 [Speical] agv=2,CurrentMissionID:384730827
+21:09::14 [Speical] agv=2,CurrentMissionID:384730827
+21:09::14 [recv]Communication_ComandFinish: number:75,
+21:09::14 [recv]agv=2 Path Command Finish: C1 number=75 start=0105 end=0105 前进   length 0 angle 0
+21:09::14 [send]agv=1%,ComandFinish Answer: number:75,
+21:09::15 [Speical] agv=2,CurrentMissionID:384730827
+21:09::15 [send]agv=2 send path command: C1 number=77,start=0105 end=0205 后退 正常行驶 length 1.5 angle 0
+21:09::15 [send]agv=2 send path command: C2 number=78,start=0205 end=0305 后退 正常行驶 length 1.3 angle 0
+21:09::15 [recv]Communication_Send Answer: number_1:77,number_2:78
+21:09::15 [recv] agv=2,Send Path Answer:number_1=77,number_2=78
+21:09::16 [Speical] agv=2,CurrentMissionID:384730827
+21:09::17 [Speical] agv=2,CurrentMissionID:384730827
+21:09::18 [recv]Communication_ComandFinish: number:76,
+21:09::18 [recv]agv=2 Path Command Finish: C1 number=76 start=0105 end=0105 停止 等待  length 0 angle 0
+21:09::18 [send]agv=1%,ComandFinish Answer: number:76,
+21:09::18 [Speical] agv=2,CurrentMissionID:384730827
+21:09::19 [Speical] agv=2,CurrentMissionID:384730827
+21:09::20 [Speical] agv=2,CurrentMissionID:384730827
+21:09::22 [Speical] agv=2,CurrentMissionID:384730827
+21:09::22 [recv]Communication_ComandFinish: number:77,
+21:09::22 [recv]agv=2 Path Command Finish: C1 number=77 start=0105 end=0205 后退 正常行驶  length 1.5 angle 0
+21:09::22 [send]agv=1%,ComandFinish Answer: number:77,
+21:09::23 [Speical] agv=2,CurrentMissionID:384730827
+21:09::23 [send]agv=2 send path command: C1 number=78,start=0205 end=0305 后退 正常行驶 length 1.3 angle 0
+21:09::23 [send]agv=2 send path command: C2 number=79,start=0305 end=0405 后退 正常行驶 length 1.3 angle 0
+21:09::23 [recv]Communication_Send Answer: number_1:78,number_2:79
+21:09::23 [recv] agv=2,Send Path Answer:number_1=78,number_2=79
+21:09::24 [Speical] agv=2,CurrentMissionID:384730827
+21:09::25 [Speical] agv=2,CurrentMissionID:384730827
+21:09::26 [Speical] agv=2,CurrentMissionID:384730827
+21:09::26 [recv]Communication_ComandFinish: number:78,
+21:09::26 [recv]agv=2 Path Command Finish: C1 number=78 start=0205 end=0305 后退 正常行驶  length 1.3 angle 0
+21:09::26 [send]agv=1%,ComandFinish Answer: number:78,
+21:09::27 [Speical] agv=2,CurrentMissionID:384730827
+21:09::27 [send]agv=2 send path command: C1 number=79,start=0305 end=0405 后退 正常行驶 length 1.3 angle 0
+21:09::27 [send]agv=2 send path command: C2 number=80,start=0405 end=0505 后退 减速行驶 length 1.1 angle 0
+21:09::27 [recv]Communication_Send Answer: number_1:79,number_2:80
+21:09::27 [recv] agv=2,Send Path Answer:number_1=79,number_2=80
+21:09::28 [Speical] agv=2,CurrentMissionID:384730827
+21:09::29 [Speical] agv=2,CurrentMissionID:384730827
+21:09::30 [recv]Communication_ComandFinish: number:79,
+21:09::30 [recv]agv=2 Path Command Finish: C1 number=79 start=0305 end=0405 后退 正常行驶  length 1.3 angle 0
+21:09::30 [send]agv=1%,ComandFinish Answer: number:79,
+21:09::30 [Speical] agv=2,CurrentMissionID:384730827
+21:09::30 [send]agv=2 send path command: C1 number=80,start=0405 end=0505 后退 减速行驶 length 1.1 angle 0
+21:09::30 [send]agv=2 send path command: C2 number=81,start=0505 end=0505 后退  length 0 angle 0
+21:09::30 [recv]Communication_Send Answer: number_1:80,number_2:81
+21:09::30 [recv] agv=2,Send Path Answer:number_1=80,number_2=81
+21:09::31 [Speical] agv=2,CurrentMissionID:384730827
+21:09::32 [Speical] agv=2,CurrentMissionID:384730827
+21:09::33 [Speical] agv=2,CurrentMissionID:384730827
+21:09::34 [recv]Communication_ComandFinish: number:80,
+21:09::34 [recv]agv=2 Path Command Finish: C1 number=80 start=0405 end=0505 后退 减速行驶  length 1.1 angle 0
+21:09::34 [send]agv=1%,ComandFinish Answer: number:80,
+21:09::34 [Speical] agv=2,CurrentMissionID:384730827
+21:09::34 [send]agv=2 send path command: C1 number=81,start=0505 end=0505 后退  length 0 angle 0
+21:09::34 [send]agv=2 send path command: C2 number=82,start=0505 end=0505 停止 等待 length 0 angle 0
+21:09::34 [recv]Communication_Send Answer: number_1:81,number_2:82
+21:09::34 [recv] agv=2,Send Path Answer:number_1=81,number_2=82
+21:09::35 [Speical] agv=2,CurrentMissionID:384730827
+21:09::36 [Speical] agv=2,CurrentMissionID:384730827
+21:09::37 [Speical] agv=2,CurrentMissionID:384730827
+21:09::38 [recv]Communication_ComandFinish: number:81,
+21:09::38 [recv]agv=2 Path Command Finish: C1 number=81 start=0505 end=0505 后退   length 0 angle 0
+21:09::38 [send]agv=1%,ComandFinish Answer: number:81,
+21:09::42 [Speical] agv=2,CurrentMissionID:0
+21:09::42 [send]agv=2 send path command: C1 number=83,start=0505 end=0405 前进 正常行驶 length 1.1 angle 0
+21:09::42 [send]agv=2 send path command: C2 number=84,start=0405 end=0305 前进 减速行驶 length 1.3 angle 0
+21:09::42 [recv]Communication_Send Answer: number_1:83,number_2:84
+21:09::42 [recv] agv=2,Send Path Answer:number_1=83,number_2=84
+21:09::42 [recv]Communication_ComandFinish: number:82,
+21:09::42 [recv]agv=2 Path Command Finish: C1 number=82 start=0505 end=0505 停止 等待  length 0 angle 0
+21:09::42 [send]agv=1%,ComandFinish Answer: number:82,
+21:09::43 [Speical] agv=2,CurrentMissionID:0
+21:09::44 [Speical] agv=2,CurrentMissionID:0
+21:09::45 [Speical] agv=2,CurrentMissionID:0
+21:09::46 [recv]Communication_ComandFinish: number:83,
+21:09::46 [recv]agv=2 Path Command Finish: C1 number=83 start=0505 end=0405 前进 正常行驶  length 1.1 angle 0
+21:09::46 [send]agv=1%,ComandFinish Answer: number:83,
+21:09::46 [Speical] agv=2,CurrentMissionID:0
+21:09::46 [send]agv=2 send path command: C1 number=84,start=0405 end=0305 前进 减速行驶 length 1.3 angle 0
+21:09::46 [send]agv=2 send path command: C2 number=85,start=0305 end=0305 右拐 原地旋转 length 0 angle 90
+21:09::46 [recv]Communication_Send Answer: number_1:84,number_2:85
+21:09::46 [recv] agv=2,Send Path Answer:number_1=84,number_2=85
+21:09::47 [Speical] agv=2,CurrentMissionID:0
+21:09::48 [Speical] agv=2,CurrentMissionID:0
+21:09::50 [Speical] agv=2,CurrentMissionID:0
+21:09::50 [recv]Communication_ComandFinish: number:84,
+21:09::50 [recv]agv=2 Path Command Finish: C1 number=84 start=0405 end=0305 前进 减速行驶  length 1.3 angle 0
+21:09::50 [send]agv=1%,ComandFinish Answer: number:84,
+21:09::51 [Speical] agv=2,CurrentMissionID:0
+21:09::51 [send]agv=2 send path command: C1 number=85,start=0305 end=0305 右拐 原地旋转 length 0 angle 90
+21:09::51 [send]agv=2 send path command: C2 number=86,start=0305 end=0304 前进 正常行驶 length 1.8 angle 0
+21:09::51 [recv]Communication_Send Answer: number_1:85,number_2:86
+21:09::51 [recv] agv=2,Send Path Answer:number_1=85,number_2=86
+21:09::52 [Speical] agv=2,CurrentMissionID:0
+21:09::53 [Speical] agv=2,CurrentMissionID:0
+21:09::54 [Speical] agv=2,CurrentMissionID:0
+21:09::54 [recv]Communication_ComandFinish: number:85,
+21:09::54 [recv]agv=2 Path Command Finish: C1 number=85 start=0305 end=0305 右拐 原地旋转  length 0 angle 90
+21:09::54 [send]agv=1%,ComandFinish Answer: number:85,
+21:09::55 [Speical] agv=2,CurrentMissionID:0
+21:09::55 [send]agv=2 send path command: C1 number=86,start=0305 end=0304 前进 正常行驶 length 1.8 angle 0
+21:09::55 [send]agv=2 send path command: C2 number=87,start=0304 end=0303 前进 正常行驶 length 1.2 angle 0
+21:09::55 [recv]Communication_Send Answer: number_1:86,number_2:87
+21:09::55 [recv] agv=2,Send Path Answer:number_1=86,number_2=87
+21:09::56 [Speical] agv=2,CurrentMissionID:0
+21:09::57 [Speical] agv=2,CurrentMissionID:0
+21:09::58 [Speical] agv=2,CurrentMissionID:0
+21:09::58 [recv]Communication_ComandFinish: number:86,
+21:09::58 [recv]agv=2 Path Command Finish: C1 number=86 start=0305 end=0304 前进 正常行驶  length 1.8 angle 0
+21:09::58 [send]agv=1%,ComandFinish Answer: number:86,
+21:09::59 [Speical] agv=2,CurrentMissionID:0
+21:09::59 [send]agv=2 send path command: C1 number=87,start=0304 end=0303 前进 正常行驶 length 1.2 angle 0
+21:09::59 [send]agv=2 send path command: C2 number=88,start=0303 end=0302 前进 减速行驶 length 1 angle 0
+21:09::59 [recv]Communication_Send Answer: number_1:87,number_2:88
+21:09::59 [recv] agv=2,Send Path Answer:number_1=87,number_2=88
+21:10::00 [Speical] agv=2,CurrentMissionID:0
+21:10::01 [Speical] agv=2,CurrentMissionID:0
+21:10::02 [recv]Communication_ComandFinish: number:87,
+21:10::02 [recv]agv=2 Path Command Finish: C1 number=87 start=0304 end=0303 前进 正常行驶  length 1.2 angle 0
+21:10::02 [send]agv=1%,ComandFinish Answer: number:87,
+21:10::02 [Speical] agv=2,CurrentMissionID:0
+21:10::02 [send]agv=2 send path command: C1 number=88,start=0303 end=0302 前进 减速行驶 length 1 angle 0
+21:10::02 [send]agv=2 send path command: C2 number=89,start=0302 end=0302 左拐 原地旋转 length 0 angle 90
+21:10::02 [recv]Communication_Send Answer: number_1:88,number_2:89
+21:10::02 [recv] agv=2,Send Path Answer:number_1=88,number_2=89
+21:10::03 [Speical] agv=2,CurrentMissionID:0
+21:10::04 [Speical] agv=2,CurrentMissionID:0
+21:10::05 [Speical] agv=2,CurrentMissionID:0
+21:10::06 [recv]Communication_ComandFinish: number:88,
+21:10::06 [recv]agv=2 Path Command Finish: C1 number=88 start=0303 end=0302 前进 减速行驶  length 1 angle 0
+21:10::06 [send]agv=1%,ComandFinish Answer: number:88,
+21:10::07 [Speical] agv=2,CurrentMissionID:0
+21:10::07 [send]agv=2 send path command: C1 number=89,start=0302 end=0302 左拐 原地旋转 length 0 angle 90
+21:10::07 [send]agv=2 send path command: C2 number=90,start=0302 end=0202 前进 正常行驶 length 1.3 angle 0
+21:10::07 [recv]Communication_Send Answer: number_1:89,number_2:90
+21:10::07 [recv] agv=2,Send Path Answer:number_1=89,number_2=90
+21:10::08 [Speical] agv=2,CurrentMissionID:0
+21:10::09 [Speical] agv=2,CurrentMissionID:0
+21:10::10 [Speical] agv=2,CurrentMissionID:0
+21:10::10 [recv]Communication_ComandFinish: number:89,
+21:10::10 [recv]agv=2 Path Command Finish: C1 number=89 start=0302 end=0302 左拐 原地旋转  length 0 angle 90
+21:10::10 [send]agv=1%,ComandFinish Answer: number:89,
+21:10::11 [Speical] agv=2,CurrentMissionID:0
+21:10::11 [send]agv=2 send path command: C1 number=90,start=0302 end=0202 前进 正常行驶 length 1.3 angle 0
+21:10::11 [send]agv=2 send path command: C2 number=91,start=0202 end=0102 前进 减速行驶 length 1.3 angle 0
+21:10::11 [recv]Communication_Send Answer: number_1:90,number_2:91
+21:10::11 [recv] agv=2,Send Path Answer:number_1=90,number_2=91
+21:10::12 [Speical] agv=2,CurrentMissionID:0
+21:10::13 [Speical] agv=2,CurrentMissionID:0
+21:10::14 [Speical] agv=2,CurrentMissionID:0
+21:10::14 [recv]Communication_ComandFinish: number:90,
+21:10::14 [recv]agv=2 Path Command Finish: C1 number=90 start=0302 end=0202 前进 正常行驶  length 1.3 angle 0
+21:10::14 [send]agv=1%,ComandFinish Answer: number:90,
+21:10::15 [Speical] agv=2,CurrentMissionID:0
+21:10::15 [send]agv=2 send path command: C1 number=91,start=0202 end=0102 前进 减速行驶 length 1.3 angle 0
+21:10::15 [send]agv=2 send path command: C2 number=92,start=0102 end=0102 右拐 原地旋转 length 0 angle 90
+21:10::15 [recv]Communication_Send Answer: number_1:91,number_2:92
+21:10::15 [recv] agv=2,Send Path Answer:number_1=91,number_2=92
+21:10::16 [Speical] agv=2,CurrentMissionID:0
+21:10::17 [Speical] agv=2,CurrentMissionID:0
+21:10::18 [recv]Communication_ComandFinish: number:91,
+21:10::18 [recv]agv=2 Path Command Finish: C1 number=91 start=0202 end=0102 前进 减速行驶  length 1.3 angle 0
+21:10::18 [send]agv=1%,ComandFinish Answer: number:91,
+21:10::18 [Speical] agv=2,CurrentMissionID:0
+21:10::18 [send]agv=2 send path command: C1 number=92,start=0102 end=0102 右拐 原地旋转 length 0 angle 90
+21:10::18 [send]agv=2 send path command: C2 number=93,start=0102 end=0101 前进 正常行驶 length 1.7 angle 0
+21:10::18 [recv]Communication_Send Answer: number_1:92,number_2:93
+21:10::18 [recv] agv=2,Send Path Answer:number_1=92,number_2=93
+21:10::19 [Speical] agv=2,CurrentMissionID:0
+21:10::20 [Speical] agv=2,CurrentMissionID:0
+21:10::21 [Speical] agv=2,CurrentMissionID:0
+21:10::22 [recv]Communication_ComandFinish: number:92,
+21:10::22 [recv]agv=2 Path Command Finish: C1 number=92 start=0102 end=0102 右拐 原地旋转  length 0 angle 90
+21:10::22 [send]agv=1%,ComandFinish Answer: number:92,
+21:10::22 [Speical] agv=2,CurrentMissionID:0
+21:10::22 [send]agv=2 send path command: C1 number=93,start=0102 end=0101 前进 正常行驶 length 1.7 angle 0
+21:10::22 [send]agv=2 send path command: C2 number=94,start=0101 end=0101 停止 等待 length 0 angle 0
+21:10::22 [recv]Communication_Send Answer: number_1:93,number_2:94
+21:10::22 [recv] agv=2,Send Path Answer:number_1=93,number_2=94
+21:10::24 [Speical] agv=2,CurrentMissionID:0
+21:10::25 [Speical] agv=2,CurrentMissionID:0
+21:10::26 [Speical] agv=2,CurrentMissionID:0
+21:10::26 [recv]Communication_ComandFinish: number:93,
+21:10::26 [recv]agv=2 Path Command Finish: C1 number=93 start=0102 end=0101 前进 正常行驶  length 1.7 angle 0
+21:10::26 [send]agv=1%,ComandFinish Answer: number:93,
+21:10::27 [Speical] agv=2,CurrentMissionID:0
+21:10::28 [Speical] agv=2,CurrentMissionID:0
+21:10::29 [Speical] agv=2,CurrentMissionID:0
+21:10::30 [Speical] agv=2,CurrentMissionID:0
+21:10::30 [recv]Communication_ComandFinish: number:94,
+21:10::30 [recv]agv=2 Path Command Finish: C1 number=94 start=0101 end=0101 停止 等待  length 0 angle 0
+21:10::30 [send]agv=1%,ComandFinish Answer: number:94,
+21:10::31 [Speical] agv=2,CurrentMissionID:0
+21:10::32 [Speical] agv=2,CurrentMissionID:0
+21:10::33 [Speical] agv=2,CurrentMissionID:0
+21:10::34 [Speical] agv=2,CurrentMissionID:0
+21:10::35 [Speical] agv=2,CurrentMissionID:0
+21:10::36 [Speical] agv=2,CurrentMissionID:0
+21:10::38 [Speical] agv=2,CurrentMissionID:0
+21:10::39 [Speical] agv=2,CurrentMissionID:0
+21:10::40 [Speical] agv=2,CurrentMissionID:0
+21:10::41 [Speical] agv=2,CurrentMissionID:0
+21:10::42 [Speical] agv=2,CurrentMissionID:0
+21:10::43 [Speical] agv=2,CurrentMissionID:0
+21:10::44 [Speical] agv=2,CurrentMissionID:0

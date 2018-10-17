@@ -1,0 +1,59 @@
+#include "centralview.h"
+#include <QMouseEvent>
+#include <QKeyEvent>
+#include <QDebug>
+#include <QGraphicsRectItem>
+#include <QAction>
+CentralView::CentralView(QGraphicsScene *scene, QWidget *parent):QGraphicsView(parent),m_scene(scene)
+{
+    m_nShape = NONE;
+
+}
+
+CentralView::~CentralView()
+{
+
+}
+
+void CentralView::mousePressEvent(QMouseEvent *event)
+{
+
+    m_ptStartPos = mapToScene(event->pos());
+
+}
+
+void CentralView::mouseMoveEvent(QMouseEvent *event)
+{
+    m_ptEndPos = mapToScene(event->pos());
+}
+
+void CentralView::mouseReleaseEvent(QMouseEvent *event)
+{
+    m_ptEndPos = mapToScene(event->pos());
+    addItem();
+}
+
+void CentralView::keyPressEvent(QKeyEvent *event)
+{
+
+}
+
+void CentralView::addItem()
+{
+    int x1 = qMin(m_ptStartPos.x(),m_ptEndPos.x());
+    int x2 = qMax(m_ptStartPos.x(),m_ptEndPos.x());
+    int y1 = qMin(m_ptStartPos.y(),m_ptEndPos.y());
+    int y2 = qMax(m_ptStartPos.y(),m_ptEndPos.y());
+
+    switch(m_nShape){
+    case RECTANGLE:
+        RectItem *rect = new RectItem(QPointF(x1,y1),QPointF(x2,y2));
+        rect->setPos(x1,y1);
+        rect->setFocus();
+        m_scene->addItem(rect);
+        break;
+    }
+}
+
+
+

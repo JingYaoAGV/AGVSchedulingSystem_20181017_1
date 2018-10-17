@@ -1,0 +1,202 @@
+22:59::07 [init] system: 1 Online
+22:59::39 agvid: 1 current_node: 2 ,angle：0
+22:59::39 agvname: fangzhen01  MissionID:0
+22:59::39 agvname: fangzhen01 CommandPlanning:--------------
+22:59::39 agvname: fangzhen01 CommandPlanning:--------------
+22:59::40 agvid: 1 current_node: 2 ,angle：0
+22:59::41 agvid: 1 current_node: 2 ,angle：0
+22:59::42 agvid: 1 current_node: 2 ,angle：0
+22:59::43 agvid: 1 current_node: 2 ,angle：0
+22:59::44 agvid: 1 current_node: 2 ,angle：0
+22:59::45 agvid: 1 current_node: 2 ,angle：0
+22:59::46 agvname: fangzhen01  MissionID:4081573712
+22:59::46 agvname: fangzhen01 CommandPlanning:--------------
+22:59::46 agvname: fangzhen01 CommandPlanning/ Command:startnode:2 endnode:2 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+22:59::46 agvname: fangzhen01 CommandPlanning/ Command:startnode:2 endnode:1 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+22:59::46 agvname: fangzhen01 CommandPlanning/ Command:startnode:1 endnode:1 Direction:前进 Action:收货 Angle:0 Length:0 
+22:59::46 agvname: fangzhen01 CommandPlanning:--------------
+22:59::51 agvid: 1 current_node: 2 ,angle：90
+23:00::05 agvid: 1 current_node: 1 ,angle：90
+23:00::09 agvid: 1 current_node: 1 ,angle：90
+23:00::09 agvid: 1 current_node: 1 ,angle：90
+23:00::09 agvname: fangzhen01  MissionID:4081573712
+23:00::09 agvname: fangzhen01 CommandPlanning:--------------
+23:00::09 agvname: fangzhen01 CommandPlanning/ Command:startnode:1 endnode:2 Direction:后退 Action:减速行驶 Angle:0 Length:1 
+23:00::09 agvname: fangzhen01 CommandPlanning/ Command:startnode:2 endnode:2 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+23:00::09 agvname: fangzhen01 CommandPlanning/ Command:startnode:2 endnode:9 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+23:00::09 agvname: fangzhen01 CommandPlanning/ Command:startnode:9 endnode:9 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+23:00::09 agvname: fangzhen01 CommandPlanning/ Command:startnode:9 endnode:10 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+23:00::09 agvname: fangzhen01 CommandPlanning/ Command:startnode:10 endnode:11 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+23:00::09 agvname: fangzhen01 CommandPlanning/ Command:startnode:11 endnode:12 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+23:00::09 agvname: fangzhen01 CommandPlanning/ Command:startnode:12 endnode:12 Direction:前进 Action:放货 Angle:0 Length:0 
+23:00::09 agvname: fangzhen01 CommandPlanning:--------------
+23:00::13 agvid: 1 current_node: 1 ,angle：90
+23:00::27 agvid: 1 current_node: 2 ,angle：90
+23:00::31 agvid: 1 current_node: 2 ,angle：0
+23:00::45 agvid: 1 current_node: 9 ,angle：0
+23:00::50 agvid: 1 current_node: 9 ,angle：270
+23:01::03 agvid: 1 current_node: 10 ,angle：270
+23:01::19 agvid: 1 current_node: 11 ,angle：270
+23:01::36 agvid: 1 current_node: 12 ,angle：270
+23:01::40 agvid: 1 current_node: 12 ,angle：270
+23:01::40 agvid: 1 current_node: 12 ,angle：270
+23:01::44 agvname: fangzhen01  MissionID:0
+23:01::44 agvname: fangzhen01 CommandPlanning:--------------
+23:01::44 agvname: fangzhen01 CommandPlanning/ Command:startnode:12 endnode:11 Direction:后退 Action:正常行驶 Angle:0 Length:1 
+23:01::44 agvname: fangzhen01 CommandPlanning/ Command:startnode:11 endnode:10 Direction:后退 Action:正常行驶 Angle:0 Length:1 
+23:01::44 agvname: fangzhen01 CommandPlanning/ Command:startnode:10 endnode:9 Direction:后退 Action:减速行驶 Angle:0 Length:1 
+23:01::44 agvname: fangzhen01 CommandPlanning/ Command:startnode:9 endnode:9 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+23:01::44 agvname: fangzhen01 CommandPlanning/ Command:startnode:9 endnode:2 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+23:01::44 agvname: fangzhen01 CommandPlanning:--------------
+23:01::46 agvid: 1 current_node: 12 ,angle：270
+23:02::00 agvid: 1 current_node: 11 ,angle：270
+23:02::16 agvid: 1 current_node: 10 ,angle：270
+23:02::16 agvname: fangzhen01  MissionID:0
+23:02::16 agvname: fangzhen01 CommandPlanning:--------------
+23:02::16 agvname: fangzhen01 CommandPlanning/ Command:startnode:10 endnode:9 Direction:后退 Action:减速行驶 Angle:0 Length:1 
+23:02::16 agvname: fangzhen01 CommandPlanning/ Command:startnode:9 endnode:9 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+23:02::16 agvname: fangzhen01 CommandPlanning/ Command:startnode:9 endnode:2 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+23:02::16 agvname: fangzhen01 CommandPlanning:--------------
+23:02::34 agvid: 1 current_node: 9 ,angle：270
+23:02::39 agvid: 1 current_node: 9 ,angle：180
+23:02::39 agvname: fangzhen01  MissionID:0
+23:02::39 agvname: fangzhen01 CommandPlanning:--------------
+23:02::39 agvname: fangzhen01 CommandPlanning/ Command:startnode:9 endnode:2 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+23:02::39 agvname: fangzhen01 CommandPlanning:--------------
+23:02::55 agvid: 1 current_node: 2 ,angle：180
+23:02::59 agvid: 1 current_node: 2 ,angle：180
+23:02::59 agvname: fangzhen01  MissionID:0
+23:02::59 agvname: fangzhen01 CommandPlanning:--------------
+23:02::59 agvname: fangzhen01 CommandPlanning:--------------
+23:02::59 agvid: 1 current_node: 2 ,angle：180
+23:03::00 agvid: 1 current_node: 2 ,angle：180
+23:03::02 agvid: 1 current_node: 2 ,angle：180
+23:03::03 agvid: 1 current_node: 2 ,angle：180
+23:03::04 agvid: 1 current_node: 2 ,angle：180
+23:03::05 agvid: 1 current_node: 2 ,angle：180
+23:03::06 agvid: 1 current_node: 2 ,angle：180
+23:03::07 agvid: 1 current_node: 2 ,angle：180
+23:03::08 agvid: 1 current_node: 2 ,angle：180
+23:03::09 agvid: 1 current_node: 2 ,angle：180
+23:03::10 agvid: 1 current_node: 2 ,angle：180
+23:03::11 agvid: 1 current_node: 2 ,angle：180
+23:03::12 agvid: 1 current_node: 2 ,angle：180
+23:03::13 agvid: 1 current_node: 2 ,angle：180
+23:03::14 agvid: 1 current_node: 2 ,angle：180
+23:03::15 agvid: 1 current_node: 2 ,angle：180
+23:03::16 agvid: 1 current_node: 2 ,angle：180
+23:03::17 agvid: 1 current_node: 2 ,angle：180
+23:03::19 agvid: 1 current_node: 2 ,angle：180
+23:03::20 agvid: 1 current_node: 2 ,angle：180
+23:03::21 agvid: 1 current_node: 2 ,angle：180
+23:03::22 agvid: 1 current_node: 2 ,angle：180
+23:03::23 agvid: 1 current_node: 2 ,angle：180
+23:03::24 agvid: 1 current_node: 2 ,angle：180
+23:03::25 agvid: 1 current_node: 2 ,angle：180
+23:03::26 agvid: 1 current_node: 2 ,angle：180
+23:03::27 agvid: 1 current_node: 2 ,angle：180
+23:03::28 agvid: 1 current_node: 2 ,angle：180
+23:03::29 agvid: 1 current_node: 2 ,angle：180
+23:03::30 agvid: 1 current_node: 2 ,angle：180
+23:03::31 agvid: 1 current_node: 2 ,angle：180
+23:03::32 agvid: 1 current_node: 2 ,angle：180
+23:03::33 agvid: 1 current_node: 2 ,angle：180
+23:03::34 agvid: 1 current_node: 2 ,angle：180
+23:03::36 agvid: 1 current_node: 2 ,angle：180
+23:03::37 agvid: 1 current_node: 2 ,angle：180
+23:03::38 agvid: 1 current_node: 2 ,angle：180
+23:03::39 agvid: 1 current_node: 2 ,angle：180
+23:03::40 agvid: 1 current_node: 2 ,angle：180
+23:03::41 agvid: 1 current_node: 2 ,angle：180
+23:03::42 agvid: 1 current_node: 2 ,angle：180
+23:03::43 agvid: 1 current_node: 2 ,angle：180
+23:03::44 agvid: 1 current_node: 2 ,angle：180
+23:03::45 agvid: 1 current_node: 2 ,angle：180
+23:03::46 agvid: 1 current_node: 2 ,angle：180
+23:03::47 agvid: 1 current_node: 2 ,angle：180
+23:03::48 agvid: 1 current_node: 2 ,angle：180
+23:03::49 agvid: 1 current_node: 2 ,angle：180
+23:03::50 agvid: 1 current_node: 2 ,angle：180
+23:03::51 agvid: 1 current_node: 2 ,angle：180
+23:03::53 agvid: 1 current_node: 2 ,angle：180
+23:03::54 agvid: 1 current_node: 2 ,angle：180
+23:03::55 agvid: 1 current_node: 2 ,angle：180
+23:03::56 agvid: 1 current_node: 2 ,angle：180
+23:03::57 agvid: 1 current_node: 2 ,angle：180
+23:03::58 agvid: 1 current_node: 2 ,angle：180
+23:03::59 agvid: 1 current_node: 2 ,angle：180
+23:04::00 agvid: 1 current_node: 2 ,angle：180
+23:04::01 agvid: 1 current_node: 2 ,angle：180
+23:04::02 agvid: 1 current_node: 2 ,angle：180
+23:04::03 agvid: 1 current_node: 2 ,angle：180
+23:04::04 agvid: 1 current_node: 2 ,angle：180
+23:04::05 agvid: 1 current_node: 2 ,angle：180
+23:04::06 agvid: 1 current_node: 2 ,angle：180
+23:04::07 agvid: 1 current_node: 2 ,angle：180
+23:04::08 agvid: 1 current_node: 2 ,angle：180
+23:04::10 agvid: 1 current_node: 2 ,angle：180
+23:04::11 agvid: 1 current_node: 2 ,angle：180
+23:04::12 agvid: 1 current_node: 2 ,angle：180
+23:04::13 agvid: 1 current_node: 2 ,angle：180
+23:04::14 agvid: 1 current_node: 2 ,angle：180
+23:04::15 agvid: 1 current_node: 2 ,angle：180
+23:04::16 agvid: 1 current_node: 2 ,angle：180
+23:04::17 agvid: 1 current_node: 2 ,angle：180
+23:04::18 agvid: 1 current_node: 2 ,angle：180
+23:04::19 agvid: 1 current_node: 2 ,angle：180
+23:04::20 agvid: 1 current_node: 2 ,angle：180
+23:04::21 agvid: 1 current_node: 2 ,angle：180
+23:04::22 agvid: 1 current_node: 2 ,angle：180
+23:04::23 agvid: 1 current_node: 2 ,angle：180
+23:04::24 agvid: 1 current_node: 2 ,angle：180
+23:04::26 agvid: 1 current_node: 2 ,angle：180
+23:04::27 agvid: 1 current_node: 2 ,angle：180
+23:04::28 agvid: 1 current_node: 2 ,angle：180
+23:04::29 agvid: 1 current_node: 2 ,angle：180
+23:04::30 agvid: 1 current_node: 2 ,angle：180
+23:04::31 agvid: 1 current_node: 2 ,angle：180
+23:04::32 agvid: 1 current_node: 2 ,angle：180
+23:04::33 agvid: 1 current_node: 2 ,angle：180
+23:04::34 agvid: 1 current_node: 2 ,angle：180
+23:04::35 agvid: 1 current_node: 2 ,angle：180
+23:04::36 agvid: 1 current_node: 2 ,angle：180
+23:04::37 agvid: 1 current_node: 2 ,angle：180
+23:04::38 agvid: 1 current_node: 2 ,angle：180
+23:04::40 agvid: 1 current_node: 2 ,angle：180
+23:04::40 agvname: fangzhen01  MissionID:4081867752
+23:04::40 agvname: fangzhen01 CommandPlanning:--------------
+23:04::40 agvname: fangzhen01 CommandPlanning/ Command:startnode:2 endnode:8 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+23:04::40 agvname: fangzhen01 CommandPlanning/ Command:startnode:8 endnode:8 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+23:04::40 agvname: fangzhen01 CommandPlanning/ Command:startnode:8 endnode:7 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+23:04::40 agvname: fangzhen01 CommandPlanning/ Command:startnode:7 endnode:7 Direction:前进 Action:收货 Angle:0 Length:0 
+23:04::40 agvname: fangzhen01 CommandPlanning:--------------
+23:04::58 agvid: 1 current_node: 8 ,angle：180
+23:05::02 agvid: 1 current_node: 8 ,angle：90
+23:05::16 agvid: 1 current_node: 7 ,angle：90
+23:05::20 agvid: 1 current_node: 7 ,angle：90
+23:05::21 agvid: 1 current_node: 7 ,angle：90
+23:05::21 agvname: fangzhen01  MissionID:4081867752
+23:05::21 agvname: fangzhen01 CommandPlanning:--------------
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:7 endnode:8 Direction:后退 Action:减速行驶 Angle:0 Length:1 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:8 endnode:8 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:8 endnode:2 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:2 endnode:2 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:2 endnode:3 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:3 endnode:3 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:3 endnode:4 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:4 endnode:4 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:4 endnode:5 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:5 endnode:6 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+23:05::21 agvname: fangzhen01 CommandPlanning/ Command:startnode:6 endnode:6 Direction:前进 Action:放货 Angle:0 Length:0 
+23:05::21 agvname: fangzhen01 CommandPlanning:--------------
+23:05::24 agvid: 1 current_node: 7 ,angle：90
+23:05::38 agvid: 1 current_node: 8 ,angle：90
+23:05::42 agvid: 1 current_node: 8 ,angle：0
+23:05::57 agvid: 1 current_node: 2 ,angle：0
+23:06::01 agvid: 1 current_node: 2 ,angle：270
+23:06::15 agvid: 1 current_node: 3 ,angle：270
+23:06::19 agvid: 1 current_node: 3 ,angle：180
+23:06::33 agvid: 1 current_node: 4 ,angle：180
+23:06::37 agvid: 1 current_node: 4 ,angle：270
+23:06::52 agvid: 1 current_node: 5 ,angle：270
+23:07::08 agvid: 1 current_node: 6 ,angle：270

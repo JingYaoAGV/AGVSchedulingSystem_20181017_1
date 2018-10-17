@@ -1,0 +1,186 @@
+14:04::14 [init] AGV: 1 ÔÚÏß
+14:04::14 [init] Mac: 
+14:04::14 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+14:05::14 [recv]agv=1 Initialization: InitialPoint=1
+14:05::15 [send]agv=1 send path command: C1 number=1,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::15 [send]agv=1 send path command: C2 number=1,start=0 end=0   length 0 angle 0
+14:05::15 [recv] set Path:1
+14:05::15 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=1
+14:05::15 [recv]agv=1 Path Command Finish: C1 number=1 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::16 [send]agv=1 send path command: C1 number=2,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::16 [send]agv=1 send path command: C2 number=2,start=0 end=0   length 0 angle 0
+14:05::16 [recv] set Path:1
+14:05::17 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=2
+14:05::19 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=3
+14:05::19 [recv]agv=1 Path Command Finish: C1 number=2 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::20 [send]agv=1 send path command: C1 number=3,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::20 [send]agv=1 send path command: C2 number=3,start=0 end=0   length 0 angle 0
+14:05::20 [recv] set Path:1
+14:05::21 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=4
+14:05::23 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=5
+14:05::23 [recv]agv=1 Path Command Finish: C1 number=3 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::23 [send]agv=1 send path command: C1 number=4,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::23 [send]agv=1 send path command: C2 number=4,start=0 end=0   length 0 angle 0
+14:05::23 [recv] set Path:1
+14:05::25 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=6
+14:05::27 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=7
+14:05::27 [recv]agv=1 Path Command Finish: C1 number=4 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::28 [send]agv=1 send path command: C1 number=5,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::28 [send]agv=1 send path command: C2 number=5,start=0 end=0   length 0 angle 0
+14:05::28 [recv] set Path:1
+14:05::29 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=8
+14:05::31 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=9
+14:05::31 [recv]agv=1 Path Command Finish: C1 number=5 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::32 [send]agv=1 send path command: C1 number=6,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::32 [send]agv=1 send path command: C2 number=6,start=0 end=0   length 0 angle 0
+14:05::32 [recv] set Path:1
+14:05::33 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=10
+14:05::35 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=11
+14:05::35 [recv]agv=1 Path Command Finish: C1 number=6 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::36 [send]agv=1 send path command: C1 number=7,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::36 [send]agv=1 send path command: C2 number=7,start=0 end=0   length 0 angle 0
+14:05::36 [recv] set Path:1
+14:05::37 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=12
+14:05::39 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=13
+14:05::39 [recv]agv=1 Path Command Finish: C1 number=7 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::39 [send]agv=1 send path command: C1 number=8,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::39 [send]agv=1 send path command: C2 number=8,start=0 end=0   length 0 angle 0
+14:05::39 [recv] set Path:1
+14:05::41 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=14
+14:05::43 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=15
+14:05::43 [recv]agv=1 Path Command Finish: C1 number=8 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::44 [send]agv=1 send path command: C1 number=9,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::44 [send]agv=1 send path command: C2 number=9,start=0 end=0   length 0 angle 0
+14:05::44 [recv] set Path:1
+14:05::45 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=16
+14:05::47 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=17
+14:05::47 [recv]agv=1 Path Command Finish: C1 number=9 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::48 [send]agv=1 send path command: C1 number=10,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::48 [send]agv=1 send path command: C2 number=10,start=0 end=0   length 0 angle 0
+14:05::48 [recv] set Path:1
+14:05::49 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=18
+14:05::51 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=19
+14:05::51 [recv]agv=1 Path Command Finish: C1 number=10 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::52 [send]agv=1 send path command: C1 number=11,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::52 [send]agv=1 send path command: C2 number=11,start=0 end=0   length 0 angle 0
+14:05::52 [recv] set Path:1
+14:05::53 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=20
+14:05::55 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=21
+14:05::55 [recv]agv=1 Path Command Finish: C1 number=11 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:05::55 [send]agv=1 send path command: C1 number=12,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:05::55 [send]agv=1 send path command: C2 number=12,start=0 end=0   length 0 angle 0
+14:05::55 [recv] set Path:1
+14:05::57 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=22
+14:05::59 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=23
+14:05::59 [recv]agv=1 Path Command Finish: C1 number=12 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::00 [send]agv=1 send path command: C1 number=13,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::00 [send]agv=1 send path command: C2 number=13,start=0 end=0   length 0 angle 0
+14:06::00 [recv] set Path:1
+14:06::01 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=24
+14:06::03 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=25
+14:06::03 [recv]agv=1 Path Command Finish: C1 number=13 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::04 [send]agv=1 send path command: C1 number=14,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::04 [send]agv=1 send path command: C2 number=14,start=0 end=0   length 0 angle 0
+14:06::04 [recv] set Path:1
+14:06::05 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=26
+14:06::07 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=27
+14:06::07 [recv]agv=1 Path Command Finish: C1 number=14 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::08 [send]agv=1 send path command: C1 number=15,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::08 [send]agv=1 send path command: C2 number=15,start=0 end=0   length 0 angle 0
+14:06::08 [recv] set Path:1
+14:06::09 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=28
+14:06::11 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=29
+14:06::11 [recv]agv=1 Path Command Finish: C1 number=15 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::12 [send]agv=1 send path command: C1 number=16,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::12 [send]agv=1 send path command: C2 number=16,start=0 end=0   length 0 angle 0
+14:06::12 [recv] set Path:1
+14:06::13 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=30
+14:06::15 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=31
+14:06::15 [recv]agv=1 Path Command Finish: C1 number=16 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::16 [send]agv=1 send path command: C1 number=17,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::16 [send]agv=1 send path command: C2 number=17,start=0 end=0   length 0 angle 0
+14:06::16 [recv] set Path:1
+14:06::17 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=32
+14:06::19 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=33
+14:06::19 [recv]agv=1 Path Command Finish: C1 number=17 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::20 [send]agv=1 send path command: C1 number=18,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::20 [send]agv=1 send path command: C2 number=18,start=0 end=0   length 0 angle 0
+14:06::20 [recv] set Path:1
+14:06::21 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=34
+14:06::23 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=35
+14:06::23 [recv]agv=1 Path Command Finish: C1 number=18 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::24 [send]agv=1 send path command: C1 number=19,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::24 [send]agv=1 send path command: C2 number=19,start=0 end=0   length 0 angle 0
+14:06::24 [recv] set Path:1
+14:06::25 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=36
+14:06::27 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=37
+14:06::27 [recv]agv=1 Path Command Finish: C1 number=19 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::28 [send]agv=1 send path command: C1 number=20,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::28 [send]agv=1 send path command: C2 number=20,start=0 end=0   length 0 angle 0
+14:06::28 [recv] set Path:1
+14:06::29 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=38
+14:06::31 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=39
+14:06::31 [recv]agv=1 Path Command Finish: C1 number=20 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::31 [send]agv=1 send path command: C1 number=21,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::31 [send]agv=1 send path command: C2 number=21,start=0 end=0   length 0 angle 0
+14:06::31 [recv] set Path:1
+14:06::33 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=40
+14:06::35 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=41
+14:06::35 [recv]agv=1 Path Command Finish: C1 number=21 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::36 [send]agv=1 send path command: C1 number=22,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::36 [send]agv=1 send path command: C2 number=22,start=0 end=0   length 0 angle 0
+14:06::36 [recv] set Path:1
+14:06::37 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=42
+14:06::39 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=43
+14:06::39 [recv]agv=1 Path Command Finish: C1 number=22 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::40 [send]agv=1 send path command: C1 number=23,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::40 [send]agv=1 send path command: C2 number=23,start=0 end=0   length 0 angle 0
+14:06::40 [recv] set Path:1
+14:06::41 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=44
+14:06::43 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=45
+14:06::43 [recv]agv=1 Path Command Finish: C1 number=23 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::44 [send]agv=1 send path command: C1 number=24,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::44 [send]agv=1 send path command: C2 number=24,start=0 end=0   length 0 angle 0
+14:06::44 [recv] set Path:1
+14:06::45 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=46
+14:06::47 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=47
+14:06::47 [recv]agv=1 Path Command Finish: C1 number=24 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::47 [send]agv=1 send path command: C1 number=25,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::47 [send]agv=1 send path command: C2 number=25,start=0 end=0   length 0 angle 0
+14:06::47 [recv] set Path:1
+14:06::49 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=48
+14:06::51 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=49
+14:06::51 [recv]agv=1 Path Command Finish: C1 number=25 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::52 [send]agv=1 send path command: C1 number=26,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::52 [send]agv=1 send path command: C2 number=26,start=0 end=0   length 0 angle 0
+14:06::52 [recv] set Path:1
+14:06::53 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=50
+14:06::55 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=51
+14:06::55 [recv]agv=1 Path Command Finish: C1 number=26 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:06::56 [send]agv=1 send path command: C1 number=27,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:06::56 [send]agv=1 send path command: C2 number=27,start=0 end=0   length 0 angle 0
+14:06::56 [recv] set Path:1
+14:06::57 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=52
+14:06::59 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=53
+14:06::59 [recv]agv=1 Path Command Finish: C1 number=27 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:07::00 [send]agv=1 send path command: C1 number=28,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:07::00 [send]agv=1 send path command: C2 number=28,start=0 end=0   length 0 angle 0
+14:07::00 [recv] set Path:1
+14:07::01 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=54
+14:07::03 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=55
+14:07::03 [recv]agv=1 Path Command Finish: C1 number=28 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:07::03 [send]agv=1 send path command: C1 number=29,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:07::03 [send]agv=1 send path command: C2 number=29,start=0 end=0   length 0 angle 0
+14:07::03 [recv] set Path:1
+14:07::05 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=56
+14:07::07 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=57
+14:07::07 [recv]agv=1 Path Command Finish: C1 number=29 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:07::08 [send]agv=1 send path command: C1 number=30,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:07::08 [send]agv=1 send path command: C2 number=30,start=0 end=0   length 0 angle 0
+14:07::08 [recv] set Path:1
+14:07::09 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=58
+14:07::11 [get]agv=1 get Pos Feedback: current_node=1 Distance=0 Angel=59
+14:07::11 [recv]agv=1 Path Command Finish: C1 number=30 start=1 end=1 number=Í£Ö¹ µÈ´ý  length 0 angle 0
+14:07::12 [send]agv=1 send path command: C1 number=31,start=1 end=1 Í£Ö¹ µÈ´ý length 0 angle 0
+14:07::12 [send]agv=1 send path command: C2 number=31,start=0 end=0   length 0 angle 0
+14:07::12 [recv] set Path:1

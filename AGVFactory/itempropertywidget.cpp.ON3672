@@ -1,0 +1,265 @@
+#include "itempropertywidget.h"
+#include "centralview.h"
+#include <QGridLayout>
+#include "mainwindow.h"
+#include <QDebug>
+#include <QMetaProperty>
+#include <QVariant>
+#include "rectitem.h"
+#include "textitem.h"
+#include "lineitem.h"
+#include "ellipseitem.h"
+#include "agv.h"
+#include "topoview.h"
+#include "global.h"
+ItemPropertyWidget::ItemPropertyWidget()
+{
+    setMaximumHeight(400);
+    setMaximumWidth(150);
+    line_x = new MyLineEdit;
+    line_y = new MyLineEdit;
+    line_width = new MyLineEdit;
+    line_height = new MyLineEdit;
+    line_weight = new MyLineEdit(65535*65535,0);
+    line_rotation = new MyLineEdit(360,0);
+    line_arcStart = new MyLineEdit(360,0);
+    line_arcSweep = new MyLineEdit(360,0);
+
+    checkbox_dashLine = new QCheckBox;
+    checkbox_verType = new QCheckBox;
+    m_comboLineWidth = new QComboBox;
+    m_textDescription = new QTextEdit;
+    m_btnForeGroundColor = new ColorButton;
+    m_btnBackGroundColor = new ColorButton;
+    m_dlgForegroundColor = new QColorDialog(this);
+    m_dlgBackgroundColor = new QColorDialog(this);
+    for(int i=1;i<5;i++){
+        m_comboLineWidth->addItem(QPixmap(QString(":/action/images/%1px.ico").arg(i)),QString("%1px").arg(i),i);
+    }
+    m_btnForeGroundColor->setStyleSheet("background-color: rgb(0, 0, 0);");
+    m_btnBackGroundColor->setStyleSheet("background-color: rgb(255,255,255);");
+
+
+    label_x = new QLabel("X      :");
+    label_y = new QLabel("Y      :");
+    label_arcStart = new QLabel("起 始 角:");
+    label_arcSweep = new QLabel("扇 形 角:");
+    label_dashLine = new QLabel("虚    线:");
+    label_width = new QLabel("宽    度:");
+    label_height = new QLabel("高    度:");
+    label_rotation = new QLabel("旋    转:");
+    label_lineWidth = new QLabel("线    宽:");
+    label_weight = new QLabel("权    值:");
+    label_foregroundColor = new QLabel("前 景 色:");
+    label_backgroundColor = new QLabel("背 景 色:");
+    label_verType = new QLabel("呼 叫 点:");
+    label_description = new QLabel("描    述:");
+    label_IDName = new QLabel;
+    label_IDName->setMaximumHeight(20);
+    QGridLayout *gridLayout = new QGridLayout;
+    gridLayout->addWidget((new QLabel("I  D   :")),1,0);
+    gridLayout->addWidget(label_IDName,1,1);
+    gridLayout->addWidget(label_x,2,0);
+    gridLayout->addWidget(line_x,2,1);
+    gridLayout->addWidget(label_y,3,0);
+    gridLayout->addWidget(line_y,3,1);
+    gridLayout->addWidget(label_width,4,0);
+    gridLayout->addWidget(line_width,4,1);
+    gridLayout->addWidget(label_height,5,0);
+    gridLayout->addWidget(line_height,5,1);
+    gridLayout->addWidget(label_rotation,6,0);
+    gridLayout->addWidget(line_rotation,6,1);
+    gridLayout->addWidget((label_arcStart),7,0);
+    gridLayout->addWidget(line_arcStart,7,1);
+    gridLayout->addWidget(label_arcSweep,8,0);
+    gridLayout->addWidget(line_arcSweep,8,1);
+    gridLayout->addWidget(label_weight,9,0);
+    gridLayout->addWidget(line_weight,9,1);
+    gridLayout->addWidget(label_dashLine,10,0);
+    gridLayout->addWidget(checkbox_dashLine,10,1);
+    gridLayout->addWidget(label_verType,11,0);
+    gridLayout->addWidget(checkbox_verType,11,1);
+    gridLayout->addWidget(label_lineWidth,12,0);
+    gridLayout->addWidget(m_comboLineWidth,12,1);
+    gridLayout->addWidget(label_foregroundColor,13,0);
+    gridLayout->addWidget(m_btnForeGroundColor,13,1);
+    gridLayout->addWidget(label_backgroundColor,14,0);
+    gridLayout->addWidget(m_btnBackGroundColor,14,1);
+    gridLayout->addWidget(label_description,15,0);
+    gridLayout->addWidget(m_textDescription,15,0,1,2);
+    setLayout(gridLayout);
+
+    createConnections();
+}
+
+ItemPropertyWidget::~ItemPropertyWidget()
+{
+
+
+}
+
+void ItemPropertyWidget::createConnections()
+{
+    connect(m_btnForeGroundColor,SIGNAL(clicked()),m_dlgForegroundColor,SLOT(exec()));
+    connect(m_btnBackGroundColor,SIGNAL(clicked()),m_dlgBackgroundColor,SLOT(exec()));
+    connect(m_dlgBackgroundColor,SIGNAL(colorSelected(QColor)),m_btnBackGroundColor,SLOT(setBackgroundBrush(QColor)));
+    connect(m_dlgForegroundColor,SIGNAL(colorSelected(QColor)),m_btnForeGroundColor,SLOT(setBackgroundBrush(QColor)));
+}
+
+void ItemPropertyWidget::connectItem(QGraphicsItem *i)
+{
+
+    switch (i->type()) {
+    case RECTANGLE:
+        setWindowTitle("矩形属性");
+        break;
+    case ELLIPSE:
+        setWindowTitle("椭圆属性");
+        break;
+    case LINE:
+        setWindowTitle("直线属性");
+        break;
+    case TEXT:
+        setWindowTitle("文字属性");
+        break;
+    case AGV_PT20:
+    case AGV_PS20:
+        setWindowTitle("AGV属性");
+        break;
+    case VER:
+        setWindowTitle("拓扑顶点属性");
+        break;
+    case EDGE:
+        setWindowTitle("拓扑边属性");
+        break;
+    }
+    QObject *item = dynamic_cast<QObject*>(i);
+    if(item){
+        const QMetaObject* metaObject = item->metaObject();
+        // 以下内容为一次性显示的内容
+        label_IDName->setText(item->property("_name").toString());
+        checkbox_dashLine->setChecked(item->property("_pen_style").toInt()==Qt::DashLine);
+        checkbox_verType->setChecked(item->property("_ver_type").toBool());
+        m_comboLineWidth->setCurrentIndex(item->property("_pen_width").toInt()-1);
+        m_btnBackGroundColor->setBackgroundBrush(item->property("_brush_color").value<QColor>());
+        m_btnForeGroundColor->setBackgroundBrush(item->property("_pen_color").value<QColor>());
+        line_weight->setText(QString::number(item->property("_weight").toInt()));
+        bool flag;
+        flag = metaObject->indexOfProperty("_arcStart")>-1;
+        line_arcStart->setVisible(flag);
+        label_arcStart->setVisible(flag);
+        if(flag) connect(line_arcStart,SIGNAL(numberChange(int)),item,SLOT(setArcStartAngle(int)));
+        flag = metaObject->indexOfProperty("_arcEnd")>-1;
+        line_arcSweep->setVisible(flag);
+        label_arcSweep->setVisible(flag);
+        if(flag) connect(line_arcSweep,SIGNAL(numberChange(int)),item,SLOT(setArcSweepAngle(int)));
+        flag = metaObject->indexOfProperty("_line_type")>-1;
+        checkbox_dashLine->setVisible(flag);
+        label_dashLine->setVisible(flag);
+        if(flag) connect(checkbox_dashLine,SIGNAL(clicked(bool)),item,SLOT(set_dashLine(bool)));
+        flag = metaObject->indexOfProperty("_width")>-1;
+        line_width->setVisible(flag);
+        label_width->setVisible(flag);
+        if(flag) connect(line_width,SIGNAL(numberChange(int)),item,SLOT(set_width(int)));
+        flag = metaObject->indexOfProperty("_height")>-1;
+        line_height->setVisible(flag);
+        label_height->setVisible(flag);
+        if(flag) connect(line_height,SIGNAL(numberChange(int)),item,SLOT(set_height(int)));
+        flag = metaObject->indexOfProperty("_rotate")>-1;
+        line_rotation->setVisible(flag);
+        label_rotation->setVisible(flag);
+        if(flag) connect(line_rotation,SIGNAL(numberChange(int)),item,SLOT(set_rotation(int)));
+        flag = metaObject->indexOfProperty("_pen_width")>-1;
+        m_comboLineWidth->setVisible(flag);
+        label_lineWidth->setVisible(flag);
+        if(flag) connect(m_comboLineWidth,SIGNAL(activated(int)),item,SLOT(set_penWidth(int)));
+        flag = metaObject->indexOfProperty("_pen_color")>-1;
+        m_btnForeGroundColor->setVisible(flag);
+        label_foregroundColor->setVisible(flag);
+        if(flag) connect(m_dlgForegroundColor,SIGNAL(colorSelected(QColor)),item,SLOT(set_penColor(QColor)));
+        flag = metaObject->indexOfProperty("_brush_color")>-1;
+        m_btnBackGroundColor->setVisible(flag);
+        label_backgroundColor->setVisible(flag);
+        if(flag) connect(m_dlgBackgroundColor,SIGNAL(colorSelected(QColor)),item,SLOT(set_brushColor(QColor)));
+        flag = metaObject->indexOfProperty("_text")>-1;
+        label_description->setVisible(flag);
+        m_textDescription->setVisible(flag);
+        if(flag)connect(m_textDescription,SIGNAL(textChanged()),item,SLOT(set_text()));
+        flag = metaObject->indexOfProperty("_ver_type")>-1;
+        label_verType->setVisible(flag);
+        checkbox_verType->setVisible(flag);
+        if(flag) connect(checkbox_verType,SIGNAL(clicked(bool)),item,SLOT(set_callPoint(bool)));
+        flag = metaObject->indexOfProperty("_weight")>-1;
+        line_weight->setVisible(flag);
+        label_weight->setVisible(flag);
+        if(flag){
+            qDebug()<<"connect";
+            connect(line_weight,SIGNAL(editingFinished()),this,SLOT(weight_lineEditChange()));
+            connect(this,SIGNAL(weight_change(int)),item,SLOT(set_weight(int)));
+        }
+        flag = metaObject->indexOfProperty("_x")>-1;
+        label_x->setVisible(flag);
+        line_x->setVisible(flag);
+        if(flag){
+            connect(line_x,SIGNAL(editingFinished()),this,SLOT(x_lineEditChange()));
+            connect(this,SIGNAL(x_change(qreal)),item,SLOT(set_x(qreal)));
+        }
+        flag = metaObject->indexOfProperty("_y")>-1;
+        label_y->setVisible(flag);
+        line_y->setVisible(flag);
+        if(flag){
+            connect(line_y,SIGNAL(editingFinished()),this,SLOT(y_lineEditChange()));
+            connect(this,SIGNAL(y_change(qreal)),item,SLOT(set_y(qreal)));
+        }
+        connect(item,SIGNAL(property_change(QMap<QString,qreal>)),this,SLOT(updateProperty(QMap<QString,qreal>)));
+    }
+    else{
+        setVisible(false);
+    }
+}
+
+void ItemPropertyWidget::disconnectItem(QGraphicsObject *item)
+{
+    foreach(QObject* obj, children()){
+        obj->disconnect();
+    }
+    line_height->disconnect();
+    line_width->disconnect();
+    line_x->disconnect();
+    line_y->disconnect();
+    line_rotation->disconnect();
+    checkbox_dashLine->disconnect();
+    if(item->type()==ARC){
+        line_arcStart->disconnect();
+        line_arcSweep->disconnect();
+    }
+}
+
+void ItemPropertyWidget::updateProperty(QMap<QString, qreal> prop)
+{
+    QPointF pt(prop.value("x"),prop.value("y"));
+    QPointF realworld_pt = mapToRealWorld(pt);
+    line_x->setText(QString::number(realworld_pt.x()));
+    line_y->setText(QString::number(realworld_pt.y()));
+    line_width->setText(QString::number(prop.value("width")));
+    line_height->setText(QString::number(prop.value("height")));
+    line_rotation->setText(QString::number(prop.value("rotate")));
+}
+
+void ItemPropertyWidget::x_lineEditChange()
+{
+    QPointF pt(line_x->text().toInt(),line_y->text().toInt());
+    emit x_change(mapFromRealWorld(pt).x());
+}
+
+void ItemPropertyWidget::y_lineEditChange()
+{
+    QPointF pt(line_x->text().toInt(),line_y->text().toInt());
+    emit y_change(mapFromRealWorld(pt).y());
+}
+
+void ItemPropertyWidget::weight_lineEditChange()
+{
+    qDebug()<<line_weight->text();
+    emit weight_change(line_weight->text().toInt());
+}

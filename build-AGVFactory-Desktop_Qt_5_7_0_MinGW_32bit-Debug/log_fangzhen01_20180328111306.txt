@@ -1,0 +1,12 @@
+11:13::06 [init] AGV: 1 Online
+11:13::06 [init] Mac: 01
+11:13::06 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+11:13::06 [send] get power cmd
+11:13::06 agv=:1 [recv] pos:(2255,41181,0)
+11:13::07 agv=:1 [recv] state= 0 0 0 0
+11:13::07 [proc]agv=:1, match:1
+11:13::07 [send] get power cmd
+11:13::07 agv=:1 [recv] pos:(2255,41181,0)
+11:13::08 agv=:1 [recv] state= 0 0 0 0
+11:13::08 [proc]agv=:1, match:1
+11:13::09 [send] get power cmd

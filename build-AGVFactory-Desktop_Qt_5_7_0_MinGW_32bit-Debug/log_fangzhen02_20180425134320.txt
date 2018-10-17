@@ -1,0 +1,125 @@
+13:43::20 [init] AGV: 2 Online
+13:43::20 [init] Mac: 02
+13:43::20 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+13:43::20 [proc]agv=:2, match:-1
+13:43::20 [proc]agv=:2, match:-1
+13:43::21 [send] get power cmd
+13:43::21 [proc]agv=:2, match:91
+13:43::21 [proc]agv=:2, match:91
+13:43::22 [send] get power cmd
+13:43::23 [send] get power cmd
+13:43::23 [proc]agv=:2, match:91
+13:43::23 [proc] plan: currentID:91
+13:43::23 [proc]agv=:2, match:91
+13:43::23 [proc]agv=:2, match:91
+13:43::24 [proc]agv=:2, match:91
+13:43::24 [proc]agv=:2, match:91
+13:43::24 [proc]agv=:2, match:91
+13:43::26 [proc]agv=:2, match:91
+13:43::26 [proc]agv=:2, match:91
+13:43::26 [proc]agv=:2, match:91
+13:43::26 [proc]agv=:2, match:91
+13:43::26 [send] get power cmd
+13:43::27 [proc]agv=:2, match:91
+13:43::27 [proc] plan: currentID:91
+13:43::27 [proc]agv=:2, match:91
+13:43::27 [proc]agv=:2, match:91
+13:43::27 [proc]agv=:2, match:91
+13:43::28 [send] get power cmd
+13:43::29 [proc]agv=:2, match:91
+13:43::29 [proc]agv=:2, match:91
+13:43::29 [proc]agv=:2, match:91
+13:43::29 [proc]agv=:2, match:91
+13:43::29 [proc]agv=:2, match:91
+13:43::29 [send] get power cmd
+13:43::30 [proc]agv=:2, match:91
+13:43::30 [proc] plan: currentID:91
+13:43::30 [proc]agv=:2, match:91
+13:43::30 [proc]agv=:2, match:91
+13:43::30 [proc]agv=:2, match:91
+13:43::30 [proc]agv=:2, match:91
+13:43::32 [send] get power cmd
+13:43::32 [proc]agv=:2, match:91
+13:43::32 [proc]agv=:2, match:91
+13:43::32 [proc]agv=:2, match:91
+13:43::32 [proc]agv=:2, match:91
+13:43::32 [proc]agv=:2, match:91
+13:43::32 [proc]agv=:2, match:91
+13:43::33 [send] get power cmd
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc] plan: currentID:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::36 [proc]agv=:2, match:91
+13:43::39 [send] get power cmd
+13:43::40 [proc]agv=:2, match:91
+13:43::40 [proc]agv=:2, match:91
+13:43::40 [proc]agv=:2, match:91
+13:43::40 [proc]agv=:2, match:91
+13:43::40 [proc]agv=:2, match:91
+13:43::40 [proc]agv=:2, match:91
+13:43::40 [proc]agv=:2, match:91
+13:43::40 [send] get power cmd
+13:43::41 [send] get power cmd
+13:43::43 [send] get power cmd
+13:43::44 [send] get power cmd
+13:43::48 [send] get power cmd
+13:43::53 [send] get power cmd
+13:43::53 [send] get power cmd
+13:43::55 [send] get power cmd
+13:43::55 [send] get power cmd
+13:43::55 [proc]agv=:2, match:91
+13:43::55 [proc] plan: currentID:91
+13:43::55 [proc]agv=:2, match:91
+13:43::55 [proc]agv=:2, match:91
+13:43::55 [proc]agv=:2, match:91
+13:43::55 [proc]agv=:2, match:91
+13:43::55 [proc]agv=:2, match:91
+13:43::55 [proc]agv=:2, match:91
+13:43::56 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:43::57 [send] get power cmd
+13:43::57 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:43::58 [send] get power cmd
+13:43::58 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:43::59 [send] get power cmd
+13:43::59 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::00 [send] get power cmd
+13:44::00 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::01 [send] get power cmd
+13:44::01 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::02 [send] get power cmd
+13:44::03 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::03 [send] get power cmd
+13:44::04 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::04 [send] get power cmd
+13:44::05 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::05 [send] get power cmd
+13:44::06 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::06 [send] get power cmd
+13:44::07 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::07 [send] get power cmd
+13:44::08 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::08 [send] get power cmd
+13:44::09 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::09 [send] get power cmd
+13:44::10 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::11 [send] get power cmd
+13:44::11 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::12 [send] get power cmd
+13:44::12 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::13 [send] get power cmd
+13:44::13 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::14 [send] get power cmd
+13:44::14 [send]agv=2 set path command: mode=100 start=91 end=40 
+13:44::15 [send] get power cmd
+13:44::15 [send]agv=2 set path command: mode=100 start=91 end=40 

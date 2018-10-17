@@ -1,0 +1,179 @@
+00:46::21 [init] AGV: 4 Online
+00:46::21 [init] Mac: 04
+00:46::21 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+00:46::22 [proc]agv=:4, match:-1
+00:46::22 [proc]agv=:4, match:-1
+00:46::22 [proc]agv=:4, match:-1
+00:46::22 [proc]agv=:4, match:-1
+00:46::22 [send] get power cmd
+00:46::23 [proc]agv=:4, match:53
+00:46::23 [proc]agv=:4, match:53
+00:46::23 [proc]agv=:4, match:53
+00:46::23 [proc]agv=:4, match:53
+00:46::23 [send] get power cmd
+00:46::25 [proc]agv=:4, match:53
+00:46::25 [proc] plan: currentID:53
+00:46::25 [proc]agv=:4, match:53
+00:46::25 [proc]agv=:4, match:53
+00:46::25 [proc]agv=:4, match:53
+00:46::25 [proc]agv=:4, match:53
+00:46::25 [send] get power cmd
+00:46::26 [proc]agv=:4, match:53
+00:46::26 [proc]agv=:4, match:53
+00:46::26 [proc]agv=:4, match:53
+00:46::26 [proc]agv=:4, match:53
+00:46::26 [proc]agv=:4, match:53
+00:46::26 [send] get power cmd
+00:46::28 [proc]agv=:4, match:53
+00:46::28 [proc]agv=:4, match:53
+00:46::28 [proc]agv=:4, match:53
+00:46::28 [proc]agv=:4, match:53
+00:46::28 [proc]agv=:4, match:53
+00:46::28 [proc]agv=:4, match:53
+00:46::29 [send] get power cmd
+00:46::29 [proc]agv=:4, match:53
+00:46::29 [proc] plan: currentID:53
+00:46::29 [proc]agv=:4, match:53
+00:46::29 [proc]agv=:4, match:53
+00:46::29 [proc]agv=:4, match:53
+00:46::29 [proc]agv=:4, match:53
+00:46::29 [proc]agv=:4, match:53
+00:46::30 [send] get power cmd
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::32 [proc]agv=:4, match:53
+00:46::33 [send] get power cmd
+00:46::36 [proc]agv=:4, match:53
+00:46::36 [proc] plan: currentID:53
+00:46::36 [proc]agv=:4, match:53
+00:46::36 [proc]agv=:4, match:53
+00:46::36 [proc]agv=:4, match:53
+00:46::36 [proc]agv=:4, match:53
+00:46::36 [proc]agv=:4, match:53
+00:46::36 [proc]agv=:4, match:53
+00:46::36 [send] get power cmd
+00:46::40 [send] get power cmd
+00:46::43 [proc]agv=:4, match:53
+00:46::43 [proc] plan: currentID:53
+00:46::43 [proc]agv=:4, match:53
+00:46::43 [proc]agv=:4, match:53
+00:46::43 [proc]agv=:4, match:53
+00:46::43 [proc]agv=:4, match:53
+00:46::43 [proc]agv=:4, match:53
+00:46::43 [proc]agv=:4, match:53
+00:46::43 [send]agv=4 set path command: mode=100 start=53 end=54 
+00:46::43 [recv] set Path:1
+00:46::43 [recv] set Path:1
+00:46::43 [recv] set Path:1
+00:46::43 [recv] set Path:1
+00:46::43 [recv] set Path:1
+00:46::43 [recv] set Path:1
+00:46::43 [recv] set Path:1
+00:46::43 [send] set path enable
+00:46::43 [recv] enable Path:1
+00:46::43 [recv] enable Path:1
+00:46::43 [recv] enable Path:1
+00:46::43 [recv] enable Path:1
+00:46::43 [recv] enable Path:1
+00:46::43 [recv] enable Path:1
+00:46::43 [recv] enable Path:1
+00:46::50 [proc] plan: currentID:54
+00:46::52 [send] get power cmd
+00:46::52 [send]agv=4 set path command: mode=100 start=54 end=53 
+00:46::52 [recv] set Path:1
+00:46::52 [recv] set Path:1
+00:46::52 [recv] set Path:1
+00:46::52 [recv] set Path:1
+00:46::52 [recv] set Path:1
+00:46::52 [recv] set Path:1
+00:46::52 [recv] set Path:1
+00:46::54 [send] set path enable
+00:46::54 [recv] enable Path:1
+00:46::54 [recv] enable Path:1
+00:46::54 [recv] enable Path:1
+00:46::54 [recv] enable Path:1
+00:46::54 [recv] enable Path:1
+00:46::54 [recv] enable Path:1
+00:46::54 [recv] enable Path:1
+00:46::56 [send] get power cmd
+00:46::59 [send] get power cmd
+00:47::00 [proc] plan: currentID:53
+00:47::00 [proc] plan: currentID:53
+00:47::00 [proc] plan: currentID:53
+00:47::01 [proc] plan: currentID:53
+00:47::03 [proc] plan: currentID:53
+00:47::04 [send] get power cmd
+00:47::04 [proc] plan: currentID:53
+00:47::07 [proc] plan: currentID:53
+00:47::08 [send] get power cmd
+00:47::09 [proc] plan: currentID:53
+00:47::10 [proc] plan: currentID:53
+00:47::10 [send] get power cmd
+00:47::11 [send] get power cmd
+00:47::12 [send] get power cmd
+00:47::13 [proc] plan: currentID:53
+00:47::14 [send] get power cmd
+00:47::15 [proc] plan: currentID:53
+00:47::16 [send] get power cmd
+00:47::16 [proc] plan: currentID:53
+00:47::17 [proc] plan: currentID:53
+00:47::18 [proc] plan: currentID:53
+00:47::19 [send] get power cmd
+00:47::20 [proc] plan: currentID:53
+00:47::21 [send] get power cmd
+00:47::21 [proc] plan: currentID:53
+00:47::22 [proc] plan: currentID:53
+00:47::23 [proc] plan: currentID:53
+00:47::24 [send] get power cmd
+00:47::25 [proc] plan: currentID:53
+00:47::25 [proc] plan: currentID:53
+00:47::26 [proc] plan: currentID:53
+00:47::27 [proc] plan: currentID:53
+00:47::28 [proc] plan: currentID:53
+00:47::29 [proc] plan: currentID:53
+00:47::30 [proc] plan: currentID:53
+00:47::30 [proc] plan: currentID:53
+00:47::31 [send] get power cmd
+00:47::32 [send] get power cmd
+00:47::35 [send] get power cmd
+00:47::35 [proc] plan: currentID:53
+00:47::38 [proc] plan: currentID:53
+00:47::39 [proc] plan: currentID:53
+00:47::40 [proc] plan: currentID:53
+00:47::40 [send] get power cmd
+00:47::41 [proc] plan: currentID:53
+00:47::42 [proc] plan: currentID:53
+00:47::43 [proc] plan: currentID:53
+00:47::44 [proc] plan: currentID:53
+00:47::45 [proc] plan: currentID:53
+00:47::45 [proc] plan: currentID:53
+00:47::46 [proc] plan: currentID:53
+00:47::47 [proc] plan: currentID:53
+00:47::48 [proc] plan: currentID:53
+00:47::49 [send] get power cmd
+00:47::50 [proc] plan: currentID:53
+00:47::51 [send] get power cmd
+00:47::52 [proc] plan: currentID:53
+00:47::53 [proc] plan: currentID:53
+00:47::54 [proc] plan: currentID:53
+00:47::54 [send] get power cmd
+00:47::55 [proc] plan: currentID:53
+00:47::56 [proc] plan: currentID:53
+00:47::57 [proc] plan: currentID:53
+00:47::57 [send] get power cmd
+00:47::59 [proc] plan: currentID:53
+00:47::59 [proc] plan: currentID:53
+00:48::00 [proc] plan: currentID:53
+00:48::01 [proc] plan: currentID:53
+00:48::02 [proc] plan: currentID:53

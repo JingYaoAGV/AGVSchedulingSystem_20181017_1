@@ -1,0 +1,77 @@
+#include "rectitem.h"
+#include <QPainter>
+#include <QGraphicsSceneMouseEvent>
+#include <QDebug>
+const QColor Hightlight_Color = QColor(0,100,200);
+RectItem::RectItem(int width,int height)
+{
+    m_nPenWidth = 2;
+    m_nWidth = width;
+    m_nHeight = height;
+    m_clrPen = Hightlight_Color;
+    m_nStyle = Qt::SolidLine;
+    setFlag(QGraphicsItem::ItemIsMovable, true);
+    setFlag(QGraphicsItem::ItemIsSelectable, true);
+    setFlag(QGraphicsItem::ItemSendsGeometryChanges, true);
+}
+
+
+RectItem::~RectItem()
+{
+
+}
+
+void RectItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    if(hasFocus()){
+        setFlag(QGraphicsItem::ItemIsMovable,true);
+    }
+    else{
+
+        setFlag(QGraphicsItem::ItemIsMovable,false);
+    }
+    QPen pen(getPenColor());
+    pen.setWidth(m_nPenWidth);
+    pen.setStyle(m_nStyle);
+    painter->setPen(pen);
+    painter->drawRect(0,0
+                      ,m_nWidth,m_nHeight);
+}
+
+QRectF RectItem::boundingRect() const
+{
+
+    return QRectF(0-m_nPenWidth/2,0-m_nPenWidth/2,
+                  m_nWidth+m_nPenWidth,m_nHeight+m_nPenWidth);
+
+
+
+}
+
+QColor RectItem::getPenColor()
+{
+    if(hasFocus())
+        return Hightlight_Color;
+    else
+        return m_clrPen = Qt::black;
+}
+
+void RectItem::setRotate(int n_rotate)
+{
+    m_nRotate = n_rotate;
+    setRotation(n_rotate);
+}
+
+int RectItem::type() const
+{
+    return CentralView::RECTANGLE;
+}
+
+void RectItem::mousePressEvent(QGraphicsSceneMouseEvent *event)
+{
+    setFocus();
+}
+
+
+
+

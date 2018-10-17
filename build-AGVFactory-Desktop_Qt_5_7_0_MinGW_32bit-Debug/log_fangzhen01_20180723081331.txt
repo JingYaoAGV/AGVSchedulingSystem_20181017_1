@@ -1,0 +1,127 @@
+08:13::31 [init] AGV: 1 在线
+08:13::31 [init] Mac: 01
+08:13::31 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+08:13::52 [send]agv=1 send path command: C1 start=2 end=3 前进 正常行驶 length 2 Degree 0
+08:13::52 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+08:13::52 [recv] set Path:1
+08:14::03 [recv]agv=1 Path Command Finish: C1 start=2 end=3 number=前进 正常行驶 正常行驶 length 2 Degree 0
+08:14::05 [send]agv=1 send path command: C1 start=3 end=2 后退 正常行驶 length 2 Degree 0
+08:14::05 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+08:14::05 [recv] set Path:1
+08:14::15 [recv]agv=1 Path Command Finish: C1 start=3 end=2 number=后退 正常行驶 正常行驶 length 2 Degree 0
+08:14::21 [send]agv=1 send path command: C1 start=2 end=2 左拐 原地旋转 length 0 Degree 90
+08:14::21 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+08:14::21 [recv] set Path:1
+08:14::27 [recv]agv=1 Path Command Finish: C1 start=2 end=2 number=左拐 原地旋转 原地旋转 length 0 Degree 90
+08:14::28 [send]agv=1 send path command: C1 start=2 end=2 右拐 原地旋转 length 0 Degree 90
+08:14::28 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+08:14::28 [recv] set Path:1
+08:14::35 [recv]agv=1 Path Command Finish: C1 start=2 end=2 number=右拐 原地旋转 原地旋转 length 0 Degree 90
+08:14::47 [send]agv=1 send path command: C1 start=2 end=2 停止 等待 length 0 Degree 0
+08:14::47 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+08:14::47 [recv] set Path:1
+08:14::47 [recv]agv=1 Path Command Finish: C1 start=2 end=2 number=停止 等待 等待 length 0 Degree 0
+08:14::48 [send]agv=1 send path command: C1 start=2 end=2 停止 等待 length 0 Degree 0
+08:14::48 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+08:14::48 [recv] set Path:1
+08:14::55 [recv]agv=1 Path Command Finish: C1 start=2 end=2 number=停止 等待 等待 length 0 Degree 0
+08:14::56 [send]agv=1 send path command: C1 start=2 end=3 前进 正常行驶 length 2 Degree 0
+08:14::56 [send]agv=1 send path command: C2 start=3 end=4 前进 减速行驶 length 4 Degree 0
+08:14::56 [recv] set Path:1
+08:15::07 [recv]agv=1 Path Command Finish: C1 start=2 end=3 number=前进 正常行驶 正常行驶 length 2 Degree 0
+08:15::07 [send]agv=1 send path command: C1 start=3 end=4 前进 减速行驶 length 4 Degree 0
+08:15::07 [send]agv=1 send path command: C2 start=4 end=4 右拐 原地旋转 length 0 Degree 90
+08:15::07 [recv] set Path:1
+08:15::19 [recv]agv=1 Path Command Finish: C1 start=3 end=4 number=前进 减速行驶 减速行驶 length 4 Degree 0
+08:15::20 [send]agv=1 send path command: C1 start=4 end=4 右拐 原地旋转 length 0 Degree 90
+08:15::20 [send]agv=1 send path command: C2 start=4 end=5 前进 减速行驶 length 3 Degree 0
+08:15::20 [recv] set Path:1
+08:15::27 [recv]agv=1 Path Command Finish: C1 start=4 end=4 number=右拐 原地旋转 原地旋转 length 0 Degree 90
+08:15::27 [send]agv=1 send path command: C1 start=4 end=5 前进 减速行驶 length 3 Degree 0
+08:15::27 [send]agv=1 send path command: C2 start=5 end=5 左拐 原地旋转 length 0 Degree 90
+08:15::27 [recv] set Path:1
+08:15::35 [recv]agv=1 Path Command Finish: C1 start=4 end=5 number=前进 减速行驶 减速行驶 length 3 Degree 0
+08:15::36 [send]agv=1 send path command: C1 start=5 end=5 左拐 原地旋转 length 0 Degree 90
+08:15::36 [send]agv=1 send path command: C2 start=5 end=6 前进 减速行驶 length 5 Degree 0
+08:15::36 [recv] set Path:1
+08:15::43 [recv]agv=1 Path Command Finish: C1 start=5 end=5 number=左拐 原地旋转 原地旋转 length 0 Degree 90
+08:15::43 [send]agv=1 send path command: C1 start=5 end=6 前进 减速行驶 length 5 Degree 0
+08:15::43 [send]agv=1 send path command: C2 start=6 end=6 右拐 原地旋转 length 0 Degree 90
+08:15::43 [recv] set Path:1
+08:15::55 [recv]agv=1 Path Command Finish: C1 start=5 end=6 number=前进 减速行驶 减速行驶 length 5 Degree 0
+08:15::55 [send]agv=1 send path command: C1 start=6 end=6 右拐 原地旋转 length 0 Degree 90
+08:15::55 [send]agv=1 send path command: C2 start=6 end=7 前进 正常行驶 length 2 Degree 0
+08:15::55 [recv] set Path:1
+08:16::03 [recv]agv=1 Path Command Finish: C1 start=6 end=6 number=右拐 原地旋转 原地旋转 length 0 Degree 90
+08:16::04 [send]agv=1 send path command: C1 start=6 end=7 前进 正常行驶 length 2 Degree 0
+08:16::04 [send]agv=1 send path command: C2 start=7 end=8 前进 减速行驶 length 2 Degree 0
+08:16::04 [recv] set Path:1
+08:16::11 [recv]agv=1 Path Command Finish: C1 start=6 end=7 number=前进 正常行驶 正常行驶 length 2 Degree 0
+08:16::12 [send]agv=1 send path command: C1 start=7 end=8 前进 减速行驶 length 2 Degree 0
+08:16::12 [send]agv=1 send path command: C2 start=8 end=8 左拐 原地旋转 length 0 Degree 90
+08:16::12 [recv] set Path:1
+08:16::19 [recv]agv=1 Path Command Finish: C1 start=7 end=8 number=前进 减速行驶 减速行驶 length 2 Degree 0
+08:16::20 [send]agv=1 send path command: C1 start=8 end=8 左拐 原地旋转 length 0 Degree 90
+08:16::20 [send]agv=1 send path command: C2 start=8 end=8 停止 等待 length 0 Degree 0
+08:16::20 [recv] set Path:1
+08:16::27 [recv]agv=1 Path Command Finish: C1 start=8 end=8 number=左拐 原地旋转 原地旋转 length 0 Degree 90
+08:16::28 [send]agv=1 send path command: C1 start=8 end=8 停止 等待 length 0 Degree 0
+08:16::28 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+08:16::28 [recv] set Path:1
+08:16::35 [recv]agv=1 Path Command Finish: C1 start=8 end=8 number=停止 等待 等待 length 0 Degree 0
+08:16::37 [send]agv=1 send path command: C1 start=8 end=8 左拐 原地旋转 length 0 Degree 90
+08:16::37 [send]agv=1 send path command: C2 start=8 end=7 前进 正常行驶 length 2 Degree 0
+08:16::37 [recv] set Path:1
+08:16::43 [recv]agv=1 Path Command Finish: C1 start=8 end=8 number=左拐 原地旋转 原地旋转 length 0 Degree 90
+08:16::44 [send]agv=1 send path command: C1 start=8 end=7 前进 正常行驶 length 2 Degree 0
+08:16::44 [send]agv=1 send path command: C2 start=7 end=6 前进 减速行驶 length 2 Degree 0
+08:16::44 [recv] set Path:1
+08:16::51 [recv]agv=1 Path Command Finish: C1 start=8 end=7 number=前进 正常行驶 正常行驶 length 2 Degree 0
+08:16::52 [send]agv=1 send path command: C1 start=7 end=6 前进 减速行驶 length 2 Degree 0
+08:16::52 [send]agv=1 send path command: C2 start=6 end=6 左拐 原地旋转 length 0 Degree 90
+08:16::52 [recv] set Path:1
+08:16::59 [recv]agv=1 Path Command Finish: C1 start=7 end=6 number=前进 减速行驶 减速行驶 length 2 Degree 0
+08:17::00 [send]agv=1 send path command: C1 start=6 end=6 左拐 原地旋转 length 0 Degree 90
+08:17::00 [send]agv=1 send path command: C2 start=6 end=5 前进 减速行驶 length 5 Degree 0
+08:17::00 [recv] set Path:1
+08:17::07 [recv]agv=1 Path Command Finish: C1 start=6 end=6 number=左拐 原地旋转 原地旋转 length 0 Degree 90
+08:17::08 [send]agv=1 send path command: C1 start=6 end=5 前进 减速行驶 length 5 Degree 0
+08:17::08 [send]agv=1 send path command: C2 start=5 end=5 右拐 原地旋转 length 0 Degree 90
+08:17::08 [recv] set Path:1
+08:17::15 [recv]agv=1 Path Command Finish: C1 start=6 end=5 number=前进 减速行驶 减速行驶 length 5 Degree 0
+08:17::16 [send]agv=1 send path command: C1 start=5 end=5 右拐 原地旋转 length 0 Degree 90
+08:17::16 [send]agv=1 send path command: C2 start=5 end=4 前进 减速行驶 length 3 Degree 0
+08:17::16 [recv] set Path:1
+08:17::23 [recv]agv=1 Path Command Finish: C1 start=5 end=5 number=右拐 原地旋转 原地旋转 length 0 Degree 90
+08:17::24 [send]agv=1 send path command: C1 start=5 end=4 前进 减速行驶 length 3 Degree 0
+08:17::24 [send]agv=1 send path command: C2 start=4 end=4 左拐 原地旋转 length 0 Degree 90
+08:17::24 [recv] set Path:1
+08:17::31 [recv]agv=1 Path Command Finish: C1 start=5 end=4 number=前进 减速行驶 减速行驶 length 3 Degree 0
+08:17::32 [send]agv=1 send path command: C1 start=4 end=4 左拐 原地旋转 length 0 Degree 90
+08:17::32 [send]agv=1 send path command: C2 start=4 end=3 前进 正常行驶 length 4 Degree 0
+08:17::32 [recv] set Path:1
+08:17::39 [recv]agv=1 Path Command Finish: C1 start=4 end=4 number=左拐 原地旋转 原地旋转 length 0 Degree 90
+08:17::40 [send]agv=1 send path command: C1 start=4 end=3 前进 正常行驶 length 4 Degree 0
+08:17::40 [send]agv=1 send path command: C2 start=3 end=2 前进 正常行驶 length 2 Degree 0
+08:17::40 [recv] set Path:1
+08:17::47 [recv]agv=1 Path Command Finish: C1 start=4 end=3 number=前进 正常行驶 正常行驶 length 4 Degree 0
+08:17::48 [send]agv=1 send path command: C1 start=3 end=2 前进 正常行驶 length 2 Degree 0
+08:17::48 [send]agv=1 send path command: C2 start=2 end=1 前进 减速行驶 length 2 Degree 0
+08:17::48 [recv] set Path:1
+08:17::55 [recv]agv=1 Path Command Finish: C1 start=3 end=2 number=前进 正常行驶 正常行驶 length 2 Degree 0
+08:17::57 [send]agv=1 send path command: C1 start=2 end=1 前进 减速行驶 length 2 Degree 0
+08:17::57 [send]agv=1 send path command: C2 start=1 end=1 右拐 原地旋转 length 0 Degree 90
+08:17::57 [recv] set Path:1
+08:18::03 [recv]agv=1 Path Command Finish: C1 start=2 end=1 number=前进 减速行驶 减速行驶 length 2 Degree 0
+08:18::04 [send]agv=1 send path command: C1 start=1 end=1 右拐 原地旋转 length 0 Degree 90
+08:18::04 [send]agv=1 send path command: C2 start=1 end=1 停止 等待 length 0 Degree 0
+08:18::04 [recv] set Path:1
+08:18::11 [recv]agv=1 Path Command Finish: C1 start=1 end=1 number=右拐 原地旋转 原地旋转 length 0 Degree 90
+08:18::12 [send]agv=1 send path command: C1 start=1 end=1 停止 等待 length 0 Degree 0
+08:18::12 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+08:18::12 [recv] set Path:1
+08:18::19 [recv]agv=1 Path Command Finish: C1 start=1 end=1 number=停止 等待 等待 length 0 Degree 0
+08:18::23 [send]agv=1 send path command: C1 start=1 end=1 右拐 原地旋转 length 0 Degree 90
+08:18::23 [send]agv=1 send path command: C2 start=1 end=2 前进 正常行驶 length 2 Degree 0
+08:18::23 [recv] set Path:1
+08:18::27 [recv]agv=1 Path Command Finish: C1 start=1 end=1 number=右拐 原地旋转 原地旋转 length 0 Degree 90

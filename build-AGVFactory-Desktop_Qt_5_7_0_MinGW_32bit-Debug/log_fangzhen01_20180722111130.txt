@@ -1,0 +1,18 @@
+11:11::30 [init] AGV: 1 在线
+11:11::30 [init] Mac: 01
+11:11::30 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+11:11::42 [send]agv=1 send path command: C1 start=2 end=3 前进 正常行驶 length 2 Degree 0
+11:11::42 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+11:11::42 [recv] set Path:1
+11:11::55 [recv]agv=1 Path Command Finish: C1 start=2 end=3 number=前进 正常行驶 正常行驶 length 2 Degree 0
+11:11::57 [send]agv=1 send path command: C1 start=3 end=2 后退 正常行驶 length 2 Degree 0
+11:11::57 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+11:11::57 [recv] set Path:1
+11:12::11 [recv]agv=1 Path Command Finish: C1 start=3 end=2 number=后退 正常行驶 正常行驶 length 2 Degree 0
+11:12::25 [send]agv=1 send path command: C1 start=2 end=2 左拐 原地旋转 length 0 Degree 90
+11:12::25 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+11:12::25 [recv] set Path:1
+11:12::31 [recv]agv=1 Path Command Finish: C1 start=2 end=2 number=左拐 原地旋转 原地旋转 length 0 Degree 90
+11:12::31 [send]agv=1 send path command: C1 start=2 end=2 右拐 原地旋转 length 0 Degree 90
+11:12::31 [send]agv=1 send path command: C2 start=0 end=0   length 0 Degree 0
+11:12::31 [recv] set Path:1

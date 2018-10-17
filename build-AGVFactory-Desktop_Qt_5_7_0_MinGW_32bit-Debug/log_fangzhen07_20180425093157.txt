@@ -1,0 +1,40 @@
+09:31::57 [init] AGV: 7 Online
+09:31::57 [init] Mac: 07
+09:31::57 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+09:31::57 [send] get power cmd
+09:31::59 [send]agv=7 set path command: mode=100 start=100 end=96 
+09:31::59 [recv] set Path:1
+09:32::00 [proc]agv=:7, match:100
+09:32::01 [send] get power cmd
+09:32::01 [send] set path enable
+09:32::01 [recv] enable Path:1
+09:32::02 [send] get power cmd
+09:32::03 [send] get power cmd
+09:32::05 [send] get power cmd
+09:32::06 [send] get power cmd
+09:32::07 [send] get power cmd
+09:32::09 [send] get power cmd
+09:32::10 [send] get power cmd
+09:32::11 [send] get power cmd
+09:32::12 [send] get power cmd
+09:32::13 [send] get power cmd
+09:32::14 [send] get power cmd
+09:32::15 [send] get power cmd
+09:32::17 [send] get power cmd
+09:32::18 [send] get power cmd
+09:32::19 [send] get power cmd
+09:32::20 [send] get power cmd
+09:32::21 [send] get power cmd
+09:32::22 [send] get power cmd
+09:32::23 [send] get power cmd
+09:32::24 [send] get power cmd
+09:32::25 [send] get power cmd
+09:32::27 [send] get power cmd
+09:32::28 [send] get power cmd
+09:32::29 [send] get power cmd
+09:32::30 [send] get power cmd
+09:32::31 [send] get power cmd
+09:32::32 [send] get power cmd
+09:32::33 [send] get power cmd
+09:32::34 [send] get power cmd
+09:32::35 [send] get power cmd

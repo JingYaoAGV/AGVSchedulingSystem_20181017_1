@@ -1,0 +1,8 @@
+22:55::21 [init] AGV: 1 在线
+22:55::21 [init] Mac: 
+22:55::21 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+22:55::21 [recv]agv=1 Initialization: InitialPoint=2,AGVType=0
+22:55::35 [send]agv=1 send path command: C1 number=1,start=2 end=2 左拐 原地旋转 length 0 angle 90
+22:55::35 [send]agv=1 send path command: C2 number=2,start=2 end=1 前进 正常行驶 length 1 angle 0
+22:55::35 [recv]Communication_Send Answer: number_1:1,number_2:2
+22:55::35 [recv] agv=1,Send Path Answer:number_1=1,number_2=1

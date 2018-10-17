@@ -1,0 +1,4141 @@
+09:46::51 [init] AGV: 1 Online
+09:46::51 [init] Mac: 01
+09:46::51 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+09:46::52 agv=:1 [recv] pos:(6255,30716,90)
+09:46::52 agv=:1 [recv] state= 0 0 0 0
+09:46::52 [proc]agv=:1, match:15
+09:46::53 agv=:1 [recv] pos:(6255,30716,90)
+09:46::53 agv=:1 [recv] state= 0 0 0 0
+09:46::53 [proc]agv=:1, match:15
+09:46::54 agv=:1 [recv] pos:(6255,30716,90)
+09:46::54 agv=:1 [recv] state= 0 0 0 0
+09:46::54 [proc]agv=:1, match:15
+09:46::54 [proc] plan: currentID:15
+09:46::55 agv=:1 [recv] pos:(6255,30716,90)
+09:46::56 agv=:1 [recv] state= 0 0 0 0
+09:46::56 [proc]agv=:1, match:15
+09:46::56 agv=:1 [recv] pos:(6255,30716,90)
+09:46::57 agv=:1 [recv] state= 0 0 0 0
+09:46::57 [proc]agv=:1, match:15
+09:46::57 [proc] plan: currentID:15
+09:46::57 agv=:1 [recv] pos:(6255,30716,90)
+09:46::58 agv=:1 [recv] state= 0 0 0 0
+09:46::58 [proc]agv=:1, match:15
+09:46::58 agv=:1 [recv] pos:(6255,30716,90)
+09:46::59 agv=:1 [recv] state= 0 0 0 0
+09:46::59 [proc]agv=:1, match:15
+09:46::59 [proc] plan: currentID:15
+09:46::59 agv=:1 [recv] pos:(6255,30716,90)
+09:47::00 agv=:1 [recv] state= 0 0 0 0
+09:47::00 [proc]agv=:1, match:15
+09:47::01 agv=:1 [recv] pos:(6255,30716,90)
+09:47::01 agv=:1 [recv] state= 0 0 0 0
+09:47::01 [proc]agv=:1, match:15
+09:47::01 [proc] plan: currentID:15
+09:47::02 agv=:1 [recv] pos:(6255,30716,90)
+09:47::02 [send]agv=1 set path command: mode=100 start=15 end=6 
+09:47::02 [recv] set Path:1
+09:47::03 agv=:1 [recv] state= 0 0 15 6
+09:47::03 [proc]agv=:1, match:15
+09:47::03 agv=:1 [recv] pos:(6255,30716,90)
+09:47::04 [send] set path enable
+09:47::04 [recv] enable Path:1
+09:47::04 agv=:1 [recv] state= 65535 65535 15 6
+09:47::04 agv=:1 [recv] pos:(6255,31199,90)
+09:47::05 agv=:1 [recv] state= 65535 65535 15 6
+09:47::05 agv=:1 [recv] pos:(6255,33304,90)
+09:47::06 agv=:1 [recv] state= 65535 65535 15 6
+09:47::06 agv=:1 [recv] pos:(6255,35726,90)
+09:47::07 agv=:1 [recv] state= 65535 65535 15 6
+09:47::07 agv=:1 [recv] pos:(6255,36816,90)
+09:47::08 agv=:1 [recv] state= 15 6 15 6
+09:47::08 [proc] plan: currentID:6
+09:47::08 [send]agv=1 set path command: mode=100 start=6 end=7 
+09:47::08 [recv] set Path:1
+09:47::08 agv=:1 [recv] state= 15 6 6 7
+09:47::09 agv=:1 [recv] pos:(6255,36818,90)
+09:47::09 [send] set path enable
+09:47::09 [recv] enable Path:1
+09:47::09 agv=:1 [recv] state= 65535 65535 6 7
+09:47::10 agv=:1 [recv] pos:(6407,36592,122)
+09:47::10 agv=:1 [recv] state= 65535 65535 6 7
+09:47::11 agv=:1 [recv] pos:(7301,35860,169)
+09:47::11 agv=:1 [recv] state= 6 7 6 7
+09:47::11 [proc] plan: currentID:7
+09:47::11 [send]agv=1 set path command: mode=100 start=7 end=10 
+09:47::11 [recv] set Path:1
+09:47::11 agv=:1 [recv] state= 6 7 7 10
+09:47::12 agv=:1 [recv] pos:(7354,35719,180)
+09:47::12 [send] set path enable
+09:47::12 [recv] enable Path:1
+09:47::12 agv=:1 [recv] state= 65535 65535 7 10
+09:47::13 agv=:1 [recv] pos:(8267,35719,180)
+09:47::13 agv=:1 [recv] state= 65535 65535 7 10
+09:47::14 agv=:1 [recv] pos:(10360,35719,180)
+09:47::14 agv=:1 [recv] state= 7 10 7 10
+09:47::14 [proc] plan: currentID:10
+09:47::14 [send]agv=1 set path command: mode=100 start=10 end=11 
+09:47::14 [recv] set Path:1
+09:47::14 agv=:1 [recv] state= 7 10 10 11
+09:47::15 agv=:1 [recv] pos:(10454,35719,180)
+09:47::15 [send] set path enable
+09:47::15 [recv] enable Path:1
+09:47::15 agv=:1 [recv] state= 65535 65535 10 11
+09:47::16 agv=:1 [recv] state= 10 11 10 11
+09:47::16 agv=:1 [recv] pos:(11454,35719,180)
+09:47::17 agv=:1 [recv] state= 10 11 10 11
+09:47::17 [proc] plan: currentID:11
+09:47::17 agv=:1 [recv] pos:(11454,35719,180)
+09:47::17 [send]agv=1 set path command: mode=100 start=11 end=10 
+09:47::17 [recv] set Path:1
+09:47::18 agv=:1 [recv] state= 10 11 11 10
+09:47::18 agv=:1 [recv] pos:(11454,35719,180)
+09:47::18 [send] set path enable
+09:47::18 [recv] enable Path:1
+09:47::19 agv=:1 [recv] state= 65535 65535 11 10
+09:47::19 agv=:1 [recv] state= 11 10 11 10
+09:47::19 [proc] plan: currentID:10
+09:47::19 agv=:1 [recv] pos:(10454,35719,180)
+09:47::20 [send]agv=1 set path command: mode=100 start=10 end=9 
+09:47::20 [recv] set Path:1
+09:47::20 agv=:1 [recv] state= 11 10 10 9
+09:47::20 agv=:1 [recv] pos:(10454,35719,180)
+09:47::21 [send] set path enable
+09:47::21 [recv] enable Path:1
+09:47::21 agv=:1 [recv] state= 65535 65535 10 9
+09:47::22 agv=:1 [recv] pos:(9965,36134,147)
+09:47::22 agv=:1 [recv] state= 65535 65535 10 9
+09:47::23 agv=:1 [recv] pos:(9380,36880,100)
+09:47::23 agv=:1 [recv] state= 10 9 10 9
+09:47::23 [proc] plan: currentID:9
+09:47::23 [send]agv=1 set path command: mode=100 start=9 end=8 
+09:47::23 [recv] set Path:1
+09:47::23 agv=:1 [recv] state= 10 9 9 8
+09:47::24 agv=:1 [recv] pos:(9354,36818,90)
+09:47::24 [send] set path enable
+09:47::24 [recv] enable Path:1
+09:47::24 agv=:1 [recv] state= 65535 65535 9 8
+09:47::25 agv=:1 [recv] pos:(9354,37661,90)
+09:47::26 agv=:1 [recv] state= 65535 65535 9 8
+09:47::26 agv=:1 [recv] pos:(9354,39958,90)
+09:47::27 agv=:1 [recv] state= 9 8 9 8
+09:47::27 [proc] plan: currentID:8
+09:47::27 agv=:1 [recv] state= 9 8 9 8
+09:47::27 agv=:1 [recv] pos:(9354,40081,90)
+09:47::28 [send]agv=1 set path command: mode=100 start=8 end=3 
+09:47::28 [recv] set Path:1
+09:47::28 agv=:1 [recv] state= 9 8 8 3
+09:47::29 agv=:1 [recv] pos:(9354,40081,90)
+09:47::29 [send] set path enable
+09:47::29 [recv] enable Path:1
+09:47::29 agv=:1 [recv] state= 65535 65535 8 3
+09:47::30 agv=:1 [recv] pos:(8857,40506,122)
+09:47::30 agv=:1 [recv] state= 65535 65535 8 3
+09:47::31 agv=:1 [recv] pos:(8278,41242,170)
+09:47::31 agv=:1 [recv] state= 8 3 8 3
+09:47::31 [proc] plan: currentID:3
+09:47::31 [send]agv=1 set path command: mode=100 start=3 end=4 
+09:47::31 [recv] set Path:1
+09:47::31 agv=:1 [recv] state= 8 3 3 4
+09:47::32 agv=:1 [recv] pos:(8254,41181,180)
+09:47::32 [send] set path enable
+09:47::32 [recv] enable Path:1
+09:47::32 agv=:1 [recv] state= 65535 65535 3 4
+09:47::33 agv=:1 [recv] pos:(8846,41181,180)
+09:47::33 agv=:1 [recv] state= 65535 65535 3 4
+09:47::34 agv=:1 [recv] pos:(11181,41181,180)
+09:47::34 agv=:1 [recv] state= 65535 65535 3 4
+09:47::35 agv=:1 [recv] pos:(13026,41181,180)
+09:47::35 agv=:1 [recv] state= 3 4 3 4
+09:47::35 [proc] plan: currentID:4
+09:47::35 agv=:1 [recv] state= 3 4 3 4
+09:47::36 agv=:1 [recv] pos:(13154,41181,180)
+09:47::36 [send]agv=1 set path command: mode=100 start=4 end=14 
+09:47::36 [recv] set Path:1
+09:47::37 agv=:1 [recv] state= 3 4 4 14
+09:47::37 agv=:1 [recv] pos:(13154,41181,180)
+09:47::37 [send] set path enable
+09:47::37 [recv] enable Path:1
+09:47::38 agv=:1 [recv] state= 65535 65535 4 14
+09:47::38 agv=:1 [recv] pos:(13307,40954,147)
+09:47::39 agv=:1 [recv] state= 65535 65535 4 14
+09:47::39 agv=:1 [recv] pos:(14201,40222,100)
+09:47::39 agv=:1 [recv] state= 4 14 4 14
+09:47::39 [proc] plan: currentID:14
+09:47::39 [send]agv=1 set path command: mode=100 start=14 end=13 
+09:47::39 [recv] set Path:1
+09:47::40 agv=:1 [recv] state= 4 14 14 13
+09:47::40 agv=:1 [recv] pos:(14255,40081,90)
+09:47::41 [send] set path enable
+09:47::41 [recv] enable Path:1
+09:47::41 agv=:1 [recv] state= 65535 65535 14 13
+09:47::41 agv=:1 [recv] pos:(14255,39218,90)
+09:47::42 agv=:1 [recv] state= 65535 65535 14 13
+09:47::42 agv=:1 [recv] pos:(14255,37000,90)
+09:47::43 agv=:1 [recv] state= 14 13 14 13
+09:47::43 [proc] plan: currentID:13
+09:47::43 agv=:1 [recv] state= 14 13 14 13
+09:47::43 agv=:1 [recv] pos:(14255,36818,90)
+09:47::44 [send]agv=1 set path command: mode=100 start=13 end=12 
+09:47::44 [recv] set Path:1
+09:47::44 agv=:1 [recv] state= 14 13 13 12
+09:47::44 agv=:1 [recv] pos:(14255,36818,90)
+09:47::45 [send] set path enable
+09:47::45 [recv] enable Path:1
+09:47::45 agv=:1 [recv] state= 65535 65535 13 12
+09:47::46 agv=:1 [recv] pos:(13757,36582,57)
+09:47::46 agv=:1 [recv] state= 65535 65535 13 12
+09:47::47 agv=:1 [recv] pos:(13178,35849,9)
+09:47::47 agv=:1 [recv] state= 13 12 13 12
+09:47::47 [proc] plan: currentID:12
+09:47::47 [send]agv=1 set path command: mode=100 start=12 end=13 
+09:47::47 [recv] set Path:1
+09:47::48 agv=:1 [recv] state= 13 12 12 13
+09:47::48 agv=:1 [recv] pos:(13154,35719,0)
+09:47::48 [send] set path enable
+09:47::48 [recv] enable Path:1
+09:47::49 agv=:1 [recv] state= 65535 65535 12 13
+09:47::49 agv=:1 [recv] pos:(13319,36144,32)
+09:47::50 agv=:1 [recv] state= 65535 65535 12 13
+09:47::50 agv=:1 [recv] pos:(14201,36880,79)
+09:47::50 agv=:1 [recv] state= 12 13 12 13
+09:47::50 [proc] plan: currentID:13
+09:47::50 [send]agv=1 set path command: mode=100 start=13 end=14 
+09:47::50 [recv] set Path:1
+09:47::51 agv=:1 [recv] state= 12 13 13 14
+09:47::51 agv=:1 [recv] pos:(14255,36818,90)
+09:47::52 [send] set path enable
+09:47::52 [recv] enable Path:1
+09:47::52 agv=:1 [recv] state= 65535 65535 13 14
+09:47::52 agv=:1 [recv] pos:(14255,36818,90)
+09:47::53 agv=:1 [recv] state= 65535 65535 13 14
+09:47::53 agv=:1 [recv] pos:(14255,36818,90)
+09:47::54 agv=:1 [recv] state= 65535 65535 13 14
+09:47::54 agv=:1 [recv] pos:(14255,36818,90)
+09:47::55 agv=:1 [recv] state= 65535 65535 13 14
+09:47::55 agv=:1 [recv] pos:(14255,36820,90)
+09:47::56 agv=:1 [recv] state= 65535 65535 13 14
+09:47::57 agv=:1 [recv] pos:(14255,38515,90)
+09:47::57 agv=:1 [recv] state= 65535 65535 13 14
+09:47::58 agv=:1 [recv] state= 13 14 13 14
+09:47::58 [proc] plan: currentID:14
+09:47::58 agv=:1 [recv] pos:(14255,40081,90)
+09:47::58 [send]agv=1 set path command: mode=100 start=14 end=4 
+09:47::58 [recv] set Path:1
+09:47::58 agv=:1 [recv] state= 13 14 14 4
+09:47::59 agv=:1 [recv] pos:(14255,40081,90)
+09:47::59 [send] set path enable
+09:47::59 [recv] enable Path:1
+09:47::59 agv=:1 [recv] state= 65535 65535 14 4
+09:48::00 agv=:1 [recv] pos:(14255,40081,90)
+09:48::01 agv=:1 [recv] state= 65535 65535 14 4
+09:48::01 agv=:1 [recv] pos:(14255,40081,90)
+09:48::02 agv=:1 [recv] state= 65535 65535 14 4
+09:48::02 agv=:1 [recv] pos:(14255,40081,90)
+09:48::03 agv=:1 [recv] state= 65535 65535 14 4
+09:48::03 agv=:1 [recv] pos:(14255,40081,90)
+09:48::04 agv=:1 [recv] state= 65535 65535 14 4
+09:48::04 agv=:1 [recv] pos:(14255,40081,90)
+09:48::05 agv=:1 [recv] state= 65535 65535 14 4
+09:48::06 agv=:1 [recv] pos:(14255,40081,90)
+09:48::06 agv=:1 [recv] state= 65535 65535 14 4
+09:48::07 agv=:1 [recv] pos:(13561,40775,135)
+09:48::07 agv=:1 [recv] state= 65535 65535 14 4
+09:48::08 agv=:1 [recv] pos:(13259,41183,158)
+09:48::08 agv=:1 [recv] state= 14 4 14 4
+09:48::08 [proc] plan: currentID:4
+09:48::08 agv=:1 [recv] state= 14 4 14 4
+09:48::09 agv=:1 [recv] pos:(13154,41181,180)
+09:48::09 [send]agv=1 set path command: mode=100 start=4 end=3 
+09:48::09 [recv] set Path:1
+09:48::09 agv=:1 [recv] state= 14 4 4 3
+09:48::10 agv=:1 [recv] pos:(13154,41181,180)
+09:48::10 [send] set path enable
+09:48::10 [recv] enable Path:1
+09:48::10 agv=:1 [recv] state= 65535 65535 4 3
+09:48::11 agv=:1 [recv] pos:(12537,41181,180)
+09:48::11 agv=:1 [recv] state= 65535 65535 4 3
+09:48::12 agv=:1 [recv] pos:(10200,41181,180)
+09:48::12 agv=:1 [recv] state= 65535 65535 4 3
+09:48::13 agv=:1 [recv] pos:(8370,41181,180)
+09:48::13 agv=:1 [recv] state= 4 3 4 3
+09:48::13 [proc] plan: currentID:3
+09:48::14 agv=:1 [recv] state= 4 3 4 3
+09:48::14 agv=:1 [recv] pos:(8254,41181,180)
+09:48::14 [send]agv=1 set path command: mode=100 start=3 end=2 
+09:48::14 [recv] set Path:1
+09:48::15 agv=:1 [recv] state= 4 3 3 2
+09:48::15 agv=:1 [recv] pos:(8254,41181,180)
+09:48::15 [send] set path enable
+09:48::15 [recv] enable Path:1
+09:48::16 agv=:1 [recv] state= 65535 65535 3 2
+09:48::16 agv=:1 [recv] pos:(7342,41181,180)
+09:48::17 agv=:1 [recv] state= 65535 65535 3 2
+09:48::17 agv=:1 [recv] pos:(5249,41181,180)
+09:48::17 agv=:1 [recv] state= 3 2 3 2
+09:48::17 [proc] plan: currentID:2
+09:48::18 [send]agv=1 set path command: mode=100 start=2 end=5 
+09:48::18 [recv] set Path:1
+09:48::18 agv=:1 [recv] state= 3 2 2 5
+09:48::18 agv=:1 [recv] pos:(5154,41181,180)
+09:48::19 [send] set path enable
+09:48::19 [recv] enable Path:1
+09:48::19 agv=:1 [recv] state= 65535 65535 2 5
+09:48::19 agv=:1 [recv] pos:(5320,40944,147)
+09:48::20 agv=:1 [recv] state= 65535 65535 2 5
+09:48::20 agv=:1 [recv] pos:(6201,40222,100)
+09:48::21 agv=:1 [recv] state= 2 5 2 5
+09:48::21 [proc] plan: currentID:5
+09:48::21 [send]agv=1 set path command: mode=100 start=5 end=6 
+09:48::21 [recv] set Path:1
+09:48::21 agv=:1 [recv] state= 2 5 5 6
+09:48::21 agv=:1 [recv] pos:(6255,40081,90)
+09:48::22 [send] set path enable
+09:48::22 [recv] enable Path:1
+09:48::22 agv=:1 [recv] state= 65535 65535 5 6
+09:48::23 agv=:1 [recv] pos:(6255,39203,90)
+09:48::23 agv=:1 [recv] state= 65535 65535 5 6
+09:48::24 agv=:1 [recv] pos:(6255,37010,90)
+09:48::24 agv=:1 [recv] state= 5 6 5 6
+09:48::24 [proc] plan: currentID:6
+09:48::24 agv=:1 [recv] state= 5 6 5 6
+09:48::25 agv=:1 [recv] pos:(6255,36818,90)
+09:48::25 [send]agv=1 set path command: mode=100 start=6 end=15 
+09:48::25 [recv] set Path:1
+09:48::25 agv=:1 [recv] state= 5 6 6 15
+09:48::26 agv=:1 [recv] pos:(6255,36818,90)
+09:48::26 [send] set path enable
+09:48::26 [recv] enable Path:1
+09:48::26 agv=:1 [recv] state= 65535 65535 6 15
+09:48::27 agv=:1 [recv] pos:(6255,36336,90)
+09:48::27 agv=:1 [recv] state= 65535 65535 6 15
+09:48::28 agv=:1 [recv] pos:(6255,34230,90)
+09:48::28 agv=:1 [recv] state= 65535 65535 6 15
+09:48::29 agv=:1 [recv] pos:(6255,31843,90)
+09:48::29 agv=:1 [recv] state= 65535 65535 6 15
+09:48::30 agv=:1 [recv] pos:(6255,30719,90)
+09:48::30 agv=:1 [recv] state= 6 15 6 15
+09:48::30 [proc] plan: currentID:15
+09:48::31 agv=:1 [recv] state= 6 15 6 15
+09:48::31 agv=:1 [recv] pos:(6255,30716,90)
+09:48::32 agv=:1 [recv] state= 6 15 6 15
+09:48::32 agv=:1 [recv] pos:(6255,30716,90)
+09:48::33 agv=:1 [recv] state= 6 15 6 15
+09:48::33 [proc] plan: currentID:15
+09:48::33 agv=:1 [recv] pos:(6255,30716,90)
+09:48::34 agv=:1 [recv] state= 6 15 6 15
+09:48::35 agv=:1 [recv] pos:(6255,30716,90)
+09:48::35 agv=:1 [recv] state= 6 15 6 15
+09:48::35 [proc] plan: currentID:15
+09:48::36 agv=:1 [recv] pos:(6255,30716,90)
+09:48::36 agv=:1 [recv] state= 6 15 6 15
+09:48::37 agv=:1 [recv] pos:(6255,30716,90)
+09:48::37 agv=:1 [recv] state= 6 15 6 15
+09:48::37 [proc] plan: currentID:15
+09:48::38 agv=:1 [recv] pos:(6255,30716,90)
+09:48::38 agv=:1 [recv] state= 6 15 6 15
+09:48::39 agv=:1 [recv] pos:(6255,30716,90)
+09:48::39 agv=:1 [recv] state= 6 15 6 15
+09:48::39 [proc] plan: currentID:15
+09:48::40 agv=:1 [recv] pos:(6255,30716,90)
+09:48::40 agv=:1 [recv] state= 6 15 6 15
+09:48::41 agv=:1 [recv] pos:(6255,30716,90)
+09:48::41 agv=:1 [recv] state= 6 15 6 15
+09:48::41 [proc] plan: currentID:15
+09:48::42 agv=:1 [recv] pos:(6255,30716,90)
+09:48::43 agv=:1 [recv] state= 6 15 6 15
+09:48::43 agv=:1 [recv] pos:(6255,30716,90)
+09:48::44 agv=:1 [recv] state= 6 15 6 15
+09:48::44 [proc] plan: currentID:15
+09:48::44 agv=:1 [recv] pos:(6255,30716,90)
+09:48::45 agv=:1 [recv] state= 6 15 6 15
+09:48::45 agv=:1 [recv] pos:(6255,30716,90)
+09:48::46 agv=:1 [recv] state= 6 15 6 15
+09:48::46 [proc] plan: currentID:15
+09:48::46 agv=:1 [recv] pos:(6255,30716,90)
+09:48::47 agv=:1 [recv] state= 6 15 6 15
+09:48::47 agv=:1 [recv] pos:(6255,30716,90)
+09:48::48 agv=:1 [recv] state= 6 15 6 15
+09:48::48 [proc] plan: currentID:15
+09:48::48 agv=:1 [recv] pos:(6255,30716,90)
+09:48::49 agv=:1 [recv] state= 6 15 6 15
+09:48::49 agv=:1 [recv] pos:(6255,30716,90)
+09:48::50 agv=:1 [recv] state= 6 15 6 15
+09:48::50 [proc] plan: currentID:15
+09:48::50 agv=:1 [recv] pos:(6255,30716,90)
+09:48::51 agv=:1 [recv] state= 6 15 6 15
+09:48::52 agv=:1 [recv] pos:(6255,30716,90)
+09:48::52 agv=:1 [recv] state= 6 15 6 15
+09:48::52 [proc] plan: currentID:15
+09:48::53 agv=:1 [recv] pos:(6255,30716,90)
+09:48::53 agv=:1 [recv] state= 6 15 6 15
+09:48::54 agv=:1 [recv] pos:(6255,30716,90)
+09:48::54 agv=:1 [recv] state= 6 15 6 15
+09:48::54 [proc] plan: currentID:15
+09:48::55 agv=:1 [recv] pos:(6255,30716,90)
+09:48::55 agv=:1 [recv] state= 6 15 6 15
+09:48::56 agv=:1 [recv] pos:(6255,30716,90)
+09:48::56 agv=:1 [recv] state= 6 15 6 15
+09:48::56 [proc] plan: currentID:15
+09:48::57 agv=:1 [recv] pos:(6255,30716,90)
+09:48::57 agv=:1 [recv] state= 6 15 6 15
+09:48::58 agv=:1 [recv] pos:(6255,30716,90)
+09:48::58 agv=:1 [recv] state= 6 15 6 15
+09:48::58 [proc] plan: currentID:15
+09:48::59 agv=:1 [recv] pos:(6255,30716,90)
+09:49::00 agv=:1 [recv] state= 6 15 6 15
+09:49::00 agv=:1 [recv] pos:(6255,30716,90)
+09:49::01 agv=:1 [recv] state= 6 15 6 15
+09:49::01 [proc] plan: currentID:15
+09:49::01 agv=:1 [recv] pos:(6255,30716,90)
+09:49::02 agv=:1 [recv] state= 6 15 6 15
+09:49::02 agv=:1 [recv] pos:(6255,30716,90)
+09:49::03 agv=:1 [recv] state= 6 15 6 15
+09:49::03 [proc] plan: currentID:15
+09:49::03 agv=:1 [recv] pos:(6255,30716,90)
+09:49::04 agv=:1 [recv] state= 6 15 6 15
+09:49::04 agv=:1 [recv] pos:(6255,30716,90)
+09:49::05 agv=:1 [recv] state= 6 15 6 15
+09:49::05 [proc] plan: currentID:15
+09:49::05 agv=:1 [recv] pos:(6255,30716,90)
+09:49::06 agv=:1 [recv] state= 6 15 6 15
+09:49::06 agv=:1 [recv] pos:(6255,30716,90)
+09:49::07 agv=:1 [recv] state= 6 15 6 15
+09:49::07 [proc] plan: currentID:15
+09:49::07 agv=:1 [recv] pos:(6255,30716,90)
+09:49::08 agv=:1 [recv] state= 6 15 6 15
+09:49::09 agv=:1 [recv] pos:(6255,30716,90)
+09:49::09 agv=:1 [recv] state= 6 15 6 15
+09:49::09 [proc] plan: currentID:15
+09:49::10 agv=:1 [recv] pos:(6255,30716,90)
+09:49::10 agv=:1 [recv] state= 6 15 6 15
+09:49::11 agv=:1 [recv] pos:(6255,30716,90)
+09:49::11 agv=:1 [recv] state= 6 15 6 15
+09:49::11 [proc] plan: currentID:15
+09:49::12 agv=:1 [recv] pos:(6255,30716,90)
+09:49::12 agv=:1 [recv] state= 6 15 6 15
+09:49::13 agv=:1 [recv] pos:(6255,30716,90)
+09:49::13 agv=:1 [recv] state= 6 15 6 15
+09:49::13 [proc] plan: currentID:15
+09:49::14 agv=:1 [recv] pos:(6255,30716,90)
+09:49::14 agv=:1 [recv] state= 6 15 6 15
+09:49::15 agv=:1 [recv] pos:(6255,30716,90)
+09:49::15 agv=:1 [recv] state= 6 15 6 15
+09:49::15 [proc] plan: currentID:15
+09:49::16 agv=:1 [recv] pos:(6255,30716,90)
+09:49::17 agv=:1 [recv] state= 6 15 6 15
+09:49::17 agv=:1 [recv] pos:(6255,30716,90)
+09:49::18 agv=:1 [recv] state= 6 15 6 15
+09:49::18 [proc] plan: currentID:15
+09:49::18 agv=:1 [recv] pos:(6255,30716,90)
+09:49::19 agv=:1 [recv] state= 6 15 6 15
+09:49::19 agv=:1 [recv] pos:(6255,30716,90)
+09:49::20 agv=:1 [recv] state= 6 15 6 15
+09:49::20 [proc] plan: currentID:15
+09:49::20 agv=:1 [recv] pos:(6255,30716,90)
+09:49::21 agv=:1 [recv] state= 6 15 6 15
+09:49::21 agv=:1 [recv] pos:(6255,30716,90)
+09:49::22 agv=:1 [recv] state= 6 15 6 15
+09:49::22 [proc] plan: currentID:15
+09:49::22 agv=:1 [recv] pos:(6255,30716,90)
+09:49::23 agv=:1 [recv] state= 6 15 6 15
+09:49::23 agv=:1 [recv] pos:(6255,30716,90)
+09:49::24 agv=:1 [recv] state= 6 15 6 15
+09:49::24 [proc] plan: currentID:15
+09:49::24 agv=:1 [recv] pos:(6255,30716,90)
+09:49::25 agv=:1 [recv] state= 6 15 6 15
+09:49::26 agv=:1 [recv] pos:(6255,30716,90)
+09:49::26 agv=:1 [recv] state= 6 15 6 15
+09:49::26 [proc] plan: currentID:15
+09:49::27 agv=:1 [recv] pos:(6255,30716,90)
+09:49::27 agv=:1 [recv] state= 6 15 6 15
+09:49::28 agv=:1 [recv] pos:(6255,30716,90)
+09:49::28 agv=:1 [recv] state= 6 15 6 15
+09:49::28 [proc] plan: currentID:15
+09:49::29 agv=:1 [recv] pos:(6255,30716,90)
+09:49::29 agv=:1 [recv] state= 6 15 6 15
+09:49::30 agv=:1 [recv] pos:(6255,30716,90)
+09:49::30 agv=:1 [recv] state= 6 15 6 15
+09:49::30 [proc] plan: currentID:15
+09:49::31 agv=:1 [recv] pos:(6255,30716,90)
+09:49::31 agv=:1 [recv] state= 6 15 6 15
+09:49::32 agv=:1 [recv] pos:(6255,30716,90)
+09:49::32 agv=:1 [recv] state= 6 15 6 15
+09:49::32 [proc] plan: currentID:15
+09:49::33 agv=:1 [recv] pos:(6255,30716,90)
+09:49::34 agv=:1 [recv] state= 6 15 6 15
+09:49::34 agv=:1 [recv] pos:(6255,30716,90)
+09:49::35 agv=:1 [recv] state= 6 15 6 15
+09:49::35 [proc] plan: currentID:15
+09:49::35 agv=:1 [recv] pos:(6255,30716,90)
+09:49::36 agv=:1 [recv] state= 6 15 6 15
+09:49::36 agv=:1 [recv] pos:(6255,30716,90)
+09:49::37 agv=:1 [recv] state= 6 15 6 15
+09:49::37 [proc] plan: currentID:15
+09:49::37 agv=:1 [recv] pos:(6255,30716,90)
+09:49::38 agv=:1 [recv] state= 6 15 6 15
+09:49::38 agv=:1 [recv] pos:(6255,30716,90)
+09:49::39 agv=:1 [recv] state= 6 15 6 15
+09:49::39 [proc] plan: currentID:15
+09:49::39 agv=:1 [recv] pos:(6255,30716,90)
+09:49::40 agv=:1 [recv] state= 6 15 6 15
+09:49::40 agv=:1 [recv] pos:(6255,30716,90)
+09:49::41 agv=:1 [recv] state= 6 15 6 15
+09:49::41 [proc] plan: currentID:15
+09:49::41 agv=:1 [recv] pos:(6255,30716,90)
+09:49::42 agv=:1 [recv] state= 6 15 6 15
+09:49::43 agv=:1 [recv] pos:(6255,30716,90)
+09:49::43 agv=:1 [recv] state= 6 15 6 15
+09:49::43 [proc] plan: currentID:15
+09:49::44 agv=:1 [recv] pos:(6255,30716,90)
+09:49::44 agv=:1 [recv] state= 6 15 6 15
+09:49::45 agv=:1 [recv] pos:(6255,30716,90)
+09:49::45 agv=:1 [recv] state= 6 15 6 15
+09:49::45 [proc] plan: currentID:15
+09:49::46 agv=:1 [recv] pos:(6255,30716,90)
+09:49::46 agv=:1 [recv] state= 6 15 6 15
+09:49::47 agv=:1 [recv] pos:(6255,30716,90)
+09:49::47 agv=:1 [recv] state= 6 15 6 15
+09:49::47 [proc] plan: currentID:15
+09:49::48 agv=:1 [recv] pos:(6255,30716,90)
+09:49::48 agv=:1 [recv] state= 6 15 6 15
+09:49::49 agv=:1 [recv] pos:(6255,30716,90)
+09:49::49 agv=:1 [recv] state= 6 15 6 15
+09:49::49 [proc] plan: currentID:15
+09:49::50 agv=:1 [recv] pos:(6255,30716,90)
+09:49::51 agv=:1 [recv] state= 6 15 6 15
+09:49::51 agv=:1 [recv] pos:(6255,30716,90)
+09:49::52 agv=:1 [recv] state= 6 15 6 15
+09:49::52 [proc] plan: currentID:15
+09:49::52 agv=:1 [recv] pos:(6255,30716,90)
+09:49::53 agv=:1 [recv] state= 6 15 6 15
+09:49::53 agv=:1 [recv] pos:(6255,30716,90)
+09:49::54 agv=:1 [recv] state= 6 15 6 15
+09:49::54 [proc] plan: currentID:15
+09:49::54 agv=:1 [recv] pos:(6255,30716,90)
+09:49::55 agv=:1 [recv] state= 6 15 6 15
+09:49::55 agv=:1 [recv] pos:(6255,30716,90)
+09:49::56 agv=:1 [recv] state= 6 15 6 15
+09:49::56 [proc] plan: currentID:15
+09:49::56 agv=:1 [recv] pos:(6255,30716,90)
+09:49::57 agv=:1 [recv] state= 6 15 6 15
+09:49::57 agv=:1 [recv] pos:(6255,30716,90)
+09:49::58 agv=:1 [recv] state= 6 15 6 15
+09:49::58 [proc] plan: currentID:15
+09:49::58 agv=:1 [recv] pos:(6255,30716,90)
+09:49::59 agv=:1 [recv] state= 6 15 6 15
+09:50::00 agv=:1 [recv] pos:(6255,30716,90)
+09:50::00 agv=:1 [recv] state= 6 15 6 15
+09:50::00 [proc] plan: currentID:15
+09:50::01 agv=:1 [recv] pos:(6255,30716,90)
+09:50::01 agv=:1 [recv] state= 6 15 6 15
+09:50::02 agv=:1 [recv] pos:(6255,30716,90)
+09:50::02 agv=:1 [recv] state= 6 15 6 15
+09:50::02 [proc] plan: currentID:15
+09:50::03 agv=:1 [recv] pos:(6255,30716,90)
+09:50::03 agv=:1 [recv] state= 6 15 6 15
+09:50::04 agv=:1 [recv] pos:(6255,30716,90)
+09:50::04 agv=:1 [recv] state= 6 15 6 15
+09:50::04 [proc] plan: currentID:15
+09:50::05 agv=:1 [recv] pos:(6255,30716,90)
+09:50::05 agv=:1 [recv] state= 6 15 6 15
+09:50::06 agv=:1 [recv] pos:(6255,30716,90)
+09:50::06 agv=:1 [recv] state= 6 15 6 15
+09:50::06 [proc] plan: currentID:15
+09:50::07 agv=:1 [recv] pos:(6255,30716,90)
+09:50::08 agv=:1 [recv] state= 6 15 6 15
+09:50::08 agv=:1 [recv] pos:(6255,30716,90)
+09:50::09 agv=:1 [recv] state= 6 15 6 15
+09:50::09 [proc] plan: currentID:15
+09:50::09 agv=:1 [recv] pos:(6255,30716,90)
+09:50::10 agv=:1 [recv] state= 6 15 6 15
+09:50::10 agv=:1 [recv] pos:(6255,30716,90)
+09:50::11 agv=:1 [recv] state= 6 15 6 15
+09:50::11 [proc] plan: currentID:15
+09:50::11 agv=:1 [recv] pos:(6255,30716,90)
+09:50::12 agv=:1 [recv] state= 6 15 6 15
+09:50::12 agv=:1 [recv] pos:(6255,30716,90)
+09:50::13 agv=:1 [recv] state= 6 15 6 15
+09:50::13 [proc] plan: currentID:15
+09:50::13 agv=:1 [recv] pos:(6255,30716,90)
+09:50::14 agv=:1 [recv] state= 6 15 6 15
+09:50::14 agv=:1 [recv] pos:(6255,30716,90)
+09:50::15 agv=:1 [recv] state= 6 15 6 15
+09:50::15 [proc] plan: currentID:15
+09:50::15 agv=:1 [recv] pos:(6255,30716,90)
+09:50::16 agv=:1 [recv] state= 6 15 6 15
+09:50::17 agv=:1 [recv] pos:(6255,30716,90)
+09:50::17 agv=:1 [recv] state= 6 15 6 15
+09:50::17 [proc] plan: currentID:15
+09:50::18 agv=:1 [recv] pos:(6255,30716,90)
+09:50::18 agv=:1 [recv] state= 6 15 6 15
+09:50::19 agv=:1 [recv] pos:(6255,30716,90)
+09:50::19 agv=:1 [recv] state= 6 15 6 15
+09:50::19 [proc] plan: currentID:15
+09:50::20 agv=:1 [recv] pos:(6255,30716,90)
+09:50::20 agv=:1 [recv] state= 6 15 6 15
+09:50::21 agv=:1 [recv] pos:(6255,30716,90)
+09:50::21 agv=:1 [recv] state= 6 15 6 15
+09:50::21 [proc] plan: currentID:15
+09:50::22 agv=:1 [recv] pos:(6255,30716,90)
+09:50::22 agv=:1 [recv] state= 6 15 6 15
+09:50::23 agv=:1 [recv] pos:(6255,30716,90)
+09:50::23 agv=:1 [recv] state= 6 15 6 15
+09:50::23 [proc] plan: currentID:15
+09:50::24 agv=:1 [recv] pos:(6255,30716,90)
+09:50::25 agv=:1 [recv] state= 6 15 6 15
+09:50::25 agv=:1 [recv] pos:(6255,30716,90)
+09:50::26 agv=:1 [recv] state= 6 15 6 15
+09:50::26 [proc] plan: currentID:15
+09:50::26 agv=:1 [recv] pos:(6255,30716,90)
+09:50::27 agv=:1 [recv] state= 6 15 6 15
+09:50::27 agv=:1 [recv] pos:(6255,30716,90)
+09:50::28 agv=:1 [recv] state= 6 15 6 15
+09:50::28 [proc] plan: currentID:15
+09:50::28 agv=:1 [recv] pos:(6255,30716,90)
+09:50::29 agv=:1 [recv] state= 6 15 6 15
+09:50::29 agv=:1 [recv] pos:(6255,30716,90)
+09:50::30 agv=:1 [recv] state= 6 15 6 15
+09:50::30 [proc] plan: currentID:15
+09:50::30 agv=:1 [recv] pos:(6255,30716,90)
+09:50::31 agv=:1 [recv] state= 6 15 6 15
+09:50::31 agv=:1 [recv] pos:(6255,30716,90)
+09:50::32 agv=:1 [recv] state= 6 15 6 15
+09:50::32 [proc] plan: currentID:15
+09:50::32 agv=:1 [recv] pos:(6255,30716,90)
+09:50::33 agv=:1 [recv] state= 6 15 6 15
+09:50::34 agv=:1 [recv] pos:(6255,30716,90)
+09:50::34 agv=:1 [recv] state= 6 15 6 15
+09:50::34 [proc] plan: currentID:15
+09:50::35 agv=:1 [recv] pos:(6255,30716,90)
+09:50::35 agv=:1 [recv] state= 6 15 6 15
+09:50::36 agv=:1 [recv] pos:(6255,30716,90)
+09:50::36 agv=:1 [recv] state= 6 15 6 15
+09:50::36 [proc] plan: currentID:15
+09:50::37 agv=:1 [recv] pos:(6255,30716,90)
+09:50::37 agv=:1 [recv] state= 6 15 6 15
+09:50::38 agv=:1 [recv] pos:(6255,30716,90)
+09:50::38 agv=:1 [recv] state= 6 15 6 15
+09:50::38 [proc] plan: currentID:15
+09:50::39 agv=:1 [recv] pos:(6255,30716,90)
+09:50::39 agv=:1 [recv] state= 6 15 6 15
+09:50::40 agv=:1 [recv] pos:(6255,30716,90)
+09:50::40 agv=:1 [recv] state= 6 15 6 15
+09:50::40 [proc] plan: currentID:15
+09:50::41 agv=:1 [recv] pos:(6255,30716,90)
+09:50::42 agv=:1 [recv] state= 6 15 6 15
+09:50::42 agv=:1 [recv] pos:(6255,30716,90)
+09:50::43 agv=:1 [recv] state= 6 15 6 15
+09:50::43 [proc] plan: currentID:15
+09:50::43 agv=:1 [recv] pos:(6255,30716,90)
+09:50::44 agv=:1 [recv] state= 6 15 6 15
+09:50::44 agv=:1 [recv] pos:(6255,30716,90)
+09:50::45 agv=:1 [recv] state= 6 15 6 15
+09:50::45 [proc] plan: currentID:15
+09:50::45 agv=:1 [recv] pos:(6255,30716,90)
+09:50::46 agv=:1 [recv] state= 6 15 6 15
+09:50::46 agv=:1 [recv] pos:(6255,30716,90)
+09:50::47 agv=:1 [recv] state= 6 15 6 15
+09:50::47 [proc] plan: currentID:15
+09:50::47 agv=:1 [recv] pos:(6255,30716,90)
+09:50::48 agv=:1 [recv] state= 6 15 6 15
+09:50::48 agv=:1 [recv] pos:(6255,30716,90)
+09:50::49 agv=:1 [recv] state= 6 15 6 15
+09:50::49 [proc] plan: currentID:15
+09:50::49 agv=:1 [recv] pos:(6255,30716,90)
+09:50::50 agv=:1 [recv] state= 6 15 6 15
+09:50::51 agv=:1 [recv] pos:(6255,30716,90)
+09:50::51 agv=:1 [recv] state= 6 15 6 15
+09:50::51 [proc] plan: currentID:15
+09:50::52 agv=:1 [recv] pos:(6255,30716,90)
+09:50::52 agv=:1 [recv] state= 6 15 6 15
+09:50::53 agv=:1 [recv] pos:(6255,30716,90)
+09:50::53 agv=:1 [recv] state= 6 15 6 15
+09:50::53 [proc] plan: currentID:15
+09:50::54 agv=:1 [recv] pos:(6255,30716,90)
+09:50::54 agv=:1 [recv] state= 6 15 6 15
+09:50::55 agv=:1 [recv] pos:(6255,30716,90)
+09:50::55 agv=:1 [recv] state= 6 15 6 15
+09:50::55 [proc] plan: currentID:15
+09:50::56 agv=:1 [recv] pos:(6255,30716,90)
+09:50::56 agv=:1 [recv] state= 6 15 6 15
+09:50::57 agv=:1 [recv] pos:(6255,30716,90)
+09:50::57 agv=:1 [recv] state= 6 15 6 15
+09:50::57 [proc] plan: currentID:15
+09:50::58 agv=:1 [recv] pos:(6255,30716,90)
+09:50::59 agv=:1 [recv] state= 6 15 6 15
+09:50::59 agv=:1 [recv] pos:(6255,30716,90)
+09:51::00 agv=:1 [recv] state= 6 15 6 15
+09:51::00 [proc] plan: currentID:15
+09:51::00 agv=:1 [recv] pos:(6255,30716,90)
+09:51::01 agv=:1 [recv] state= 6 15 6 15
+09:51::01 agv=:1 [recv] pos:(6255,30716,90)
+09:51::02 agv=:1 [recv] state= 6 15 6 15
+09:51::02 [proc] plan: currentID:15
+09:51::02 agv=:1 [recv] pos:(6255,30716,90)
+09:51::03 agv=:1 [recv] state= 6 15 6 15
+09:51::03 agv=:1 [recv] pos:(6255,30716,90)
+09:51::04 agv=:1 [recv] state= 6 15 6 15
+09:51::04 [proc] plan: currentID:15
+09:51::04 agv=:1 [recv] pos:(6255,30716,90)
+09:51::05 agv=:1 [recv] state= 6 15 6 15
+09:51::05 agv=:1 [recv] pos:(6255,30716,90)
+09:51::06 agv=:1 [recv] state= 6 15 6 15
+09:51::06 [proc] plan: currentID:15
+09:51::06 agv=:1 [recv] pos:(6255,30716,90)
+09:51::07 agv=:1 [recv] state= 6 15 6 15
+09:51::08 agv=:1 [recv] pos:(6255,30716,90)
+09:51::08 agv=:1 [recv] state= 6 15 6 15
+09:51::08 [proc] plan: currentID:15
+09:51::09 agv=:1 [recv] pos:(6255,30716,90)
+09:51::09 agv=:1 [recv] state= 6 15 6 15
+09:51::10 agv=:1 [recv] pos:(6255,30716,90)
+09:51::10 agv=:1 [recv] state= 6 15 6 15
+09:51::10 [proc] plan: currentID:15
+09:51::11 agv=:1 [recv] pos:(6255,30716,90)
+09:51::11 agv=:1 [recv] state= 6 15 6 15
+09:51::12 agv=:1 [recv] pos:(6255,30716,90)
+09:51::12 agv=:1 [recv] state= 6 15 6 15
+09:51::12 [proc] plan: currentID:15
+09:51::13 agv=:1 [recv] pos:(6255,30716,90)
+09:51::13 agv=:1 [recv] state= 6 15 6 15
+09:51::14 agv=:1 [recv] pos:(6255,30716,90)
+09:51::14 agv=:1 [recv] state= 6 15 6 15
+09:51::14 [proc] plan: currentID:15
+09:51::15 agv=:1 [recv] pos:(6255,30716,90)
+09:51::16 agv=:1 [recv] state= 6 15 6 15
+09:51::16 agv=:1 [recv] pos:(6255,30716,90)
+09:51::17 agv=:1 [recv] state= 6 15 6 15
+09:51::17 [proc] plan: currentID:15
+09:51::17 agv=:1 [recv] pos:(6255,30716,90)
+09:51::18 agv=:1 [recv] state= 6 15 6 15
+09:51::18 agv=:1 [recv] pos:(6255,30716,90)
+09:51::19 agv=:1 [recv] state= 6 15 6 15
+09:51::19 [proc] plan: currentID:15
+09:51::19 agv=:1 [recv] pos:(6255,30716,90)
+09:51::20 agv=:1 [recv] state= 6 15 6 15
+09:51::20 agv=:1 [recv] pos:(6255,30716,90)
+09:51::21 agv=:1 [recv] state= 6 15 6 15
+09:51::21 [proc] plan: currentID:15
+09:51::21 agv=:1 [recv] pos:(6255,30716,90)
+09:51::22 agv=:1 [recv] state= 6 15 6 15
+09:51::22 agv=:1 [recv] pos:(6255,30716,90)
+09:51::23 agv=:1 [recv] state= 6 15 6 15
+09:51::23 [proc] plan: currentID:15
+09:51::23 agv=:1 [recv] pos:(6255,30716,90)
+09:51::24 agv=:1 [recv] state= 6 15 6 15
+09:51::25 agv=:1 [recv] pos:(6255,30716,90)
+09:51::25 agv=:1 [recv] state= 6 15 6 15
+09:51::25 [proc] plan: currentID:15
+09:51::26 agv=:1 [recv] pos:(6255,30716,90)
+09:51::26 agv=:1 [recv] state= 6 15 6 15
+09:51::27 agv=:1 [recv] pos:(6255,30716,90)
+09:51::27 agv=:1 [recv] state= 6 15 6 15
+09:51::27 [proc] plan: currentID:15
+09:51::28 agv=:1 [recv] pos:(6255,30716,90)
+09:51::28 agv=:1 [recv] state= 6 15 6 15
+09:51::29 agv=:1 [recv] pos:(6255,30716,90)
+09:51::29 agv=:1 [recv] state= 6 15 6 15
+09:51::29 [proc] plan: currentID:15
+09:51::30 agv=:1 [recv] pos:(6255,30716,90)
+09:51::30 agv=:1 [recv] state= 6 15 6 15
+09:51::31 agv=:1 [recv] pos:(6255,30716,90)
+09:51::31 agv=:1 [recv] state= 6 15 6 15
+09:51::31 [proc] plan: currentID:15
+09:51::32 agv=:1 [recv] pos:(6255,30716,90)
+09:51::33 agv=:1 [recv] state= 6 15 6 15
+09:51::33 agv=:1 [recv] pos:(6255,30716,90)
+09:51::34 agv=:1 [recv] state= 6 15 6 15
+09:51::34 [proc] plan: currentID:15
+09:51::34 agv=:1 [recv] pos:(6255,30716,90)
+09:51::35 agv=:1 [recv] state= 6 15 6 15
+09:51::35 agv=:1 [recv] pos:(6255,30716,90)
+09:51::36 agv=:1 [recv] state= 6 15 6 15
+09:51::36 [proc] plan: currentID:15
+09:51::36 agv=:1 [recv] pos:(6255,30716,90)
+09:51::37 agv=:1 [recv] state= 6 15 6 15
+09:51::38 agv=:1 [recv] pos:(6255,30716,90)
+09:51::38 agv=:1 [recv] state= 6 15 6 15
+09:51::38 [proc] plan: currentID:15
+09:51::39 agv=:1 [recv] pos:(6255,30716,90)
+09:51::39 agv=:1 [recv] state= 6 15 6 15
+09:51::40 agv=:1 [recv] pos:(6255,30716,90)
+09:51::41 agv=:1 [recv] state= 6 15 6 15
+09:51::41 [proc] plan: currentID:15
+09:51::41 agv=:1 [recv] pos:(6255,30716,90)
+09:51::42 agv=:1 [recv] state= 6 15 6 15
+09:51::42 agv=:1 [recv] pos:(6255,30716,90)
+09:51::43 agv=:1 [recv] state= 6 15 6 15
+09:51::43 [proc] plan: currentID:15
+09:51::43 agv=:1 [recv] pos:(6255,30716,90)
+09:51::44 agv=:1 [recv] state= 6 15 6 15
+09:51::44 agv=:1 [recv] pos:(6255,30716,90)
+09:51::45 agv=:1 [recv] state= 6 15 6 15
+09:51::45 [proc] plan: currentID:15
+09:51::45 agv=:1 [recv] pos:(6255,30716,90)
+09:51::46 agv=:1 [recv] state= 6 15 6 15
+09:51::46 agv=:1 [recv] pos:(6255,30716,90)
+09:51::47 agv=:1 [recv] state= 6 15 6 15
+09:51::47 [proc] plan: currentID:15
+09:51::47 agv=:1 [recv] pos:(6255,30716,90)
+09:51::48 agv=:1 [recv] state= 6 15 6 15
+09:51::49 agv=:1 [recv] pos:(6255,30716,90)
+09:51::49 agv=:1 [recv] state= 6 15 6 15
+09:51::49 [proc] plan: currentID:15
+09:51::50 agv=:1 [recv] pos:(6255,30716,90)
+09:51::50 [send]agv=1 set path command: mode=100 start=15 end=6 
+09:51::50 [recv] set Path:1
+09:51::50 agv=:1 [recv] state= 6 15 15 6
+09:51::51 agv=:1 [recv] pos:(6255,30716,90)
+09:51::51 [send] set path enable
+09:51::51 [recv] enable Path:1
+09:51::52 agv=:1 [recv] state= 65535 65535 15 6
+09:51::52 agv=:1 [recv] pos:(6255,31199,90)
+09:51::53 agv=:1 [recv] state= 65535 65535 15 6
+09:51::53 agv=:1 [recv] pos:(6255,33298,90)
+09:51::54 agv=:1 [recv] state= 65535 65535 15 6
+09:51::55 agv=:1 [recv] pos:(6255,36154,90)
+09:51::55 agv=:1 [recv] state= 65535 65535 15 6
+09:51::55 agv=:1 [recv] state= 15 6 15 6
+09:51::55 [proc] plan: currentID:6
+09:51::56 agv=:1 [recv] pos:(6255,36818,90)
+09:51::56 [send]agv=1 set path command: mode=100 start=6 end=7 
+09:51::56 [recv] set Path:1
+09:51::56 agv=:1 [recv] state= 15 6 6 7
+09:51::57 agv=:1 [recv] pos:(6255,36818,90)
+09:51::57 [send] set path enable
+09:51::57 [recv] enable Path:1
+09:51::57 agv=:1 [recv] state= 65535 65535 6 7
+09:51::58 agv=:1 [recv] pos:(6419,36583,122)
+09:51::58 agv=:1 [recv] state= 65535 65535 6 7
+09:51::59 agv=:1 [recv] pos:(7308,35849,170)
+09:51::59 agv=:1 [recv] state= 6 7 6 7
+09:51::59 [proc] plan: currentID:7
+09:51::59 [send]agv=1 set path command: mode=100 start=7 end=10 
+09:51::59 [recv] set Path:1
+09:51::59 agv=:1 [recv] state= 6 7 7 10
+09:52::00 agv=:1 [recv] pos:(7354,35719,180)
+09:52::00 [send] set path enable
+09:52::00 [recv] enable Path:1
+09:52::00 agv=:1 [recv] state= 65535 65535 7 10
+09:52::01 agv=:1 [recv] pos:(8270,35719,180)
+09:52::01 agv=:1 [recv] state= 65535 65535 7 10
+09:52::02 agv=:1 [recv] pos:(10374,35719,180)
+09:52::02 agv=:1 [recv] state= 7 10 7 10
+09:52::02 [proc] plan: currentID:10
+09:52::02 [send]agv=1 set path command: mode=100 start=10 end=11 
+09:52::02 [recv] set Path:1
+09:52::03 agv=:1 [recv] state= 7 10 10 11
+09:52::03 agv=:1 [recv] pos:(10454,35719,180)
+09:52::03 [send] set path enable
+09:52::03 [recv] enable Path:1
+09:52::04 agv=:1 [recv] state= 65535 65535 10 11
+09:52::04 agv=:1 [recv] state= 10 11 10 11
+09:52::04 agv=:1 [recv] pos:(11454,35719,180)
+09:52::05 agv=:1 [recv] state= 10 11 10 11
+09:52::05 [proc] plan: currentID:11
+09:52::05 agv=:1 [recv] pos:(11454,35719,180)
+09:52::05 [send]agv=1 set path command: mode=100 start=11 end=10 
+09:52::05 [recv] set Path:1
+09:52::06 agv=:1 [recv] state= 10 11 11 10
+09:52::06 agv=:1 [recv] pos:(11454,35719,180)
+09:52::07 [send] set path enable
+09:52::07 [recv] enable Path:1
+09:52::07 agv=:1 [recv] state= 65535 65535 11 10
+09:52::07 agv=:1 [recv] state= 11 10 11 10
+09:52::07 [proc] plan: currentID:10
+09:52::07 agv=:1 [recv] pos:(10454,35719,180)
+09:52::08 [send]agv=1 set path command: mode=100 start=10 end=9 
+09:52::08 [recv] set Path:1
+09:52::08 agv=:1 [recv] state= 11 10 10 9
+09:52::08 agv=:1 [recv] pos:(10454,35719,180)
+09:52::09 [send] set path enable
+09:52::09 [recv] enable Path:1
+09:52::09 agv=:1 [recv] state= 65535 65535 10 9
+09:52::10 agv=:1 [recv] pos:(9957,36145,147)
+09:52::10 agv=:1 [recv] state= 65535 65535 10 9
+09:52::11 agv=:1 [recv] pos:(9378,36880,99)
+09:52::11 agv=:1 [recv] state= 10 9 10 9
+09:52::11 [proc] plan: currentID:9
+09:52::11 [send]agv=1 set path command: mode=100 start=9 end=8 
+09:52::11 [recv] set Path:1
+09:52::11 agv=:1 [recv] state= 10 9 9 8
+09:52::12 agv=:1 [recv] pos:(9354,36818,90)
+09:52::12 [send] set path enable
+09:52::12 [recv] enable Path:1
+09:52::12 agv=:1 [recv] state= 65535 65535 9 8
+09:52::13 agv=:1 [recv] pos:(9354,37717,90)
+09:52::13 agv=:1 [recv] state= 65535 65535 9 8
+09:52::14 agv=:1 [recv] pos:(9354,39900,90)
+09:52::14 agv=:1 [recv] state= 9 8 9 8
+09:52::14 [proc] plan: currentID:8
+09:52::14 agv=:1 [recv] state= 9 8 9 8
+09:52::15 agv=:1 [recv] pos:(9354,40081,90)
+09:52::15 [send]agv=1 set path command: mode=100 start=8 end=3 
+09:52::15 [recv] set Path:1
+09:52::15 agv=:1 [recv] state= 9 8 8 3
+09:52::16 agv=:1 [recv] pos:(9354,40081,90)
+09:52::16 [send] set path enable
+09:52::16 [recv] enable Path:1
+09:52::16 agv=:1 [recv] state= 65535 65535 8 3
+09:52::17 agv=:1 [recv] pos:(8857,40507,122)
+09:52::18 agv=:1 [recv] state= 65535 65535 8 3
+09:52::18 agv=:1 [recv] pos:(8282,41242,169)
+09:52::18 agv=:1 [recv] state= 8 3 8 3
+09:52::18 [proc] plan: currentID:3
+09:52::18 [send]agv=1 set path command: mode=100 start=3 end=4 
+09:52::18 [recv] set Path:1
+09:52::19 agv=:1 [recv] state= 8 3 3 4
+09:52::19 agv=:1 [recv] pos:(8254,41181,180)
+09:52::19 [send] set path enable
+09:52::19 [recv] enable Path:1
+09:52::20 agv=:1 [recv] state= 65535 65535 3 4
+09:52::20 agv=:1 [recv] pos:(8845,41181,180)
+09:52::21 agv=:1 [recv] state= 65535 65535 3 4
+09:52::21 agv=:1 [recv] pos:(11178,41181,180)
+09:52::22 agv=:1 [recv] state= 65535 65535 3 4
+09:52::22 agv=:1 [recv] pos:(13030,41181,180)
+09:52::23 agv=:1 [recv] state= 3 4 3 4
+09:52::23 [proc] plan: currentID:4
+09:52::23 agv=:1 [recv] state= 3 4 3 4
+09:52::23 agv=:1 [recv] pos:(13154,41181,180)
+09:52::24 [send]agv=1 set path command: mode=100 start=4 end=14 
+09:52::24 [recv] set Path:1
+09:52::24 agv=:1 [recv] state= 3 4 4 14
+09:52::24 agv=:1 [recv] pos:(13154,41181,180)
+09:52::25 [send] set path enable
+09:52::25 [recv] enable Path:1
+09:52::25 agv=:1 [recv] state= 65535 65535 4 14
+09:52::25 agv=:1 [recv] pos:(13314,40948,147)
+09:52::26 agv=:1 [recv] state= 65535 65535 4 14
+09:52::27 agv=:1 [recv] pos:(14206,40215,99)
+09:52::27 agv=:1 [recv] state= 4 14 4 14
+09:52::27 [proc] plan: currentID:14
+09:52::27 [send]agv=1 set path command: mode=100 start=14 end=13 
+09:52::27 [recv] set Path:1
+09:52::27 agv=:1 [recv] state= 4 14 14 13
+09:52::28 agv=:1 [recv] pos:(14255,40081,90)
+09:52::28 [send] set path enable
+09:52::28 [recv] enable Path:1
+09:52::28 agv=:1 [recv] state= 65535 65535 14 13
+09:52::29 agv=:1 [recv] pos:(14255,39240,90)
+09:52::29 agv=:1 [recv] state= 65535 65535 14 13
+09:52::30 agv=:1 [recv] pos:(14255,37010,90)
+09:52::30 agv=:1 [recv] state= 14 13 14 13
+09:52::30 [proc] plan: currentID:13
+09:52::30 agv=:1 [recv] state= 14 13 14 13
+09:52::31 agv=:1 [recv] pos:(14255,36818,90)
+09:52::31 [send]agv=1 set path command: mode=100 start=13 end=12 
+09:52::31 [recv] set Path:1
+09:52::31 agv=:1 [recv] state= 14 13 13 12
+09:52::32 agv=:1 [recv] pos:(14255,36818,90)
+09:52::32 [send] set path enable
+09:52::32 [recv] enable Path:1
+09:52::32 agv=:1 [recv] state= 65535 65535 13 12
+09:52::33 agv=:1 [recv] pos:(13757,36582,57)
+09:52::33 agv=:1 [recv] state= 65535 65535 13 12
+09:52::34 agv=:1 [recv] pos:(13178,35849,9)
+09:52::34 agv=:1 [recv] state= 13 12 13 12
+09:52::34 [proc] plan: currentID:12
+09:52::34 [send]agv=1 set path command: mode=100 start=12 end=13 
+09:52::34 [recv] set Path:1
+09:52::35 agv=:1 [recv] state= 13 12 12 13
+09:52::35 agv=:1 [recv] pos:(13154,35719,0)
+09:52::35 [send] set path enable
+09:52::35 [recv] enable Path:1
+09:52::36 agv=:1 [recv] state= 65535 65535 12 13
+09:52::36 agv=:1 [recv] pos:(13319,36144,32)
+09:52::37 agv=:1 [recv] state= 65535 65535 12 13
+09:52::37 agv=:1 [recv] pos:(14208,36880,80)
+09:52::37 agv=:1 [recv] state= 12 13 12 13
+09:52::37 [proc] plan: currentID:13
+09:52::38 [send]agv=1 set path command: mode=100 start=13 end=14 
+09:52::38 [recv] set Path:1
+09:52::38 agv=:1 [recv] state= 12 13 13 14
+09:52::38 agv=:1 [recv] pos:(14255,36818,90)
+09:52::39 [send] set path enable
+09:52::39 [recv] enable Path:1
+09:52::39 agv=:1 [recv] state= 65535 65535 13 14
+09:52::39 agv=:1 [recv] pos:(14255,37696,90)
+09:52::40 agv=:1 [recv] state= 65535 65535 13 14
+09:52::40 agv=:1 [recv] pos:(14255,39889,90)
+09:52::41 agv=:1 [recv] state= 13 14 13 14
+09:52::41 [proc] plan: currentID:14
+09:52::41 agv=:1 [recv] state= 13 14 13 14
+09:52::42 agv=:1 [recv] pos:(14255,40081,90)
+09:52::42 [send]agv=1 set path command: mode=100 start=14 end=4 
+09:52::42 [recv] set Path:1
+09:52::42 agv=:1 [recv] state= 13 14 14 4
+09:52::43 agv=:1 [recv] pos:(14255,40081,90)
+09:52::43 [send] set path enable
+09:52::43 [recv] enable Path:1
+09:52::43 agv=:1 [recv] state= 65535 65535 14 4
+09:52::44 agv=:1 [recv] pos:(13757,40506,122)
+09:52::44 agv=:1 [recv] state= 65535 65535 14 4
+09:52::45 agv=:1 [recv] pos:(13179,41242,170)
+09:52::45 agv=:1 [recv] state= 14 4 14 4
+09:52::45 [proc] plan: currentID:4
+09:52::45 [send]agv=1 set path command: mode=100 start=4 end=3 
+09:52::45 [recv] set Path:1
+09:52::45 agv=:1 [recv] state= 14 4 4 3
+09:52::46 agv=:1 [recv] pos:(13154,41181,180)
+09:52::46 [send] set path enable
+09:52::46 [recv] enable Path:1
+09:52::46 agv=:1 [recv] state= 65535 65535 4 3
+09:52::47 agv=:1 [recv] pos:(12563,41181,180)
+09:52::47 agv=:1 [recv] state= 65535 65535 4 3
+09:52::48 agv=:1 [recv] pos:(10231,41181,180)
+09:52::48 agv=:1 [recv] state= 65535 65535 4 3
+09:52::49 agv=:1 [recv] pos:(8379,41181,180)
+09:52::49 agv=:1 [recv] state= 4 3 4 3
+09:52::49 [proc] plan: currentID:3
+09:52::50 agv=:1 [recv] state= 4 3 4 3
+09:52::50 agv=:1 [recv] pos:(8254,41181,180)
+09:52::50 [send]agv=1 set path command: mode=100 start=3 end=2 
+09:52::50 [recv] set Path:1
+09:52::51 agv=:1 [recv] state= 4 3 3 2
+09:52::51 agv=:1 [recv] pos:(8254,41181,180)
+09:52::51 [send] set path enable
+09:52::51 [recv] enable Path:1
+09:52::52 agv=:1 [recv] state= 65535 65535 3 2
+09:52::52 agv=:1 [recv] pos:(7377,41181,180)
+09:52::53 agv=:1 [recv] state= 65535 65535 3 2
+09:52::53 agv=:1 [recv] pos:(5249,41181,180)
+09:52::53 agv=:1 [recv] state= 3 2 3 2
+09:52::53 [proc] plan: currentID:2
+09:52::54 [send]agv=1 set path command: mode=100 start=2 end=5 
+09:52::54 [recv] set Path:1
+09:52::54 agv=:1 [recv] state= 3 2 2 5
+09:52::54 agv=:1 [recv] pos:(5154,41181,180)
+09:52::55 [send] set path enable
+09:52::55 [recv] enable Path:1
+09:52::55 agv=:1 [recv] state= 65535 65535 2 5
+09:52::55 agv=:1 [recv] pos:(5320,40944,147)
+09:52::56 agv=:1 [recv] state= 65535 65535 2 5
+09:52::56 agv=:1 [recv] pos:(6206,40215,99)
+09:52::57 agv=:1 [recv] state= 2 5 2 5
+09:52::57 [proc] plan: currentID:5
+09:52::57 [send]agv=1 set path command: mode=100 start=5 end=6 
+09:52::57 [recv] set Path:1
+09:52::57 agv=:1 [recv] state= 2 5 5 6
+09:52::57 agv=:1 [recv] pos:(6255,40081,90)
+09:52::58 [send] set path enable
+09:52::58 [recv] enable Path:1
+09:52::58 agv=:1 [recv] state= 65535 65535 5 6
+09:52::59 agv=:1 [recv] pos:(6255,39201,90)
+09:52::59 agv=:1 [recv] state= 65535 65535 5 6
+09:53::00 agv=:1 [recv] pos:(6255,36991,90)
+09:53::00 agv=:1 [recv] state= 5 6 5 6
+09:53::00 [proc] plan: currentID:6
+09:53::00 agv=:1 [recv] state= 5 6 5 6
+09:53::01 agv=:1 [recv] pos:(6255,36818,90)
+09:53::01 [send]agv=1 set path command: mode=100 start=6 end=15 
+09:53::01 [recv] set Path:1
+09:53::01 agv=:1 [recv] state= 5 6 6 15
+09:53::02 agv=:1 [recv] pos:(6255,36818,90)
+09:53::02 [send] set path enable
+09:53::02 [recv] enable Path:1
+09:53::02 agv=:1 [recv] state= 65535 65535 6 15
+09:53::03 agv=:1 [recv] pos:(6255,36324,90)
+09:53::03 agv=:1 [recv] state= 65535 65535 6 15
+09:53::04 agv=:1 [recv] pos:(6255,34209,90)
+09:53::04 agv=:1 [recv] state= 65535 65535 6 15
+09:53::05 agv=:1 [recv] pos:(6255,31795,90)
+09:53::05 agv=:1 [recv] state= 65535 65535 6 15
+09:53::06 agv=:1 [recv] pos:(6255,30717,90)
+09:53::06 agv=:1 [recv] state= 6 15 6 15
+09:53::06 [proc] plan: currentID:15
+09:53::07 agv=:1 [recv] state= 6 15 6 15
+09:53::07 agv=:1 [recv] pos:(6255,30716,90)
+09:53::08 agv=:1 [recv] state= 6 15 6 15
+09:53::08 agv=:1 [recv] pos:(6255,30716,90)
+09:53::09 agv=:1 [recv] state= 6 15 6 15
+09:53::09 [proc] plan: currentID:15
+09:53::09 agv=:1 [recv] pos:(6255,30716,90)
+09:53::10 agv=:1 [recv] state= 6 15 6 15
+09:53::10 agv=:1 [recv] pos:(6255,30716,90)
+09:53::11 agv=:1 [recv] state= 6 15 6 15
+09:53::11 [proc] plan: currentID:15
+09:53::11 agv=:1 [recv] pos:(6255,30716,90)
+09:53::12 agv=:1 [recv] state= 6 15 6 15
+09:53::12 agv=:1 [recv] pos:(6255,30716,90)
+09:53::13 agv=:1 [recv] state= 6 15 6 15
+09:53::13 [proc] plan: currentID:15
+09:53::14 agv=:1 [recv] pos:(6255,30716,90)
+09:53::14 agv=:1 [recv] state= 6 15 6 15
+09:53::15 agv=:1 [recv] pos:(6255,30716,90)
+09:53::15 agv=:1 [recv] state= 6 15 6 15
+09:53::15 [proc] plan: currentID:15
+09:53::16 agv=:1 [recv] pos:(6255,30716,90)
+09:53::16 agv=:1 [recv] state= 6 15 6 15
+09:53::17 agv=:1 [recv] pos:(6255,30716,90)
+09:53::18 agv=:1 [recv] state= 6 15 6 15
+09:53::18 [proc] plan: currentID:15
+09:53::18 agv=:1 [recv] pos:(6255,30716,90)
+09:53::19 agv=:1 [recv] state= 6 15 6 15
+09:53::19 agv=:1 [recv] pos:(6255,30716,90)
+09:53::20 agv=:1 [recv] state= 6 15 6 15
+09:53::20 [proc] plan: currentID:15
+09:53::20 agv=:1 [recv] pos:(6255,30716,90)
+09:53::21 agv=:1 [recv] state= 6 15 6 15
+09:53::21 agv=:1 [recv] pos:(6255,30716,90)
+09:53::22 agv=:1 [recv] state= 6 15 6 15
+09:53::22 [proc] plan: currentID:15
+09:53::23 agv=:1 [recv] pos:(6255,30716,90)
+09:53::23 agv=:1 [recv] state= 6 15 6 15
+09:53::24 agv=:1 [recv] pos:(6255,30716,90)
+09:53::24 agv=:1 [recv] state= 6 15 6 15
+09:53::24 [proc] plan: currentID:15
+09:53::25 agv=:1 [recv] pos:(6255,30716,90)
+09:53::25 agv=:1 [recv] state= 6 15 6 15
+09:53::26 agv=:1 [recv] pos:(6255,30716,90)
+09:53::26 agv=:1 [recv] state= 6 15 6 15
+09:53::26 [proc] plan: currentID:15
+09:53::27 agv=:1 [recv] pos:(6255,30716,90)
+09:53::27 agv=:1 [recv] state= 6 15 6 15
+09:53::28 agv=:1 [recv] pos:(6255,30716,90)
+09:53::28 agv=:1 [recv] state= 6 15 6 15
+09:53::28 [proc] plan: currentID:15
+09:53::29 agv=:1 [recv] pos:(6255,30716,90)
+09:53::29 agv=:1 [recv] state= 6 15 6 15
+09:53::30 agv=:1 [recv] pos:(6255,30716,90)
+09:53::31 agv=:1 [recv] state= 6 15 6 15
+09:53::31 [proc] plan: currentID:15
+09:53::31 agv=:1 [recv] pos:(6255,30716,90)
+09:53::32 agv=:1 [recv] state= 6 15 6 15
+09:53::32 agv=:1 [recv] pos:(6255,30716,90)
+09:53::33 agv=:1 [recv] state= 6 15 6 15
+09:53::33 [proc] plan: currentID:15
+09:53::33 agv=:1 [recv] pos:(6255,30716,90)
+09:53::34 agv=:1 [recv] state= 6 15 6 15
+09:53::34 agv=:1 [recv] pos:(6255,30716,90)
+09:53::35 agv=:1 [recv] state= 6 15 6 15
+09:53::35 [proc] plan: currentID:15
+09:53::35 agv=:1 [recv] pos:(6255,30716,90)
+09:53::36 agv=:1 [recv] state= 6 15 6 15
+09:53::36 agv=:1 [recv] pos:(6255,30716,90)
+09:53::37 agv=:1 [recv] state= 6 15 6 15
+09:53::37 [proc] plan: currentID:15
+09:53::37 agv=:1 [recv] pos:(6255,30716,90)
+09:53::38 agv=:1 [recv] state= 6 15 6 15
+09:53::38 agv=:1 [recv] pos:(6255,30716,90)
+09:53::39 agv=:1 [recv] state= 6 15 6 15
+09:53::39 [proc] plan: currentID:15
+09:53::40 agv=:1 [recv] pos:(6255,30716,90)
+09:53::40 agv=:1 [recv] state= 6 15 6 15
+09:53::41 agv=:1 [recv] pos:(6255,30716,90)
+09:53::41 agv=:1 [recv] state= 6 15 6 15
+09:53::41 [proc] plan: currentID:15
+09:53::42 agv=:1 [recv] pos:(6255,30716,90)
+09:53::42 agv=:1 [recv] state= 6 15 6 15
+09:53::43 agv=:1 [recv] pos:(6255,30716,90)
+09:53::43 agv=:1 [recv] state= 6 15 6 15
+09:53::43 [proc] plan: currentID:15
+09:53::44 agv=:1 [recv] pos:(6255,30716,90)
+09:53::44 agv=:1 [recv] state= 6 15 6 15
+09:53::45 agv=:1 [recv] pos:(6255,30716,90)
+09:53::45 agv=:1 [recv] state= 6 15 6 15
+09:53::45 [proc] plan: currentID:15
+09:53::46 agv=:1 [recv] pos:(6255,30716,90)
+09:53::46 agv=:1 [recv] state= 6 15 6 15
+09:53::47 agv=:1 [recv] pos:(6255,30716,90)
+09:53::48 agv=:1 [recv] state= 6 15 6 15
+09:53::48 [proc] plan: currentID:15
+09:53::48 agv=:1 [recv] pos:(6255,30716,90)
+09:53::49 agv=:1 [recv] state= 6 15 6 15
+09:53::49 agv=:1 [recv] pos:(6255,30716,90)
+09:53::50 agv=:1 [recv] state= 6 15 6 15
+09:53::50 [proc] plan: currentID:15
+09:53::50 agv=:1 [recv] pos:(6255,30716,90)
+09:53::51 agv=:1 [recv] state= 6 15 6 15
+09:53::51 agv=:1 [recv] pos:(6255,30716,90)
+09:53::52 agv=:1 [recv] state= 6 15 6 15
+09:53::52 [proc] plan: currentID:15
+09:53::52 agv=:1 [recv] pos:(6255,30716,90)
+09:53::53 agv=:1 [recv] state= 6 15 6 15
+09:53::53 agv=:1 [recv] pos:(6255,30716,90)
+09:53::54 agv=:1 [recv] state= 6 15 6 15
+09:53::54 [proc] plan: currentID:15
+09:53::54 agv=:1 [recv] pos:(6255,30716,90)
+09:53::55 agv=:1 [recv] state= 6 15 6 15
+09:53::55 agv=:1 [recv] pos:(6255,30716,90)
+09:53::56 agv=:1 [recv] state= 6 15 6 15
+09:53::56 [proc] plan: currentID:15
+09:53::57 agv=:1 [recv] pos:(6255,30716,90)
+09:53::57 agv=:1 [recv] state= 6 15 6 15
+09:53::58 agv=:1 [recv] pos:(6255,30716,90)
+09:53::58 agv=:1 [recv] state= 6 15 6 15
+09:53::58 [proc] plan: currentID:15
+09:53::59 agv=:1 [recv] pos:(6255,30716,90)
+09:53::59 agv=:1 [recv] state= 6 15 6 15
+09:54::00 agv=:1 [recv] pos:(6255,30716,90)
+09:54::00 agv=:1 [recv] state= 6 15 6 15
+09:54::00 [proc] plan: currentID:15
+09:54::01 agv=:1 [recv] pos:(6255,30716,90)
+09:54::01 agv=:1 [recv] state= 6 15 6 15
+09:54::02 agv=:1 [recv] pos:(6255,30716,90)
+09:54::02 agv=:1 [recv] state= 6 15 6 15
+09:54::02 [proc] plan: currentID:15
+09:54::03 agv=:1 [recv] pos:(6255,30716,90)
+09:54::03 agv=:1 [recv] state= 6 15 6 15
+09:54::04 agv=:1 [recv] pos:(6255,30716,90)
+09:54::05 agv=:1 [recv] state= 6 15 6 15
+09:54::05 [proc] plan: currentID:15
+09:54::05 agv=:1 [recv] pos:(6255,30716,90)
+09:54::06 agv=:1 [recv] state= 6 15 6 15
+09:54::06 agv=:1 [recv] pos:(6255,30716,90)
+09:54::07 agv=:1 [recv] state= 6 15 6 15
+09:54::07 [proc] plan: currentID:15
+09:54::07 agv=:1 [recv] pos:(6255,30716,90)
+09:54::08 agv=:1 [recv] state= 6 15 6 15
+09:54::08 agv=:1 [recv] pos:(6255,30716,90)
+09:54::09 agv=:1 [recv] state= 6 15 6 15
+09:54::09 [proc] plan: currentID:15
+09:54::09 agv=:1 [recv] pos:(6255,30716,90)
+09:54::10 agv=:1 [recv] state= 6 15 6 15
+09:54::10 agv=:1 [recv] pos:(6255,30716,90)
+09:54::11 agv=:1 [recv] state= 6 15 6 15
+09:54::11 [proc] plan: currentID:15
+09:54::11 agv=:1 [recv] pos:(6255,30716,90)
+09:54::12 agv=:1 [recv] state= 6 15 6 15
+09:54::12 agv=:1 [recv] pos:(6255,30716,90)
+09:54::13 agv=:1 [recv] state= 6 15 6 15
+09:54::13 [proc] plan: currentID:15
+09:54::14 agv=:1 [recv] pos:(6255,30716,90)
+09:54::14 agv=:1 [recv] state= 6 15 6 15
+09:54::15 agv=:1 [recv] pos:(6255,30716,90)
+09:54::15 agv=:1 [recv] state= 6 15 6 15
+09:54::15 [proc] plan: currentID:15
+09:54::16 agv=:1 [recv] pos:(6255,30716,90)
+09:54::16 agv=:1 [recv] state= 6 15 6 15
+09:54::17 agv=:1 [recv] pos:(6255,30716,90)
+09:54::17 agv=:1 [recv] state= 6 15 6 15
+09:54::17 [proc] plan: currentID:15
+09:54::18 agv=:1 [recv] pos:(6255,30716,90)
+09:54::18 agv=:1 [recv] state= 6 15 6 15
+09:54::19 agv=:1 [recv] pos:(6255,30716,90)
+09:54::19 agv=:1 [recv] state= 6 15 6 15
+09:54::19 [proc] plan: currentID:15
+09:54::20 agv=:1 [recv] pos:(6255,30716,90)
+09:54::20 agv=:1 [recv] state= 6 15 6 15
+09:54::21 agv=:1 [recv] pos:(6255,30716,90)
+09:54::22 agv=:1 [recv] state= 6 15 6 15
+09:54::22 [proc] plan: currentID:15
+09:54::22 agv=:1 [recv] pos:(6255,30716,90)
+09:54::23 agv=:1 [recv] state= 6 15 6 15
+09:54::23 agv=:1 [recv] pos:(6255,30716,90)
+09:54::24 agv=:1 [recv] state= 6 15 6 15
+09:54::24 [proc] plan: currentID:15
+09:54::24 agv=:1 [recv] pos:(6255,30716,90)
+09:54::25 agv=:1 [recv] state= 6 15 6 15
+09:54::25 agv=:1 [recv] pos:(6255,30716,90)
+09:54::26 agv=:1 [recv] state= 6 15 6 15
+09:54::26 [proc] plan: currentID:15
+09:54::26 agv=:1 [recv] pos:(6255,30716,90)
+09:54::27 agv=:1 [recv] state= 6 15 6 15
+09:54::27 agv=:1 [recv] pos:(6255,30716,90)
+09:54::28 agv=:1 [recv] state= 6 15 6 15
+09:54::28 [proc] plan: currentID:15
+09:54::28 agv=:1 [recv] pos:(6255,30716,90)
+09:54::29 agv=:1 [recv] state= 6 15 6 15
+09:54::29 agv=:1 [recv] pos:(6255,30716,90)
+09:54::30 agv=:1 [recv] state= 6 15 6 15
+09:54::30 [proc] plan: currentID:15
+09:54::31 agv=:1 [recv] pos:(6255,30716,90)
+09:54::31 agv=:1 [recv] state= 6 15 6 15
+09:54::32 agv=:1 [recv] pos:(6255,30716,90)
+09:54::32 agv=:1 [recv] state= 6 15 6 15
+09:54::32 [proc] plan: currentID:15
+09:54::33 agv=:1 [recv] pos:(6255,30716,90)
+09:54::33 agv=:1 [recv] state= 6 15 6 15
+09:54::34 agv=:1 [recv] pos:(6255,30716,90)
+09:54::34 agv=:1 [recv] state= 6 15 6 15
+09:54::34 [proc] plan: currentID:15
+09:54::35 agv=:1 [recv] pos:(6255,30716,90)
+09:54::35 agv=:1 [recv] state= 6 15 6 15
+09:54::36 agv=:1 [recv] pos:(6255,30716,90)
+09:54::36 agv=:1 [recv] state= 6 15 6 15
+09:54::36 [proc] plan: currentID:15
+09:54::37 agv=:1 [recv] pos:(6255,30716,90)
+09:54::37 agv=:1 [recv] state= 6 15 6 15
+09:54::38 agv=:1 [recv] pos:(6255,30716,90)
+09:54::39 agv=:1 [recv] state= 6 15 6 15
+09:54::39 [proc] plan: currentID:15
+09:54::39 agv=:1 [recv] pos:(6255,30716,90)
+09:54::40 agv=:1 [recv] state= 6 15 6 15
+09:54::40 agv=:1 [recv] pos:(6255,30716,90)
+09:54::41 agv=:1 [recv] state= 6 15 6 15
+09:54::41 [proc] plan: currentID:15
+09:54::41 agv=:1 [recv] pos:(6255,30716,90)
+09:54::42 agv=:1 [recv] state= 6 15 6 15
+09:54::42 agv=:1 [recv] pos:(6255,30716,90)
+09:54::43 agv=:1 [recv] state= 6 15 6 15
+09:54::43 [proc] plan: currentID:15
+09:54::43 agv=:1 [recv] pos:(6255,30716,90)
+09:54::44 agv=:1 [recv] state= 6 15 6 15
+09:54::44 agv=:1 [recv] pos:(6255,30716,90)
+09:54::45 agv=:1 [recv] state= 6 15 6 15
+09:54::45 [proc] plan: currentID:15
+09:54::45 agv=:1 [recv] pos:(6255,30716,90)
+09:54::46 agv=:1 [recv] state= 6 15 6 15
+09:54::46 agv=:1 [recv] pos:(6255,30716,90)
+09:54::47 agv=:1 [recv] state= 6 15 6 15
+09:54::47 [proc] plan: currentID:15
+09:54::48 agv=:1 [recv] pos:(6255,30716,90)
+09:54::48 agv=:1 [recv] state= 6 15 6 15
+09:54::49 agv=:1 [recv] pos:(6255,30716,90)
+09:54::49 agv=:1 [recv] state= 6 15 6 15
+09:54::49 [proc] plan: currentID:15
+09:54::50 agv=:1 [recv] pos:(6255,30716,90)
+09:54::50 agv=:1 [recv] state= 6 15 6 15
+09:54::51 agv=:1 [recv] pos:(6255,30716,90)
+09:54::51 agv=:1 [recv] state= 6 15 6 15
+09:54::51 [proc] plan: currentID:15
+09:54::52 agv=:1 [recv] pos:(6255,30716,90)
+09:54::52 agv=:1 [recv] state= 6 15 6 15
+09:54::53 agv=:1 [recv] pos:(6255,30716,90)
+09:54::53 agv=:1 [recv] state= 6 15 6 15
+09:54::53 [proc] plan: currentID:15
+09:54::54 agv=:1 [recv] pos:(6255,30716,90)
+09:54::54 agv=:1 [recv] state= 6 15 6 15
+09:54::55 agv=:1 [recv] pos:(6255,30716,90)
+09:54::56 agv=:1 [recv] state= 6 15 6 15
+09:54::56 [proc] plan: currentID:15
+09:54::56 agv=:1 [recv] pos:(6255,30716,90)
+09:54::57 agv=:1 [recv] state= 6 15 6 15
+09:54::57 agv=:1 [recv] pos:(6255,30716,90)
+09:54::58 agv=:1 [recv] state= 6 15 6 15
+09:54::58 [proc] plan: currentID:15
+09:54::58 agv=:1 [recv] pos:(6255,30716,90)
+09:54::59 agv=:1 [recv] state= 6 15 6 15
+09:54::59 agv=:1 [recv] pos:(6255,30716,90)
+09:55::00 agv=:1 [recv] state= 6 15 6 15
+09:55::00 [proc] plan: currentID:15
+09:55::00 agv=:1 [recv] pos:(6255,30716,90)
+09:55::01 agv=:1 [recv] state= 6 15 6 15
+09:55::01 agv=:1 [recv] pos:(6255,30716,90)
+09:55::02 agv=:1 [recv] state= 6 15 6 15
+09:55::02 [proc] plan: currentID:15
+09:55::02 agv=:1 [recv] pos:(6255,30716,90)
+09:55::03 agv=:1 [recv] state= 6 15 6 15
+09:55::03 agv=:1 [recv] pos:(6255,30716,90)
+09:55::04 agv=:1 [recv] state= 6 15 6 15
+09:55::04 [proc] plan: currentID:15
+09:55::05 agv=:1 [recv] pos:(6255,30716,90)
+09:55::05 agv=:1 [recv] state= 6 15 6 15
+09:55::06 agv=:1 [recv] pos:(6255,30716,90)
+09:55::06 agv=:1 [recv] state= 6 15 6 15
+09:55::06 [proc] plan: currentID:15
+09:55::07 agv=:1 [recv] pos:(6255,30716,90)
+09:55::07 agv=:1 [recv] state= 6 15 6 15
+09:55::08 agv=:1 [recv] pos:(6255,30716,90)
+09:55::08 agv=:1 [recv] state= 6 15 6 15
+09:55::08 [proc] plan: currentID:15
+09:55::09 agv=:1 [recv] pos:(6255,30716,90)
+09:55::09 agv=:1 [recv] state= 6 15 6 15
+09:55::10 agv=:1 [recv] pos:(6255,30716,90)
+09:55::10 agv=:1 [recv] state= 6 15 6 15
+09:55::10 [proc] plan: currentID:15
+09:55::11 agv=:1 [recv] pos:(6255,30716,90)
+09:55::11 agv=:1 [recv] state= 6 15 6 15
+09:55::12 agv=:1 [recv] pos:(6255,30716,90)
+09:55::13 agv=:1 [recv] state= 6 15 6 15
+09:55::13 [proc] plan: currentID:15
+09:55::13 agv=:1 [recv] pos:(6255,30716,90)
+09:55::14 agv=:1 [recv] state= 6 15 6 15
+09:55::14 agv=:1 [recv] pos:(6255,30716,90)
+09:55::15 agv=:1 [recv] state= 6 15 6 15
+09:55::15 [proc] plan: currentID:15
+09:55::15 agv=:1 [recv] pos:(6255,30716,90)
+09:55::16 agv=:1 [recv] state= 6 15 6 15
+09:55::16 agv=:1 [recv] pos:(6255,30716,90)
+09:55::17 agv=:1 [recv] state= 6 15 6 15
+09:55::17 [proc] plan: currentID:15
+09:55::17 agv=:1 [recv] pos:(6255,30716,90)
+09:55::18 agv=:1 [recv] state= 6 15 6 15
+09:55::18 agv=:1 [recv] pos:(6255,30716,90)
+09:55::19 agv=:1 [recv] state= 6 15 6 15
+09:55::19 [proc] plan: currentID:15
+09:55::19 agv=:1 [recv] pos:(6255,30716,90)
+09:55::20 agv=:1 [recv] state= 6 15 6 15
+09:55::20 agv=:1 [recv] pos:(6255,30716,90)
+09:55::21 agv=:1 [recv] state= 6 15 6 15
+09:55::21 [proc] plan: currentID:15
+09:55::22 agv=:1 [recv] pos:(6255,30716,90)
+09:55::22 agv=:1 [recv] state= 6 15 6 15
+09:55::23 agv=:1 [recv] pos:(6255,30716,90)
+09:55::23 agv=:1 [recv] state= 6 15 6 15
+09:55::23 [proc] plan: currentID:15
+09:55::24 agv=:1 [recv] pos:(6255,30716,90)
+09:55::24 agv=:1 [recv] state= 6 15 6 15
+09:55::25 agv=:1 [recv] pos:(6255,30716,90)
+09:55::25 agv=:1 [recv] state= 6 15 6 15
+09:55::25 [proc] plan: currentID:15
+09:55::26 agv=:1 [recv] pos:(6255,30716,90)
+09:55::26 agv=:1 [recv] state= 6 15 6 15
+09:55::27 agv=:1 [recv] pos:(6255,30716,90)
+09:55::27 agv=:1 [recv] state= 6 15 6 15
+09:55::27 [proc] plan: currentID:15
+09:55::28 agv=:1 [recv] pos:(6255,30716,90)
+09:55::28 agv=:1 [recv] state= 6 15 6 15
+09:55::29 agv=:1 [recv] pos:(6255,30716,90)
+09:55::30 agv=:1 [recv] state= 6 15 6 15
+09:55::30 [proc] plan: currentID:15
+09:55::30 agv=:1 [recv] pos:(6255,30716,90)
+09:55::31 agv=:1 [recv] state= 6 15 6 15
+09:55::31 agv=:1 [recv] pos:(6255,30716,90)
+09:55::32 agv=:1 [recv] state= 6 15 6 15
+09:55::32 [proc] plan: currentID:15
+09:55::32 agv=:1 [recv] pos:(6255,30716,90)
+09:55::33 agv=:1 [recv] state= 6 15 6 15
+09:55::33 agv=:1 [recv] pos:(6255,30716,90)
+09:55::34 agv=:1 [recv] state= 6 15 6 15
+09:55::34 [proc] plan: currentID:15
+09:55::34 agv=:1 [recv] pos:(6255,30716,90)
+09:55::35 agv=:1 [recv] state= 6 15 6 15
+09:55::35 agv=:1 [recv] pos:(6255,30716,90)
+09:55::36 agv=:1 [recv] state= 6 15 6 15
+09:55::36 [proc] plan: currentID:15
+09:55::36 agv=:1 [recv] pos:(6255,30716,90)
+09:55::37 agv=:1 [recv] state= 6 15 6 15
+09:55::37 agv=:1 [recv] pos:(6255,30716,90)
+09:55::38 agv=:1 [recv] state= 6 15 6 15
+09:55::38 [proc] plan: currentID:15
+09:55::39 agv=:1 [recv] pos:(6255,30716,90)
+09:55::39 agv=:1 [recv] state= 6 15 6 15
+09:55::40 agv=:1 [recv] pos:(6255,30716,90)
+09:55::40 agv=:1 [recv] state= 6 15 6 15
+09:55::40 [proc] plan: currentID:15
+09:55::41 agv=:1 [recv] pos:(6255,30716,90)
+09:55::41 agv=:1 [recv] state= 6 15 6 15
+09:55::42 agv=:1 [recv] pos:(6255,30716,90)
+09:55::42 agv=:1 [recv] state= 6 15 6 15
+09:55::42 [proc] plan: currentID:15
+09:55::43 agv=:1 [recv] pos:(6255,30716,90)
+09:55::43 agv=:1 [recv] state= 6 15 6 15
+09:55::44 agv=:1 [recv] pos:(6255,30716,90)
+09:55::44 agv=:1 [recv] state= 6 15 6 15
+09:55::44 [proc] plan: currentID:15
+09:55::45 agv=:1 [recv] pos:(6255,30716,90)
+09:55::45 agv=:1 [recv] state= 6 15 6 15
+09:55::46 agv=:1 [recv] pos:(6255,30716,90)
+09:55::47 agv=:1 [recv] state= 6 15 6 15
+09:55::47 [proc] plan: currentID:15
+09:55::47 agv=:1 [recv] pos:(6255,30716,90)
+09:55::48 agv=:1 [recv] state= 6 15 6 15
+09:55::48 agv=:1 [recv] pos:(6255,30716,90)
+09:55::49 agv=:1 [recv] state= 6 15 6 15
+09:55::49 [proc] plan: currentID:15
+09:55::49 agv=:1 [recv] pos:(6255,30716,90)
+09:55::50 agv=:1 [recv] state= 6 15 6 15
+09:55::50 agv=:1 [recv] pos:(6255,30716,90)
+09:55::51 agv=:1 [recv] state= 6 15 6 15
+09:55::51 [proc] plan: currentID:15
+09:55::51 agv=:1 [recv] pos:(6255,30716,90)
+09:55::52 agv=:1 [recv] state= 6 15 6 15
+09:55::52 agv=:1 [recv] pos:(6255,30716,90)
+09:55::53 agv=:1 [recv] state= 6 15 6 15
+09:55::53 [proc] plan: currentID:15
+09:55::53 agv=:1 [recv] pos:(6255,30716,90)
+09:55::54 agv=:1 [recv] state= 6 15 6 15
+09:55::54 agv=:1 [recv] pos:(6255,30716,90)
+09:55::55 agv=:1 [recv] state= 6 15 6 15
+09:55::55 [proc] plan: currentID:15
+09:55::56 agv=:1 [recv] pos:(6255,30716,90)
+09:55::56 agv=:1 [recv] state= 6 15 6 15
+09:55::57 agv=:1 [recv] pos:(6255,30716,90)
+09:55::57 agv=:1 [recv] state= 6 15 6 15
+09:55::57 [proc] plan: currentID:15
+09:55::58 agv=:1 [recv] pos:(6255,30716,90)
+09:55::58 agv=:1 [recv] state= 6 15 6 15
+09:55::59 agv=:1 [recv] pos:(6255,30716,90)
+09:55::59 agv=:1 [recv] state= 6 15 6 15
+09:55::59 [proc] plan: currentID:15
+09:56::00 agv=:1 [recv] pos:(6255,30716,90)
+09:56::00 agv=:1 [recv] state= 6 15 6 15
+09:56::01 agv=:1 [recv] pos:(6255,30716,90)
+09:56::01 agv=:1 [recv] state= 6 15 6 15
+09:56::01 [proc] plan: currentID:15
+09:56::02 agv=:1 [recv] pos:(6255,30716,90)
+09:56::02 agv=:1 [recv] state= 6 15 6 15
+09:56::03 agv=:1 [recv] pos:(6255,30716,90)
+09:56::04 agv=:1 [recv] state= 6 15 6 15
+09:56::04 [proc] plan: currentID:15
+09:56::04 agv=:1 [recv] pos:(6255,30716,90)
+09:56::05 agv=:1 [recv] state= 6 15 6 15
+09:56::05 agv=:1 [recv] pos:(6255,30716,90)
+09:56::06 agv=:1 [recv] state= 6 15 6 15
+09:56::06 [proc] plan: currentID:15
+09:56::06 agv=:1 [recv] pos:(6255,30716,90)
+09:56::07 agv=:1 [recv] state= 6 15 6 15
+09:56::07 agv=:1 [recv] pos:(6255,30716,90)
+09:56::08 agv=:1 [recv] state= 6 15 6 15
+09:56::08 [proc] plan: currentID:15
+09:56::08 agv=:1 [recv] pos:(6255,30716,90)
+09:56::09 agv=:1 [recv] state= 6 15 6 15
+09:56::09 agv=:1 [recv] pos:(6255,30716,90)
+09:56::10 agv=:1 [recv] state= 6 15 6 15
+09:56::10 [proc] plan: currentID:15
+09:56::10 agv=:1 [recv] pos:(6255,30716,90)
+09:56::11 agv=:1 [recv] state= 6 15 6 15
+09:56::11 agv=:1 [recv] pos:(6255,30716,90)
+09:56::12 agv=:1 [recv] state= 6 15 6 15
+09:56::12 [proc] plan: currentID:15
+09:56::13 agv=:1 [recv] pos:(6255,30716,90)
+09:56::13 agv=:1 [recv] state= 6 15 6 15
+09:56::14 agv=:1 [recv] pos:(6255,30716,90)
+09:56::14 agv=:1 [recv] state= 6 15 6 15
+09:56::14 [proc] plan: currentID:15
+09:56::15 agv=:1 [recv] pos:(6255,30716,90)
+09:56::15 agv=:1 [recv] state= 6 15 6 15
+09:56::16 agv=:1 [recv] pos:(6255,30716,90)
+09:56::16 agv=:1 [recv] state= 6 15 6 15
+09:56::16 [proc] plan: currentID:15
+09:56::17 agv=:1 [recv] pos:(6255,30716,90)
+09:56::17 agv=:1 [recv] state= 6 15 6 15
+09:56::18 agv=:1 [recv] pos:(6255,30716,90)
+09:56::18 agv=:1 [recv] state= 6 15 6 15
+09:56::18 [proc] plan: currentID:15
+09:56::19 agv=:1 [recv] pos:(6255,30716,90)
+09:56::19 agv=:1 [recv] state= 6 15 6 15
+09:56::20 agv=:1 [recv] pos:(6255,30716,90)
+09:56::21 agv=:1 [recv] state= 6 15 6 15
+09:56::21 [proc] plan: currentID:15
+09:56::21 agv=:1 [recv] pos:(6255,30716,90)
+09:56::22 agv=:1 [recv] state= 6 15 6 15
+09:56::22 agv=:1 [recv] pos:(6255,30716,90)
+09:56::23 agv=:1 [recv] state= 6 15 6 15
+09:56::23 [proc] plan: currentID:15
+09:56::23 agv=:1 [recv] pos:(6255,30716,90)
+09:56::24 agv=:1 [recv] state= 6 15 6 15
+09:56::24 agv=:1 [recv] pos:(6255,30716,90)
+09:56::25 agv=:1 [recv] state= 6 15 6 15
+09:56::25 [proc] plan: currentID:15
+09:56::25 agv=:1 [recv] pos:(6255,30716,90)
+09:56::26 agv=:1 [recv] state= 6 15 6 15
+09:56::26 agv=:1 [recv] pos:(6255,30716,90)
+09:56::27 agv=:1 [recv] state= 6 15 6 15
+09:56::27 [proc] plan: currentID:15
+09:56::27 agv=:1 [recv] pos:(6255,30716,90)
+09:56::28 agv=:1 [recv] state= 6 15 6 15
+09:56::28 agv=:1 [recv] pos:(6255,30716,90)
+09:56::29 agv=:1 [recv] state= 6 15 6 15
+09:56::29 [proc] plan: currentID:15
+09:56::30 agv=:1 [recv] pos:(6255,30716,90)
+09:56::30 agv=:1 [recv] state= 6 15 6 15
+09:56::31 agv=:1 [recv] pos:(6255,30716,90)
+09:56::31 agv=:1 [recv] state= 6 15 6 15
+09:56::31 [proc] plan: currentID:15
+09:56::32 agv=:1 [recv] pos:(6255,30716,90)
+09:56::32 agv=:1 [recv] state= 6 15 6 15
+09:56::33 agv=:1 [recv] pos:(6255,30716,90)
+09:56::33 agv=:1 [recv] state= 6 15 6 15
+09:56::33 [proc] plan: currentID:15
+09:56::34 agv=:1 [recv] pos:(6255,30716,90)
+09:56::34 agv=:1 [recv] state= 6 15 6 15
+09:56::35 agv=:1 [recv] pos:(6255,30716,90)
+09:56::35 agv=:1 [recv] state= 6 15 6 15
+09:56::35 [proc] plan: currentID:15
+09:56::36 agv=:1 [recv] pos:(6255,30716,90)
+09:56::36 agv=:1 [recv] state= 6 15 6 15
+09:56::37 agv=:1 [recv] pos:(6255,30716,90)
+09:56::38 agv=:1 [recv] state= 6 15 6 15
+09:56::38 [proc] plan: currentID:15
+09:56::38 agv=:1 [recv] pos:(6255,30716,90)
+09:56::39 agv=:1 [recv] state= 6 15 6 15
+09:56::39 agv=:1 [recv] pos:(6255,30716,90)
+09:56::40 agv=:1 [recv] state= 6 15 6 15
+09:56::40 [proc] plan: currentID:15
+09:56::40 agv=:1 [recv] pos:(6255,30716,90)
+09:56::41 agv=:1 [recv] state= 6 15 6 15
+09:56::41 agv=:1 [recv] pos:(6255,30716,90)
+09:56::42 agv=:1 [recv] state= 6 15 6 15
+09:56::42 [proc] plan: currentID:15
+09:56::42 agv=:1 [recv] pos:(6255,30716,90)
+09:56::43 agv=:1 [recv] state= 6 15 6 15
+09:56::43 agv=:1 [recv] pos:(6255,30716,90)
+09:56::44 agv=:1 [recv] state= 6 15 6 15
+09:56::44 [proc] plan: currentID:15
+09:56::44 agv=:1 [recv] pos:(6255,30716,90)
+09:56::45 agv=:1 [recv] state= 6 15 6 15
+09:56::45 agv=:1 [recv] pos:(6255,30716,90)
+09:56::46 agv=:1 [recv] state= 6 15 6 15
+09:56::46 [proc] plan: currentID:15
+09:56::47 agv=:1 [recv] pos:(6255,30716,90)
+09:56::47 agv=:1 [recv] state= 6 15 6 15
+09:56::48 agv=:1 [recv] pos:(6255,30716,90)
+09:56::48 agv=:1 [recv] state= 6 15 6 15
+09:56::48 [proc] plan: currentID:15
+09:56::49 agv=:1 [recv] pos:(6255,30716,90)
+09:56::49 agv=:1 [recv] state= 6 15 6 15
+09:56::50 agv=:1 [recv] pos:(6255,30716,90)
+09:56::50 agv=:1 [recv] state= 6 15 6 15
+09:56::50 [proc] plan: currentID:15
+09:56::51 agv=:1 [recv] pos:(6255,30716,90)
+09:56::51 agv=:1 [recv] state= 6 15 6 15
+09:56::52 agv=:1 [recv] pos:(6255,30716,90)
+09:56::52 agv=:1 [recv] state= 6 15 6 15
+09:56::52 [proc] plan: currentID:15
+09:56::53 agv=:1 [recv] pos:(6255,30716,90)
+09:56::53 agv=:1 [recv] state= 6 15 6 15
+09:56::54 agv=:1 [recv] pos:(6255,30716,90)
+09:56::55 agv=:1 [recv] state= 6 15 6 15
+09:56::55 [proc] plan: currentID:15
+09:56::55 agv=:1 [recv] pos:(6255,30716,90)
+09:56::56 agv=:1 [recv] state= 6 15 6 15
+09:56::56 agv=:1 [recv] pos:(6255,30716,90)
+09:56::57 agv=:1 [recv] state= 6 15 6 15
+09:56::57 [proc] plan: currentID:15
+09:56::57 agv=:1 [recv] pos:(6255,30716,90)
+09:56::58 agv=:1 [recv] state= 6 15 6 15
+09:56::58 agv=:1 [recv] pos:(6255,30716,90)
+09:56::59 agv=:1 [recv] state= 6 15 6 15
+09:56::59 [proc] plan: currentID:15
+09:56::59 agv=:1 [recv] pos:(6255,30716,90)
+09:57::00 agv=:1 [recv] state= 6 15 6 15
+09:57::00 agv=:1 [recv] pos:(6255,30716,90)
+09:57::01 agv=:1 [recv] state= 6 15 6 15
+09:57::01 [proc] plan: currentID:15
+09:57::01 agv=:1 [recv] pos:(6255,30716,90)
+09:57::02 agv=:1 [recv] state= 6 15 6 15
+09:57::02 agv=:1 [recv] pos:(6255,30716,90)
+09:57::03 agv=:1 [recv] state= 6 15 6 15
+09:57::03 [proc] plan: currentID:15
+09:57::04 agv=:1 [recv] pos:(6255,30716,90)
+09:57::04 agv=:1 [recv] state= 6 15 6 15
+09:57::05 agv=:1 [recv] pos:(6255,30716,90)
+09:57::05 agv=:1 [recv] state= 6 15 6 15
+09:57::05 [proc] plan: currentID:15
+09:57::06 agv=:1 [recv] pos:(6255,30716,90)
+09:57::06 agv=:1 [recv] state= 6 15 6 15
+09:57::07 agv=:1 [recv] pos:(6255,30716,90)
+09:57::07 agv=:1 [recv] state= 6 15 6 15
+09:57::07 [proc] plan: currentID:15
+09:57::08 agv=:1 [recv] pos:(6255,30716,90)
+09:57::08 agv=:1 [recv] state= 6 15 6 15
+09:57::09 agv=:1 [recv] pos:(6255,30716,90)
+09:57::10 agv=:1 [recv] state= 6 15 6 15
+09:57::10 [proc] plan: currentID:15
+09:57::10 agv=:1 [recv] pos:(6255,30716,90)
+09:57::11 agv=:1 [recv] state= 6 15 6 15
+09:57::11 agv=:1 [recv] pos:(6255,30716,90)
+09:57::12 agv=:1 [recv] state= 6 15 6 15
+09:57::12 [proc] plan: currentID:15
+09:57::12 agv=:1 [recv] pos:(6255,30716,90)
+09:57::13 agv=:1 [recv] state= 6 15 6 15
+09:57::13 agv=:1 [recv] pos:(6255,30716,90)
+09:57::14 agv=:1 [recv] state= 6 15 6 15
+09:57::14 [proc] plan: currentID:15
+09:57::14 agv=:1 [recv] pos:(6255,30716,90)
+09:57::15 agv=:1 [recv] state= 6 15 6 15
+09:57::15 agv=:1 [recv] pos:(6255,30716,90)
+09:57::16 agv=:1 [recv] state= 6 15 6 15
+09:57::16 [proc] plan: currentID:15
+09:57::17 agv=:1 [recv] pos:(6255,30716,90)
+09:57::17 agv=:1 [recv] state= 6 15 6 15
+09:57::18 agv=:1 [recv] pos:(6255,30716,90)
+09:57::18 agv=:1 [recv] state= 6 15 6 15
+09:57::18 [proc] plan: currentID:15
+09:57::19 agv=:1 [recv] pos:(6255,30716,90)
+09:57::19 agv=:1 [recv] state= 6 15 6 15
+09:57::20 agv=:1 [recv] pos:(6255,30716,90)
+09:57::20 agv=:1 [recv] state= 6 15 6 15
+09:57::20 [proc] plan: currentID:15
+09:57::21 agv=:1 [recv] pos:(6255,30716,90)
+09:57::21 agv=:1 [recv] state= 6 15 6 15
+09:57::22 agv=:1 [recv] pos:(6255,30716,90)
+09:57::22 agv=:1 [recv] state= 6 15 6 15
+09:57::22 [proc] plan: currentID:15
+09:57::23 agv=:1 [recv] pos:(6255,30716,90)
+09:57::23 agv=:1 [recv] state= 6 15 6 15
+09:57::24 agv=:1 [recv] pos:(6255,30716,90)
+09:57::25 agv=:1 [recv] state= 6 15 6 15
+09:57::25 [proc] plan: currentID:15
+09:57::25 agv=:1 [recv] pos:(6255,30716,90)
+09:57::26 agv=:1 [recv] state= 6 15 6 15
+09:57::26 agv=:1 [recv] pos:(6255,30716,90)
+09:57::27 agv=:1 [recv] state= 6 15 6 15
+09:57::27 [proc] plan: currentID:15
+09:57::27 agv=:1 [recv] pos:(6255,30716,90)
+09:57::28 agv=:1 [recv] state= 6 15 6 15
+09:57::28 agv=:1 [recv] pos:(6255,30716,90)
+09:57::29 agv=:1 [recv] state= 6 15 6 15
+09:57::29 [proc] plan: currentID:15
+09:57::29 agv=:1 [recv] pos:(6255,30716,90)
+09:57::30 agv=:1 [recv] state= 6 15 6 15
+09:57::30 agv=:1 [recv] pos:(6255,30716,90)
+09:57::31 agv=:1 [recv] state= 6 15 6 15
+09:57::31 [proc] plan: currentID:15
+09:57::31 agv=:1 [recv] pos:(6255,30716,90)
+09:57::32 agv=:1 [recv] state= 6 15 6 15
+09:57::32 agv=:1 [recv] pos:(6255,30716,90)
+09:57::33 agv=:1 [recv] state= 6 15 6 15
+09:57::33 [proc] plan: currentID:15
+09:57::34 agv=:1 [recv] pos:(6255,30716,90)
+09:57::34 agv=:1 [recv] state= 6 15 6 15
+09:57::35 agv=:1 [recv] pos:(6255,30716,90)
+09:57::35 agv=:1 [recv] state= 6 15 6 15
+09:57::35 [proc] plan: currentID:15
+09:57::36 agv=:1 [recv] pos:(6255,30716,90)
+09:57::36 agv=:1 [recv] state= 6 15 6 15
+09:57::37 agv=:1 [recv] pos:(6255,30716,90)
+09:57::37 agv=:1 [recv] state= 6 15 6 15
+09:57::37 [proc] plan: currentID:15
+09:57::38 agv=:1 [recv] pos:(6255,30716,90)
+09:57::38 agv=:1 [recv] state= 6 15 6 15
+09:57::39 agv=:1 [recv] pos:(6255,30716,90)
+09:57::39 agv=:1 [recv] state= 6 15 6 15
+09:57::39 [proc] plan: currentID:15
+09:57::40 agv=:1 [recv] pos:(6255,30716,90)
+09:57::40 agv=:1 [recv] state= 6 15 6 15
+09:57::41 agv=:1 [recv] pos:(6255,30716,90)
+09:57::42 agv=:1 [recv] state= 6 15 6 15
+09:57::42 [proc] plan: currentID:15
+09:57::42 agv=:1 [recv] pos:(6255,30716,90)
+09:57::43 agv=:1 [recv] state= 6 15 6 15
+09:57::43 agv=:1 [recv] pos:(6255,30716,90)
+09:57::44 agv=:1 [recv] state= 6 15 6 15
+09:57::44 [proc] plan: currentID:15
+09:57::44 agv=:1 [recv] pos:(6255,30716,90)
+09:57::45 agv=:1 [recv] state= 6 15 6 15
+09:57::45 agv=:1 [recv] pos:(6255,30716,90)
+09:57::46 agv=:1 [recv] state= 6 15 6 15
+09:57::46 [proc] plan: currentID:15
+09:57::46 agv=:1 [recv] pos:(6255,30716,90)
+09:57::47 agv=:1 [recv] state= 6 15 6 15
+09:57::47 agv=:1 [recv] pos:(6255,30716,90)
+09:57::48 agv=:1 [recv] state= 6 15 6 15
+09:57::48 [proc] plan: currentID:15
+09:57::48 agv=:1 [recv] pos:(6255,30716,90)
+09:57::49 agv=:1 [recv] state= 6 15 6 15
+09:57::49 agv=:1 [recv] pos:(6255,30716,90)
+09:57::50 agv=:1 [recv] state= 6 15 6 15
+09:57::50 [proc] plan: currentID:15
+09:57::51 agv=:1 [recv] pos:(6255,30716,90)
+09:57::51 agv=:1 [recv] state= 6 15 6 15
+09:57::52 agv=:1 [recv] pos:(6255,30716,90)
+09:57::52 agv=:1 [recv] state= 6 15 6 15
+09:57::52 [proc] plan: currentID:15
+09:57::53 agv=:1 [recv] pos:(6255,30716,90)
+09:57::53 agv=:1 [recv] state= 6 15 6 15
+09:57::54 agv=:1 [recv] pos:(6255,30716,90)
+09:57::54 agv=:1 [recv] state= 6 15 6 15
+09:57::54 [proc] plan: currentID:15
+09:57::55 agv=:1 [recv] pos:(6255,30716,90)
+09:57::55 agv=:1 [recv] state= 6 15 6 15
+09:57::56 agv=:1 [recv] pos:(6255,30716,90)
+09:57::56 agv=:1 [recv] state= 6 15 6 15
+09:57::56 [proc] plan: currentID:15
+09:57::57 agv=:1 [recv] pos:(6255,30716,90)
+09:57::57 agv=:1 [recv] state= 6 15 6 15
+09:57::58 agv=:1 [recv] pos:(6255,30716,90)
+09:57::59 agv=:1 [recv] state= 6 15 6 15
+09:57::59 [proc] plan: currentID:15
+09:57::59 agv=:1 [recv] pos:(6255,30716,90)
+09:58::00 agv=:1 [recv] state= 6 15 6 15
+09:58::00 agv=:1 [recv] pos:(6255,30716,90)
+09:58::01 agv=:1 [recv] state= 6 15 6 15
+09:58::01 [proc] plan: currentID:15
+09:58::01 agv=:1 [recv] pos:(6255,30716,90)
+09:58::02 agv=:1 [recv] state= 6 15 6 15
+09:58::02 agv=:1 [recv] pos:(6255,30716,90)
+09:58::03 agv=:1 [recv] state= 6 15 6 15
+09:58::03 [proc] plan: currentID:15
+09:58::03 agv=:1 [recv] pos:(6255,30716,90)
+09:58::04 agv=:1 [recv] state= 6 15 6 15
+09:58::04 agv=:1 [recv] pos:(6255,30716,90)
+09:58::05 agv=:1 [recv] state= 6 15 6 15
+09:58::05 [proc] plan: currentID:15
+09:58::05 agv=:1 [recv] pos:(6255,30716,90)
+09:58::06 agv=:1 [recv] state= 6 15 6 15
+09:58::06 agv=:1 [recv] pos:(6255,30716,90)
+09:58::07 agv=:1 [recv] state= 6 15 6 15
+09:58::07 [proc] plan: currentID:15
+09:58::08 agv=:1 [recv] pos:(6255,30716,90)
+09:58::08 agv=:1 [recv] state= 6 15 6 15
+09:58::09 agv=:1 [recv] pos:(6255,30716,90)
+09:58::09 agv=:1 [recv] state= 6 15 6 15
+09:58::09 [proc] plan: currentID:15
+09:58::10 agv=:1 [recv] pos:(6255,30716,90)
+09:58::10 agv=:1 [recv] state= 6 15 6 15
+09:58::11 agv=:1 [recv] pos:(6255,30716,90)
+09:58::11 agv=:1 [recv] state= 6 15 6 15
+09:58::11 [proc] plan: currentID:15
+09:58::12 agv=:1 [recv] pos:(6255,30716,90)
+09:58::12 agv=:1 [recv] state= 6 15 6 15
+09:58::13 agv=:1 [recv] pos:(6255,30716,90)
+09:58::13 agv=:1 [recv] state= 6 15 6 15
+09:58::13 [proc] plan: currentID:15
+09:58::14 agv=:1 [recv] pos:(6255,30716,90)
+09:58::14 agv=:1 [recv] state= 6 15 6 15
+09:58::15 agv=:1 [recv] pos:(6255,30716,90)
+09:58::16 agv=:1 [recv] state= 6 15 6 15
+09:58::16 [proc] plan: currentID:15
+09:58::16 agv=:1 [recv] pos:(6255,30716,90)
+09:58::17 agv=:1 [recv] state= 6 15 6 15
+09:58::17 agv=:1 [recv] pos:(6255,30716,90)
+09:58::18 agv=:1 [recv] state= 6 15 6 15
+09:58::18 [proc] plan: currentID:15
+09:58::18 agv=:1 [recv] pos:(6255,30716,90)
+09:58::19 agv=:1 [recv] state= 6 15 6 15
+09:58::19 agv=:1 [recv] pos:(6255,30716,90)
+09:58::20 agv=:1 [recv] state= 6 15 6 15
+09:58::20 [proc] plan: currentID:15
+09:58::20 agv=:1 [recv] pos:(6255,30716,90)
+09:58::21 agv=:1 [recv] state= 6 15 6 15
+09:58::21 agv=:1 [recv] pos:(6255,30716,90)
+09:58::22 agv=:1 [recv] state= 6 15 6 15
+09:58::22 [proc] plan: currentID:15
+09:58::22 agv=:1 [recv] pos:(6255,30716,90)
+09:58::23 agv=:1 [recv] state= 6 15 6 15
+09:58::23 agv=:1 [recv] pos:(6255,30716,90)
+09:58::24 agv=:1 [recv] state= 6 15 6 15
+09:58::24 [proc] plan: currentID:15
+09:58::25 agv=:1 [recv] pos:(6255,30716,90)
+09:58::25 agv=:1 [recv] state= 6 15 6 15
+09:58::26 agv=:1 [recv] pos:(6255,30716,90)
+09:58::26 agv=:1 [recv] state= 6 15 6 15
+09:58::26 [proc] plan: currentID:15
+09:58::27 agv=:1 [recv] pos:(6255,30716,90)
+09:58::27 agv=:1 [recv] state= 6 15 6 15
+09:58::28 agv=:1 [recv] pos:(6255,30716,90)
+09:58::28 agv=:1 [recv] state= 6 15 6 15
+09:58::28 [proc] plan: currentID:15
+09:58::29 agv=:1 [recv] pos:(6255,30716,90)
+09:58::29 agv=:1 [recv] state= 6 15 6 15
+09:58::30 agv=:1 [recv] pos:(6255,30716,90)
+09:58::30 agv=:1 [recv] state= 6 15 6 15
+09:58::30 [proc] plan: currentID:15
+09:58::31 agv=:1 [recv] pos:(6255,30716,90)
+09:58::31 agv=:1 [recv] state= 6 15 6 15
+09:58::32 agv=:1 [recv] pos:(6255,30716,90)
+09:58::33 agv=:1 [recv] state= 6 15 6 15
+09:58::33 [proc] plan: currentID:15
+09:58::33 agv=:1 [recv] pos:(6255,30716,90)
+09:58::34 agv=:1 [recv] state= 6 15 6 15
+09:58::34 agv=:1 [recv] pos:(6255,30716,90)
+09:58::35 agv=:1 [recv] state= 6 15 6 15
+09:58::35 [proc] plan: currentID:15
+09:58::35 agv=:1 [recv] pos:(6255,30716,90)
+09:58::36 agv=:1 [recv] state= 6 15 6 15
+09:58::36 agv=:1 [recv] pos:(6255,30716,90)
+09:58::37 agv=:1 [recv] state= 6 15 6 15
+09:58::37 [proc] plan: currentID:15
+09:58::37 agv=:1 [recv] pos:(6255,30716,90)
+09:58::38 agv=:1 [recv] state= 6 15 6 15
+09:58::38 agv=:1 [recv] pos:(6255,30716,90)
+09:58::39 agv=:1 [recv] state= 6 15 6 15
+09:58::39 [proc] plan: currentID:15
+09:58::39 agv=:1 [recv] pos:(6255,30716,90)
+09:58::40 agv=:1 [recv] state= 6 15 6 15
+09:58::40 agv=:1 [recv] pos:(6255,30716,90)
+09:58::41 agv=:1 [recv] state= 6 15 6 15
+09:58::41 [proc] plan: currentID:15
+09:58::42 agv=:1 [recv] pos:(6255,30716,90)
+09:58::42 agv=:1 [recv] state= 6 15 6 15
+09:58::43 agv=:1 [recv] pos:(6255,30716,90)
+09:58::43 agv=:1 [recv] state= 6 15 6 15
+09:58::43 [proc] plan: currentID:15
+09:58::44 agv=:1 [recv] pos:(6255,30716,90)
+09:58::44 agv=:1 [recv] state= 6 15 6 15
+09:58::45 agv=:1 [recv] pos:(6255,30716,90)
+09:58::45 agv=:1 [recv] state= 6 15 6 15
+09:58::45 [proc] plan: currentID:15
+09:58::46 agv=:1 [recv] pos:(6255,30716,90)
+09:58::46 agv=:1 [recv] state= 6 15 6 15
+09:58::47 agv=:1 [recv] pos:(6255,30716,90)
+09:58::47 agv=:1 [recv] state= 6 15 6 15
+09:58::47 [proc] plan: currentID:15
+09:58::48 agv=:1 [recv] pos:(6255,30716,90)
+09:58::48 agv=:1 [recv] state= 6 15 6 15
+09:58::49 agv=:1 [recv] pos:(6255,30716,90)
+09:58::50 agv=:1 [recv] state= 6 15 6 15
+09:58::50 [proc] plan: currentID:15
+09:58::50 agv=:1 [recv] pos:(6255,30716,90)
+09:58::51 agv=:1 [recv] state= 6 15 6 15
+09:58::51 agv=:1 [recv] pos:(6255,30716,90)
+09:58::52 agv=:1 [recv] state= 6 15 6 15
+09:58::52 [proc] plan: currentID:15
+09:58::52 agv=:1 [recv] pos:(6255,30716,90)
+09:58::53 agv=:1 [recv] state= 6 15 6 15
+09:58::53 agv=:1 [recv] pos:(6255,30716,90)
+09:58::54 agv=:1 [recv] state= 6 15 6 15
+09:58::54 [proc] plan: currentID:15
+09:58::54 agv=:1 [recv] pos:(6255,30716,90)
+09:58::55 agv=:1 [recv] state= 6 15 6 15
+09:58::55 agv=:1 [recv] pos:(6255,30716,90)
+09:58::56 agv=:1 [recv] state= 6 15 6 15
+09:58::56 [proc] plan: currentID:15
+09:58::56 agv=:1 [recv] pos:(6255,30716,90)
+09:58::57 agv=:1 [recv] state= 6 15 6 15
+09:58::57 agv=:1 [recv] pos:(6255,30716,90)
+09:58::58 agv=:1 [recv] state= 6 15 6 15
+09:58::58 [proc] plan: currentID:15
+09:58::59 agv=:1 [recv] pos:(6255,30716,90)
+09:58::59 agv=:1 [recv] state= 6 15 6 15
+09:59::00 agv=:1 [recv] pos:(6255,30716,90)
+09:59::00 agv=:1 [recv] state= 6 15 6 15
+09:59::00 [proc] plan: currentID:15
+09:59::01 agv=:1 [recv] pos:(6255,30716,90)
+09:59::01 agv=:1 [recv] state= 6 15 6 15
+09:59::02 agv=:1 [recv] pos:(6255,30716,90)
+09:59::02 agv=:1 [recv] state= 6 15 6 15
+09:59::02 [proc] plan: currentID:15
+09:59::03 agv=:1 [recv] pos:(6255,30716,90)
+09:59::03 agv=:1 [recv] state= 6 15 6 15
+09:59::04 agv=:1 [recv] pos:(6255,30716,90)
+09:59::04 agv=:1 [recv] state= 6 15 6 15
+09:59::04 [proc] plan: currentID:15
+09:59::05 agv=:1 [recv] pos:(6255,30716,90)
+09:59::05 agv=:1 [recv] state= 6 15 6 15
+09:59::06 agv=:1 [recv] pos:(6255,30716,90)
+09:59::07 agv=:1 [recv] state= 6 15 6 15
+09:59::07 [proc] plan: currentID:15
+09:59::07 agv=:1 [recv] pos:(6255,30716,90)
+09:59::08 agv=:1 [recv] state= 6 15 6 15
+09:59::08 agv=:1 [recv] pos:(6255,30716,90)
+09:59::09 agv=:1 [recv] state= 6 15 6 15
+09:59::09 [proc] plan: currentID:15
+09:59::09 agv=:1 [recv] pos:(6255,30716,90)
+09:59::10 agv=:1 [recv] state= 6 15 6 15
+09:59::10 agv=:1 [recv] pos:(6255,30716,90)
+09:59::11 agv=:1 [recv] state= 6 15 6 15
+09:59::11 [proc] plan: currentID:15
+09:59::11 agv=:1 [recv] pos:(6255,30716,90)
+09:59::12 agv=:1 [recv] state= 6 15 6 15
+09:59::12 agv=:1 [recv] pos:(6255,30716,90)
+09:59::13 agv=:1 [recv] state= 6 15 6 15
+09:59::13 [proc] plan: currentID:15
+09:59::13 agv=:1 [recv] pos:(6255,30716,90)
+09:59::14 agv=:1 [recv] state= 6 15 6 15
+09:59::14 agv=:1 [recv] pos:(6255,30716,90)
+09:59::15 agv=:1 [recv] state= 6 15 6 15
+09:59::15 [proc] plan: currentID:15
+09:59::16 agv=:1 [recv] pos:(6255,30716,90)
+09:59::16 agv=:1 [recv] state= 6 15 6 15
+09:59::17 agv=:1 [recv] pos:(6255,30716,90)
+09:59::17 agv=:1 [recv] state= 6 15 6 15
+09:59::17 [proc] plan: currentID:15
+09:59::18 agv=:1 [recv] pos:(6255,30716,90)
+09:59::18 agv=:1 [recv] state= 6 15 6 15
+09:59::19 agv=:1 [recv] pos:(6255,30716,90)
+09:59::19 agv=:1 [recv] state= 6 15 6 15
+09:59::19 [proc] plan: currentID:15
+09:59::20 agv=:1 [recv] pos:(6255,30716,90)
+09:59::20 agv=:1 [recv] state= 6 15 6 15
+09:59::21 agv=:1 [recv] pos:(6255,30716,90)
+09:59::21 agv=:1 [recv] state= 6 15 6 15
+09:59::21 [proc] plan: currentID:15
+09:59::22 agv=:1 [recv] pos:(6255,30716,90)
+09:59::22 agv=:1 [recv] state= 6 15 6 15
+09:59::23 agv=:1 [recv] pos:(6255,30716,90)
+09:59::24 agv=:1 [recv] state= 6 15 6 15
+09:59::24 [proc] plan: currentID:15
+09:59::24 agv=:1 [recv] pos:(6255,30716,90)
+09:59::25 agv=:1 [recv] state= 6 15 6 15
+09:59::25 agv=:1 [recv] pos:(6255,30716,90)
+09:59::26 agv=:1 [recv] state= 6 15 6 15
+09:59::26 [proc] plan: currentID:15
+09:59::26 agv=:1 [recv] pos:(6255,30716,90)
+09:59::27 agv=:1 [recv] state= 6 15 6 15
+09:59::27 agv=:1 [recv] pos:(6255,30716,90)
+09:59::28 agv=:1 [recv] state= 6 15 6 15
+09:59::28 [proc] plan: currentID:15
+09:59::28 agv=:1 [recv] pos:(6255,30716,90)
+09:59::29 agv=:1 [recv] state= 6 15 6 15
+09:59::29 agv=:1 [recv] pos:(6255,30716,90)
+09:59::30 agv=:1 [recv] state= 6 15 6 15
+09:59::30 [proc] plan: currentID:15
+09:59::30 agv=:1 [recv] pos:(6255,30716,90)
+09:59::31 agv=:1 [recv] state= 6 15 6 15
+09:59::31 agv=:1 [recv] pos:(6255,30716,90)
+09:59::32 agv=:1 [recv] state= 6 15 6 15
+09:59::32 [proc] plan: currentID:15
+09:59::33 agv=:1 [recv] pos:(6255,30716,90)
+09:59::33 agv=:1 [recv] state= 6 15 6 15
+09:59::34 agv=:1 [recv] pos:(6255,30716,90)
+09:59::34 agv=:1 [recv] state= 6 15 6 15
+09:59::34 [proc] plan: currentID:15
+09:59::35 agv=:1 [recv] pos:(6255,30716,90)
+09:59::35 agv=:1 [recv] state= 6 15 6 15
+09:59::36 agv=:1 [recv] pos:(6255,30716,90)
+09:59::36 agv=:1 [recv] state= 6 15 6 15
+09:59::36 [proc] plan: currentID:15
+09:59::37 agv=:1 [recv] pos:(6255,30716,90)
+09:59::37 agv=:1 [recv] state= 6 15 6 15
+09:59::38 agv=:1 [recv] pos:(6255,30716,90)
+09:59::38 agv=:1 [recv] state= 6 15 6 15
+09:59::38 [proc] plan: currentID:15
+09:59::39 agv=:1 [recv] pos:(6255,30716,90)
+09:59::39 agv=:1 [recv] state= 6 15 6 15
+09:59::40 agv=:1 [recv] pos:(6255,30716,90)
+09:59::41 agv=:1 [recv] state= 6 15 6 15
+09:59::41 [proc] plan: currentID:15
+09:59::41 agv=:1 [recv] pos:(6255,30716,90)
+09:59::42 agv=:1 [recv] state= 6 15 6 15
+09:59::42 agv=:1 [recv] pos:(6255,30716,90)
+09:59::43 agv=:1 [recv] state= 6 15 6 15
+09:59::43 [proc] plan: currentID:15
+09:59::43 agv=:1 [recv] pos:(6255,30716,90)
+09:59::44 agv=:1 [recv] state= 6 15 6 15
+09:59::44 agv=:1 [recv] pos:(6255,30716,90)
+09:59::45 agv=:1 [recv] state= 6 15 6 15
+09:59::45 [proc] plan: currentID:15
+09:59::45 agv=:1 [recv] pos:(6255,30716,90)
+09:59::46 agv=:1 [recv] state= 6 15 6 15
+09:59::46 agv=:1 [recv] pos:(6255,30716,90)
+09:59::47 agv=:1 [recv] state= 6 15 6 15
+09:59::47 [proc] plan: currentID:15
+09:59::47 agv=:1 [recv] pos:(6255,30716,90)
+09:59::48 agv=:1 [recv] state= 6 15 6 15
+09:59::48 agv=:1 [recv] pos:(6255,30716,90)
+09:59::49 agv=:1 [recv] state= 6 15 6 15
+09:59::49 [proc] plan: currentID:15
+09:59::50 agv=:1 [recv] pos:(6255,30716,90)
+09:59::50 agv=:1 [recv] state= 6 15 6 15
+09:59::51 agv=:1 [recv] pos:(6255,30716,90)
+09:59::51 agv=:1 [recv] state= 6 15 6 15
+09:59::51 [proc] plan: currentID:15
+09:59::52 agv=:1 [recv] pos:(6255,30716,90)
+09:59::52 agv=:1 [recv] state= 6 15 6 15
+09:59::53 agv=:1 [recv] pos:(6255,30716,90)
+09:59::53 agv=:1 [recv] state= 6 15 6 15
+09:59::53 [proc] plan: currentID:15
+09:59::54 agv=:1 [recv] pos:(6255,30716,90)
+09:59::54 agv=:1 [recv] state= 6 15 6 15
+09:59::55 agv=:1 [recv] pos:(6255,30716,90)
+09:59::55 agv=:1 [recv] state= 6 15 6 15
+09:59::55 [proc] plan: currentID:15
+09:59::56 agv=:1 [recv] pos:(6255,30716,90)
+09:59::56 agv=:1 [recv] state= 6 15 6 15
+09:59::57 agv=:1 [recv] pos:(6255,30716,90)
+09:59::58 agv=:1 [recv] state= 6 15 6 15
+09:59::58 [proc] plan: currentID:15
+09:59::58 agv=:1 [recv] pos:(6255,30716,90)
+09:59::59 agv=:1 [recv] state= 6 15 6 15
+09:59::59 agv=:1 [recv] pos:(6255,30716,90)
+10:00::00 agv=:1 [recv] state= 6 15 6 15
+10:00::00 [proc] plan: currentID:15
+10:00::00 agv=:1 [recv] pos:(6255,30716,90)
+10:00::01 agv=:1 [recv] state= 6 15 6 15
+10:00::01 agv=:1 [recv] pos:(6255,30716,90)
+10:00::02 agv=:1 [recv] state= 6 15 6 15
+10:00::02 [proc] plan: currentID:15
+10:00::02 agv=:1 [recv] pos:(6255,30716,90)
+10:00::03 agv=:1 [recv] state= 6 15 6 15
+10:00::03 agv=:1 [recv] pos:(6255,30716,90)
+10:00::04 agv=:1 [recv] state= 6 15 6 15
+10:00::04 [proc] plan: currentID:15
+10:00::04 agv=:1 [recv] pos:(6255,30716,90)
+10:00::05 agv=:1 [recv] state= 6 15 6 15
+10:00::05 agv=:1 [recv] pos:(6255,30716,90)
+10:00::06 agv=:1 [recv] state= 6 15 6 15
+10:00::06 [proc] plan: currentID:15
+10:00::07 agv=:1 [recv] pos:(6255,30716,90)
+10:00::07 agv=:1 [recv] state= 6 15 6 15
+10:00::08 agv=:1 [recv] pos:(6255,30716,90)
+10:00::08 agv=:1 [recv] state= 6 15 6 15
+10:00::08 [proc] plan: currentID:15
+10:00::09 agv=:1 [recv] pos:(6255,30716,90)
+10:00::09 agv=:1 [recv] state= 6 15 6 15
+10:00::10 agv=:1 [recv] pos:(6255,30716,90)
+10:00::10 agv=:1 [recv] state= 6 15 6 15
+10:00::10 [proc] plan: currentID:15
+10:00::11 agv=:1 [recv] pos:(6255,30716,90)
+10:00::11 agv=:1 [recv] state= 6 15 6 15
+10:00::12 agv=:1 [recv] pos:(6255,30716,90)
+10:00::12 agv=:1 [recv] state= 6 15 6 15
+10:00::12 [proc] plan: currentID:15
+10:00::13 agv=:1 [recv] pos:(6255,30716,90)
+10:00::13 agv=:1 [recv] state= 6 15 6 15
+10:00::14 agv=:1 [recv] pos:(6255,30716,90)
+10:00::15 agv=:1 [recv] state= 6 15 6 15
+10:00::15 [proc] plan: currentID:15
+10:00::15 agv=:1 [recv] pos:(6255,30716,90)
+10:00::16 agv=:1 [recv] state= 6 15 6 15
+10:00::16 agv=:1 [recv] pos:(6255,30716,90)
+10:00::17 agv=:1 [recv] state= 6 15 6 15
+10:00::17 [proc] plan: currentID:15
+10:00::17 agv=:1 [recv] pos:(6255,30716,90)
+10:00::18 agv=:1 [recv] state= 6 15 6 15
+10:00::18 agv=:1 [recv] pos:(6255,30716,90)
+10:00::19 agv=:1 [recv] state= 6 15 6 15
+10:00::19 [proc] plan: currentID:15
+10:00::19 agv=:1 [recv] pos:(6255,30716,90)
+10:00::20 agv=:1 [recv] state= 6 15 6 15
+10:00::20 agv=:1 [recv] pos:(6255,30716,90)
+10:00::21 agv=:1 [recv] state= 6 15 6 15
+10:00::21 [proc] plan: currentID:15
+10:00::21 agv=:1 [recv] pos:(6255,30716,90)
+10:00::22 agv=:1 [recv] state= 6 15 6 15
+10:00::22 agv=:1 [recv] pos:(6255,30716,90)
+10:00::23 agv=:1 [recv] state= 6 15 6 15
+10:00::23 [proc] plan: currentID:15
+10:00::24 agv=:1 [recv] pos:(6255,30716,90)
+10:00::24 agv=:1 [recv] state= 6 15 6 15
+10:00::25 agv=:1 [recv] pos:(6255,30716,90)
+10:00::25 agv=:1 [recv] state= 6 15 6 15
+10:00::25 [proc] plan: currentID:15
+10:00::26 agv=:1 [recv] pos:(6255,30716,90)
+10:00::26 agv=:1 [recv] state= 6 15 6 15
+10:00::27 agv=:1 [recv] pos:(6255,30716,90)
+10:00::27 agv=:1 [recv] state= 6 15 6 15
+10:00::27 [proc] plan: currentID:15
+10:00::28 agv=:1 [recv] pos:(6255,30716,90)
+10:00::28 agv=:1 [recv] state= 6 15 6 15
+10:00::29 agv=:1 [recv] pos:(6255,30716,90)
+10:00::29 agv=:1 [recv] state= 6 15 6 15
+10:00::29 [proc] plan: currentID:15
+10:00::30 agv=:1 [recv] pos:(6255,30716,90)
+10:00::30 agv=:1 [recv] state= 6 15 6 15
+10:00::31 agv=:1 [recv] pos:(6255,30716,90)
+10:00::32 agv=:1 [recv] state= 6 15 6 15
+10:00::32 [proc] plan: currentID:15
+10:00::32 agv=:1 [recv] pos:(6255,30716,90)
+10:00::33 agv=:1 [recv] state= 6 15 6 15
+10:00::33 agv=:1 [recv] pos:(6255,30716,90)
+10:00::34 agv=:1 [recv] state= 6 15 6 15
+10:00::34 [proc] plan: currentID:15
+10:00::34 agv=:1 [recv] pos:(6255,30716,90)
+10:00::35 agv=:1 [recv] state= 6 15 6 15
+10:00::35 agv=:1 [recv] pos:(6255,30716,90)
+10:00::36 agv=:1 [recv] state= 6 15 6 15
+10:00::36 [proc] plan: currentID:15
+10:00::36 agv=:1 [recv] pos:(6255,30716,90)
+10:00::37 agv=:1 [recv] state= 6 15 6 15
+10:00::37 agv=:1 [recv] pos:(6255,30716,90)
+10:00::38 agv=:1 [recv] state= 6 15 6 15
+10:00::38 [proc] plan: currentID:15
+10:00::38 agv=:1 [recv] pos:(6255,30716,90)
+10:00::39 agv=:1 [recv] state= 6 15 6 15
+10:00::39 agv=:1 [recv] pos:(6255,30716,90)
+10:00::40 agv=:1 [recv] state= 6 15 6 15
+10:00::40 [proc] plan: currentID:15
+10:00::41 agv=:1 [recv] pos:(6255,30716,90)
+10:00::41 agv=:1 [recv] state= 6 15 6 15
+10:00::42 agv=:1 [recv] pos:(6255,30716,90)
+10:00::42 agv=:1 [recv] state= 6 15 6 15
+10:00::42 [proc] plan: currentID:15
+10:00::43 agv=:1 [recv] pos:(6255,30716,90)
+10:00::43 agv=:1 [recv] state= 6 15 6 15
+10:00::44 agv=:1 [recv] pos:(6255,30716,90)
+10:00::44 agv=:1 [recv] state= 6 15 6 15
+10:00::44 [proc] plan: currentID:15
+10:00::45 agv=:1 [recv] pos:(6255,30716,90)
+10:00::45 agv=:1 [recv] state= 6 15 6 15
+10:00::46 agv=:1 [recv] pos:(6255,30716,90)
+10:00::46 agv=:1 [recv] state= 6 15 6 15
+10:00::46 [proc] plan: currentID:15
+10:00::47 agv=:1 [recv] pos:(6255,30716,90)
+10:00::47 agv=:1 [recv] state= 6 15 6 15
+10:00::48 agv=:1 [recv] pos:(6255,30716,90)
+10:00::49 agv=:1 [recv] state= 6 15 6 15
+10:00::49 [proc] plan: currentID:15
+10:00::49 agv=:1 [recv] pos:(6255,30716,90)
+10:00::50 agv=:1 [recv] state= 6 15 6 15
+10:00::50 agv=:1 [recv] pos:(6255,30716,90)
+10:00::51 agv=:1 [recv] state= 6 15 6 15
+10:00::51 [proc] plan: currentID:15
+10:00::51 agv=:1 [recv] pos:(6255,30716,90)
+10:00::52 agv=:1 [recv] state= 6 15 6 15
+10:00::52 agv=:1 [recv] pos:(6255,30716,90)
+10:00::53 agv=:1 [recv] state= 6 15 6 15
+10:00::53 [proc] plan: currentID:15
+10:00::53 agv=:1 [recv] pos:(6255,30716,90)
+10:00::54 agv=:1 [recv] state= 6 15 6 15
+10:00::54 agv=:1 [recv] pos:(6255,30716,90)
+10:00::55 agv=:1 [recv] state= 6 15 6 15
+10:00::55 [proc] plan: currentID:15
+10:00::55 agv=:1 [recv] pos:(6255,30716,90)
+10:00::56 agv=:1 [recv] state= 6 15 6 15
+10:00::56 agv=:1 [recv] pos:(6255,30716,90)
+10:00::57 agv=:1 [recv] state= 6 15 6 15
+10:00::57 [proc] plan: currentID:15
+10:00::58 agv=:1 [recv] pos:(6255,30716,90)
+10:00::58 agv=:1 [recv] state= 6 15 6 15
+10:00::59 agv=:1 [recv] pos:(6255,30716,90)
+10:00::59 agv=:1 [recv] state= 6 15 6 15
+10:00::59 [proc] plan: currentID:15
+10:01::00 agv=:1 [recv] pos:(6255,30716,90)
+10:01::00 agv=:1 [recv] state= 6 15 6 15
+10:01::01 agv=:1 [recv] pos:(6255,30716,90)
+10:01::01 agv=:1 [recv] state= 6 15 6 15
+10:01::01 [proc] plan: currentID:15
+10:01::02 agv=:1 [recv] pos:(6255,30716,90)
+10:01::02 agv=:1 [recv] state= 6 15 6 15
+10:01::03 agv=:1 [recv] pos:(6255,30716,90)
+10:01::03 agv=:1 [recv] state= 6 15 6 15
+10:01::03 [proc] plan: currentID:15
+10:01::04 agv=:1 [recv] pos:(6255,30716,90)
+10:01::04 agv=:1 [recv] state= 6 15 6 15
+10:01::05 agv=:1 [recv] pos:(6255,30716,90)
+10:01::06 agv=:1 [recv] state= 6 15 6 15
+10:01::06 [proc] plan: currentID:15
+10:01::06 agv=:1 [recv] pos:(6255,30716,90)
+10:01::07 agv=:1 [recv] state= 6 15 6 15
+10:01::07 agv=:1 [recv] pos:(6255,30716,90)
+10:01::08 agv=:1 [recv] state= 6 15 6 15
+10:01::08 [proc] plan: currentID:15
+10:01::08 agv=:1 [recv] pos:(6255,30716,90)
+10:01::09 agv=:1 [recv] state= 6 15 6 15
+10:01::09 agv=:1 [recv] pos:(6255,30716,90)
+10:01::10 agv=:1 [recv] state= 6 15 6 15
+10:01::10 [proc] plan: currentID:15
+10:01::10 agv=:1 [recv] pos:(6255,30716,90)
+10:01::11 agv=:1 [recv] state= 6 15 6 15
+10:01::11 agv=:1 [recv] pos:(6255,30716,90)
+10:01::12 agv=:1 [recv] state= 6 15 6 15
+10:01::12 [proc] plan: currentID:15
+10:01::12 agv=:1 [recv] pos:(6255,30716,90)
+10:01::13 agv=:1 [recv] state= 6 15 6 15
+10:01::13 agv=:1 [recv] pos:(6255,30716,90)
+10:01::14 agv=:1 [recv] state= 6 15 6 15
+10:01::14 [proc] plan: currentID:15
+10:01::15 agv=:1 [recv] pos:(6255,30716,90)
+10:01::15 agv=:1 [recv] state= 6 15 6 15
+10:01::16 agv=:1 [recv] pos:(6255,30716,90)
+10:01::16 agv=:1 [recv] state= 6 15 6 15
+10:01::16 [proc] plan: currentID:15
+10:01::17 agv=:1 [recv] pos:(6255,30716,90)
+10:01::17 agv=:1 [recv] state= 6 15 6 15
+10:01::18 agv=:1 [recv] pos:(6255,30716,90)
+10:01::18 agv=:1 [recv] state= 6 15 6 15
+10:01::18 [proc] plan: currentID:15
+10:01::19 agv=:1 [recv] pos:(6255,30716,90)
+10:01::19 agv=:1 [recv] state= 6 15 6 15
+10:01::20 agv=:1 [recv] pos:(6255,30716,90)
+10:01::20 agv=:1 [recv] state= 6 15 6 15
+10:01::20 [proc] plan: currentID:15
+10:01::21 agv=:1 [recv] pos:(6255,30716,90)
+10:01::21 agv=:1 [recv] state= 6 15 6 15
+10:01::22 agv=:1 [recv] pos:(6255,30716,90)
+10:01::23 agv=:1 [recv] state= 6 15 6 15
+10:01::23 [proc] plan: currentID:15
+10:01::23 agv=:1 [recv] pos:(6255,30716,90)
+10:01::24 agv=:1 [recv] state= 6 15 6 15
+10:01::24 agv=:1 [recv] pos:(6255,30716,90)
+10:01::25 agv=:1 [recv] state= 6 15 6 15
+10:01::25 [proc] plan: currentID:15
+10:01::25 agv=:1 [recv] pos:(6255,30716,90)
+10:01::26 agv=:1 [recv] state= 6 15 6 15
+10:01::26 agv=:1 [recv] pos:(6255,30716,90)
+10:01::27 agv=:1 [recv] state= 6 15 6 15
+10:01::27 [proc] plan: currentID:15
+10:01::27 agv=:1 [recv] pos:(6255,30716,90)
+10:01::28 agv=:1 [recv] state= 6 15 6 15
+10:01::28 agv=:1 [recv] pos:(6255,30716,90)
+10:01::29 agv=:1 [recv] state= 6 15 6 15
+10:01::29 [proc] plan: currentID:15
+10:01::29 agv=:1 [recv] pos:(6255,30716,90)
+10:01::30 agv=:1 [recv] state= 6 15 6 15
+10:01::30 agv=:1 [recv] pos:(6255,30716,90)
+10:01::31 agv=:1 [recv] state= 6 15 6 15
+10:01::31 [proc] plan: currentID:15
+10:01::32 agv=:1 [recv] pos:(6255,30716,90)
+10:01::32 agv=:1 [recv] state= 6 15 6 15
+10:01::33 agv=:1 [recv] pos:(6255,30716,90)
+10:01::33 agv=:1 [recv] state= 6 15 6 15
+10:01::33 [proc] plan: currentID:15
+10:01::34 agv=:1 [recv] pos:(6255,30716,90)
+10:01::34 agv=:1 [recv] state= 6 15 6 15
+10:01::35 agv=:1 [recv] pos:(6255,30716,90)
+10:01::35 agv=:1 [recv] state= 6 15 6 15
+10:01::35 [proc] plan: currentID:15
+10:01::36 agv=:1 [recv] pos:(6255,30716,90)
+10:01::36 agv=:1 [recv] state= 6 15 6 15
+10:01::37 agv=:1 [recv] pos:(6255,30716,90)
+10:01::37 agv=:1 [recv] state= 6 15 6 15
+10:01::37 [proc] plan: currentID:15
+10:01::38 agv=:1 [recv] pos:(6255,30716,90)
+10:01::38 agv=:1 [recv] state= 6 15 6 15
+10:01::39 agv=:1 [recv] pos:(6255,30716,90)
+10:01::40 agv=:1 [recv] state= 6 15 6 15
+10:01::40 [proc] plan: currentID:15
+10:01::40 agv=:1 [recv] pos:(6255,30716,90)
+10:01::41 agv=:1 [recv] state= 6 15 6 15
+10:01::41 agv=:1 [recv] pos:(6255,30716,90)
+10:01::42 agv=:1 [recv] state= 6 15 6 15
+10:01::42 [proc] plan: currentID:15
+10:01::42 agv=:1 [recv] pos:(6255,30716,90)
+10:01::43 agv=:1 [recv] state= 6 15 6 15
+10:01::43 agv=:1 [recv] pos:(6255,30716,90)
+10:01::44 agv=:1 [recv] state= 6 15 6 15
+10:01::44 [proc] plan: currentID:15
+10:01::44 agv=:1 [recv] pos:(6255,30716,90)
+10:01::45 agv=:1 [recv] state= 6 15 6 15
+10:01::45 agv=:1 [recv] pos:(6255,30716,90)
+10:01::46 agv=:1 [recv] state= 6 15 6 15
+10:01::46 [proc] plan: currentID:15
+10:01::46 agv=:1 [recv] pos:(6255,30716,90)
+10:01::47 agv=:1 [recv] state= 6 15 6 15
+10:01::47 agv=:1 [recv] pos:(6255,30716,90)
+10:01::48 agv=:1 [recv] state= 6 15 6 15
+10:01::48 [proc] plan: currentID:15
+10:01::49 agv=:1 [recv] pos:(6255,30716,90)
+10:01::49 agv=:1 [recv] state= 6 15 6 15
+10:01::50 agv=:1 [recv] pos:(6255,30716,90)
+10:01::50 agv=:1 [recv] state= 6 15 6 15
+10:01::50 [proc] plan: currentID:15
+10:01::51 agv=:1 [recv] pos:(6255,30716,90)
+10:01::51 agv=:1 [recv] state= 6 15 6 15
+10:01::52 agv=:1 [recv] pos:(6255,30716,90)
+10:01::52 agv=:1 [recv] state= 6 15 6 15
+10:01::52 [proc] plan: currentID:15
+10:01::53 agv=:1 [recv] pos:(6255,30716,90)
+10:01::53 agv=:1 [recv] state= 6 15 6 15
+10:01::54 agv=:1 [recv] pos:(6255,30716,90)
+10:01::54 agv=:1 [recv] state= 6 15 6 15
+10:01::54 [proc] plan: currentID:15
+10:01::55 agv=:1 [recv] pos:(6255,30716,90)
+10:01::55 agv=:1 [recv] state= 6 15 6 15
+10:01::56 agv=:1 [recv] pos:(6255,30716,90)
+10:01::57 agv=:1 [recv] state= 6 15 6 15
+10:01::57 [proc] plan: currentID:15
+10:01::57 agv=:1 [recv] pos:(6255,30716,90)
+10:01::58 agv=:1 [recv] state= 6 15 6 15
+10:01::58 agv=:1 [recv] pos:(6255,30716,90)
+10:01::59 agv=:1 [recv] state= 6 15 6 15
+10:01::59 [proc] plan: currentID:15
+10:01::59 agv=:1 [recv] pos:(6255,30716,90)
+10:02::00 agv=:1 [recv] state= 6 15 6 15
+10:02::00 agv=:1 [recv] pos:(6255,30716,90)
+10:02::01 agv=:1 [recv] state= 6 15 6 15
+10:02::01 [proc] plan: currentID:15
+10:02::01 agv=:1 [recv] pos:(6255,30716,90)
+10:02::02 agv=:1 [recv] state= 6 15 6 15
+10:02::02 agv=:1 [recv] pos:(6255,30716,90)
+10:02::03 agv=:1 [recv] state= 6 15 6 15
+10:02::03 [proc] plan: currentID:15
+10:02::03 agv=:1 [recv] pos:(6255,30716,90)
+10:02::04 agv=:1 [recv] state= 6 15 6 15
+10:02::04 agv=:1 [recv] pos:(6255,30716,90)
+10:02::05 agv=:1 [recv] state= 6 15 6 15
+10:02::05 [proc] plan: currentID:15
+10:02::06 agv=:1 [recv] pos:(6255,30716,90)
+10:02::06 agv=:1 [recv] state= 6 15 6 15
+10:02::07 agv=:1 [recv] pos:(6255,30716,90)
+10:02::07 agv=:1 [recv] state= 6 15 6 15
+10:02::07 [proc] plan: currentID:15
+10:02::08 agv=:1 [recv] pos:(6255,30716,90)
+10:02::08 agv=:1 [recv] state= 6 15 6 15
+10:02::09 agv=:1 [recv] pos:(6255,30716,90)
+10:02::09 agv=:1 [recv] state= 6 15 6 15
+10:02::09 [proc] plan: currentID:15
+10:02::10 agv=:1 [recv] pos:(6255,30716,90)
+10:02::10 agv=:1 [recv] state= 6 15 6 15
+10:02::11 agv=:1 [recv] pos:(6255,30716,90)
+10:02::11 agv=:1 [recv] state= 6 15 6 15
+10:02::11 [proc] plan: currentID:15
+10:02::12 agv=:1 [recv] pos:(6255,30716,90)
+10:02::12 agv=:1 [recv] state= 6 15 6 15
+10:02::13 agv=:1 [recv] pos:(6255,30716,90)
+10:02::14 agv=:1 [recv] state= 6 15 6 15
+10:02::14 [proc] plan: currentID:15
+10:02::14 agv=:1 [recv] pos:(6255,30716,90)
+10:02::15 agv=:1 [recv] state= 6 15 6 15
+10:02::15 agv=:1 [recv] pos:(6255,30716,90)
+10:02::16 agv=:1 [recv] state= 6 15 6 15
+10:02::16 [proc] plan: currentID:15
+10:02::16 agv=:1 [recv] pos:(6255,30716,90)
+10:02::17 agv=:1 [recv] state= 6 15 6 15
+10:02::17 agv=:1 [recv] pos:(6255,30716,90)
+10:02::18 agv=:1 [recv] state= 6 15 6 15
+10:02::18 [proc] plan: currentID:15
+10:02::18 agv=:1 [recv] pos:(6255,30716,90)
+10:02::19 agv=:1 [recv] state= 6 15 6 15
+10:02::19 agv=:1 [recv] pos:(6255,30716,90)
+10:02::20 agv=:1 [recv] state= 6 15 6 15
+10:02::20 [proc] plan: currentID:15
+10:02::20 agv=:1 [recv] pos:(6255,30716,90)
+10:02::21 agv=:1 [recv] state= 6 15 6 15
+10:02::21 agv=:1 [recv] pos:(6255,30716,90)
+10:02::22 agv=:1 [recv] state= 6 15 6 15
+10:02::22 [proc] plan: currentID:15
+10:02::23 agv=:1 [recv] pos:(6255,30716,90)
+10:02::23 agv=:1 [recv] state= 6 15 6 15
+10:02::24 agv=:1 [recv] pos:(6255,30716,90)
+10:02::24 agv=:1 [recv] state= 6 15 6 15
+10:02::24 [proc] plan: currentID:15
+10:02::25 agv=:1 [recv] pos:(6255,30716,90)
+10:02::25 agv=:1 [recv] state= 6 15 6 15
+10:02::26 agv=:1 [recv] pos:(6255,30716,90)
+10:02::26 agv=:1 [recv] state= 6 15 6 15
+10:02::26 [proc] plan: currentID:15
+10:02::27 agv=:1 [recv] pos:(6255,30716,90)
+10:02::27 agv=:1 [recv] state= 6 15 6 15
+10:02::28 agv=:1 [recv] pos:(6255,30716,90)
+10:02::28 agv=:1 [recv] state= 6 15 6 15
+10:02::28 [proc] plan: currentID:15
+10:02::29 agv=:1 [recv] pos:(6255,30716,90)
+10:02::29 agv=:1 [recv] state= 6 15 6 15
+10:02::30 agv=:1 [recv] pos:(6255,30716,90)
+10:02::31 agv=:1 [recv] state= 6 15 6 15
+10:02::31 [proc] plan: currentID:15
+10:02::31 agv=:1 [recv] pos:(6255,30716,90)
+10:02::32 agv=:1 [recv] state= 6 15 6 15
+10:02::32 agv=:1 [recv] pos:(6255,30716,90)
+10:02::33 agv=:1 [recv] state= 6 15 6 15
+10:02::33 [proc] plan: currentID:15
+10:02::33 agv=:1 [recv] pos:(6255,30716,90)
+10:02::34 agv=:1 [recv] state= 6 15 6 15
+10:02::34 agv=:1 [recv] pos:(6255,30716,90)
+10:02::35 agv=:1 [recv] state= 6 15 6 15
+10:02::35 [proc] plan: currentID:15
+10:02::35 agv=:1 [recv] pos:(6255,30716,90)
+10:02::36 agv=:1 [recv] state= 6 15 6 15
+10:02::36 agv=:1 [recv] pos:(6255,30716,90)
+10:02::37 agv=:1 [recv] state= 6 15 6 15
+10:02::37 [proc] plan: currentID:15
+10:02::37 agv=:1 [recv] pos:(6255,30716,90)
+10:02::38 agv=:1 [recv] state= 6 15 6 15
+10:02::38 agv=:1 [recv] pos:(6255,30716,90)
+10:02::39 agv=:1 [recv] state= 6 15 6 15
+10:02::39 [proc] plan: currentID:15
+10:02::40 agv=:1 [recv] pos:(6255,30716,90)
+10:02::40 agv=:1 [recv] state= 6 15 6 15
+10:02::41 agv=:1 [recv] pos:(6255,30716,90)
+10:02::41 agv=:1 [recv] state= 6 15 6 15
+10:02::41 [proc] plan: currentID:15
+10:02::42 agv=:1 [recv] pos:(6255,30716,90)
+10:02::42 agv=:1 [recv] state= 6 15 6 15
+10:02::43 agv=:1 [recv] pos:(6255,30716,90)
+10:02::43 agv=:1 [recv] state= 6 15 6 15
+10:02::43 [proc] plan: currentID:15
+10:02::44 agv=:1 [recv] pos:(6255,30716,90)
+10:02::44 agv=:1 [recv] state= 6 15 6 15
+10:02::45 agv=:1 [recv] pos:(6255,30716,90)
+10:02::45 agv=:1 [recv] state= 6 15 6 15
+10:02::45 [proc] plan: currentID:15
+10:02::46 agv=:1 [recv] pos:(6255,30716,90)
+10:02::46 agv=:1 [recv] state= 6 15 6 15
+10:02::47 agv=:1 [recv] pos:(6255,30716,90)
+10:02::48 agv=:1 [recv] state= 6 15 6 15
+10:02::48 [proc] plan: currentID:15
+10:02::48 agv=:1 [recv] pos:(6255,30716,90)
+10:02::49 agv=:1 [recv] state= 6 15 6 15
+10:02::49 agv=:1 [recv] pos:(6255,30716,90)
+10:02::50 agv=:1 [recv] state= 6 15 6 15
+10:02::50 [proc] plan: currentID:15
+10:02::50 agv=:1 [recv] pos:(6255,30716,90)
+10:02::51 agv=:1 [recv] state= 6 15 6 15
+10:02::51 agv=:1 [recv] pos:(6255,30716,90)
+10:02::52 agv=:1 [recv] state= 6 15 6 15
+10:02::52 [proc] plan: currentID:15
+10:02::52 agv=:1 [recv] pos:(6255,30716,90)
+10:02::53 agv=:1 [recv] state= 6 15 6 15
+10:02::53 agv=:1 [recv] pos:(6255,30716,90)
+10:02::54 agv=:1 [recv] state= 6 15 6 15
+10:02::54 [proc] plan: currentID:15
+10:02::54 agv=:1 [recv] pos:(6255,30716,90)
+10:02::55 agv=:1 [recv] state= 6 15 6 15
+10:02::55 agv=:1 [recv] pos:(6255,30716,90)
+10:02::56 agv=:1 [recv] state= 6 15 6 15
+10:02::56 [proc] plan: currentID:15
+10:02::57 agv=:1 [recv] pos:(6255,30716,90)
+10:02::57 agv=:1 [recv] state= 6 15 6 15
+10:02::58 agv=:1 [recv] pos:(6255,30716,90)
+10:02::58 agv=:1 [recv] state= 6 15 6 15
+10:02::58 [proc] plan: currentID:15
+10:02::59 agv=:1 [recv] pos:(6255,30716,90)
+10:02::59 agv=:1 [recv] state= 6 15 6 15
+10:03::00 agv=:1 [recv] pos:(6255,30716,90)
+10:03::00 agv=:1 [recv] state= 6 15 6 15
+10:03::00 [proc] plan: currentID:15
+10:03::01 agv=:1 [recv] pos:(6255,30716,90)
+10:03::01 agv=:1 [recv] state= 6 15 6 15
+10:03::02 agv=:1 [recv] pos:(6255,30716,90)
+10:03::02 agv=:1 [recv] state= 6 15 6 15
+10:03::02 [proc] plan: currentID:15
+10:03::03 agv=:1 [recv] pos:(6255,30716,90)
+10:03::03 agv=:1 [recv] state= 6 15 6 15
+10:03::04 agv=:1 [recv] pos:(6255,30716,90)
+10:03::05 agv=:1 [recv] state= 6 15 6 15
+10:03::05 [proc] plan: currentID:15
+10:03::05 agv=:1 [recv] pos:(6255,30716,90)
+10:03::06 agv=:1 [recv] state= 6 15 6 15
+10:03::06 agv=:1 [recv] pos:(6255,30716,90)
+10:03::07 agv=:1 [recv] state= 6 15 6 15
+10:03::07 [proc] plan: currentID:15
+10:03::07 agv=:1 [recv] pos:(6255,30716,90)
+10:03::08 agv=:1 [recv] state= 6 15 6 15
+10:03::08 agv=:1 [recv] pos:(6255,30716,90)
+10:03::09 agv=:1 [recv] state= 6 15 6 15
+10:03::09 [proc] plan: currentID:15
+10:03::09 agv=:1 [recv] pos:(6255,30716,90)
+10:03::10 agv=:1 [recv] state= 6 15 6 15
+10:03::10 agv=:1 [recv] pos:(6255,30716,90)
+10:03::11 agv=:1 [recv] state= 6 15 6 15
+10:03::11 [proc] plan: currentID:15
+10:03::11 agv=:1 [recv] pos:(6255,30716,90)
+10:03::12 agv=:1 [recv] state= 6 15 6 15
+10:03::12 agv=:1 [recv] pos:(6255,30716,90)
+10:03::13 agv=:1 [recv] state= 6 15 6 15
+10:03::13 [proc] plan: currentID:15
+10:03::14 agv=:1 [recv] pos:(6255,30716,90)
+10:03::14 agv=:1 [recv] state= 6 15 6 15
+10:03::15 agv=:1 [recv] pos:(6255,30716,90)
+10:03::15 agv=:1 [recv] state= 6 15 6 15
+10:03::15 [proc] plan: currentID:15
+10:03::16 agv=:1 [recv] pos:(6255,30716,90)
+10:03::16 agv=:1 [recv] state= 6 15 6 15
+10:03::17 agv=:1 [recv] pos:(6255,30716,90)
+10:03::17 agv=:1 [recv] state= 6 15 6 15
+10:03::17 [proc] plan: currentID:15
+10:03::18 agv=:1 [recv] pos:(6255,30716,90)
+10:03::18 agv=:1 [recv] state= 6 15 6 15
+10:03::19 agv=:1 [recv] pos:(6255,30716,90)
+10:03::19 agv=:1 [recv] state= 6 15 6 15
+10:03::19 [proc] plan: currentID:15
+10:03::20 agv=:1 [recv] pos:(6255,30716,90)
+10:03::20 agv=:1 [recv] state= 6 15 6 15
+10:03::21 agv=:1 [recv] pos:(6255,30716,90)
+10:03::22 agv=:1 [recv] state= 6 15 6 15
+10:03::22 [proc] plan: currentID:15
+10:03::22 agv=:1 [recv] pos:(6255,30716,90)
+10:03::23 agv=:1 [recv] state= 6 15 6 15
+10:03::23 agv=:1 [recv] pos:(6255,30716,90)
+10:03::24 agv=:1 [recv] state= 6 15 6 15
+10:03::24 [proc] plan: currentID:15
+10:03::24 agv=:1 [recv] pos:(6255,30716,90)
+10:03::25 agv=:1 [recv] state= 6 15 6 15
+10:03::25 agv=:1 [recv] pos:(6255,30716,90)
+10:03::26 agv=:1 [recv] state= 6 15 6 15
+10:03::26 [proc] plan: currentID:15
+10:03::26 agv=:1 [recv] pos:(6255,30716,90)
+10:03::27 agv=:1 [recv] state= 6 15 6 15
+10:03::27 agv=:1 [recv] pos:(6255,30716,90)
+10:03::28 agv=:1 [recv] state= 6 15 6 15
+10:03::28 [proc] plan: currentID:15
+10:03::28 agv=:1 [recv] pos:(6255,30716,90)
+10:03::29 agv=:1 [recv] state= 6 15 6 15
+10:03::29 agv=:1 [recv] pos:(6255,30716,90)
+10:03::30 agv=:1 [recv] state= 6 15 6 15
+10:03::30 [proc] plan: currentID:15
+10:03::31 agv=:1 [recv] pos:(6255,30716,90)
+10:03::31 agv=:1 [recv] state= 6 15 6 15
+10:03::32 agv=:1 [recv] pos:(6255,30716,90)
+10:03::32 agv=:1 [recv] state= 6 15 6 15
+10:03::32 [proc] plan: currentID:15
+10:03::33 agv=:1 [recv] pos:(6255,30716,90)
+10:03::33 agv=:1 [recv] state= 6 15 6 15
+10:03::34 agv=:1 [recv] pos:(6255,30716,90)
+10:03::34 agv=:1 [recv] state= 6 15 6 15
+10:03::34 [proc] plan: currentID:15
+10:03::35 agv=:1 [recv] pos:(6255,30716,90)
+10:03::35 agv=:1 [recv] state= 6 15 6 15
+10:03::36 agv=:1 [recv] pos:(6255,30716,90)
+10:03::36 agv=:1 [recv] state= 6 15 6 15
+10:03::36 [proc] plan: currentID:15
+10:03::37 agv=:1 [recv] pos:(6255,30716,90)
+10:03::37 agv=:1 [recv] state= 6 15 6 15
+10:03::38 agv=:1 [recv] pos:(6255,30716,90)
+10:03::39 agv=:1 [recv] state= 6 15 6 15
+10:03::39 [proc] plan: currentID:15
+10:03::39 agv=:1 [recv] pos:(6255,30716,90)
+10:03::40 agv=:1 [recv] state= 6 15 6 15
+10:03::40 agv=:1 [recv] pos:(6255,30716,90)
+10:03::41 agv=:1 [recv] state= 6 15 6 15
+10:03::41 [proc] plan: currentID:15
+10:03::41 agv=:1 [recv] pos:(6255,30716,90)
+10:03::42 agv=:1 [recv] state= 6 15 6 15
+10:03::42 agv=:1 [recv] pos:(6255,30716,90)
+10:03::43 agv=:1 [recv] state= 6 15 6 15
+10:03::43 [proc] plan: currentID:15
+10:03::43 agv=:1 [recv] pos:(6255,30716,90)
+10:03::44 agv=:1 [recv] state= 6 15 6 15
+10:03::44 agv=:1 [recv] pos:(6255,30716,90)
+10:03::45 agv=:1 [recv] state= 6 15 6 15
+10:03::45 [proc] plan: currentID:15
+10:03::45 agv=:1 [recv] pos:(6255,30716,90)
+10:03::46 agv=:1 [recv] state= 6 15 6 15
+10:03::46 agv=:1 [recv] pos:(6255,30716,90)
+10:03::47 agv=:1 [recv] state= 6 15 6 15
+10:03::47 [proc] plan: currentID:15
+10:03::48 agv=:1 [recv] pos:(6255,30716,90)
+10:03::48 agv=:1 [recv] state= 6 15 6 15
+10:03::49 agv=:1 [recv] pos:(6255,30716,90)
+10:03::49 agv=:1 [recv] state= 6 15 6 15
+10:03::49 [proc] plan: currentID:15
+10:03::50 agv=:1 [recv] pos:(6255,30716,90)
+10:03::50 agv=:1 [recv] state= 6 15 6 15
+10:03::51 agv=:1 [recv] pos:(6255,30716,90)
+10:03::51 agv=:1 [recv] state= 6 15 6 15
+10:03::51 [proc] plan: currentID:15
+10:03::52 agv=:1 [recv] pos:(6255,30716,90)
+10:03::52 agv=:1 [recv] state= 6 15 6 15
+10:03::53 agv=:1 [recv] pos:(6255,30716,90)
+10:03::53 agv=:1 [recv] state= 6 15 6 15
+10:03::53 [proc] plan: currentID:15
+10:03::54 agv=:1 [recv] pos:(6255,30716,90)
+10:03::54 agv=:1 [recv] state= 6 15 6 15
+10:03::55 agv=:1 [recv] pos:(6255,30716,90)
+10:03::56 agv=:1 [recv] state= 6 15 6 15
+10:03::56 [proc] plan: currentID:15
+10:03::56 agv=:1 [recv] pos:(6255,30716,90)
+10:03::57 agv=:1 [recv] state= 6 15 6 15
+10:03::57 agv=:1 [recv] pos:(6255,30716,90)
+10:03::58 agv=:1 [recv] state= 6 15 6 15
+10:03::58 [proc] plan: currentID:15
+10:03::58 agv=:1 [recv] pos:(6255,30716,90)
+10:03::59 agv=:1 [recv] state= 6 15 6 15
+10:03::59 agv=:1 [recv] pos:(6255,30716,90)
+10:04::00 agv=:1 [recv] state= 6 15 6 15
+10:04::00 [proc] plan: currentID:15
+10:04::00 agv=:1 [recv] pos:(6255,30716,90)
+10:04::01 agv=:1 [recv] state= 6 15 6 15
+10:04::01 agv=:1 [recv] pos:(6255,30716,90)
+10:04::02 agv=:1 [recv] state= 6 15 6 15
+10:04::02 [proc] plan: currentID:15
+10:04::02 agv=:1 [recv] pos:(6255,30716,90)
+10:04::03 agv=:1 [recv] state= 6 15 6 15
+10:04::03 agv=:1 [recv] pos:(6255,30716,90)
+10:04::04 agv=:1 [recv] state= 6 15 6 15
+10:04::04 [proc] plan: currentID:15
+10:04::05 agv=:1 [recv] pos:(6255,30716,90)
+10:04::05 agv=:1 [recv] state= 6 15 6 15
+10:04::06 agv=:1 [recv] pos:(6255,30716,90)
+10:04::06 agv=:1 [recv] state= 6 15 6 15
+10:04::06 [proc] plan: currentID:15
+10:04::07 agv=:1 [recv] pos:(6255,30716,90)
+10:04::07 agv=:1 [recv] state= 6 15 6 15
+10:04::08 agv=:1 [recv] pos:(6255,30716,90)
+10:04::08 agv=:1 [recv] state= 6 15 6 15
+10:04::08 [proc] plan: currentID:15
+10:04::09 agv=:1 [recv] pos:(6255,30716,90)
+10:04::09 agv=:1 [recv] state= 6 15 6 15
+10:04::10 agv=:1 [recv] pos:(6255,30716,90)
+10:04::10 agv=:1 [recv] state= 6 15 6 15
+10:04::10 [proc] plan: currentID:15
+10:04::11 agv=:1 [recv] pos:(6255,30716,90)
+10:04::11 agv=:1 [recv] state= 6 15 6 15
+10:04::12 agv=:1 [recv] pos:(6255,30716,90)
+10:04::13 agv=:1 [recv] state= 6 15 6 15
+10:04::13 [proc] plan: currentID:15
+10:04::13 agv=:1 [recv] pos:(6255,30716,90)
+10:04::14 agv=:1 [recv] state= 6 15 6 15
+10:04::14 agv=:1 [recv] pos:(6255,30716,90)
+10:04::15 agv=:1 [recv] state= 6 15 6 15
+10:04::15 [proc] plan: currentID:15
+10:04::15 agv=:1 [recv] pos:(6255,30716,90)
+10:04::16 agv=:1 [recv] state= 6 15 6 15
+10:04::16 agv=:1 [recv] pos:(6255,30716,90)
+10:04::17 agv=:1 [recv] state= 6 15 6 15
+10:04::17 [proc] plan: currentID:15
+10:04::17 agv=:1 [recv] pos:(6255,30716,90)
+10:04::18 agv=:1 [recv] state= 6 15 6 15
+10:04::18 agv=:1 [recv] pos:(6255,30716,90)
+10:04::19 agv=:1 [recv] state= 6 15 6 15
+10:04::19 [proc] plan: currentID:15
+10:04::19 agv=:1 [recv] pos:(6255,30716,90)
+10:04::20 agv=:1 [recv] state= 6 15 6 15
+10:04::20 agv=:1 [recv] pos:(6255,30716,90)
+10:04::21 agv=:1 [recv] state= 6 15 6 15
+10:04::21 [proc] plan: currentID:15
+10:04::22 agv=:1 [recv] pos:(6255,30716,90)
+10:04::22 agv=:1 [recv] state= 6 15 6 15
+10:04::23 agv=:1 [recv] pos:(6255,30716,90)
+10:04::23 agv=:1 [recv] state= 6 15 6 15
+10:04::23 [proc] plan: currentID:15
+10:04::24 agv=:1 [recv] pos:(6255,30716,90)
+10:04::24 agv=:1 [recv] state= 6 15 6 15
+10:04::25 agv=:1 [recv] pos:(6255,30716,90)
+10:04::25 agv=:1 [recv] state= 6 15 6 15
+10:04::25 [proc] plan: currentID:15
+10:04::26 agv=:1 [recv] pos:(6255,30716,90)
+10:04::26 agv=:1 [recv] state= 6 15 6 15
+10:04::27 agv=:1 [recv] pos:(6255,30716,90)
+10:04::27 agv=:1 [recv] state= 6 15 6 15
+10:04::27 [proc] plan: currentID:15
+10:04::28 agv=:1 [recv] pos:(6255,30716,90)
+10:04::28 agv=:1 [recv] state= 6 15 6 15
+10:04::29 agv=:1 [recv] pos:(6255,30716,90)
+10:04::30 agv=:1 [recv] state= 6 15 6 15
+10:04::30 [proc] plan: currentID:15
+10:04::30 agv=:1 [recv] pos:(6255,30716,90)
+10:04::31 agv=:1 [recv] state= 6 15 6 15
+10:04::31 agv=:1 [recv] pos:(6255,30716,90)
+10:04::32 agv=:1 [recv] state= 6 15 6 15
+10:04::32 [proc] plan: currentID:15
+10:04::32 agv=:1 [recv] pos:(6255,30716,90)
+10:04::33 agv=:1 [recv] state= 6 15 6 15
+10:04::33 agv=:1 [recv] pos:(6255,30716,90)
+10:04::34 agv=:1 [recv] state= 6 15 6 15
+10:04::34 [proc] plan: currentID:15
+10:04::34 agv=:1 [recv] pos:(6255,30716,90)
+10:04::35 agv=:1 [recv] state= 6 15 6 15
+10:04::35 agv=:1 [recv] pos:(6255,30716,90)
+10:04::36 agv=:1 [recv] state= 6 15 6 15
+10:04::36 [proc] plan: currentID:15
+10:04::36 agv=:1 [recv] pos:(6255,30716,90)
+10:04::37 agv=:1 [recv] state= 6 15 6 15
+10:04::37 agv=:1 [recv] pos:(6255,30716,90)
+10:04::38 agv=:1 [recv] state= 6 15 6 15
+10:04::38 [proc] plan: currentID:15
+10:04::39 agv=:1 [recv] pos:(6255,30716,90)
+10:04::39 agv=:1 [recv] state= 6 15 6 15
+10:04::40 agv=:1 [recv] pos:(6255,30716,90)
+10:04::40 agv=:1 [recv] state= 6 15 6 15
+10:04::40 [proc] plan: currentID:15
+10:04::41 agv=:1 [recv] pos:(6255,30716,90)
+10:04::41 agv=:1 [recv] state= 6 15 6 15
+10:04::42 agv=:1 [recv] pos:(6255,30716,90)
+10:04::42 agv=:1 [recv] state= 6 15 6 15
+10:04::42 [proc] plan: currentID:15
+10:04::43 agv=:1 [recv] pos:(6255,30716,90)
+10:04::43 agv=:1 [recv] state= 6 15 6 15
+10:04::44 agv=:1 [recv] pos:(6255,30716,90)
+10:04::44 agv=:1 [recv] state= 6 15 6 15
+10:04::44 [proc] plan: currentID:15
+10:04::45 agv=:1 [recv] pos:(6255,30716,90)
+10:04::45 agv=:1 [recv] state= 6 15 6 15
+10:04::46 agv=:1 [recv] pos:(6255,30716,90)
+10:04::47 agv=:1 [recv] state= 6 15 6 15
+10:04::47 [proc] plan: currentID:15
+10:04::47 agv=:1 [recv] pos:(6255,30716,90)
+10:04::48 agv=:1 [recv] state= 6 15 6 15
+10:04::48 agv=:1 [recv] pos:(6255,30716,90)
+10:04::49 agv=:1 [recv] state= 6 15 6 15
+10:04::49 [proc] plan: currentID:15
+10:04::49 agv=:1 [recv] pos:(6255,30716,90)
+10:04::50 agv=:1 [recv] state= 6 15 6 15
+10:04::50 agv=:1 [recv] pos:(6255,30716,90)
+10:04::51 agv=:1 [recv] state= 6 15 6 15
+10:04::51 [proc] plan: currentID:15
+10:04::51 agv=:1 [recv] pos:(6255,30716,90)
+10:04::52 agv=:1 [recv] state= 6 15 6 15
+10:04::52 agv=:1 [recv] pos:(6255,30716,90)
+10:04::53 agv=:1 [recv] state= 6 15 6 15
+10:04::53 [proc] plan: currentID:15
+10:04::53 agv=:1 [recv] pos:(6255,30716,90)
+10:04::54 agv=:1 [recv] state= 6 15 6 15
+10:04::54 agv=:1 [recv] pos:(6255,30716,90)
+10:04::55 agv=:1 [recv] state= 6 15 6 15
+10:04::55 [proc] plan: currentID:15
+10:04::56 agv=:1 [recv] pos:(6255,30716,90)
+10:04::56 agv=:1 [recv] state= 6 15 6 15
+10:04::57 agv=:1 [recv] pos:(6255,30716,90)
+10:04::57 agv=:1 [recv] state= 6 15 6 15
+10:04::57 [proc] plan: currentID:15
+10:04::58 agv=:1 [recv] pos:(6255,30716,90)
+10:04::58 agv=:1 [recv] state= 6 15 6 15
+10:04::59 agv=:1 [recv] pos:(6255,30716,90)
+10:04::59 agv=:1 [recv] state= 6 15 6 15
+10:04::59 [proc] plan: currentID:15
+10:05::00 agv=:1 [recv] pos:(6255,30716,90)
+10:05::00 agv=:1 [recv] state= 6 15 6 15
+10:05::01 agv=:1 [recv] pos:(6255,30716,90)
+10:05::01 agv=:1 [recv] state= 6 15 6 15
+10:05::01 [proc] plan: currentID:15
+10:05::02 agv=:1 [recv] pos:(6255,30716,90)
+10:05::02 agv=:1 [recv] state= 6 15 6 15
+10:05::03 agv=:1 [recv] pos:(6255,30716,90)
+10:05::04 agv=:1 [recv] state= 6 15 6 15
+10:05::04 [proc] plan: currentID:15
+10:05::04 agv=:1 [recv] pos:(6255,30716,90)
+10:05::05 agv=:1 [recv] state= 6 15 6 15
+10:05::05 agv=:1 [recv] pos:(6255,30716,90)
+10:05::06 agv=:1 [recv] state= 6 15 6 15
+10:05::06 [proc] plan: currentID:15
+10:05::06 agv=:1 [recv] pos:(6255,30716,90)
+10:05::07 agv=:1 [recv] state= 6 15 6 15
+10:05::07 agv=:1 [recv] pos:(6255,30716,90)
+10:05::08 agv=:1 [recv] state= 6 15 6 15
+10:05::08 [proc] plan: currentID:15
+10:05::08 agv=:1 [recv] pos:(6255,30716,90)
+10:05::09 agv=:1 [recv] state= 6 15 6 15
+10:05::09 agv=:1 [recv] pos:(6255,30716,90)
+10:05::10 agv=:1 [recv] state= 6 15 6 15
+10:05::10 [proc] plan: currentID:15
+10:05::10 agv=:1 [recv] pos:(6255,30716,90)
+10:05::11 agv=:1 [recv] state= 6 15 6 15
+10:05::11 agv=:1 [recv] pos:(6255,30716,90)
+10:05::12 agv=:1 [recv] state= 6 15 6 15
+10:05::12 [proc] plan: currentID:15
+10:05::13 agv=:1 [recv] pos:(6255,30716,90)
+10:05::13 agv=:1 [recv] state= 6 15 6 15
+10:05::14 agv=:1 [recv] pos:(6255,30716,90)
+10:05::14 agv=:1 [recv] state= 6 15 6 15
+10:05::14 [proc] plan: currentID:15
+10:05::15 agv=:1 [recv] pos:(6255,30716,90)
+10:05::15 agv=:1 [recv] state= 6 15 6 15
+10:05::16 agv=:1 [recv] pos:(6255,30716,90)
+10:05::16 agv=:1 [recv] state= 6 15 6 15
+10:05::16 [proc] plan: currentID:15
+10:05::17 agv=:1 [recv] pos:(6255,30716,90)
+10:05::17 agv=:1 [recv] state= 6 15 6 15
+10:05::18 agv=:1 [recv] pos:(6255,30716,90)
+10:05::18 agv=:1 [recv] state= 6 15 6 15
+10:05::18 [proc] plan: currentID:15
+10:05::19 agv=:1 [recv] pos:(6255,30716,90)
+10:05::19 agv=:1 [recv] state= 6 15 6 15
+10:05::20 agv=:1 [recv] pos:(6255,30716,90)
+10:05::21 agv=:1 [recv] state= 6 15 6 15
+10:05::21 [proc] plan: currentID:15
+10:05::21 agv=:1 [recv] pos:(6255,30716,90)
+10:05::22 agv=:1 [recv] state= 6 15 6 15
+10:05::22 agv=:1 [recv] pos:(6255,30716,90)
+10:05::23 agv=:1 [recv] state= 6 15 6 15
+10:05::23 [proc] plan: currentID:15
+10:05::23 agv=:1 [recv] pos:(6255,30716,90)
+10:05::24 agv=:1 [recv] state= 6 15 6 15
+10:05::24 agv=:1 [recv] pos:(6255,30716,90)
+10:05::25 agv=:1 [recv] state= 6 15 6 15
+10:05::25 [proc] plan: currentID:15
+10:05::25 agv=:1 [recv] pos:(6255,30716,90)
+10:05::26 agv=:1 [recv] state= 6 15 6 15
+10:05::26 agv=:1 [recv] pos:(6255,30716,90)
+10:05::27 agv=:1 [recv] state= 6 15 6 15
+10:05::27 [proc] plan: currentID:15
+10:05::27 agv=:1 [recv] pos:(6255,30716,90)
+10:05::28 agv=:1 [recv] state= 6 15 6 15
+10:05::28 agv=:1 [recv] pos:(6255,30716,90)
+10:05::29 agv=:1 [recv] state= 6 15 6 15
+10:05::29 [proc] plan: currentID:15
+10:05::30 agv=:1 [recv] pos:(6255,30716,90)
+10:05::30 agv=:1 [recv] state= 6 15 6 15
+10:05::31 agv=:1 [recv] pos:(6255,30716,90)
+10:05::31 agv=:1 [recv] state= 6 15 6 15
+10:05::31 [proc] plan: currentID:15
+10:05::32 agv=:1 [recv] pos:(6255,30716,90)
+10:05::32 agv=:1 [recv] state= 6 15 6 15
+10:05::33 agv=:1 [recv] pos:(6255,30716,90)
+10:05::33 agv=:1 [recv] state= 6 15 6 15
+10:05::33 [proc] plan: currentID:15
+10:05::34 agv=:1 [recv] pos:(6255,30716,90)
+10:05::34 agv=:1 [recv] state= 6 15 6 15
+10:05::35 agv=:1 [recv] pos:(6255,30716,90)
+10:05::35 agv=:1 [recv] state= 6 15 6 15
+10:05::35 [proc] plan: currentID:15
+10:05::36 agv=:1 [recv] pos:(6255,30716,90)
+10:05::36 agv=:1 [recv] state= 6 15 6 15
+10:05::37 agv=:1 [recv] pos:(6255,30716,90)
+10:05::38 agv=:1 [recv] state= 6 15 6 15
+10:05::38 [proc] plan: currentID:15
+10:05::38 agv=:1 [recv] pos:(6255,30716,90)
+10:05::39 agv=:1 [recv] state= 6 15 6 15
+10:05::39 agv=:1 [recv] pos:(6255,30716,90)
+10:05::40 agv=:1 [recv] state= 6 15 6 15
+10:05::40 [proc] plan: currentID:15
+10:05::40 agv=:1 [recv] pos:(6255,30716,90)
+10:05::41 agv=:1 [recv] state= 6 15 6 15
+10:05::41 agv=:1 [recv] pos:(6255,30716,90)
+10:05::42 agv=:1 [recv] state= 6 15 6 15
+10:05::42 [proc] plan: currentID:15
+10:05::42 agv=:1 [recv] pos:(6255,30716,90)
+10:05::43 agv=:1 [recv] state= 6 15 6 15
+10:05::43 agv=:1 [recv] pos:(6255,30716,90)
+10:05::44 agv=:1 [recv] state= 6 15 6 15
+10:05::44 [proc] plan: currentID:15
+10:05::44 agv=:1 [recv] pos:(6255,30716,90)
+10:05::45 agv=:1 [recv] state= 6 15 6 15
+10:05::45 agv=:1 [recv] pos:(6255,30716,90)
+10:05::46 agv=:1 [recv] state= 6 15 6 15
+10:05::46 [proc] plan: currentID:15
+10:05::47 agv=:1 [recv] pos:(6255,30716,90)
+10:05::47 agv=:1 [recv] state= 6 15 6 15
+10:05::48 agv=:1 [recv] pos:(6255,30716,90)
+10:05::48 agv=:1 [recv] state= 6 15 6 15
+10:05::48 [proc] plan: currentID:15
+10:05::49 agv=:1 [recv] pos:(6255,30716,90)
+10:05::49 agv=:1 [recv] state= 6 15 6 15
+10:05::50 agv=:1 [recv] pos:(6255,30716,90)
+10:05::50 agv=:1 [recv] state= 6 15 6 15
+10:05::50 [proc] plan: currentID:15
+10:05::51 agv=:1 [recv] pos:(6255,30716,90)
+10:05::51 agv=:1 [recv] state= 6 15 6 15
+10:05::52 agv=:1 [recv] pos:(6255,30716,90)
+10:05::52 agv=:1 [recv] state= 6 15 6 15
+10:05::52 [proc] plan: currentID:15
+10:05::53 agv=:1 [recv] pos:(6255,30716,90)
+10:05::53 agv=:1 [recv] state= 6 15 6 15
+10:05::54 agv=:1 [recv] pos:(6255,30716,90)
+10:05::55 agv=:1 [recv] state= 6 15 6 15
+10:05::55 [proc] plan: currentID:15
+10:05::55 agv=:1 [recv] pos:(6255,30716,90)
+10:05::56 agv=:1 [recv] state= 6 15 6 15
+10:05::56 agv=:1 [recv] pos:(6255,30716,90)
+10:05::57 agv=:1 [recv] state= 6 15 6 15
+10:05::57 [proc] plan: currentID:15
+10:05::57 agv=:1 [recv] pos:(6255,30716,90)
+10:05::58 agv=:1 [recv] state= 6 15 6 15
+10:05::58 agv=:1 [recv] pos:(6255,30716,90)
+10:05::59 agv=:1 [recv] state= 6 15 6 15
+10:05::59 [proc] plan: currentID:15
+10:05::59 agv=:1 [recv] pos:(6255,30716,90)
+10:06::00 agv=:1 [recv] state= 6 15 6 15
+10:06::00 agv=:1 [recv] pos:(6255,30716,90)
+10:06::01 agv=:1 [recv] state= 6 15 6 15
+10:06::01 [proc] plan: currentID:15
+10:06::01 agv=:1 [recv] pos:(6255,30716,90)
+10:06::02 agv=:1 [recv] state= 6 15 6 15
+10:06::02 agv=:1 [recv] pos:(6255,30716,90)
+10:06::03 agv=:1 [recv] state= 6 15 6 15
+10:06::03 [proc] plan: currentID:15
+10:06::04 agv=:1 [recv] pos:(6255,30716,90)
+10:06::04 agv=:1 [recv] state= 6 15 6 15
+10:06::05 agv=:1 [recv] pos:(6255,30716,90)
+10:06::05 agv=:1 [recv] state= 6 15 6 15
+10:06::05 [proc] plan: currentID:15
+10:06::06 agv=:1 [recv] pos:(6255,30716,90)
+10:06::06 agv=:1 [recv] state= 6 15 6 15
+10:06::07 agv=:1 [recv] pos:(6255,30716,90)
+10:06::07 agv=:1 [recv] state= 6 15 6 15
+10:06::07 [proc] plan: currentID:15
+10:06::08 agv=:1 [recv] pos:(6255,30716,90)
+10:06::08 agv=:1 [recv] state= 6 15 6 15
+10:06::09 agv=:1 [recv] pos:(6255,30716,90)
+10:06::09 agv=:1 [recv] state= 6 15 6 15
+10:06::09 [proc] plan: currentID:15
+10:06::10 agv=:1 [recv] pos:(6255,30716,90)
+10:06::10 agv=:1 [recv] state= 6 15 6 15
+10:06::11 agv=:1 [recv] pos:(6255,30716,90)
+10:06::12 agv=:1 [recv] state= 6 15 6 15
+10:06::12 [proc] plan: currentID:15
+10:06::12 agv=:1 [recv] pos:(6255,30716,90)
+10:06::13 agv=:1 [recv] state= 6 15 6 15
+10:06::13 agv=:1 [recv] pos:(6255,30716,90)
+10:06::14 agv=:1 [recv] state= 6 15 6 15
+10:06::14 [proc] plan: currentID:15
+10:06::14 agv=:1 [recv] pos:(6255,30716,90)
+10:06::15 agv=:1 [recv] state= 6 15 6 15
+10:06::15 agv=:1 [recv] pos:(6255,30716,90)
+10:06::16 agv=:1 [recv] state= 6 15 6 15
+10:06::16 [proc] plan: currentID:15
+10:06::16 agv=:1 [recv] pos:(6255,30716,90)
+10:06::17 agv=:1 [recv] state= 6 15 6 15
+10:06::17 agv=:1 [recv] pos:(6255,30716,90)
+10:06::18 agv=:1 [recv] state= 6 15 6 15
+10:06::18 [proc] plan: currentID:15
+10:06::18 agv=:1 [recv] pos:(6255,30716,90)
+10:06::19 agv=:1 [recv] state= 6 15 6 15
+10:06::19 agv=:1 [recv] pos:(6255,30716,90)
+10:06::20 agv=:1 [recv] state= 6 15 6 15
+10:06::20 [proc] plan: currentID:15
+10:06::21 agv=:1 [recv] pos:(6255,30716,90)
+10:06::21 agv=:1 [recv] state= 6 15 6 15
+10:06::22 agv=:1 [recv] pos:(6255,30716,90)
+10:06::22 agv=:1 [recv] state= 6 15 6 15
+10:06::22 [proc] plan: currentID:15
+10:06::23 agv=:1 [recv] pos:(6255,30716,90)
+10:06::23 agv=:1 [recv] state= 6 15 6 15
+10:06::24 agv=:1 [recv] pos:(6255,30716,90)
+10:06::24 agv=:1 [recv] state= 6 15 6 15
+10:06::24 [proc] plan: currentID:15
+10:06::25 agv=:1 [recv] pos:(6255,30716,90)
+10:06::25 agv=:1 [recv] state= 6 15 6 15
+10:06::26 agv=:1 [recv] pos:(6255,30716,90)
+10:06::26 agv=:1 [recv] state= 6 15 6 15
+10:06::26 [proc] plan: currentID:15
+10:06::27 agv=:1 [recv] pos:(6255,30716,90)
+10:06::27 agv=:1 [recv] state= 6 15 6 15
+10:06::28 agv=:1 [recv] pos:(6255,30716,90)
+10:06::29 agv=:1 [recv] state= 6 15 6 15
+10:06::29 [proc] plan: currentID:15
+10:06::29 agv=:1 [recv] pos:(6255,30716,90)
+10:06::30 agv=:1 [recv] state= 6 15 6 15
+10:06::30 agv=:1 [recv] pos:(6255,30716,90)
+10:06::31 agv=:1 [recv] state= 6 15 6 15
+10:06::31 [proc] plan: currentID:15
+10:06::31 agv=:1 [recv] pos:(6255,30716,90)
+10:06::32 agv=:1 [recv] state= 6 15 6 15
+10:06::32 agv=:1 [recv] pos:(6255,30716,90)
+10:06::33 agv=:1 [recv] state= 6 15 6 15
+10:06::33 [proc] plan: currentID:15
+10:06::33 agv=:1 [recv] pos:(6255,30716,90)
+10:06::34 agv=:1 [recv] state= 6 15 6 15
+10:06::34 agv=:1 [recv] pos:(6255,30716,90)
+10:06::35 agv=:1 [recv] state= 6 15 6 15
+10:06::35 [proc] plan: currentID:15
+10:06::35 agv=:1 [recv] pos:(6255,30716,90)
+10:06::36 agv=:1 [recv] state= 6 15 6 15
+10:06::36 agv=:1 [recv] pos:(6255,30716,90)
+10:06::37 agv=:1 [recv] state= 6 15 6 15
+10:06::37 [proc] plan: currentID:15
+10:06::38 agv=:1 [recv] pos:(6255,30716,90)
+10:06::38 agv=:1 [recv] state= 6 15 6 15
+10:06::39 agv=:1 [recv] pos:(6255,30716,90)
+10:06::39 agv=:1 [recv] state= 6 15 6 15
+10:06::39 [proc] plan: currentID:15
+10:06::40 agv=:1 [recv] pos:(6255,30716,90)
+10:06::40 agv=:1 [recv] state= 6 15 6 15
+10:06::41 agv=:1 [recv] pos:(6255,30716,90)
+10:06::41 agv=:1 [recv] state= 6 15 6 15
+10:06::41 [proc] plan: currentID:15
+10:06::42 agv=:1 [recv] pos:(6255,30716,90)
+10:06::42 agv=:1 [recv] state= 6 15 6 15
+10:06::43 agv=:1 [recv] pos:(6255,30716,90)
+10:06::43 agv=:1 [recv] state= 6 15 6 15
+10:06::43 [proc] plan: currentID:15
+10:06::44 agv=:1 [recv] pos:(6255,30716,90)
+10:06::44 agv=:1 [recv] state= 6 15 6 15
+10:06::45 agv=:1 [recv] pos:(6255,30716,90)
+10:06::46 agv=:1 [recv] state= 6 15 6 15
+10:06::46 [proc] plan: currentID:15
+10:06::46 agv=:1 [recv] pos:(6255,30716,90)
+10:06::47 agv=:1 [recv] state= 6 15 6 15
+10:06::47 agv=:1 [recv] pos:(6255,30716,90)
+10:06::48 agv=:1 [recv] state= 6 15 6 15
+10:06::48 [proc] plan: currentID:15
+10:06::48 agv=:1 [recv] pos:(6255,30716,90)
+10:06::49 agv=:1 [recv] state= 6 15 6 15
+10:06::49 agv=:1 [recv] pos:(6255,30716,90)
+10:06::50 agv=:1 [recv] state= 6 15 6 15
+10:06::50 [proc] plan: currentID:15
+10:06::50 agv=:1 [recv] pos:(6255,30716,90)
+10:06::51 agv=:1 [recv] state= 6 15 6 15
+10:06::51 agv=:1 [recv] pos:(6255,30716,90)
+10:06::52 agv=:1 [recv] state= 6 15 6 15
+10:06::52 [proc] plan: currentID:15
+10:06::52 agv=:1 [recv] pos:(6255,30716,90)
+10:06::53 agv=:1 [recv] state= 6 15 6 15
+10:06::53 agv=:1 [recv] pos:(6255,30716,90)
+10:06::54 agv=:1 [recv] state= 6 15 6 15
+10:06::54 [proc] plan: currentID:15
+10:06::55 agv=:1 [recv] pos:(6255,30716,90)
+10:06::55 agv=:1 [recv] state= 6 15 6 15
+10:06::56 agv=:1 [recv] pos:(6255,30716,90)
+10:06::56 agv=:1 [recv] state= 6 15 6 15
+10:06::56 [proc] plan: currentID:15
+10:06::57 agv=:1 [recv] pos:(6255,30716,90)
+10:06::57 agv=:1 [recv] state= 6 15 6 15
+10:06::58 agv=:1 [recv] pos:(6255,30716,90)
+10:06::58 agv=:1 [recv] state= 6 15 6 15
+10:06::58 [proc] plan: currentID:15
+10:06::59 agv=:1 [recv] pos:(6255,30716,90)
+10:06::59 agv=:1 [recv] state= 6 15 6 15
+10:07::00 agv=:1 [recv] pos:(6255,30716,90)
+10:07::00 agv=:1 [recv] state= 6 15 6 15
+10:07::00 [proc] plan: currentID:15
+10:07::01 agv=:1 [recv] pos:(6255,30716,90)
+10:07::01 agv=:1 [recv] state= 6 15 6 15
+10:07::02 agv=:1 [recv] pos:(6255,30716,90)
+10:07::03 agv=:1 [recv] state= 6 15 6 15
+10:07::03 [proc] plan: currentID:15
+10:07::03 agv=:1 [recv] pos:(6255,30716,90)
+10:07::04 agv=:1 [recv] state= 6 15 6 15
+10:07::04 agv=:1 [recv] pos:(6255,30716,90)
+10:07::05 agv=:1 [recv] state= 6 15 6 15
+10:07::05 [proc] plan: currentID:15
+10:07::05 agv=:1 [recv] pos:(6255,30716,90)
+10:07::06 agv=:1 [recv] state= 6 15 6 15
+10:07::06 agv=:1 [recv] pos:(6255,30716,90)
+10:07::07 agv=:1 [recv] state= 6 15 6 15
+10:07::07 [proc] plan: currentID:15
+10:07::07 agv=:1 [recv] pos:(6255,30716,90)
+10:07::08 agv=:1 [recv] state= 6 15 6 15
+10:07::08 agv=:1 [recv] pos:(6255,30716,90)
+10:07::09 agv=:1 [recv] state= 6 15 6 15
+10:07::09 [proc] plan: currentID:15
+10:07::09 agv=:1 [recv] pos:(6255,30716,90)
+10:07::10 agv=:1 [recv] state= 6 15 6 15
+10:07::10 agv=:1 [recv] pos:(6255,30716,90)
+10:07::11 agv=:1 [recv] state= 6 15 6 15
+10:07::11 [proc] plan: currentID:15
+10:07::12 agv=:1 [recv] pos:(6255,30716,90)
+10:07::12 agv=:1 [recv] state= 6 15 6 15
+10:07::13 agv=:1 [recv] pos:(6255,30716,90)
+10:07::13 agv=:1 [recv] state= 6 15 6 15
+10:07::13 [proc] plan: currentID:15
+10:07::14 agv=:1 [recv] pos:(6255,30716,90)
+10:07::14 agv=:1 [recv] state= 6 15 6 15
+10:07::15 agv=:1 [recv] pos:(6255,30716,90)
+10:07::15 agv=:1 [recv] state= 6 15 6 15
+10:07::15 [proc] plan: currentID:15
+10:07::16 agv=:1 [recv] pos:(6255,30716,90)
+10:07::16 agv=:1 [recv] state= 6 15 6 15
+10:07::17 agv=:1 [recv] pos:(6255,30716,90)
+10:07::17 agv=:1 [recv] state= 6 15 6 15
+10:07::17 [proc] plan: currentID:15
+10:07::18 agv=:1 [recv] pos:(6255,30716,90)
+10:07::18 agv=:1 [recv] state= 6 15 6 15
+10:07::19 agv=:1 [recv] pos:(6255,30716,90)
+10:07::20 agv=:1 [recv] state= 6 15 6 15
+10:07::20 [proc] plan: currentID:15
+10:07::20 agv=:1 [recv] pos:(6255,30716,90)
+10:07::21 agv=:1 [recv] state= 6 15 6 15
+10:07::21 agv=:1 [recv] pos:(6255,30716,90)
+10:07::22 agv=:1 [recv] state= 6 15 6 15
+10:07::22 [proc] plan: currentID:15
+10:07::22 agv=:1 [recv] pos:(6255,30716,90)
+10:07::23 agv=:1 [recv] state= 6 15 6 15
+10:07::23 agv=:1 [recv] pos:(6255,30716,90)
+10:07::24 agv=:1 [recv] state= 6 15 6 15
+10:07::24 [proc] plan: currentID:15
+10:07::24 agv=:1 [recv] pos:(6255,30716,90)
+10:07::25 agv=:1 [recv] state= 6 15 6 15
+10:07::25 agv=:1 [recv] pos:(6255,30716,90)
+10:07::26 agv=:1 [recv] state= 6 15 6 15
+10:07::26 [proc] plan: currentID:15
+10:07::26 agv=:1 [recv] pos:(6255,30716,90)
+10:07::27 agv=:1 [recv] state= 6 15 6 15
+10:07::27 agv=:1 [recv] pos:(6255,30716,90)
+10:07::28 agv=:1 [recv] state= 6 15 6 15
+10:07::28 [proc] plan: currentID:15
+10:07::29 agv=:1 [recv] pos:(6255,30716,90)
+10:07::29 agv=:1 [recv] state= 6 15 6 15
+10:07::30 agv=:1 [recv] pos:(6255,30716,90)
+10:07::30 agv=:1 [recv] state= 6 15 6 15
+10:07::30 [proc] plan: currentID:15
+10:07::31 agv=:1 [recv] pos:(6255,30716,90)
+10:07::31 agv=:1 [recv] state= 6 15 6 15
+10:07::32 agv=:1 [recv] pos:(6255,30716,90)
+10:07::32 agv=:1 [recv] state= 6 15 6 15
+10:07::32 [proc] plan: currentID:15
+10:07::33 agv=:1 [recv] pos:(6255,30716,90)
+10:07::33 agv=:1 [recv] state= 6 15 6 15
+10:07::34 agv=:1 [recv] pos:(6255,30716,90)
+10:07::34 agv=:1 [recv] state= 6 15 6 15
+10:07::34 [proc] plan: currentID:15
+10:07::35 agv=:1 [recv] pos:(6255,30716,90)
+10:07::35 agv=:1 [recv] state= 6 15 6 15
+10:07::36 agv=:1 [recv] pos:(6255,30716,90)
+10:07::37 agv=:1 [recv] state= 6 15 6 15
+10:07::37 [proc] plan: currentID:15
+10:07::37 agv=:1 [recv] pos:(6255,30716,90)
+10:07::38 agv=:1 [recv] state= 6 15 6 15
+10:07::38 agv=:1 [recv] pos:(6255,30716,90)
+10:07::39 agv=:1 [recv] state= 6 15 6 15
+10:07::39 [proc] plan: currentID:15
+10:07::39 agv=:1 [recv] pos:(6255,30716,90)
+10:07::40 agv=:1 [recv] state= 6 15 6 15
+10:07::40 agv=:1 [recv] pos:(6255,30716,90)
+10:07::41 agv=:1 [recv] state= 6 15 6 15
+10:07::41 [proc] plan: currentID:15
+10:07::41 agv=:1 [recv] pos:(6255,30716,90)
+10:07::42 agv=:1 [recv] state= 6 15 6 15
+10:07::42 agv=:1 [recv] pos:(6255,30716,90)
+10:07::43 agv=:1 [recv] state= 6 15 6 15
+10:07::43 [proc] plan: currentID:15
+10:07::43 agv=:1 [recv] pos:(6255,30716,90)
+10:07::44 agv=:1 [recv] state= 6 15 6 15
+10:07::44 agv=:1 [recv] pos:(6255,30716,90)
+10:07::45 agv=:1 [recv] state= 6 15 6 15
+10:07::45 [proc] plan: currentID:15
+10:07::46 agv=:1 [recv] pos:(6255,30716,90)
+10:07::46 agv=:1 [recv] state= 6 15 6 15
+10:07::47 agv=:1 [recv] pos:(6255,30716,90)
+10:07::47 agv=:1 [recv] state= 6 15 6 15
+10:07::47 [proc] plan: currentID:15
+10:07::48 agv=:1 [recv] pos:(6255,30716,90)
+10:07::48 agv=:1 [recv] state= 6 15 6 15
+10:07::49 agv=:1 [recv] pos:(6255,30716,90)
+10:07::49 agv=:1 [recv] state= 6 15 6 15
+10:07::49 [proc] plan: currentID:15
+10:07::50 agv=:1 [recv] pos:(6255,30716,90)
+10:07::50 agv=:1 [recv] state= 6 15 6 15
+10:07::51 agv=:1 [recv] pos:(6255,30716,90)
+10:07::51 agv=:1 [recv] state= 6 15 6 15
+10:07::51 [proc] plan: currentID:15
+10:07::52 agv=:1 [recv] pos:(6255,30716,90)
+10:07::52 agv=:1 [recv] state= 6 15 6 15
+10:07::53 agv=:1 [recv] pos:(6255,30716,90)
+10:07::54 agv=:1 [recv] state= 6 15 6 15
+10:07::54 [proc] plan: currentID:15
+10:07::54 agv=:1 [recv] pos:(6255,30716,90)
+10:07::55 agv=:1 [recv] state= 6 15 6 15
+10:07::55 agv=:1 [recv] pos:(6255,30716,90)
+10:07::56 agv=:1 [recv] state= 6 15 6 15
+10:07::56 [proc] plan: currentID:15
+10:07::56 agv=:1 [recv] pos:(6255,30716,90)
+10:07::57 agv=:1 [recv] state= 6 15 6 15
+10:07::57 agv=:1 [recv] pos:(6255,30716,90)
+10:07::58 agv=:1 [recv] state= 6 15 6 15
+10:07::58 [proc] plan: currentID:15
+10:07::58 agv=:1 [recv] pos:(6255,30716,90)
+10:07::59 agv=:1 [recv] state= 6 15 6 15
+10:07::59 agv=:1 [recv] pos:(6255,30716,90)
+10:08::00 agv=:1 [recv] state= 6 15 6 15
+10:08::00 [proc] plan: currentID:15
+10:08::00 agv=:1 [recv] pos:(6255,30716,90)
+10:08::01 agv=:1 [recv] state= 6 15 6 15
+10:08::01 agv=:1 [recv] pos:(6255,30716,90)
+10:08::02 agv=:1 [recv] state= 6 15 6 15
+10:08::02 [proc] plan: currentID:15
+10:08::03 agv=:1 [recv] pos:(6255,30716,90)
+10:08::03 agv=:1 [recv] state= 6 15 6 15
+10:08::04 agv=:1 [recv] pos:(6255,30716,90)
+10:08::04 agv=:1 [recv] state= 6 15 6 15
+10:08::04 [proc] plan: currentID:15
+10:08::05 agv=:1 [recv] pos:(6255,30716,90)
+10:08::05 agv=:1 [recv] state= 6 15 6 15
+10:08::06 agv=:1 [recv] pos:(6255,30716,90)
+10:08::06 agv=:1 [recv] state= 6 15 6 15
+10:08::06 [proc] plan: currentID:15
+10:08::07 agv=:1 [recv] pos:(6255,30716,90)
+10:08::07 agv=:1 [recv] state= 6 15 6 15
+10:08::08 agv=:1 [recv] pos:(6255,30716,90)
+10:08::08 agv=:1 [recv] state= 6 15 6 15
+10:08::08 [proc] plan: currentID:15
+10:08::09 agv=:1 [recv] pos:(6255,30716,90)
+10:08::09 agv=:1 [recv] state= 6 15 6 15
+10:08::10 agv=:1 [recv] pos:(6255,30716,90)
+10:08::11 agv=:1 [recv] state= 6 15 6 15
+10:08::11 [proc] plan: currentID:15
+10:08::11 agv=:1 [recv] pos:(6255,30716,90)
+10:08::12 agv=:1 [recv] state= 6 15 6 15
+10:08::12 agv=:1 [recv] pos:(6255,30716,90)
+10:08::13 agv=:1 [recv] state= 6 15 6 15
+10:08::13 [proc] plan: currentID:15
+10:08::13 agv=:1 [recv] pos:(6255,30716,90)
+10:08::14 agv=:1 [recv] state= 6 15 6 15
+10:08::14 agv=:1 [recv] pos:(6255,30716,90)
+10:08::15 agv=:1 [recv] state= 6 15 6 15
+10:08::15 [proc] plan: currentID:15
+10:08::15 agv=:1 [recv] pos:(6255,30716,90)
+10:08::16 agv=:1 [recv] state= 6 15 6 15
+10:08::16 agv=:1 [recv] pos:(6255,30716,90)
+10:08::17 agv=:1 [recv] state= 6 15 6 15
+10:08::17 [proc] plan: currentID:15
+10:08::17 agv=:1 [recv] pos:(6255,30716,90)
+10:08::18 agv=:1 [recv] state= 6 15 6 15
+10:08::18 agv=:1 [recv] pos:(6255,30716,90)
+10:08::19 agv=:1 [recv] state= 6 15 6 15
+10:08::19 [proc] plan: currentID:15
+10:08::20 agv=:1 [recv] pos:(6255,30716,90)
+10:08::20 agv=:1 [recv] state= 6 15 6 15
+10:08::21 agv=:1 [recv] pos:(6255,30716,90)
+10:08::21 agv=:1 [recv] state= 6 15 6 15
+10:08::21 [proc] plan: currentID:15
+10:08::22 agv=:1 [recv] pos:(6255,30716,90)
+10:08::22 agv=:1 [recv] state= 6 15 6 15
+10:08::23 agv=:1 [recv] pos:(6255,30716,90)
+10:08::23 agv=:1 [recv] state= 6 15 6 15
+10:08::23 [proc] plan: currentID:15
+10:08::24 agv=:1 [recv] pos:(6255,30716,90)
+10:08::24 agv=:1 [recv] state= 6 15 6 15
+10:08::25 agv=:1 [recv] pos:(6255,30716,90)
+10:08::25 agv=:1 [recv] state= 6 15 6 15
+10:08::25 [proc] plan: currentID:15
+10:08::26 agv=:1 [recv] pos:(6255,30716,90)
+10:08::26 agv=:1 [recv] state= 6 15 6 15
+10:08::27 agv=:1 [recv] pos:(6255,30716,90)
+10:08::28 agv=:1 [recv] state= 6 15 6 15
+10:08::28 [proc] plan: currentID:15
+10:08::28 agv=:1 [recv] pos:(6255,30716,90)
+10:08::29 agv=:1 [recv] state= 6 15 6 15
+10:08::29 agv=:1 [recv] pos:(6255,30716,90)
+10:08::30 agv=:1 [recv] state= 6 15 6 15
+10:08::30 [proc] plan: currentID:15
+10:08::30 agv=:1 [recv] pos:(6255,30716,90)
+10:08::31 agv=:1 [recv] state= 6 15 6 15
+10:08::31 agv=:1 [recv] pos:(6255,30716,90)
+10:08::32 agv=:1 [recv] state= 6 15 6 15
+10:08::32 [proc] plan: currentID:15
+10:08::32 agv=:1 [recv] pos:(6255,30716,90)
+10:08::33 agv=:1 [recv] state= 6 15 6 15
+10:08::33 agv=:1 [recv] pos:(6255,30716,90)
+10:08::34 agv=:1 [recv] state= 6 15 6 15
+10:08::34 [proc] plan: currentID:15
+10:08::34 agv=:1 [recv] pos:(6255,30716,90)
+10:08::35 agv=:1 [recv] state= 6 15 6 15
+10:08::35 agv=:1 [recv] pos:(6255,30716,90)
+10:08::36 agv=:1 [recv] state= 6 15 6 15
+10:08::36 [proc] plan: currentID:15
+10:08::37 agv=:1 [recv] pos:(6255,30716,90)
+10:08::37 agv=:1 [recv] state= 6 15 6 15
+10:08::38 agv=:1 [recv] pos:(6255,30716,90)
+10:08::38 agv=:1 [recv] state= 6 15 6 15
+10:08::38 [proc] plan: currentID:15
+10:08::39 agv=:1 [recv] pos:(6255,30716,90)
+10:08::39 agv=:1 [recv] state= 6 15 6 15
+10:08::40 agv=:1 [recv] pos:(6255,30716,90)
+10:08::40 agv=:1 [recv] state= 6 15 6 15
+10:08::40 [proc] plan: currentID:15
+10:08::41 agv=:1 [recv] pos:(6255,30716,90)
+10:08::41 agv=:1 [recv] state= 6 15 6 15
+10:08::42 agv=:1 [recv] pos:(6255,30716,90)
+10:08::42 agv=:1 [recv] state= 6 15 6 15
+10:08::42 [proc] plan: currentID:15
+10:08::43 agv=:1 [recv] pos:(6255,30716,90)
+10:08::43 agv=:1 [recv] state= 6 15 6 15
+10:08::44 agv=:1 [recv] pos:(6255,30716,90)
+10:08::45 agv=:1 [recv] state= 6 15 6 15
+10:08::45 [proc] plan: currentID:15
+10:08::45 agv=:1 [recv] pos:(6255,30716,90)
+10:08::46 agv=:1 [recv] state= 6 15 6 15
+10:08::46 agv=:1 [recv] pos:(6255,30716,90)
+10:08::47 agv=:1 [recv] state= 6 15 6 15
+10:08::47 [proc] plan: currentID:15
+10:08::47 agv=:1 [recv] pos:(6255,30716,90)
+10:08::48 agv=:1 [recv] state= 6 15 6 15
+10:08::48 agv=:1 [recv] pos:(6255,30716,90)
+10:08::49 agv=:1 [recv] state= 6 15 6 15
+10:08::49 [proc] plan: currentID:15
+10:08::49 agv=:1 [recv] pos:(6255,30716,90)
+10:08::50 agv=:1 [recv] state= 6 15 6 15
+10:08::50 agv=:1 [recv] pos:(6255,30716,90)
+10:08::51 agv=:1 [recv] state= 6 15 6 15
+10:08::51 [proc] plan: currentID:15
+10:08::51 agv=:1 [recv] pos:(6255,30716,90)
+10:08::52 agv=:1 [recv] state= 6 15 6 15
+10:08::52 agv=:1 [recv] pos:(6255,30716,90)
+10:08::53 agv=:1 [recv] state= 6 15 6 15
+10:08::53 [proc] plan: currentID:15
+10:08::54 agv=:1 [recv] pos:(6255,30716,90)
+10:08::54 agv=:1 [recv] state= 6 15 6 15
+10:08::55 agv=:1 [recv] pos:(6255,30716,90)
+10:08::55 agv=:1 [recv] state= 6 15 6 15
+10:08::55 [proc] plan: currentID:15
+10:08::56 agv=:1 [recv] pos:(6255,30716,90)
+10:08::56 agv=:1 [recv] state= 6 15 6 15
+10:08::57 agv=:1 [recv] pos:(6255,30716,90)
+10:08::57 agv=:1 [recv] state= 6 15 6 15
+10:08::57 [proc] plan: currentID:15
+10:08::58 agv=:1 [recv] pos:(6255,30716,90)
+10:08::58 agv=:1 [recv] state= 6 15 6 15
+10:08::59 agv=:1 [recv] pos:(6255,30716,90)
+10:08::59 agv=:1 [recv] state= 6 15 6 15
+10:08::59 [proc] plan: currentID:15
+10:09::00 agv=:1 [recv] pos:(6255,30716,90)
+10:09::00 agv=:1 [recv] state= 6 15 6 15
+10:09::01 agv=:1 [recv] pos:(6255,30716,90)
+10:09::02 agv=:1 [recv] state= 6 15 6 15
+10:09::02 [proc] plan: currentID:15
+10:09::02 agv=:1 [recv] pos:(6255,30716,90)
+10:09::03 agv=:1 [recv] state= 6 15 6 15
+10:09::03 agv=:1 [recv] pos:(6255,30716,90)
+10:09::04 agv=:1 [recv] state= 6 15 6 15
+10:09::04 [proc] plan: currentID:15
+10:09::04 agv=:1 [recv] pos:(6255,30716,90)
+10:09::05 agv=:1 [recv] state= 6 15 6 15
+10:09::05 agv=:1 [recv] pos:(6255,30716,90)
+10:09::06 agv=:1 [recv] state= 6 15 6 15
+10:09::06 [proc] plan: currentID:15
+10:09::06 agv=:1 [recv] pos:(6255,30716,90)
+10:09::07 agv=:1 [recv] state= 6 15 6 15
+10:09::07 agv=:1 [recv] pos:(6255,30716,90)
+10:09::08 agv=:1 [recv] state= 6 15 6 15
+10:09::08 [proc] plan: currentID:15
+10:09::08 agv=:1 [recv] pos:(6255,30716,90)
+10:09::09 agv=:1 [recv] state= 6 15 6 15
+10:09::09 agv=:1 [recv] pos:(6255,30716,90)
+10:09::10 agv=:1 [recv] state= 6 15 6 15
+10:09::10 [proc] plan: currentID:15
+10:09::11 agv=:1 [recv] pos:(6255,30716,90)
+10:09::11 agv=:1 [recv] state= 6 15 6 15
+10:09::12 agv=:1 [recv] pos:(6255,30716,90)
+10:09::12 agv=:1 [recv] state= 6 15 6 15
+10:09::12 [proc] plan: currentID:15
+10:09::13 agv=:1 [recv] pos:(6255,30716,90)
+10:09::13 agv=:1 [recv] state= 6 15 6 15
+10:09::14 agv=:1 [recv] pos:(6255,30716,90)
+10:09::14 agv=:1 [recv] state= 6 15 6 15
+10:09::14 [proc] plan: currentID:15
+10:09::15 agv=:1 [recv] pos:(6255,30716,90)
+10:09::15 agv=:1 [recv] state= 6 15 6 15
+10:09::16 agv=:1 [recv] pos:(6255,30716,90)
+10:09::16 agv=:1 [recv] state= 6 15 6 15
+10:09::16 [proc] plan: currentID:15
+10:09::17 agv=:1 [recv] pos:(6255,30716,90)
+10:09::17 agv=:1 [recv] state= 6 15 6 15
+10:09::18 agv=:1 [recv] pos:(6255,30716,90)
+10:09::19 agv=:1 [recv] state= 6 15 6 15
+10:09::19 [proc] plan: currentID:15
+10:09::19 agv=:1 [recv] pos:(6255,30716,90)
+10:09::20 agv=:1 [recv] state= 6 15 6 15
+10:09::20 agv=:1 [recv] pos:(6255,30716,90)
+10:09::21 agv=:1 [recv] state= 6 15 6 15
+10:09::21 [proc] plan: currentID:15
+10:09::21 agv=:1 [recv] pos:(6255,30716,90)
+10:09::22 agv=:1 [recv] state= 6 15 6 15
+10:09::22 agv=:1 [recv] pos:(6255,30716,90)
+10:09::23 agv=:1 [recv] state= 6 15 6 15
+10:09::23 [proc] plan: currentID:15
+10:09::23 agv=:1 [recv] pos:(6255,30716,90)
+10:09::24 agv=:1 [recv] state= 6 15 6 15
+10:09::24 agv=:1 [recv] pos:(6255,30716,90)
+10:09::25 agv=:1 [recv] state= 6 15 6 15
+10:09::25 [proc] plan: currentID:15
+10:09::25 agv=:1 [recv] pos:(6255,30716,90)
+10:09::26 agv=:1 [recv] state= 6 15 6 15
+10:09::26 agv=:1 [recv] pos:(6255,30716,90)
+10:09::27 agv=:1 [recv] state= 6 15 6 15
+10:09::27 [proc] plan: currentID:15
+10:09::28 agv=:1 [recv] pos:(6255,30716,90)
+10:09::28 agv=:1 [recv] state= 6 15 6 15
+10:09::29 agv=:1 [recv] pos:(6255,30716,90)
+10:09::29 agv=:1 [recv] state= 6 15 6 15
+10:09::29 [proc] plan: currentID:15
+10:09::30 agv=:1 [recv] pos:(6255,30716,90)
+10:09::30 agv=:1 [recv] state= 6 15 6 15
+10:09::31 agv=:1 [recv] pos:(6255,30716,90)
+10:09::31 agv=:1 [recv] state= 6 15 6 15
+10:09::31 [proc] plan: currentID:15
+10:09::32 agv=:1 [recv] pos:(6255,30716,90)
+10:09::32 agv=:1 [recv] state= 6 15 6 15
+10:09::33 agv=:1 [recv] pos:(6255,30716,90)
+10:09::33 agv=:1 [recv] state= 6 15 6 15
+10:09::33 [proc] plan: currentID:15
+10:09::34 agv=:1 [recv] pos:(6255,30716,90)
+10:09::34 agv=:1 [recv] state= 6 15 6 15
+10:09::35 agv=:1 [recv] pos:(6255,30716,90)
+10:09::36 agv=:1 [recv] state= 6 15 6 15
+10:09::36 [proc] plan: currentID:15
+10:09::36 agv=:1 [recv] pos:(6255,30716,90)
+10:09::37 agv=:1 [recv] state= 6 15 6 15
+10:09::37 agv=:1 [recv] pos:(6255,30716,90)
+10:09::38 agv=:1 [recv] state= 6 15 6 15
+10:09::38 [proc] plan: currentID:15
+10:09::38 agv=:1 [recv] pos:(6255,30716,90)
+10:09::39 agv=:1 [recv] state= 6 15 6 15
+10:09::39 agv=:1 [recv] pos:(6255,30716,90)
+10:09::40 agv=:1 [recv] state= 6 15 6 15
+10:09::40 [proc] plan: currentID:15
+10:09::40 agv=:1 [recv] pos:(6255,30716,90)
+10:09::41 agv=:1 [recv] state= 6 15 6 15
+10:09::41 agv=:1 [recv] pos:(6255,30716,90)
+10:09::42 agv=:1 [recv] state= 6 15 6 15
+10:09::42 [proc] plan: currentID:15
+10:09::42 agv=:1 [recv] pos:(6255,30716,90)
+10:09::43 agv=:1 [recv] state= 6 15 6 15
+10:09::43 agv=:1 [recv] pos:(6255,30716,90)
+10:09::44 agv=:1 [recv] state= 6 15 6 15
+10:09::44 [proc] plan: currentID:15
+10:09::45 agv=:1 [recv] pos:(6255,30716,90)
+10:09::45 agv=:1 [recv] state= 6 15 6 15
+10:09::46 agv=:1 [recv] pos:(6255,30716,90)
+10:09::46 agv=:1 [recv] state= 6 15 6 15
+10:09::46 [proc] plan: currentID:15
+10:09::47 agv=:1 [recv] pos:(6255,30716,90)
+10:09::47 agv=:1 [recv] state= 6 15 6 15
+10:09::48 agv=:1 [recv] pos:(6255,30716,90)
+10:09::48 agv=:1 [recv] state= 6 15 6 15
+10:09::48 [proc] plan: currentID:15
+10:09::49 agv=:1 [recv] pos:(6255,30716,90)
+10:09::49 agv=:1 [recv] state= 6 15 6 15
+10:09::50 agv=:1 [recv] pos:(6255,30716,90)
+10:09::50 agv=:1 [recv] state= 6 15 6 15
+10:09::50 [proc] plan: currentID:15
+10:09::51 agv=:1 [recv] pos:(6255,30716,90)
+10:09::51 agv=:1 [recv] state= 6 15 6 15
+10:09::52 agv=:1 [recv] pos:(6255,30716,90)
+10:09::53 agv=:1 [recv] state= 6 15 6 15
+10:09::53 [proc] plan: currentID:15
+10:09::53 agv=:1 [recv] pos:(6255,30716,90)
+10:09::54 agv=:1 [recv] state= 6 15 6 15
+10:09::54 agv=:1 [recv] pos:(6255,30716,90)
+10:09::55 agv=:1 [recv] state= 6 15 6 15
+10:09::55 [proc] plan: currentID:15
+10:09::55 agv=:1 [recv] pos:(6255,30716,90)
+10:09::56 agv=:1 [recv] state= 6 15 6 15
+10:09::56 agv=:1 [recv] pos:(6255,30716,90)
+10:09::57 agv=:1 [recv] state= 6 15 6 15
+10:09::57 [proc] plan: currentID:15
+10:09::57 agv=:1 [recv] pos:(6255,30716,90)
+10:09::58 agv=:1 [recv] state= 6 15 6 15
+10:09::58 agv=:1 [recv] pos:(6255,30716,90)
+10:09::59 agv=:1 [recv] state= 6 15 6 15
+10:09::59 [proc] plan: currentID:15
+10:09::59 agv=:1 [recv] pos:(6255,30716,90)
+10:10::00 agv=:1 [recv] state= 6 15 6 15
+10:10::00 agv=:1 [recv] pos:(6255,30716,90)
+10:10::01 agv=:1 [recv] state= 6 15 6 15
+10:10::01 [proc] plan: currentID:15
+10:10::02 agv=:1 [recv] pos:(6255,30716,90)
+10:10::02 agv=:1 [recv] state= 6 15 6 15
+10:10::03 agv=:1 [recv] pos:(6255,30716,90)
+10:10::03 agv=:1 [recv] state= 6 15 6 15
+10:10::03 [proc] plan: currentID:15
+10:10::04 agv=:1 [recv] pos:(6255,30716,90)
+10:10::04 agv=:1 [recv] state= 6 15 6 15
+10:10::05 agv=:1 [recv] pos:(6255,30716,90)
+10:10::05 agv=:1 [recv] state= 6 15 6 15
+10:10::05 [proc] plan: currentID:15
+10:10::06 agv=:1 [recv] pos:(6255,30716,90)
+10:10::06 agv=:1 [recv] state= 6 15 6 15
+10:10::07 agv=:1 [recv] pos:(6255,30716,90)
+10:10::07 agv=:1 [recv] state= 6 15 6 15
+10:10::07 [proc] plan: currentID:15
+10:10::08 agv=:1 [recv] pos:(6255,30716,90)
+10:10::08 agv=:1 [recv] state= 6 15 6 15
+10:10::09 agv=:1 [recv] pos:(6255,30716,90)
+10:10::10 agv=:1 [recv] state= 6 15 6 15
+10:10::10 [proc] plan: currentID:15
+10:10::10 agv=:1 [recv] pos:(6255,30716,90)
+10:10::11 agv=:1 [recv] state= 6 15 6 15
+10:10::11 agv=:1 [recv] pos:(6255,30716,90)
+10:10::12 agv=:1 [recv] state= 6 15 6 15
+10:10::12 [proc] plan: currentID:15
+10:10::12 agv=:1 [recv] pos:(6255,30716,90)
+10:10::13 agv=:1 [recv] state= 6 15 6 15
+10:10::13 agv=:1 [recv] pos:(6255,30716,90)
+10:10::14 agv=:1 [recv] state= 6 15 6 15
+10:10::14 [proc] plan: currentID:15
+10:10::14 agv=:1 [recv] pos:(6255,30716,90)
+10:10::15 agv=:1 [recv] state= 6 15 6 15
+10:10::15 agv=:1 [recv] pos:(6255,30716,90)
+10:10::16 agv=:1 [recv] state= 6 15 6 15
+10:10::16 [proc] plan: currentID:15
+10:10::16 agv=:1 [recv] pos:(6255,30716,90)
+10:10::17 agv=:1 [recv] state= 6 15 6 15
+10:10::17 agv=:1 [recv] pos:(6255,30716,90)
+10:10::18 agv=:1 [recv] state= 6 15 6 15
+10:10::18 [proc] plan: currentID:15
+10:10::19 agv=:1 [recv] pos:(6255,30716,90)
+10:10::19 agv=:1 [recv] state= 6 15 6 15
+10:10::20 agv=:1 [recv] pos:(6255,30716,90)
+10:10::20 agv=:1 [recv] state= 6 15 6 15
+10:10::20 [proc] plan: currentID:15
+10:10::21 agv=:1 [recv] pos:(6255,30716,90)
+10:10::21 agv=:1 [recv] state= 6 15 6 15
+10:10::22 agv=:1 [recv] pos:(6255,30716,90)
+10:10::22 agv=:1 [recv] state= 6 15 6 15
+10:10::22 [proc] plan: currentID:15
+10:10::23 agv=:1 [recv] pos:(6255,30716,90)
+10:10::23 agv=:1 [recv] state= 6 15 6 15
+10:10::24 agv=:1 [recv] pos:(6255,30716,90)
+10:10::24 agv=:1 [recv] state= 6 15 6 15
+10:10::24 [proc] plan: currentID:15
+10:10::25 agv=:1 [recv] pos:(6255,30716,90)
+10:10::25 agv=:1 [recv] state= 6 15 6 15
+10:10::26 agv=:1 [recv] pos:(6255,30716,90)
+10:10::27 agv=:1 [recv] state= 6 15 6 15
+10:10::27 [proc] plan: currentID:15
+10:10::27 agv=:1 [recv] pos:(6255,30716,90)
+10:10::28 agv=:1 [recv] state= 6 15 6 15
+10:10::28 agv=:1 [recv] pos:(6255,30716,90)
+10:10::29 agv=:1 [recv] state= 6 15 6 15
+10:10::29 [proc] plan: currentID:15
+10:10::29 agv=:1 [recv] pos:(6255,30716,90)
+10:10::30 agv=:1 [recv] state= 6 15 6 15
+10:10::30 agv=:1 [recv] pos:(6255,30716,90)
+10:10::31 agv=:1 [recv] state= 6 15 6 15
+10:10::31 [proc] plan: currentID:15
+10:10::31 agv=:1 [recv] pos:(6255,30716,90)
+10:10::32 agv=:1 [recv] state= 6 15 6 15
+10:10::32 agv=:1 [recv] pos:(6255,30716,90)
+10:10::33 agv=:1 [recv] state= 6 15 6 15
+10:10::33 [proc] plan: currentID:15
+10:10::33 agv=:1 [recv] pos:(6255,30716,90)
+10:10::34 agv=:1 [recv] state= 6 15 6 15
+10:10::34 agv=:1 [recv] pos:(6255,30716,90)
+10:10::35 agv=:1 [recv] state= 6 15 6 15
+10:10::35 [proc] plan: currentID:15
+10:10::36 agv=:1 [recv] pos:(6255,30716,90)
+10:10::36 agv=:1 [recv] state= 6 15 6 15
+10:10::37 agv=:1 [recv] pos:(6255,30716,90)
+10:10::37 agv=:1 [recv] state= 6 15 6 15
+10:10::37 [proc] plan: currentID:15
+10:10::38 agv=:1 [recv] pos:(6255,30716,90)
+10:10::38 agv=:1 [recv] state= 6 15 6 15
+10:10::39 agv=:1 [recv] pos:(6255,30716,90)
+10:10::39 agv=:1 [recv] state= 6 15 6 15
+10:10::39 [proc] plan: currentID:15
+10:10::40 agv=:1 [recv] pos:(6255,30716,90)
+10:10::40 agv=:1 [recv] state= 6 15 6 15
+10:10::41 agv=:1 [recv] pos:(6255,30716,90)
+10:10::41 agv=:1 [recv] state= 6 15 6 15
+10:10::41 [proc] plan: currentID:15
+10:10::42 agv=:1 [recv] pos:(6255,30716,90)
+10:10::42 agv=:1 [recv] state= 6 15 6 15
+10:10::43 agv=:1 [recv] pos:(6255,30716,90)
+10:10::44 agv=:1 [recv] state= 6 15 6 15
+10:10::44 [proc] plan: currentID:15
+10:10::44 agv=:1 [recv] pos:(6255,30716,90)
+10:10::45 agv=:1 [recv] state= 6 15 6 15
+10:10::45 agv=:1 [recv] pos:(6255,30716,90)
+10:10::46 agv=:1 [recv] state= 6 15 6 15
+10:10::46 [proc] plan: currentID:15
+10:10::46 agv=:1 [recv] pos:(6255,30716,90)
+10:10::47 agv=:1 [recv] state= 6 15 6 15
+10:10::47 agv=:1 [recv] pos:(6255,30716,90)
+10:10::48 agv=:1 [recv] state= 6 15 6 15
+10:10::48 [proc] plan: currentID:15
+10:10::48 agv=:1 [recv] pos:(6255,30716,90)
+10:10::49 agv=:1 [recv] state= 6 15 6 15
+10:10::49 agv=:1 [recv] pos:(6255,30716,90)
+10:10::50 agv=:1 [recv] state= 6 15 6 15
+10:10::50 [proc] plan: currentID:15
+10:10::50 agv=:1 [recv] pos:(6255,30716,90)
+10:10::51 agv=:1 [recv] state= 6 15 6 15
+10:10::51 agv=:1 [recv] pos:(6255,30716,90)
+10:10::52 agv=:1 [recv] state= 6 15 6 15
+10:10::52 [proc] plan: currentID:15
+10:10::53 agv=:1 [recv] pos:(6255,30716,90)
+10:10::53 agv=:1 [recv] state= 6 15 6 15
+10:10::54 agv=:1 [recv] pos:(6255,30716,90)
+10:10::54 agv=:1 [recv] state= 6 15 6 15
+10:10::54 [proc] plan: currentID:15
+10:10::55 agv=:1 [recv] pos:(6255,30716,90)
+10:10::55 agv=:1 [recv] state= 6 15 6 15
+10:10::56 agv=:1 [recv] pos:(6255,30716,90)
+10:10::56 agv=:1 [recv] state= 6 15 6 15
+10:10::56 [proc] plan: currentID:15
+10:10::57 agv=:1 [recv] pos:(6255,30716,90)
+10:10::57 agv=:1 [recv] state= 6 15 6 15
+10:10::58 agv=:1 [recv] pos:(6255,30716,90)
+10:10::58 agv=:1 [recv] state= 6 15 6 15
+10:10::58 [proc] plan: currentID:15
+10:10::59 agv=:1 [recv] pos:(6255,30716,90)
+10:10::59 agv=:1 [recv] state= 6 15 6 15
+10:11::00 agv=:1 [recv] pos:(6255,30716,90)
+10:11::01 agv=:1 [recv] state= 6 15 6 15
+10:11::01 [proc] plan: currentID:15
+10:11::01 agv=:1 [recv] pos:(6255,30716,90)
+10:11::02 agv=:1 [recv] state= 6 15 6 15
+10:11::02 agv=:1 [recv] pos:(6255,30716,90)
+10:11::03 agv=:1 [recv] state= 6 15 6 15
+10:11::03 [proc] plan: currentID:15
+10:11::03 agv=:1 [recv] pos:(6255,30716,90)
+10:11::04 agv=:1 [recv] state= 6 15 6 15
+10:11::04 agv=:1 [recv] pos:(6255,30716,90)
+10:11::05 agv=:1 [recv] state= 6 15 6 15
+10:11::05 [proc] plan: currentID:15
+10:11::05 agv=:1 [recv] pos:(6255,30716,90)
+10:11::06 agv=:1 [recv] state= 6 15 6 15
+10:11::06 agv=:1 [recv] pos:(6255,30716,90)
+10:11::07 agv=:1 [recv] state= 6 15 6 15
+10:11::07 [proc] plan: currentID:15
+10:11::07 agv=:1 [recv] pos:(6255,30716,90)
+10:11::08 agv=:1 [recv] state= 6 15 6 15
+10:11::08 agv=:1 [recv] pos:(6255,30716,90)
+10:11::09 agv=:1 [recv] state= 6 15 6 15
+10:11::09 [proc] plan: currentID:15
+10:11::10 agv=:1 [recv] pos:(6255,30716,90)
+10:11::10 agv=:1 [recv] state= 6 15 6 15
+10:11::11 agv=:1 [recv] pos:(6255,30716,90)
+10:11::11 agv=:1 [recv] state= 6 15 6 15
+10:11::11 [proc] plan: currentID:15
+10:11::12 agv=:1 [recv] pos:(6255,30716,90)
+10:11::12 agv=:1 [recv] state= 6 15 6 15
+10:11::13 agv=:1 [recv] pos:(6255,30716,90)
+10:11::13 agv=:1 [recv] state= 6 15 6 15
+10:11::13 [proc] plan: currentID:15
+10:11::14 agv=:1 [recv] pos:(6255,30716,90)
+10:11::14 agv=:1 [recv] state= 6 15 6 15
+10:11::15 agv=:1 [recv] pos:(6255,30716,90)
+10:11::15 agv=:1 [recv] state= 6 15 6 15
+10:11::15 [proc] plan: currentID:15
+10:11::16 agv=:1 [recv] pos:(6255,30716,90)
+10:11::16 agv=:1 [recv] state= 6 15 6 15
+10:11::17 agv=:1 [recv] pos:(6255,30716,90)
+10:11::18 agv=:1 [recv] state= 6 15 6 15
+10:11::18 [proc] plan: currentID:15
+10:11::18 agv=:1 [recv] pos:(6255,30716,90)
+10:11::19 agv=:1 [recv] state= 6 15 6 15
+10:11::19 agv=:1 [recv] pos:(6255,30716,90)
+10:11::20 agv=:1 [recv] state= 6 15 6 15
+10:11::20 [proc] plan: currentID:15
+10:11::20 agv=:1 [recv] pos:(6255,30716,90)
+10:11::21 agv=:1 [recv] state= 6 15 6 15
+10:11::21 agv=:1 [recv] pos:(6255,30716,90)
+10:11::22 agv=:1 [recv] state= 6 15 6 15
+10:11::22 [proc] plan: currentID:15
+10:11::22 agv=:1 [recv] pos:(6255,30716,90)
+10:11::23 agv=:1 [recv] state= 6 15 6 15
+10:11::23 agv=:1 [recv] pos:(6255,30716,90)
+10:11::24 agv=:1 [recv] state= 6 15 6 15
+10:11::24 [proc] plan: currentID:15
+10:11::24 agv=:1 [recv] pos:(6255,30716,90)
+10:11::25 agv=:1 [recv] state= 6 15 6 15
+10:11::25 agv=:1 [recv] pos:(6255,30716,90)
+10:11::26 agv=:1 [recv] state= 6 15 6 15
+10:11::26 [proc] plan: currentID:15
+10:11::27 agv=:1 [recv] pos:(6255,30716,90)
+10:11::27 agv=:1 [recv] state= 6 15 6 15
+10:11::28 agv=:1 [recv] pos:(6255,30716,90)
+10:11::28 agv=:1 [recv] state= 6 15 6 15
+10:11::28 [proc] plan: currentID:15
+10:11::29 agv=:1 [recv] pos:(6255,30716,90)
+10:11::29 agv=:1 [recv] state= 6 15 6 15
+10:11::30 agv=:1 [recv] pos:(6255,30716,90)
+10:11::30 agv=:1 [recv] state= 6 15 6 15
+10:11::30 [proc] plan: currentID:15
+10:11::31 agv=:1 [recv] pos:(6255,30716,90)
+10:11::31 agv=:1 [recv] state= 6 15 6 15
+10:11::32 agv=:1 [recv] pos:(6255,30716,90)
+10:11::32 agv=:1 [recv] state= 6 15 6 15
+10:11::32 [proc] plan: currentID:15
+10:11::33 agv=:1 [recv] pos:(6255,30716,90)
+10:11::33 agv=:1 [recv] state= 6 15 6 15
+10:11::34 agv=:1 [recv] pos:(6255,30716,90)
+10:11::35 agv=:1 [recv] state= 6 15 6 15
+10:11::35 [proc] plan: currentID:15
+10:11::35 agv=:1 [recv] pos:(6255,30716,90)
+10:11::36 agv=:1 [recv] state= 6 15 6 15
+10:11::36 agv=:1 [recv] pos:(6255,30716,90)
+10:11::37 agv=:1 [recv] state= 6 15 6 15
+10:11::37 [proc] plan: currentID:15
+10:11::37 agv=:1 [recv] pos:(6255,30716,90)
+10:11::38 agv=:1 [recv] state= 6 15 6 15
+10:11::38 agv=:1 [recv] pos:(6255,30716,90)
+10:11::39 agv=:1 [recv] state= 6 15 6 15
+10:11::39 [proc] plan: currentID:15
+10:11::39 agv=:1 [recv] pos:(6255,30716,90)
+10:11::40 agv=:1 [recv] state= 6 15 6 15
+10:11::40 agv=:1 [recv] pos:(6255,30716,90)
+10:11::41 agv=:1 [recv] state= 6 15 6 15
+10:11::41 [proc] plan: currentID:15
+10:11::41 agv=:1 [recv] pos:(6255,30716,90)
+10:11::42 agv=:1 [recv] state= 6 15 6 15
+10:11::42 agv=:1 [recv] pos:(6255,30716,90)
+10:11::43 agv=:1 [recv] state= 6 15 6 15
+10:11::43 [proc] plan: currentID:15
+10:11::44 agv=:1 [recv] pos:(6255,30716,90)
+10:11::44 agv=:1 [recv] state= 6 15 6 15
+10:11::45 agv=:1 [recv] pos:(6255,30716,90)
+10:11::45 agv=:1 [recv] state= 6 15 6 15
+10:11::45 [proc] plan: currentID:15
+10:11::46 agv=:1 [recv] pos:(6255,30716,90)
+10:11::46 agv=:1 [recv] state= 6 15 6 15
+10:11::47 agv=:1 [recv] pos:(6255,30716,90)
+10:11::47 agv=:1 [recv] state= 6 15 6 15
+10:11::47 [proc] plan: currentID:15
+10:11::48 agv=:1 [recv] pos:(6255,30716,90)
+10:11::48 agv=:1 [recv] state= 6 15 6 15
+10:11::49 agv=:1 [recv] pos:(6255,30716,90)
+10:11::49 agv=:1 [recv] state= 6 15 6 15
+10:11::49 [proc] plan: currentID:15
+10:11::50 agv=:1 [recv] pos:(6255,30716,90)
+10:11::50 agv=:1 [recv] state= 6 15 6 15
+10:11::51 agv=:1 [recv] pos:(6255,30716,90)
+10:11::52 agv=:1 [recv] state= 6 15 6 15
+10:11::52 [proc] plan: currentID:15
+10:11::52 agv=:1 [recv] pos:(6255,30716,90)
+10:11::53 agv=:1 [recv] state= 6 15 6 15
+10:11::53 agv=:1 [recv] pos:(6255,30716,90)
+10:11::54 agv=:1 [recv] state= 6 15 6 15
+10:11::54 [proc] plan: currentID:15
+10:11::54 agv=:1 [recv] pos:(6255,30716,90)
+10:11::55 agv=:1 [recv] state= 6 15 6 15
+10:11::55 agv=:1 [recv] pos:(6255,30716,90)
+10:11::56 agv=:1 [recv] state= 6 15 6 15
+10:11::56 [proc] plan: currentID:15
+10:11::56 agv=:1 [recv] pos:(6255,30716,90)
+10:11::57 agv=:1 [recv] state= 6 15 6 15
+10:11::57 agv=:1 [recv] pos:(6255,30716,90)
+10:11::58 agv=:1 [recv] state= 6 15 6 15
+10:11::58 [proc] plan: currentID:15
+10:11::58 agv=:1 [recv] pos:(6255,30716,90)
+10:11::59 agv=:1 [recv] state= 6 15 6 15
+10:11::59 agv=:1 [recv] pos:(6255,30716,90)
+10:12::00 agv=:1 [recv] state= 6 15 6 15
+10:12::00 [proc] plan: currentID:15
+10:12::01 agv=:1 [recv] pos:(6255,30716,90)
+10:12::01 agv=:1 [recv] state= 6 15 6 15
+10:12::02 agv=:1 [recv] pos:(6255,30716,90)
+10:12::02 agv=:1 [recv] state= 6 15 6 15
+10:12::02 [proc] plan: currentID:15
+10:12::03 agv=:1 [recv] pos:(6255,30716,90)
+10:12::03 agv=:1 [recv] state= 6 15 6 15
+10:12::04 agv=:1 [recv] pos:(6255,30716,90)
+10:12::04 agv=:1 [recv] state= 6 15 6 15
+10:12::04 [proc] plan: currentID:15
+10:12::05 agv=:1 [recv] pos:(6255,30716,90)
+10:12::05 agv=:1 [recv] state= 6 15 6 15
+10:12::06 agv=:1 [recv] pos:(6255,30716,90)
+10:12::06 agv=:1 [recv] state= 6 15 6 15
+10:12::06 [proc] plan: currentID:15
+10:12::07 agv=:1 [recv] pos:(6255,30716,90)
+10:12::07 agv=:1 [recv] state= 6 15 6 15
+10:12::08 agv=:1 [recv] pos:(6255,30716,90)
+10:12::09 agv=:1 [recv] state= 6 15 6 15
+10:12::09 [proc] plan: currentID:15
+10:12::09 agv=:1 [recv] pos:(6255,30716,90)
+10:12::10 agv=:1 [recv] state= 6 15 6 15
+10:12::10 agv=:1 [recv] pos:(6255,30716,90)
+10:12::11 agv=:1 [recv] state= 6 15 6 15
+10:12::11 [proc] plan: currentID:15
+10:12::11 agv=:1 [recv] pos:(6255,30716,90)
+10:12::12 agv=:1 [recv] state= 6 15 6 15
+10:12::12 agv=:1 [recv] pos:(6255,30716,90)
+10:12::13 agv=:1 [recv] state= 6 15 6 15
+10:12::13 [proc] plan: currentID:15
+10:12::13 agv=:1 [recv] pos:(6255,30716,90)
+10:12::14 agv=:1 [recv] state= 6 15 6 15
+10:12::14 agv=:1 [recv] pos:(6255,30716,90)
+10:12::15 agv=:1 [recv] state= 6 15 6 15
+10:12::15 [proc] plan: currentID:15
+10:12::15 agv=:1 [recv] pos:(6255,30716,90)
+10:12::16 agv=:1 [recv] state= 6 15 6 15
+10:12::16 agv=:1 [recv] pos:(6255,30716,90)
+10:12::17 agv=:1 [recv] state= 6 15 6 15
+10:12::17 [proc] plan: currentID:15
+10:12::18 agv=:1 [recv] pos:(6255,30716,90)
+10:12::18 agv=:1 [recv] state= 6 15 6 15
+10:12::19 agv=:1 [recv] pos:(6255,30716,90)
+10:12::19 agv=:1 [recv] state= 6 15 6 15
+10:12::19 [proc] plan: currentID:15
+10:12::20 agv=:1 [recv] pos:(6255,30716,90)
+10:12::20 agv=:1 [recv] state= 6 15 6 15
+10:12::21 agv=:1 [recv] pos:(6255,30716,90)
+10:12::21 agv=:1 [recv] state= 6 15 6 15
+10:12::21 [proc] plan: currentID:15
+10:12::22 agv=:1 [recv] pos:(6255,30716,90)
+10:12::22 agv=:1 [recv] state= 6 15 6 15
+10:12::23 agv=:1 [recv] pos:(6255,30716,90)
+10:12::23 agv=:1 [recv] state= 6 15 6 15
+10:12::23 [proc] plan: currentID:15
+10:12::24 agv=:1 [recv] pos:(6255,30716,90)
+10:12::24 agv=:1 [recv] state= 6 15 6 15
+10:12::25 agv=:1 [recv] pos:(6255,30716,90)
+10:12::26 agv=:1 [recv] state= 6 15 6 15
+10:12::26 [proc] plan: currentID:15
+10:12::26 agv=:1 [recv] pos:(6255,30716,90)
+10:12::27 agv=:1 [recv] state= 6 15 6 15
+10:12::27 agv=:1 [recv] pos:(6255,30716,90)
+10:12::28 agv=:1 [recv] state= 6 15 6 15
+10:12::28 [proc] plan: currentID:15
+10:12::28 agv=:1 [recv] pos:(6255,30716,90)
+10:12::29 agv=:1 [recv] state= 6 15 6 15
+10:12::29 agv=:1 [recv] pos:(6255,30716,90)
+10:12::30 agv=:1 [recv] state= 6 15 6 15
+10:12::30 [proc] plan: currentID:15
+10:12::30 agv=:1 [recv] pos:(6255,30716,90)
+10:12::31 agv=:1 [recv] state= 6 15 6 15
+10:12::31 agv=:1 [recv] pos:(6255,30716,90)
+10:12::32 agv=:1 [recv] state= 6 15 6 15
+10:12::32 [proc] plan: currentID:15
+10:12::32 agv=:1 [recv] pos:(6255,30716,90)
+10:12::33 agv=:1 [recv] state= 6 15 6 15
+10:12::34 agv=:1 [recv] pos:(6255,30716,90)
+10:12::34 agv=:1 [recv] state= 6 15 6 15
+10:12::34 [proc] plan: currentID:15
+10:12::35 agv=:1 [recv] pos:(6255,30716,90)
+10:12::35 agv=:1 [recv] state= 6 15 6 15
+10:12::36 agv=:1 [recv] pos:(6255,30716,90)
+10:12::36 agv=:1 [recv] state= 6 15 6 15
+10:12::36 [proc] plan: currentID:15
+10:12::37 agv=:1 [recv] pos:(6255,30716,90)
+10:12::37 agv=:1 [recv] state= 6 15 6 15
+10:12::38 agv=:1 [recv] pos:(6255,30716,90)
+10:12::38 agv=:1 [recv] state= 6 15 6 15
+10:12::38 [proc] plan: currentID:15
+10:12::39 agv=:1 [recv] pos:(6255,30716,90)
+10:12::39 agv=:1 [recv] state= 6 15 6 15
+10:12::40 agv=:1 [recv] pos:(6255,30716,90)
+10:12::40 agv=:1 [recv] state= 6 15 6 15
+10:12::40 [proc] plan: currentID:15
+10:12::41 agv=:1 [recv] pos:(6255,30716,90)
+10:12::41 agv=:1 [recv] state= 6 15 6 15
+10:12::42 agv=:1 [recv] pos:(6255,30716,90)
+10:12::43 agv=:1 [recv] state= 6 15 6 15
+10:12::43 [proc] plan: currentID:15
+10:12::43 agv=:1 [recv] pos:(6255,30716,90)
+10:12::44 agv=:1 [recv] state= 6 15 6 15
+10:12::44 agv=:1 [recv] pos:(6255,30716,90)
+10:12::45 agv=:1 [recv] state= 6 15 6 15
+10:12::45 [proc] plan: currentID:15
+10:12::45 agv=:1 [recv] pos:(6255,30716,90)
+10:12::46 agv=:1 [recv] state= 6 15 6 15
+10:12::46 agv=:1 [recv] pos:(6255,30716,90)
+10:12::47 agv=:1 [recv] state= 6 15 6 15
+10:12::47 [proc] plan: currentID:15
+10:12::47 agv=:1 [recv] pos:(6255,30716,90)
+10:12::48 agv=:1 [recv] state= 6 15 6 15
+10:12::48 agv=:1 [recv] pos:(6255,30716,90)
+10:12::49 agv=:1 [recv] state= 6 15 6 15
+10:12::49 [proc] plan: currentID:15
+10:12::49 agv=:1 [recv] pos:(6255,30716,90)
+10:12::50 agv=:1 [recv] state= 6 15 6 15
+10:12::50 agv=:1 [recv] pos:(6255,30716,90)
+10:12::51 agv=:1 [recv] state= 6 15 6 15
+10:12::51 [proc] plan: currentID:15
+10:12::52 agv=:1 [recv] pos:(6255,30716,90)
+10:12::52 agv=:1 [recv] state= 6 15 6 15
+10:12::53 agv=:1 [recv] pos:(6255,30716,90)
+10:12::53 agv=:1 [recv] state= 6 15 6 15
+10:12::53 [proc] plan: currentID:15
+10:12::54 agv=:1 [recv] pos:(6255,30716,90)
+10:12::54 agv=:1 [recv] state= 6 15 6 15
+10:12::55 agv=:1 [recv] pos:(6255,30716,90)
+10:12::55 agv=:1 [recv] state= 6 15 6 15
+10:12::55 [proc] plan: currentID:15
+10:12::56 agv=:1 [recv] pos:(6255,30716,90)
+10:12::56 agv=:1 [recv] state= 6 15 6 15
+10:12::57 agv=:1 [recv] pos:(6255,30716,90)
+10:12::57 agv=:1 [recv] state= 6 15 6 15
+10:12::57 [proc] plan: currentID:15
+10:12::58 agv=:1 [recv] pos:(6255,30716,90)
+10:12::58 agv=:1 [recv] state= 6 15 6 15
+10:12::59 agv=:1 [recv] pos:(6255,30716,90)
+10:13::00 agv=:1 [recv] state= 6 15 6 15
+10:13::00 [proc] plan: currentID:15
+10:13::00 agv=:1 [recv] pos:(6255,30716,90)
+10:13::01 agv=:1 [recv] state= 6 15 6 15
+10:13::01 agv=:1 [recv] pos:(6255,30716,90)
+10:13::02 agv=:1 [recv] state= 6 15 6 15
+10:13::02 [proc] plan: currentID:15
+10:13::02 agv=:1 [recv] pos:(6255,30716,90)
+10:13::03 agv=:1 [recv] state= 6 15 6 15
+10:13::03 agv=:1 [recv] pos:(6255,30716,90)
+10:13::04 agv=:1 [recv] state= 6 15 6 15
+10:13::04 [proc] plan: currentID:15
+10:13::04 agv=:1 [recv] pos:(6255,30716,90)
+10:13::05 agv=:1 [recv] state= 6 15 6 15
+10:13::05 agv=:1 [recv] pos:(6255,30716,90)
+10:13::06 agv=:1 [recv] state= 6 15 6 15
+10:13::06 [proc] plan: currentID:15
+10:13::06 agv=:1 [recv] pos:(6255,30716,90)
+10:13::07 agv=:1 [recv] state= 6 15 6 15
+10:13::07 agv=:1 [recv] pos:(6255,30716,90)
+10:13::08 agv=:1 [recv] state= 6 15 6 15
+10:13::08 [proc] plan: currentID:15
+10:13::09 agv=:1 [recv] pos:(6255,30716,90)
+10:13::09 agv=:1 [recv] state= 6 15 6 15
+10:13::10 agv=:1 [recv] pos:(6255,30716,90)
+10:13::10 agv=:1 [recv] state= 6 15 6 15
+10:13::10 [proc] plan: currentID:15
+10:13::11 agv=:1 [recv] pos:(6255,30716,90)
+10:13::11 agv=:1 [recv] state= 6 15 6 15
+10:13::12 agv=:1 [recv] pos:(6255,30716,90)
+10:13::12 agv=:1 [recv] state= 6 15 6 15
+10:13::12 [proc] plan: currentID:15
+10:13::13 agv=:1 [recv] pos:(6255,30716,90)
+10:13::13 agv=:1 [recv] state= 6 15 6 15
+10:13::14 agv=:1 [recv] pos:(6255,30716,90)
+10:13::14 agv=:1 [recv] state= 6 15 6 15
+10:13::14 [proc] plan: currentID:15
+10:13::15 agv=:1 [recv] pos:(6255,30716,90)
+10:13::15 agv=:1 [recv] state= 6 15 6 15
+10:13::16 agv=:1 [recv] pos:(6255,30716,90)
+10:13::17 agv=:1 [recv] state= 6 15 6 15
+10:13::17 [proc] plan: currentID:15
+10:13::17 agv=:1 [recv] pos:(6255,30716,90)
+10:13::18 agv=:1 [recv] state= 6 15 6 15
+10:13::18 agv=:1 [recv] pos:(6255,30716,90)
+10:13::19 agv=:1 [recv] state= 6 15 6 15
+10:13::19 [proc] plan: currentID:15
+10:13::19 agv=:1 [recv] pos:(6255,30716,90)
+10:13::20 agv=:1 [recv] state= 6 15 6 15
+10:13::20 agv=:1 [recv] pos:(6255,30716,90)
+10:13::21 agv=:1 [recv] state= 6 15 6 15
+10:13::21 [proc] plan: currentID:15
+10:13::21 agv=:1 [recv] pos:(6255,30716,90)
+10:13::22 agv=:1 [recv] state= 6 15 6 15
+10:13::22 agv=:1 [recv] pos:(6255,30716,90)
+10:13::23 agv=:1 [recv] state= 6 15 6 15
+10:13::23 [proc] plan: currentID:15
+10:13::23 agv=:1 [recv] pos:(6255,30716,90)
+10:13::24 agv=:1 [recv] state= 6 15 6 15
+10:13::24 agv=:1 [recv] pos:(6255,30716,90)
+10:13::25 agv=:1 [recv] state= 6 15 6 15
+10:13::25 [proc] plan: currentID:15
+10:13::26 agv=:1 [recv] pos:(6255,30716,90)
+10:13::26 agv=:1 [recv] state= 6 15 6 15
+10:13::27 agv=:1 [recv] pos:(6255,30716,90)
+10:13::27 agv=:1 [recv] state= 6 15 6 15
+10:13::27 [proc] plan: currentID:15
+10:13::28 agv=:1 [recv] pos:(6255,30716,90)
+10:13::28 agv=:1 [recv] state= 6 15 6 15
+10:13::29 agv=:1 [recv] pos:(6255,30716,90)
+10:13::29 agv=:1 [recv] state= 6 15 6 15
+10:13::29 [proc] plan: currentID:15
+10:13::30 agv=:1 [recv] pos:(6255,30716,90)
+10:13::30 agv=:1 [recv] state= 6 15 6 15
+10:13::31 agv=:1 [recv] pos:(6255,30716,90)
+10:13::31 agv=:1 [recv] state= 6 15 6 15
+10:13::31 [proc] plan: currentID:15
+10:13::32 agv=:1 [recv] pos:(6255,30716,90)
+10:13::32 agv=:1 [recv] state= 6 15 6 15
+10:13::33 agv=:1 [recv] pos:(6255,30716,90)
+10:13::34 agv=:1 [recv] state= 6 15 6 15
+10:13::34 [proc] plan: currentID:15
+10:13::34 agv=:1 [recv] pos:(6255,30716,90)
+10:13::35 agv=:1 [recv] state= 6 15 6 15
+10:13::35 agv=:1 [recv] pos:(6255,30716,90)
+10:13::36 agv=:1 [recv] state= 6 15 6 15
+10:13::36 [proc] plan: currentID:15
+10:13::36 agv=:1 [recv] pos:(6255,30716,90)
+10:13::37 agv=:1 [recv] state= 6 15 6 15
+10:13::37 agv=:1 [recv] pos:(6255,30716,90)
+10:13::38 agv=:1 [recv] state= 6 15 6 15
+10:13::38 [proc] plan: currentID:15
+10:13::38 agv=:1 [recv] pos:(6255,30716,90)
+10:13::39 agv=:1 [recv] state= 6 15 6 15
+10:13::39 agv=:1 [recv] pos:(6255,30716,90)
+10:13::40 agv=:1 [recv] state= 6 15 6 15
+10:13::40 [proc] plan: currentID:15
+10:13::40 agv=:1 [recv] pos:(6255,30716,90)
+10:13::41 agv=:1 [recv] state= 6 15 6 15
+10:13::41 agv=:1 [recv] pos:(6255,30716,90)
+10:13::42 agv=:1 [recv] state= 6 15 6 15
+10:13::42 [proc] plan: currentID:15
+10:13::43 agv=:1 [recv] pos:(6255,30716,90)
+10:13::43 agv=:1 [recv] state= 6 15 6 15
+10:13::44 agv=:1 [recv] pos:(6255,30716,90)
+10:13::44 agv=:1 [recv] state= 6 15 6 15
+10:13::44 [proc] plan: currentID:15
+10:13::45 agv=:1 [recv] pos:(6255,30716,90)
+10:13::45 agv=:1 [recv] state= 6 15 6 15
+10:13::46 agv=:1 [recv] pos:(6255,30716,90)
+10:13::46 agv=:1 [recv] state= 6 15 6 15
+10:13::46 [proc] plan: currentID:15
+10:13::47 agv=:1 [recv] pos:(6255,30716,90)
+10:13::47 agv=:1 [recv] state= 6 15 6 15
+10:13::48 agv=:1 [recv] pos:(6255,30716,90)
+10:13::48 agv=:1 [recv] state= 6 15 6 15
+10:13::48 [proc] plan: currentID:15
+10:13::49 agv=:1 [recv] pos:(6255,30716,90)
+10:13::49 agv=:1 [recv] state= 6 15 6 15
+10:13::50 agv=:1 [recv] pos:(6255,30716,90)
+10:13::51 agv=:1 [recv] state= 6 15 6 15
+10:13::51 [proc] plan: currentID:15
+10:13::51 agv=:1 [recv] pos:(6255,30716,90)
+10:13::52 agv=:1 [recv] state= 6 15 6 15
+10:13::52 agv=:1 [recv] pos:(6255,30716,90)
+10:13::53 agv=:1 [recv] state= 6 15 6 15
+10:13::53 [proc] plan: currentID:15
+10:13::53 agv=:1 [recv] pos:(6255,30716,90)
+10:13::54 agv=:1 [recv] state= 6 15 6 15
+10:13::54 agv=:1 [recv] pos:(6255,30716,90)
+10:13::55 agv=:1 [recv] state= 6 15 6 15
+10:13::55 [proc] plan: currentID:15
+10:13::55 agv=:1 [recv] pos:(6255,30716,90)
+10:13::56 agv=:1 [recv] state= 6 15 6 15
+10:13::56 agv=:1 [recv] pos:(6255,30716,90)
+10:13::57 agv=:1 [recv] state= 6 15 6 15
+10:13::57 [proc] plan: currentID:15
+10:13::57 agv=:1 [recv] pos:(6255,30716,90)
+10:13::58 agv=:1 [recv] state= 6 15 6 15
+10:13::58 agv=:1 [recv] pos:(6255,30716,90)
+10:13::59 agv=:1 [recv] state= 6 15 6 15
+10:13::59 [proc] plan: currentID:15
+10:14::00 agv=:1 [recv] pos:(6255,30716,90)
+10:14::00 agv=:1 [recv] state= 6 15 6 15
+10:14::01 agv=:1 [recv] pos:(6255,30716,90)
+10:14::01 agv=:1 [recv] state= 6 15 6 15
+10:14::01 [proc] plan: currentID:15
+10:14::02 agv=:1 [recv] pos:(6255,30716,90)
+10:14::02 agv=:1 [recv] state= 6 15 6 15
+10:14::03 agv=:1 [recv] pos:(6255,30716,90)
+10:14::03 agv=:1 [recv] state= 6 15 6 15
+10:14::03 [proc] plan: currentID:15
+10:14::04 agv=:1 [recv] pos:(6255,30716,90)
+10:14::04 agv=:1 [recv] state= 6 15 6 15
+10:14::05 agv=:1 [recv] pos:(6255,30716,90)
+10:14::05 agv=:1 [recv] state= 6 15 6 15
+10:14::05 [proc] plan: currentID:15
+10:14::06 agv=:1 [recv] pos:(6255,30716,90)
+10:14::06 agv=:1 [recv] state= 6 15 6 15
+10:14::07 agv=:1 [recv] pos:(6255,30716,90)
+10:14::08 agv=:1 [recv] state= 6 15 6 15
+10:14::08 [proc] plan: currentID:15
+10:14::08 agv=:1 [recv] pos:(6255,30716,90)
+10:14::09 agv=:1 [recv] state= 6 15 6 15
+10:14::09 agv=:1 [recv] pos:(6255,30716,90)
+10:14::10 agv=:1 [recv] state= 6 15 6 15
+10:14::10 [proc] plan: currentID:15
+10:14::10 agv=:1 [recv] pos:(6255,30716,90)
+10:14::11 agv=:1 [recv] state= 6 15 6 15
+10:14::11 agv=:1 [recv] pos:(6255,30716,90)
+10:14::12 agv=:1 [recv] state= 6 15 6 15
+10:14::12 [proc] plan: currentID:15
+10:14::12 agv=:1 [recv] pos:(6255,30716,90)
+10:14::13 agv=:1 [recv] state= 6 15 6 15
+10:14::13 agv=:1 [recv] pos:(6255,30716,90)
+10:14::14 agv=:1 [recv] state= 6 15 6 15
+10:14::14 [proc] plan: currentID:15
+10:14::14 agv=:1 [recv] pos:(6255,30716,90)
+10:14::15 agv=:1 [recv] state= 6 15 6 15
+10:14::15 agv=:1 [recv] pos:(6255,30716,90)
+10:14::16 agv=:1 [recv] state= 6 15 6 15
+10:14::16 [proc] plan: currentID:15
+10:14::17 agv=:1 [recv] pos:(6255,30716,90)
+10:14::17 agv=:1 [recv] state= 6 15 6 15
+10:14::18 agv=:1 [recv] pos:(6255,30716,90)
+10:14::18 agv=:1 [recv] state= 6 15 6 15
+10:14::18 [proc] plan: currentID:15
+10:14::19 agv=:1 [recv] pos:(6255,30716,90)
+10:14::19 agv=:1 [recv] state= 6 15 6 15
+10:14::20 agv=:1 [recv] pos:(6255,30716,90)
+10:14::20 agv=:1 [recv] state= 6 15 6 15
+10:14::20 [proc] plan: currentID:15
+10:14::21 agv=:1 [recv] pos:(6255,30716,90)
+10:14::21 agv=:1 [recv] state= 6 15 6 15
+10:14::22 agv=:1 [recv] pos:(6255,30716,90)
+10:14::22 agv=:1 [recv] state= 6 15 6 15
+10:14::22 [proc] plan: currentID:15
+10:14::23 agv=:1 [recv] pos:(6255,30716,90)
+10:14::23 agv=:1 [recv] state= 6 15 6 15
+10:14::24 agv=:1 [recv] pos:(6255,30716,90)
+10:14::25 agv=:1 [recv] state= 6 15 6 15
+10:14::25 [proc] plan: currentID:15
+10:14::25 agv=:1 [recv] pos:(6255,30716,90)
+10:14::26 agv=:1 [recv] state= 6 15 6 15
+10:14::26 agv=:1 [recv] pos:(6255,30716,90)
+10:14::27 agv=:1 [recv] state= 6 15 6 15
+10:14::27 [proc] plan: currentID:15
+10:14::27 agv=:1 [recv] pos:(6255,30716,90)
+10:14::28 agv=:1 [recv] state= 6 15 6 15
+10:14::28 agv=:1 [recv] pos:(6255,30716,90)
+10:14::29 agv=:1 [recv] state= 6 15 6 15
+10:14::29 [proc] plan: currentID:15
+10:14::29 agv=:1 [recv] pos:(6255,30716,90)
+10:14::30 agv=:1 [recv] state= 6 15 6 15
+10:14::30 agv=:1 [recv] pos:(6255,30716,90)
+10:14::31 agv=:1 [recv] state= 6 15 6 15
+10:14::31 [proc] plan: currentID:15
+10:14::31 agv=:1 [recv] pos:(6255,30716,90)
+10:14::32 agv=:1 [recv] state= 6 15 6 15
+10:14::32 agv=:1 [recv] pos:(6255,30716,90)
+10:14::33 agv=:1 [recv] state= 6 15 6 15
+10:14::33 [proc] plan: currentID:15
+10:14::34 agv=:1 [recv] pos:(6255,30716,90)
+10:14::34 agv=:1 [recv] state= 6 15 6 15
+10:14::35 agv=:1 [recv] pos:(6255,30716,90)
+10:14::35 agv=:1 [recv] state= 6 15 6 15
+10:14::35 [proc] plan: currentID:15
+10:14::36 agv=:1 [recv] pos:(6255,30716,90)
+10:14::36 agv=:1 [recv] state= 6 15 6 15
+10:14::37 agv=:1 [recv] pos:(6255,30716,90)
+10:14::37 agv=:1 [recv] state= 6 15 6 15
+10:14::37 [proc] plan: currentID:15
+10:14::38 agv=:1 [recv] pos:(6255,30716,90)
+10:14::38 agv=:1 [recv] state= 6 15 6 15
+10:14::39 agv=:1 [recv] pos:(6255,30716,90)
+10:14::39 agv=:1 [recv] state= 6 15 6 15
+10:14::39 [proc] plan: currentID:15
+10:14::40 agv=:1 [recv] pos:(6255,30716,90)
+10:14::40 agv=:1 [recv] state= 6 15 6 15
+10:14::41 agv=:1 [recv] pos:(6255,30716,90)
+10:14::42 agv=:1 [recv] state= 6 15 6 15
+10:14::42 [proc] plan: currentID:15
+10:14::42 agv=:1 [recv] pos:(6255,30716,90)
+10:14::43 agv=:1 [recv] state= 6 15 6 15
+10:34::16 agv=:1 [recv] pos:(2254,41181,90)
+10:34::17 agv=:1 [recv] state= 0 0 6 15
+10:34::17 [proc]agv=:1, match:1
+10:34::17 [proc] plan: currentID:1
+10:34::17 agv=:1 [recv] pos:(2254,41181,90)
+10:34::18 [send]agv=1 set path command: mode=100 start=1 end=2 
+10:34::18 [recv] set Path:1
+10:34::18 agv=:1 [recv] state= 0 0 1 2
+10:34::18 [proc]agv=:1, match:1
+10:34::18 agv=:1 [recv] pos:(2254,41181,90)
+10:34::19 [send] set path enable
+10:34::19 [recv] enable Path:1
+10:34::19 agv=:1 [recv] state= 65535 65535 1 2
+10:34::19 agv=:1 [recv] pos:(2254,41181,90)
+10:34::20 agv=:1 [recv] state= 65535 65535 1 2
+10:34::20 agv=:1 [recv] pos:(2254,41181,90)
+10:34::21 agv=:1 [recv] state= 65535 65535 1 2
+10:34::21 agv=:1 [recv] pos:(2254,41181,90)
+10:34::22 agv=:1 [recv] state= 65535 65535 1 2
+10:34::23 agv=:1 [recv] pos:(2254,41181,90)
+10:34::23 agv=:1 [recv] state= 65535 65535 1 2
+10:34::24 agv=:1 [recv] pos:(2963,41181,90)
+10:34::24 agv=:1 [recv] state= 65535 65535 1 2
+10:34::25 agv=:1 [recv] pos:(4653,41181,90)
+10:34::25 agv=:1 [recv] state= 65535 65535 1 2
+10:34::25 agv=:1 [recv] state= 1 2 1 2
+10:34::25 [proc] plan: currentID:2
+10:34::26 agv=:1 [recv] pos:(5154,41181,90)
+10:34::26 [send]agv=1 set path command: mode=100 start=2 end=5 
+10:34::26 [recv] set Path:1
+10:34::26 agv=:1 [recv] state= 1 2 2 5
+10:34::27 agv=:1 [recv] pos:(5154,41181,90)
+10:34::27 [send] set path enable
+10:34::27 [recv] enable Path:1
+10:34::27 agv=:1 [recv] state= 65535 65535 2 5
+10:34::28 agv=:1 [recv] pos:(5306,40954,58)
+10:34::28 agv=:1 [recv] state= 65535 65535 2 5
+10:34::29 agv=:1 [recv] pos:(6201,40222,10)
+10:34::29 agv=:1 [recv] state= 2 5 2 5
+10:34::29 [proc] plan: currentID:5
+10:34::29 [send]agv=1 set path command: mode=100 start=5 end=6 
+10:34::29 [recv] set Path:1
+10:34::29 agv=:1 [recv] state= 2 5 5 6
+10:34::30 agv=:1 [recv] pos:(6255,40081,0)
+10:34::30 [send] set path enable
+10:34::30 [recv] enable Path:1

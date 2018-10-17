@@ -1,0 +1,726 @@
+08:45::31 [init] AGV: 3 Online
+08:45::31 [init] Mac: 03
+08:45::31 [init] Power param: FullLimit=0,HighLimit=0,LowLimit=0
+08:45::32 [send] get power cmd
+08:45::32 [send] get power cmd
+08:45::32 [proc]agv=:3, match:55
+08:45::32 [proc]agv=:3, match:55
+08:45::32 [proc]agv=:3, match:55
+08:45::34 [send] get power cmd
+08:45::35 [proc]agv=:3, match:55
+08:45::35 [proc] plan: currentID:55
+08:45::35 [proc]agv=:3, match:55
+08:45::35 [proc]agv=:3, match:55
+08:45::35 [proc]agv=:3, match:55
+08:45::35 [send] get power cmd
+08:45::38 [proc]agv=:3, match:55
+08:45::38 [proc]agv=:3, match:55
+08:45::38 [proc]agv=:3, match:55
+08:45::38 [proc]agv=:3, match:55
+08:45::38 [proc]agv=:3, match:55
+08:45::38 [send] get power cmd
+08:45::40 [proc]agv=:3, match:55
+08:45::40 [proc] plan: currentID:55
+08:45::40 [proc]agv=:3, match:55
+08:45::40 [proc]agv=:3, match:55
+08:45::40 [proc]agv=:3, match:55
+08:45::40 [proc]agv=:3, match:55
+08:45::40 [proc]agv=:3, match:55
+08:45::40 [send] get power cmd
+08:45::41 [proc]agv=:3, match:55
+08:45::41 [proc]agv=:3, match:55
+08:45::41 [proc]agv=:3, match:55
+08:45::41 [proc]agv=:3, match:55
+08:45::41 [proc]agv=:3, match:55
+08:45::41 [proc]agv=:3, match:55
+08:45::47 [send] get power cmd
+08:45::48 [send] get power cmd
+08:45::52 [send] get power cmd
+08:45::58 [send] get power cmd
+08:46::04 [send] get power cmd
+08:46::05 [send] get power cmd
+08:46::08 [send] get power cmd
+08:46::10 [send] get power cmd
+08:46::11 [send] get power cmd
+08:46::12 [proc]agv=:3, match:55
+08:46::12 [proc] plan: currentID:55
+08:46::14 [proc]agv=:3, match:55
+08:46::14 [proc]agv=:3, match:55
+08:46::14 [proc]agv=:3, match:55
+08:46::14 [proc]agv=:3, match:55
+08:46::14 [proc]agv=:3, match:55
+08:46::14 [proc]agv=:3, match:55
+08:46::15 [send]agv=3 set path command: mode=100 start=55 end=56 
+08:46::15 [recv] set Path:1
+08:46::15 [recv] set Path:1
+08:46::15 [recv] set Path:1
+08:46::15 [recv] set Path:1
+08:46::15 [recv] set Path:1
+08:46::15 [recv] set Path:1
+08:46::15 [recv] set Path:1
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::15 [proc]agv=:3, match:55
+08:46::16 [send] set path enable
+08:46::16 [recv] enable Path:1
+08:46::16 [recv] enable Path:1
+08:46::16 [recv] enable Path:1
+08:46::16 [recv] enable Path:1
+08:46::16 [recv] enable Path:1
+08:46::16 [recv] enable Path:1
+08:46::16 [recv] enable Path:1
+08:46::17 [send] get power cmd
+08:46::18 [send] get power cmd
+08:46::19 [send] get power cmd
+08:46::22 [proc] plan: currentID:56
+08:46::22 [send] get power cmd
+08:46::24 [send] get power cmd
+08:46::25 [send]agv=3 set path command: mode=100 start=56 end=55 
+08:46::25 [recv] set Path:1
+08:46::25 [recv] set Path:1
+08:46::25 [recv] set Path:1
+08:46::25 [recv] set Path:1
+08:46::25 [recv] set Path:1
+08:46::25 [recv] set Path:1
+08:46::25 [recv] set Path:1
+08:46::26 [send] get power cmd
+08:46::27 [send] set path enable
+08:46::27 [recv] enable Path:1
+08:46::27 [recv] enable Path:1
+08:46::27 [recv] enable Path:1
+08:46::27 [recv] enable Path:1
+08:46::27 [recv] enable Path:1
+08:46::27 [recv] enable Path:1
+08:46::27 [recv] enable Path:1
+08:46::28 [send] get power cmd
+08:46::28 [send] get power cmd
+08:46::28 [send] get power cmd
+08:46::33 [proc] plan: currentID:55
+08:46::33 [send] get power cmd
+08:46::33 [send] get power cmd
+08:46::33 [send] get power cmd
+08:46::34 [send]agv=3 set path command: mode=100 start=55 end=46 
+08:46::34 [recv] set Path:1
+08:46::34 [recv] set Path:1
+08:46::34 [recv] set Path:1
+08:46::34 [recv] set Path:1
+08:46::34 [recv] set Path:1
+08:46::34 [recv] set Path:1
+08:46::34 [recv] set Path:1
+08:46::35 [send] get power cmd
+08:46::36 [send] set path enable
+08:46::36 [recv] enable Path:1
+08:46::36 [recv] enable Path:1
+08:46::36 [recv] enable Path:1
+08:46::36 [recv] enable Path:1
+08:46::36 [recv] enable Path:1
+08:46::36 [recv] enable Path:1
+08:46::36 [recv] enable Path:1
+08:46::37 [send] get power cmd
+08:46::37 [send] get power cmd
+08:46::38 [proc] plan: currentID:46
+08:46::39 [send] get power cmd
+08:46::39 [send]agv=3 set path command: mode=100 start=46 end=45 
+08:46::39 [recv] set Path:1
+08:46::39 [recv] set Path:1
+08:46::39 [recv] set Path:1
+08:46::39 [recv] set Path:1
+08:46::39 [recv] set Path:1
+08:46::39 [recv] set Path:1
+08:46::39 [recv] set Path:1
+08:46::41 [send] get power cmd
+08:46::41 [send] set path enable
+08:46::41 [recv] enable Path:1
+08:46::41 [recv] enable Path:1
+08:46::41 [recv] enable Path:1
+08:46::41 [recv] enable Path:1
+08:46::41 [recv] enable Path:1
+08:46::41 [recv] enable Path:1
+08:46::41 [recv] enable Path:1
+08:46::43 [proc] plan: currentID:45
+08:46::44 [send]agv=3 set path command: mode=100 start=45 end=52 
+08:46::44 [recv] set Path:1
+08:46::44 [recv] set Path:1
+08:46::44 [recv] set Path:1
+08:46::44 [recv] set Path:1
+08:46::44 [recv] set Path:1
+08:46::44 [recv] set Path:1
+08:46::44 [recv] set Path:1
+08:46::45 [send] get power cmd
+08:46::46 [send] set path enable
+08:46::46 [recv] enable Path:1
+08:46::46 [recv] enable Path:1
+08:46::46 [recv] enable Path:1
+08:46::46 [recv] enable Path:1
+08:46::46 [recv] enable Path:1
+08:46::46 [recv] enable Path:1
+08:46::46 [recv] enable Path:1
+08:46::46 [send] get power cmd
+08:46::48 [send] get power cmd
+08:46::49 [send] get power cmd
+08:46::50 [proc] plan: currentID:52
+08:46::50 [send] get power cmd
+08:46::51 [send]agv=3 set path command: mode=100 start=52 end=44 
+08:46::52 [recv] set Path:1
+08:46::52 [recv] set Path:1
+08:46::52 [recv] set Path:1
+08:46::52 [recv] set Path:1
+08:46::52 [recv] set Path:1
+08:46::52 [recv] set Path:1
+08:46::52 [recv] set Path:1
+08:46::52 [send] get power cmd
+08:46::53 [send] set path enable
+08:46::53 [recv] enable Path:1
+08:46::53 [recv] enable Path:1
+08:46::53 [recv] enable Path:1
+08:46::53 [recv] enable Path:1
+08:46::53 [recv] enable Path:1
+08:46::53 [recv] enable Path:1
+08:46::53 [recv] enable Path:1
+08:46::53 [send] get power cmd
+08:46::54 [send] get power cmd
+08:47::01 [proc] plan: currentID:44
+08:47::11 [send] get power cmd
+08:47::11 [send]agv=3 set path command: mode=100 start=44 end=52 
+08:47::11 [recv] set Path:1
+08:47::11 [recv] set Path:1
+08:47::11 [recv] set Path:1
+08:47::11 [recv] set Path:1
+08:47::11 [recv] set Path:1
+08:47::11 [recv] set Path:1
+08:47::11 [recv] set Path:1
+08:47::13 [send] get power cmd
+08:47::14 [send] set path enable
+08:47::14 [recv] enable Path:1
+08:47::14 [recv] enable Path:1
+08:47::14 [recv] enable Path:1
+08:47::14 [recv] enable Path:1
+08:47::14 [recv] enable Path:1
+08:47::14 [recv] enable Path:1
+08:47::14 [recv] enable Path:1
+08:47::25 [proc] plan: currentID:52
+08:47::25 [send] get power cmd
+08:47::26 [send]agv=3 set path command: mode=100 start=52 end=44 
+08:47::26 [recv] set Path:1
+08:47::26 [recv] set Path:1
+08:47::26 [recv] set Path:1
+08:47::26 [recv] set Path:1
+08:47::26 [recv] set Path:1
+08:47::26 [recv] set Path:1
+08:47::26 [recv] set Path:1
+08:47::27 [send] get power cmd
+08:47::27 [send] set path enable
+08:47::28 [recv] enable Path:1
+08:47::28 [recv] enable Path:1
+08:47::28 [recv] enable Path:1
+08:47::28 [recv] enable Path:1
+08:47::28 [recv] enable Path:1
+08:47::28 [recv] enable Path:1
+08:47::28 [recv] enable Path:1
+08:47::37 [proc] plan: currentID:44
+08:47::38 [send]agv=3 set path command: mode=100 start=44 end=52 
+08:47::38 [recv] set Path:1
+08:47::38 [recv] set Path:1
+08:47::38 [recv] set Path:1
+08:47::38 [recv] set Path:1
+08:47::38 [recv] set Path:1
+08:47::38 [recv] set Path:1
+08:47::38 [recv] set Path:1
+08:47::38 [send] set path enable
+08:47::38 [recv] enable Path:1
+08:47::38 [recv] enable Path:1
+08:47::38 [recv] enable Path:1
+08:47::38 [recv] enable Path:1
+08:47::38 [recv] enable Path:1
+08:47::38 [recv] enable Path:1
+08:47::38 [recv] enable Path:1
+08:47::40 [send] get power cmd
+08:47::41 [send] get power cmd
+08:47::43 [send] get power cmd
+08:47::44 [send] get power cmd
+08:47::45 [proc] plan: currentID:52
+08:47::45 [send]agv=3 set path command: mode=100 start=52 end=45 
+08:47::45 [recv] set Path:1
+08:47::45 [recv] set Path:1
+08:47::45 [recv] set Path:1
+08:47::45 [recv] set Path:1
+08:47::45 [recv] set Path:1
+08:47::45 [recv] set Path:1
+08:47::45 [recv] set Path:1
+08:47::46 [send] get power cmd
+08:47::48 [send] set path enable
+08:47::48 [recv] enable Path:1
+08:47::48 [recv] enable Path:1
+08:47::48 [recv] enable Path:1
+08:47::48 [recv] enable Path:1
+08:47::48 [recv] enable Path:1
+08:47::48 [recv] enable Path:1
+08:47::48 [recv] enable Path:1
+08:47::49 [send] get power cmd
+08:47::50 [proc] plan: currentID:45
+08:47::50 [send] get power cmd
+08:47::52 [send] get power cmd
+08:47::53 [send]agv=3 set path command: mode=100 start=45 end=46 
+08:47::53 [recv] set Path:1
+08:47::53 [recv] set Path:1
+08:47::53 [recv] set Path:1
+08:47::53 [recv] set Path:1
+08:47::53 [recv] set Path:1
+08:47::53 [recv] set Path:1
+08:47::53 [recv] set Path:1
+08:47::53 [send] get power cmd
+08:47::55 [send] set path enable
+08:47::55 [recv] enable Path:1
+08:47::55 [recv] enable Path:1
+08:47::55 [recv] enable Path:1
+08:47::55 [recv] enable Path:1
+08:47::55 [recv] enable Path:1
+08:47::55 [recv] enable Path:1
+08:47::55 [recv] enable Path:1
+08:47::55 [send] get power cmd
+08:47::57 [proc] plan: currentID:46
+08:47::57 [send]agv=3 set path command: mode=100 start=46 end=55 
+08:47::57 [recv] set Path:1
+08:47::57 [recv] set Path:1
+08:47::57 [recv] set Path:1
+08:47::57 [recv] set Path:1
+08:47::57 [recv] set Path:1
+08:47::57 [recv] set Path:1
+08:47::57 [recv] set Path:1
+08:47::57 [send] set path enable
+08:47::57 [recv] enable Path:1
+08:47::57 [recv] enable Path:1
+08:47::57 [recv] enable Path:1
+08:47::57 [recv] enable Path:1
+08:47::57 [recv] enable Path:1
+08:47::57 [recv] enable Path:1
+08:47::57 [recv] enable Path:1
+08:47::57 [send] get power cmd
+08:47::59 [send] get power cmd
+08:47::59 [proc] plan: currentID:55
+08:48::00 [send] get power cmd
+08:48::01 [send] get power cmd
+08:48::01 [send] get power cmd
+08:48::01 [send] get power cmd
+08:48::02 [send]agv=3 set path command: mode=100 start=55 end=56 
+08:48::02 [recv] set Path:1
+08:48::02 [recv] set Path:1
+08:48::02 [recv] set Path:1
+08:48::02 [recv] set Path:1
+08:48::02 [recv] set Path:1
+08:48::02 [recv] set Path:1
+08:48::02 [recv] set Path:1
+08:48::03 [send] set path enable
+08:48::03 [recv] enable Path:1
+08:48::03 [recv] enable Path:1
+08:48::03 [recv] enable Path:1
+08:48::03 [recv] enable Path:1
+08:48::03 [recv] enable Path:1
+08:48::03 [recv] enable Path:1
+08:48::03 [recv] enable Path:1
+08:48::05 [send] get power cmd
+08:48::06 [send] get power cmd
+08:48::06 [send] get power cmd
+08:48::06 [send] get power cmd
+08:48::09 [proc] plan: currentID:56
+08:48::20 [send] get power cmd
+08:48::20 [send] get power cmd
+08:48::20 [send] get power cmd
+08:48::24 [send] get power cmd
+08:48::26 [send]agv=3 set path command: mode=100 start=56 end=55 
+08:48::26 [recv] set Path:1
+08:48::26 [recv] set Path:1
+08:48::26 [recv] set Path:1
+08:48::26 [recv] set Path:1
+08:48::26 [recv] set Path:1
+08:48::26 [recv] set Path:1
+08:48::26 [recv] set Path:1
+08:48::27 [send] get power cmd
+08:48::27 [send] set path enable
+08:48::27 [recv] enable Path:1
+08:48::27 [recv] enable Path:1
+08:48::27 [recv] enable Path:1
+08:48::27 [recv] enable Path:1
+08:48::27 [recv] enable Path:1
+08:48::27 [recv] enable Path:1
+08:48::27 [recv] enable Path:1
+08:48::28 [send] get power cmd
+08:48::31 [send] get power cmd
+08:48::31 [send] get power cmd
+08:48::31 [send] get power cmd
+08:48::33 [send] get power cmd
+08:48::33 [send] get power cmd
+08:48::33 [proc] plan: currentID:55
+08:48::34 [send] get power cmd
+08:48::36 [send] get power cmd
+08:48::38 [send] get power cmd
+08:48::38 [send] get power cmd
+08:48::39 [send] get power cmd
+08:48::41 [proc] plan: currentID:55
+08:48::42 [send] get power cmd
+08:48::42 [send] get power cmd
+08:48::44 [send] get power cmd
+08:48::44 [send] get power cmd
+08:48::46 [proc] plan: currentID:55
+08:48::46 [send] get power cmd
+08:48::46 [send] get power cmd
+08:48::47 [send] get power cmd
+08:48::48 [send] get power cmd
+08:48::48 [send] get power cmd
+08:48::49 [proc] plan: currentID:55
+08:48::50 [send] get power cmd
+08:48::52 [send] get power cmd
+08:48::53 [proc] plan: currentID:55
+08:48::53 [send] get power cmd
+08:48::54 [send] get power cmd
+08:48::54 [send] get power cmd
+08:48::55 [send] get power cmd
+08:48::57 [proc] plan: currentID:55
+08:48::58 [send] get power cmd
+08:48::58 [send] get power cmd
+08:48::58 [send] get power cmd
+08:48::59 [send] get power cmd
+08:48::59 [send] get power cmd
+08:49::00 [send] get power cmd
+08:49::01 [send] get power cmd
+08:49::06 [send] get power cmd
+08:49::07 [proc] plan: currentID:55
+08:49::08 [send] get power cmd
+08:49::08 [send] get power cmd
+08:49::10 [send] get power cmd
+08:49::12 [send] get power cmd
+08:49::13 [send] get power cmd
+08:49::14 [proc] plan: currentID:55
+08:49::16 [send] get power cmd
+08:49::17 [send] get power cmd
+08:49::19 [proc] plan: currentID:55
+08:49::19 [send] get power cmd
+08:49::19 [send] get power cmd
+08:49::25 [send] get power cmd
+08:49::39 [send] get power cmd
+08:49::39 [send] get power cmd
+08:49::40 [proc] plan: currentID:55
+08:49::45 [send] get power cmd
+08:49::47 [send] get power cmd
+08:49::48 [proc] plan: currentID:55
+08:49::49 [send] get power cmd
+08:49::50 [send] get power cmd
+08:49::50 [send] get power cmd
+08:49::51 [send] get power cmd
+08:49::53 [send] get power cmd
+08:49::55 [send] get power cmd
+08:49::55 [send] get power cmd
+08:49::55 [send] get power cmd
+08:49::56 [send] get power cmd
+08:49::57 [send] get power cmd
+08:49::58 [send] get power cmd
+08:50::00 [proc] plan: currentID:55
+08:50::00 [send] get power cmd
+08:50::02 [send] get power cmd
+08:50::03 [proc] plan: currentID:55
+08:50::03 [send] get power cmd
+08:50::03 [send] get power cmd
+08:50::05 [send] get power cmd
+08:50::06 [send] get power cmd
+08:50::08 [send] get power cmd
+08:50::08 [send] get power cmd
+08:50::09 [send] get power cmd
+08:50::11 [proc] plan: currentID:55
+08:50::12 [send] get power cmd
+08:50::12 [send] get power cmd
+08:50::12 [send] get power cmd
+08:50::12 [send] get power cmd
+08:50::15 [proc] plan: currentID:55
+08:50::15 [send] get power cmd
+08:50::17 [send] get power cmd
+08:50::17 [send] get power cmd
+08:50::17 [send] get power cmd
+08:50::18 [send] get power cmd
+08:50::21 [send] get power cmd
+08:50::21 [send] get power cmd
+08:50::23 [send] get power cmd
+08:50::24 [proc] plan: currentID:55
+08:50::24 [send] get power cmd
+08:50::26 [send] get power cmd
+08:50::27 [proc] plan: currentID:55
+08:50::28 [send] get power cmd
+08:50::28 [send] get power cmd
+08:50::28 [send] get power cmd
+08:50::28 [send] get power cmd
+08:50::28 [send] get power cmd
+08:50::30 [send] get power cmd
+08:50::30 [send] get power cmd
+08:50::32 [send] get power cmd
+08:50::33 [proc] plan: currentID:55
+08:50::34 [send] get power cmd
+08:50::35 [send] get power cmd
+08:50::37 [proc] plan: currentID:55
+08:50::37 [send] get power cmd
+08:50::37 [send] get power cmd
+08:50::38 [send] get power cmd
+08:50::38 [send] get power cmd
+08:50::39 [send] get power cmd
+08:50::40 [send] get power cmd
+08:50::40 [send] get power cmd
+08:50::40 [send] get power cmd
+08:50::41 [proc] plan: currentID:55
+08:50::51 [send] get power cmd
+08:50::52 [send] get power cmd
+08:50::53 [proc] plan: currentID:55
+08:50::54 [send] get power cmd
+08:50::55 [send] get power cmd
+08:50::57 [proc] plan: currentID:55
+08:50::57 [send] get power cmd
+08:50::58 [send] get power cmd
+08:51::11 [send] get power cmd
+08:51::11 [send] get power cmd
+08:51::13 [proc] plan: currentID:55
+08:51::13 [send] get power cmd
+08:51::16 [send] get power cmd
+08:51::17 [send] get power cmd
+08:51::18 [proc] plan: currentID:55
+08:51::19 [send] get power cmd
+08:51::19 [send] get power cmd
+08:51::21 [send] get power cmd
+08:51::21 [send] get power cmd
+08:51::21 [send] get power cmd
+08:51::22 [proc] plan: currentID:55
+08:51::22 [send] get power cmd
+08:51::24 [send] get power cmd
+08:51::25 [proc] plan: currentID:55
+08:51::25 [send] get power cmd
+08:51::27 [send] get power cmd
+08:51::28 [send] get power cmd
+08:51::30 [proc] plan: currentID:55
+08:51::30 [send] get power cmd
+08:51::34 [send] get power cmd
+08:51::35 [send] get power cmd
+08:51::36 [proc] plan: currentID:55
+08:51::36 [send] get power cmd
+08:51::37 [send] get power cmd
+08:51::38 [proc] plan: currentID:55
+08:51::39 [send] get power cmd
+08:51::40 [send] get power cmd
+08:51::41 [proc] plan: currentID:55
+08:51::41 [send] get power cmd
+08:51::43 [send] get power cmd
+08:51::44 [send] get power cmd
+08:51::45 [proc] plan: currentID:55
+08:51::45 [send] get power cmd
+08:51::47 [send] get power cmd
+08:51::48 [send] get power cmd
+08:51::49 [proc] plan: currentID:55
+08:51::49 [send] get power cmd
+08:51::51 [send] get power cmd
+08:51::52 [proc] plan: currentID:55
+08:51::52 [send] get power cmd
+08:51::54 [send] get power cmd
+08:51::54 [proc] plan: currentID:55
+08:51::55 [send] get power cmd
+08:51::56 [send] get power cmd
+08:51::57 [send] get power cmd
+08:51::58 [proc] plan: currentID:55
+08:51::59 [send] get power cmd
+08:52::00 [send] get power cmd
+08:52::01 [send] get power cmd
+08:52::02 [proc] plan: currentID:55
+08:52::02 [send] get power cmd
+08:52::04 [send] get power cmd
+08:52::05 [proc] plan: currentID:55
+08:52::05 [send] get power cmd
+08:52::06 [send] get power cmd
+08:52::07 [proc] plan: currentID:55
+08:52::08 [send] get power cmd
+08:52::09 [send] get power cmd
+08:52::10 [proc] plan: currentID:55
+08:52::10 [send] get power cmd
+08:52::12 [send] get power cmd
+08:52::13 [send] get power cmd
+08:52::14 [proc] plan: currentID:55
+08:52::14 [send] get power cmd
+08:52::15 [send] get power cmd
+08:52::17 [send] get power cmd
+08:52::18 [proc] plan: currentID:55
+08:52::18 [send] get power cmd
+08:52::19 [send] get power cmd
+08:52::20 [proc] plan: currentID:55
+08:52::21 [send] get power cmd
+08:52::22 [send] get power cmd
+08:52::23 [send] get power cmd
+08:52::24 [proc] plan: currentID:55
+08:52::25 [send] get power cmd
+08:52::26 [send] get power cmd
+08:52::27 [proc] plan: currentID:55
+08:52::28 [send] get power cmd
+08:52::29 [send] get power cmd
+08:52::30 [send] get power cmd
+08:52::31 [proc] plan: currentID:55
+08:52::31 [send] get power cmd
+08:52::33 [send] get power cmd
+08:52::34 [proc] plan: currentID:55
+08:52::34 [send] get power cmd
+08:52::35 [send] get power cmd
+08:52::37 [send] get power cmd
+08:52::38 [proc] plan: currentID:55
+08:52::38 [send] get power cmd
+08:52::39 [send] get power cmd
+08:52::40 [send] get power cmd
+08:52::41 [proc] plan: currentID:55
+08:52::42 [send] get power cmd
+08:52::43 [send] get power cmd
+08:52::44 [proc] plan: currentID:55
+08:52::44 [send] get power cmd
+08:52::46 [send] get power cmd
+08:52::47 [proc] plan: currentID:55
+08:52::47 [send] get power cmd
+08:52::48 [send] get power cmd
+08:52::50 [send] get power cmd
+08:52::51 [proc] plan: currentID:55
+08:52::51 [send] get power cmd
+08:52::52 [send] get power cmd
+08:52::54 [send] get power cmd
+08:52::55 [proc] plan: currentID:55
+08:52::55 [send] get power cmd
+08:52::56 [send] get power cmd
+08:52::58 [send] get power cmd
+08:52::58 [proc] plan: currentID:55
+08:52::59 [send] get power cmd
+08:53::00 [send] get power cmd
+08:53::01 [proc] plan: currentID:55
+08:53::02 [send] get power cmd
+08:53::03 [send] get power cmd
+08:53::04 [proc] plan: currentID:55
+08:53::04 [send] get power cmd
+08:53::06 [send] get power cmd
+08:53::07 [send] get power cmd
+08:53::08 [proc] plan: currentID:55
+08:53::08 [send] get power cmd
+08:53::09 [send] get power cmd
+08:53::11 [proc] plan: currentID:55
+08:53::11 [send] get power cmd
+08:53::12 [send] get power cmd
+08:53::13 [proc] plan: currentID:55
+08:53::14 [send] get power cmd
+08:53::15 [send] get power cmd
+08:53::16 [proc] plan: currentID:55
+08:53::16 [send] get power cmd
+08:53::18 [send] get power cmd
+08:53::19 [proc] plan: currentID:55
+08:53::19 [send] get power cmd
+08:53::21 [send] get power cmd
+08:53::21 [proc] plan: currentID:55
+08:53::22 [send] get power cmd
+08:53::23 [send] get power cmd
+08:53::24 [proc] plan: currentID:55
+08:53::25 [send] get power cmd
+08:53::26 [send] get power cmd
+08:53::27 [proc] plan: currentID:55
+08:53::27 [send] get power cmd
+08:53::29 [send] get power cmd
+08:53::30 [proc] plan: currentID:55
+08:53::30 [send] get power cmd
+08:53::31 [send] get power cmd
+08:53::32 [proc] plan: currentID:55
+08:53::33 [send] get power cmd
+08:53::34 [send] get power cmd
+08:53::35 [send] get power cmd
+08:53::36 [proc] plan: currentID:55
+08:53::36 [send] get power cmd
+08:53::38 [send] get power cmd
+08:53::39 [send] get power cmd
+08:53::40 [proc] plan: currentID:55
+08:53::40 [send] get power cmd
+08:53::42 [send] get power cmd
+08:53::43 [proc] plan: currentID:55
+08:53::43 [send] get power cmd
+08:53::44 [send] get power cmd
+08:53::45 [proc] plan: currentID:55
+08:53::46 [send] get power cmd
+08:53::47 [send] get power cmd
+08:53::48 [send] get power cmd
+08:53::49 [proc] plan: currentID:55
+08:53::50 [send] get power cmd
+08:53::51 [send] get power cmd
+08:53::52 [proc] plan: currentID:55
+08:53::52 [send] get power cmd
+08:53::54 [send] get power cmd
+08:53::55 [send] get power cmd
+08:53::56 [proc] plan: currentID:55
+08:53::57 [send] get power cmd
+08:53::58 [send] get power cmd
+08:53::59 [proc] plan: currentID:55
+08:54::00 [send] get power cmd
+08:54::01 [send] get power cmd
+08:54::02 [send] get power cmd
+08:54::03 [proc] plan: currentID:55
+08:54::03 [send] get power cmd
+08:54::05 [send] get power cmd
+08:54::06 [proc] plan: currentID:55
+08:54::06 [send] get power cmd
+08:54::07 [send] get power cmd
+08:54::08 [proc] plan: currentID:55
+08:54::09 [send] get power cmd
+08:54::10 [send] get power cmd
+08:54::10 [send] get power cmd
+08:54::11 [proc] plan: currentID:55
+08:54::12 [send] get power cmd
+08:54::13 [send] get power cmd
+08:54::14 [proc] plan: currentID:55
+08:54::14 [send] get power cmd
+08:54::16 [send] get power cmd
+08:54::17 [proc] plan: currentID:55
+08:54::17 [send] get power cmd
+08:54::19 [send] get power cmd
+08:54::20 [proc] plan: currentID:55
+08:54::20 [send] get power cmd
+08:54::22 [send] get power cmd
+08:54::22 [proc] plan: currentID:55
+08:54::23 [send] get power cmd
+08:54::24 [send] get power cmd
+08:54::25 [proc] plan: currentID:55
+08:54::26 [send] get power cmd
+08:54::27 [send] get power cmd
+08:54::28 [send] get power cmd
+08:54::29 [send] get power cmd
+08:54::30 [send] get power cmd
+08:54::31 [send] get power cmd
+08:54::32 [send] get power cmd
+08:54::33 [send] get power cmd
+08:54::34 [send] get power cmd
+08:54::35 [send] get power cmd
+08:54::36 [send] get power cmd
+08:54::37 [send] get power cmd
+08:54::38 [send] get power cmd
+08:54::40 [send] get power cmd
+08:54::41 [send] get power cmd
+08:54::42 [send] get power cmd
+08:54::43 [send] get power cmd
+08:54::44 [send] get power cmd
+08:54::45 [send] get power cmd
+08:54::46 [send] get power cmd
+08:54::47 [send] get power cmd
+08:54::49 [send] get power cmd
+08:54::50 [send] get power cmd
+08:54::51 [send] get power cmd
+08:54::52 [send] get power cmd
+08:54::53 [send] get power cmd
+08:54::54 [send] get power cmd
+08:54::55 [send] get power cmd

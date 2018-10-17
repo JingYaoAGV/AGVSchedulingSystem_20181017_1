@@ -1,0 +1,1406 @@
+21:51::05 [init] system: 1 Online
+21:51::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:51::29 agvname: fangzhen02  MissionID:387300289
+21:51::29 agvname: fangzhen02 CommandPlanning:--------------
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0101 endnode:0102 Direction:后退 Action:减速行驶 Angle:0 Length:1.7 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0102 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0202 Direction:前进 Action:减速行驶 Angle:0 Length:1.3 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0202 endnode:0202 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0202 endnode:0203 Direction:前进 Action:正常行驶 Angle:0 Length:1 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0203 endnode:0204 Direction:前进 Action:减速行驶 Angle:0 Length:1.2 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0204 endnode:0204 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0204 endnode:0304 Direction:前进 Action:减速行驶 Angle:0 Length:1.3 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0304 endnode:0304 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0304 endnode:0305 Direction:前进 Action:减速行驶 Angle:0 Length:1.8 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0305 endnode:0305 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0305 endnode:0405 Direction:前进 Action:正常行驶 Angle:0 Length:1.3 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0405 endnode:0505 Direction:前进 Action:减速行驶 Angle:0 Length:1.1 
+21:51::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0505 endnode:0505 Direction:前进 Action:收货 Angle:0 Length:0 
+21:51::29 agvname: fangzhen02 CommandPlanning:--------------
+21:51::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:387300289 end
+21:51::35 agvid: 2 current_node: 0102 ,angle：0,CurrentMissionID:387300289
+21:51::35 agvid: 2 ,CurrentMissionID:387300289 **
+21:51::35 agvid: 2 current_node: 0102 ,angle：0,CurrentMissionID:387300289 end
+21:51::39 agvid: 2 current_node: 0102 ,angle：270,CurrentMissionID:387300289
+21:51::39 agvid: 2 ,CurrentMissionID:387300289 **
+21:51::39 agvid: 2 current_node: 0102 ,angle：270,CurrentMissionID:387300289 end
+21:51::43 agvid: 2 current_node: 0202 ,angle：270,CurrentMissionID:387300289
+21:51::43 agvid: 2 ,CurrentMissionID:387300289 **
+21:51::43 agvid: 2 current_node: 0202 ,angle：270,CurrentMissionID:387300289 end
+21:51::47 agvid: 2 current_node: 0202 ,angle：180,CurrentMissionID:387300289
+21:51::47 agvid: 2 ,CurrentMissionID:387300289 **
+21:51::47 agvid: 2 current_node: 0202 ,angle：180,CurrentMissionID:387300289 end
+21:51::51 agvid: 2 current_node: 0203 ,angle：180,CurrentMissionID:387300289
+21:51::51 agvid: 2 ,CurrentMissionID:387300289 **
+21:51::51 agvid: 2 current_node: 0203 ,angle：180,CurrentMissionID:387300289 end
+21:51::55 agvid: 2 current_node: 0204 ,angle：180,CurrentMissionID:387300289
+21:51::55 agvid: 2 ,CurrentMissionID:387300289 **
+21:51::55 agvid: 2 current_node: 0204 ,angle：180,CurrentMissionID:387300289 end
+21:51::59 agvid: 2 current_node: 0204 ,angle：270,CurrentMissionID:387300289
+21:51::59 agvid: 2 ,CurrentMissionID:387300289 **
+21:51::59 agvid: 2 current_node: 0204 ,angle：270,CurrentMissionID:387300289 end
+21:52::03 agvid: 2 current_node: 0304 ,angle：270,CurrentMissionID:387300289
+21:52::03 agvid: 2 ,CurrentMissionID:387300289 **
+21:52::03 agvid: 2 current_node: 0304 ,angle：270,CurrentMissionID:387300289 end
+21:52::07 agvid: 2 current_node: 0304 ,angle：180,CurrentMissionID:387300289
+21:52::07 agvid: 2 ,CurrentMissionID:387300289 **
+21:52::07 agvid: 2 current_node: 0304 ,angle：180,CurrentMissionID:387300289 end
+21:52::12 agvid: 2 current_node: 0305 ,angle：180,CurrentMissionID:387300289
+21:52::12 agvid: 2 ,CurrentMissionID:387300289 **
+21:52::12 agvid: 2 current_node: 0305 ,angle：180,CurrentMissionID:387300289 end
+21:52::16 agvid: 2 current_node: 0305 ,angle：270,CurrentMissionID:387300289
+21:52::16 agvid: 2 ,CurrentMissionID:387300289 **
+21:52::16 agvid: 2 current_node: 0305 ,angle：270,CurrentMissionID:387300289 end
+21:52::20 agvid: 2 current_node: 0405 ,angle：270,CurrentMissionID:387300289
+21:52::20 agvid: 2 ,CurrentMissionID:387300289 **
+21:52::20 agvid: 2 current_node: 0405 ,angle：270,CurrentMissionID:387300289 end
+21:52::24 agvid: 2 current_node: 0505 ,angle：270,CurrentMissionID:387300289
+21:52::24 agvid: 2 current_node: 0505 ,angle：270,CurrentMissionID:387300289 end
+21:52::28 agvid: 2 current_node: 0505 ,angle：270,CurrentMissionID:387300289
+21:52::28 agvid: 2 current_node: 0505 ,angle：270,CurrentMissionID:387300289 end
+21:52::29 agvid: 2 current_node: 0505 ,angle：270,CurrentMissionID:387300289
+21:52::29 agvname: fangzhen02  MissionID:387300289
+21:52::29 agvname: fangzhen02 CommandPlanning:--------------
+21:52::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0505 endnode:0405 Direction:后退 Action:正常行驶 Angle:0 Length:1.1 
+21:52::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0405 endnode:0305 Direction:后退 Action:正常行驶 Angle:0 Length:1.3 
+21:52::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0305 endnode:0205 Direction:后退 Action:正常行驶 Angle:0 Length:1.3 
+21:52::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0205 endnode:0105 Direction:后退 Action:减速行驶 Angle:0 Length:1.5 
+21:52::29 agvname: fangzhen02 CommandPlanning/ Command:startnode:0105 endnode:0105 Direction:后退 Action:放货 Angle:0 Length:0 
+21:52::29 agvname: fangzhen02 CommandPlanning:--------------
+21:52::29 agvid: 2 current_node: 0505 ,angle：270,CurrentMissionID:387300289 end
+21:52::32 agvid: 2 current_node: 0505 ,angle：270,CurrentMissionID:387300289
+21:52::33 agvid: 2 current_node: 0505 ,angle：270,CurrentMissionID:387300289 end
+21:52::36 agvid: 2 current_node: 0405 ,angle：270,CurrentMissionID:387300289
+21:52::36 agvid: 2 current_node: 0405 ,angle：270,CurrentMissionID:387300289 end
+21:52::40 agvid: 2 current_node: 0305 ,angle：270,CurrentMissionID:387300289
+21:52::40 agvid: 2 current_node: 0305 ,angle：270,CurrentMissionID:387300289 end
+21:52::44 agvid: 2 current_node: 0205 ,angle：270,CurrentMissionID:387300289
+21:52::44 agvid: 2 current_node: 0205 ,angle：270,CurrentMissionID:387300289 end
+21:52::48 agvid: 2 current_node: 0105 ,angle：270,CurrentMissionID:387300289
+21:52::48 agvid: 2 current_node: 0105 ,angle：270,CurrentMissionID:387300289 end
+21:52::52 agvid: 2 current_node: 0105 ,angle：270,CurrentMissionID:387300289
+21:52::52 agvid: 2 current_node: 0105 ,angle：270,CurrentMissionID:387300289 end
+21:52::52 agvid: 2 current_node: 0105 ,angle：270,CurrentMissionID:387300289
+21:52::56 agvname: fangzhen02  MissionID:0
+21:52::56 agvname: fangzhen02 CommandPlanning:--------------
+21:52::56 agvname: fangzhen02 CommandPlanning/ Command:startnode:0105 endnode:0205 Direction:前进 Action:减速行驶 Angle:0 Length:1.5 
+21:52::56 agvname: fangzhen02 CommandPlanning/ Command:startnode:0205 endnode:0205 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:52::56 agvname: fangzhen02 CommandPlanning/ Command:startnode:0205 endnode:0204 Direction:前进 Action:正常行驶 Angle:0 Length:1.8 
+21:52::56 agvname: fangzhen02 CommandPlanning/ Command:startnode:0204 endnode:0203 Direction:前进 Action:正常行驶 Angle:0 Length:1.2 
+21:52::56 agvname: fangzhen02 CommandPlanning/ Command:startnode:0203 endnode:0202 Direction:前进 Action:减速行驶 Angle:0 Length:1 
+21:52::56 agvname: fangzhen02 CommandPlanning/ Command:startnode:0202 endnode:0202 Direction:左拐 Action:原地旋转 Angle:90 Length:0 
+21:52::56 agvname: fangzhen02 CommandPlanning/ Command:startnode:0202 endnode:0102 Direction:前进 Action:减速行驶 Angle:0 Length:1.3 
+21:52::56 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0102 Direction:右拐 Action:原地旋转 Angle:90 Length:0 
+21:52::56 agvname: fangzhen02 CommandPlanning/ Command:startnode:0102 endnode:0101 Direction:前进 Action:减速行驶 Angle:0 Length:1.7 
+21:52::56 agvname: fangzhen02 CommandPlanning:--------------
+21:52::56 agvid: 2 current_node: 0105 ,angle：270,CurrentMissionID:0 end
+21:52::56 agvid: 2 current_node: 0105 ,angle：270,CurrentMissionID:0
+21:52::56 agvid: 2 current_node: 0105 ,angle：270,CurrentMissionID:0 end
+21:53::02 agvid: 2 current_node: 0205 ,angle：270,CurrentMissionID:0
+21:53::02 agvid: 2 current_node: 0205 ,angle：270,CurrentMissionID:0 end
+21:53::06 agvid: 2 current_node: 0205 ,angle：0,CurrentMissionID:0
+21:53::06 agvid: 2 current_node: 0205 ,angle：0,CurrentMissionID:0 end
+21:53::10 agvid: 2 current_node: 0204 ,angle：0,CurrentMissionID:0
+21:53::10 agvid: 2 current_node: 0204 ,angle：0,CurrentMissionID:0 end
+21:53::14 agvid: 2 current_node: 0203 ,angle：0,CurrentMissionID:0
+21:53::14 agvid: 2 current_node: 0203 ,angle：0,CurrentMissionID:0 end
+21:53::18 agvid: 2 current_node: 0202 ,angle：0,CurrentMissionID:0
+21:53::18 agvid: 2 current_node: 0202 ,angle：0,CurrentMissionID:0 end
+21:53::22 agvid: 2 current_node: 0202 ,angle：90,CurrentMissionID:0
+21:53::22 agvid: 2 current_node: 0202 ,angle：90,CurrentMissionID:0 end
+21:53::26 agvid: 2 current_node: 0102 ,angle：90,CurrentMissionID:0
+21:53::26 agvid: 2 current_node: 0102 ,angle：90,CurrentMissionID:0 end
+21:53::30 agvid: 2 current_node: 0102 ,angle：0,CurrentMissionID:0
+21:53::30 agvid: 2 current_node: 0102 ,angle：0,CurrentMissionID:0 end
+21:53::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:53::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:53::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:54::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:54::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:55::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:55::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:56::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:56::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:57::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:57::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:58::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:58::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+21:59::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+21:59::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:00::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:00::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:01::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:01::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:02::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:02::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::08 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::25 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::42 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:03::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:03::59 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::00 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::01 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::02 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::03 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::04 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::05 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::06 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::07 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::09 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::10 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::11 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::12 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::13 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::14 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::15 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::16 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::17 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::18 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::19 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::20 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::21 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::22 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::23 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::24 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::26 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::27 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::28 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::29 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::30 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::31 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::32 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::33 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::34 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::35 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::36 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::37 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::38 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::39 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::40 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::41 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::43 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::44 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::45 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::46 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::47 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::48 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::49 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::50 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::51 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::52 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::53 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::54 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::55 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::56 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::57 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end
+22:04::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0
+22:04::58 agvid: 2 current_node: 0101 ,angle：0,CurrentMissionID:0 end

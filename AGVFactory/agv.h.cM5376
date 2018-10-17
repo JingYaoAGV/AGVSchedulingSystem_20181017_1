@@ -1,0 +1,117 @@
+#ifndef AGV_H
+#define AGV_H
+#include <QGraphicsEllipseItem>
+#include <QGraphicsScene>
+#include <QPen>
+#include <QMap>
+#include <QDebug>
+#include <QFile>
+#include "topoview.h"
+#include "global.h"
+enum AGY_TYPE{NONE_TYPE,PT20,PS20};
+class AGV : public QObject,public QGraphicsEllipseItem
+{
+    Q_OBJECT
+    Q_PROPERTY(QPoint _center READ get_center WRITE set_center)
+    Q_PROPERTY(int _y READ y WRITE set_y)
+    Q_PROPERTY(int _rotate READ rotation WRITE set_rotation)
+    Q_PROPERTY(bool _line_type WRITE set_dashLine)
+    Q_PROPERTY(int _pen_width READ get_penWidth WRITE set_penWidth)
+    Q_PROPERTY(QColor _pen_color READ get_penColor WRITE set_penColor)
+    Q_PROPERTY(QColor _brush_color READ get_brushColor WRITE set_brushColor)
+    Q_PROPERTY(QString _name READ get_name)
+    Q_PROPERTY(int _pen_style READ get_penStyle)
+public:
+    enum AGV_MISSION_EXECUTABLE{AGV_MISSION_EXECUTABLE_NO=0,AGV_MISSION_EXECUTABLE_UNKNOWN,AGV_MISSION_EXECUTABLE_YES};
+    enum AGV_MODE{SINGLE_STEP_MODE = 100,MULTI_STEP_MODE};
+public:
+    AGV(QGraphicsScene *scene, TopoView* topoview, int type, QString name, int id, QByteArray address, int startNode, QPointF center=QPointF(), int rotate=0);
+    ~AGV();
+    int type() const;
+    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
+    int get_penWidth() const{return pen().width();}
+    int get_penStyle() const{return pen().style();}
+    QColor get_penColor() const{return pen().color();}
+    QColor get_brushColor() const{if(brush().style()==Qt::NoBrush) return Qt::white;else return brush().color();}
+    QString get_name(){return m_strID;}
+    int get_state(){return m_nState;}
+    int get_topoPosID(){return m_nTopoPosID;}
+    int get_id(){return m_nID;}
+    int get_targetID(){return m_nTargetID;}
+    QByteArray get_address(){return m_bytesAddress;}
+    void set_topoPosID(int id){m_nTopoPosID = id;}
+    void set_targetID(int target_id,int dest_id){m_nTargetID = target_id;m_nDestinationID=dest_id;}
+    void set_forkUp();
+    void set_forkDown();
+    void set_plateArriveDetectEnable(bool flag=false);
+    void set_restNode(int node);
+    void set_missionExecutable(int flag){m_nIsMissionExcutable = flag;}
+    void set_mode(int mode){m_nMode = mode;}
+    void set_forkLayer(int layer){m_nTargetForkLayer = layer;}
+    int get_mode(){return m_nMode;}
+    int get_missionExecutable() const{return m_nIsMissionExcutable;}
+    int get_restNode(){return m_nRestNode;}
+    int get_forkLayer(){return m_nCurrentForkLayer;}
+    QPoint get_center() const;
+private:
+    void set_pathEnable(bool enable=true);
+    void set_path(int start,int end);
+    void sendCommand(int start,int end);
+    void timerEvent(QTimerEvent *);
+    void tcp_getPos();
+    void tcp_getState();
+    void tcp_getInventory();
+    void tcp_setFunction();
+private:
+    Qt::PenStyle m_nPenStyle;
+    int m_nType;
+    int m_nState;
+    int m_nTopoPosID;
+    int m_nTargetID;
+    int m_nDestinationID;
+    int m_nID;
+    int m_nTimerCnt;
+    int m_nRestNode;
+    int m_nCurrentForkLayer;
+    int m_nTargetForkLayer;
+    QString m_strID;
+    int m_nIsMissionExcutable;
+    QMap<int,QString> s_mapDepotNode;
+    QByteArray m_bytesAddress;
+
+    // 日志记录变量
+    QFile m_file;
+    int m_nMode;
+    // 通信部分变量
+    int m_nTimerID;
+    int m_nFinishTimerCnt;
+    bool m_bIsPathOK;
+    bool m_bIsEnableOK;
+    bool m_bIsFunctionOK;
+    bool m_bIsPlateDetectOK;
+    int m_nCommandStart;
+    int m_nCommandEnd;
+
+    QByteArray m_bytesFunction;
+    TopoView *m_topoView;
+signals:
+    void agv_moved(QGraphicsItem*);
+    void state_change();
+    void serial_write(QByteArray data);
+    void mission_abort(QString agvname);
+public slots:
+    void set_x(qreal x){if(isSelected()) setPos(x,pos().y());}
+    void set_y(qreal y){if(isSelected()) setPos(pos().x(),y);}
+    void set_center(QPoint center);
+    void set_rotation(int rotate){if(isSelected()) setRotation(rotate);}
+    void set_dashLine(bool lineType);
+    void set_size(int w,int h){if(isSelected()) setRect(-w/2,-h/2,w,h);}
+    void set_penWidth(int w){if(isSelected()){QPen p = pen();p.setWidth(w+1);setPen(p);}}
+    void set_penColor(QColor color){if(isSelected()){QPen p = pen();p.setColor(color);setPen(p);}}
+    void set_brushColor(QColor color){if(isSelected()){if(color==Qt::white) setBrush(Qt::NoBrush); else setBrush(color);}}
+    void set_name(QString name){if(isSelected()) m_strID = name;}
+    void set_selected(){scene()->clearSelection();setSelected(true);}
+    void recvData(char frame_type, QByteArray data);
+};
+
+#endif // AGV_H
